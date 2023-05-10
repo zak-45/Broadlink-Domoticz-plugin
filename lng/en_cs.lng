@@ -1,0 +1,323 @@
+Error to load language file|;|Chyba při načítání jazykového souboru
+we translate the text : {}|;|překládáme text: {}
+error in translation, we keep original text|;|chyba v překladu, ponecháme si původní text
+Request Domoticz to : {} used encoding is : {}|;|Požádejte Domoticze, aby: {} použité kódování je: {}
+Error sending command to Domoticz : {}|;|Chyba při odesílání příkazu Domoticzovi: {}
+Error sending data|;|Chyba při odesílání
+Domoticz do not send OK message for: {} ??|;|Domoticz neposílá OK zprávu pro: {} ??
+Error retrieve dict data from Domoticz : {}|;|Chyba při načítání diktních dat z Domoticz: {}
+...|;|...
+ ...  |;|...
+Not able to enter learning mode|;|Nelze vstoupit do režimu učení
+Learning...|;|Učení
+No data received...|;|Nebyla přijata žádná data
+Code learned|;|:
+sweeping...; LED should be RED|;|zametání ...; LED by měla být ČERVENÁ
+check frequency... {}|;|Interval kontrol
+frequency found! check LED, should be off|;|frekvence nalezena! kontrolka LED, měla by být vypnutá
+frequency not found... |;|frekvence nenalezena ...
+learning command|;|příkaz k učení
+verify command...{} |;|ověřit příkaz ... {}
+not able to learn command|;|není schopen se naučit příkaz
+Code stored in memory|;|Kód uložený v paměti
+RF not true, sweep necessary|;|RF není pravda, je nutné zamést
+We download plugin file to: {}|;|Soubor pluginu stahujeme do: {}
+Error receive / save file from dropbox : {}|;|Chyba při přijímání / ukládání souboru z dropboxu: {}
+Error to retrieve plugin version from : {}|;|Chyba při načítání verze pluginu z: {}
+Connected to Broadlink device: {}|;|Připojeno k zařízení Broadlink: {}
+Error Connecting to Broadlink device....|;|Chyba při připojení k zařízení Broadlink ....
+Backup file name : {}|;|Název souboru zálohy
+Error to backup file : {}|;|Chyba při zálohování souboru: {}
+Name : {} -- Unit : {} -- IDX : {} |;|Jméno: {} - Jednotka: {} - IDX: {}
+Detected here : |;|Zjištěno zde:
+Domoticz device created|;|Zařízení Domoticz bylo vytvořeno
+ini file not found: {}|;|Soubor {} nenalezen
+bad code in ini file: {}|;|špatný kód v ini souboru: {}
+we execute this command : {}|;|provedeme tento příkaz: {}
+Next|;|Další
+Error to send code|;|Chyba při odesílání kódu
+We try to sleep : {} s|;|Snažíme se spát: {} s
+bad timer value : {}|;|špatná hodnota časovače: {}
+we send code from : {}|;|posíláme kód z: {}
+Not able to load command from {}|;|Nelze načíst příkaz z {}
+Nothing to send|;|Nic k odeslání
+Code sent....|;|Kód odeslán
+Warning : Code sent ....Probably timeout|;|Varování: Kód byl odeslán .... Pravděpodobně vypršel časový limit
+Not able to find file {}|;|Nelze najít soubor {}
+Discover finished|;|Objevte hotovo
+Error to retrieve Broadlink devices|;|Chyba při načítání zařízení Broadlink
+END scan|;|KONEC skenování
+IR code learned|;|IR kód se naučil
+Error to learn IR code|;|Chyba při učení IR kódu
+Sweep ok|;|Sweep ok
+Error in sweep|;|Chyba při rozmítání
+RF code learned|;|RF kód se naučil
+Error to learn RF code|;|Chyba při učení kódu RF
+END learnrf|;|END learnrf
+Usage ok|;|Použití
+Error in usage|;|Chyba při používání
+END usage|;|Použití
+Finished|;|Dokončené
+END translation|;|TRANSLATION
+We do backup before update|;|Před aktualizací provádíme zálohu
+New Plugin uploaded|;|Byl nahrán nový plugin
+Error receive / save files from dropbox : {}|;|Chyba při přijímání / ukládání souborů z dropboxu: {}
+Not able to create backup file|;|Nelze vytvořit záložní soubor
+If necessary, do 'sudo -H chmod +x *.py'|;|V případě potřeby proveďte „sudo -H chmod + x * .py“
+End of plugin update|;|Ukončení aktualizace pluginu
+Backup OK|;|Záloha
+Backup error|;|Chyba v zálohování
+End of plugin backup|;|Konec zálohování pluginu
+END of Backup|;|KONEC zálohy
+RemotePlugin OK|;|RemotePlugin OK
+we have downloaded plugin file for version test|;|stáhli jsme soubor pluginu pro testování verze
+plugin : new version available|;|plugin: k dispozici nová verze
+RemotePlugin Error|;|Chyba RemotePlugin
+End of remote plugin version test|;|Konec testu verze vzdáleného pluginu
+END of remotePlugin|;|KONEC vzdáleného telefonu
+Multi-code OK|;|Multi-code OK
+We have sent multi-code|;|Poslali jsme multi-kód
+Multi-code Error|;|Chyba s více kódy
+End of multi-code send|;|Konec odesílání více kódů
+END of multi-code|;|KONEC vícenásobného kódu
+unknown step|;|Neznámý
+Not able to load debug module|;|Nelze načíst ladicí modul
+Language loaded for  : {} |;|Jazyk načten pro: {}
+Language file is missing for : {}|;|Jazykový soubor chybí pro: {}
+Port already in use|;|Port se již používá
+Listen on BROWebServer - Port: {}|;|Poslouchejte na serveru BROWebServer - Port: {}
+Hardware ID: {} |;|ID hardwaru
+Status|;|Stav
+Learn|;|Výuka
+Test|;|Test
+Save|;|Uložit
+Reset|;|Obnovit
+IR Commands|;|Příkazy
+Sweep|;|Zametat
+RF Commands|;|Příkazy
+Temperature|;|Teplota
+Light|;|Světlé
+Humidity|;|Vlhkost
+Air Quality|;|Kvalita ovzduší
+Noise|;|Noise
+plug|;|zástrčka
+Connecting to: {} : {}|;|Připojování k:
+Ini file for remote controller created: {}|;|Byl vytvořen soubor Ini pro dálkový ovladač: {}
+Error to create ini file for remote controller : {}|;|Chyba při vytváření souboru ini pro dálkový ovladač: {}
+Plugin Device count start on : {}|;|Počítání doplňkových zařízení začíná: {}
+Admin html file created: {}|;|Byl vytvořen soubor html správce: {}
+Error to create admin html file : {}|;|Chyba při vytváření souboru html pro správce: {}
+Error to found www/templates for html file : {}|;|Chyba při hledání www / šablon pro soubor html: {}
+Command line file created: {}|;|Soubor příkazového řádku vytvořen: {}
+Error to create device file : {}|;|Chyba při vytváření souboru zařízení: {}
+We cannot continue ...|;|Nemůžeme pokračovat ...
+Learn IR command|;|Naučte se IR příkaz
+Nothing to save|;|Nic k uložení
+Ini created|;|Vytvořeno
+Nothing to reset|;|Nic k vynulování
+unknown level command|;|příkaz neznámé úrovně
+Wait for sweep...|;|Počkejte na zametání ...
+Learn RF command|;|Naučte se příkaz RF
+Sweep first|;|Nejprve zametejte
+Unit unknown|;|Neznámý
+Error to put "ON" SP1/SP2/SP3|;|Chyba při zapnutí „ON“ SP1 / SP2 / SP3
+Error to put "on" light for SPx|;|Chyba při rozsvícení kontrolky SPx
+Error to put "ON" MP1 for plug : {}|;|Chyba při zapnutí „ON“ MP1 pro připojení: {}
+Unknown command|;|Neznámý příkaz
+Error to put Off SP1/SP2/SP3|;|Chyba při odložení SP1 / SP2 / SP3
+Error to put off light for SPx|;|Chyba při vypnutí světla pro SPx
+Error to put Off MP1 for plug : {}|;|Chyba při odpojení MP1 pro připojení: {}
+Unit error update|;|Aktualizace chyby jednotky
+undefined|;|neurčeno
+A1 called|;|A1 nazývá
+Get Data From Sensors|;|Získejte data ze senzorů
+SP3S called|;|Nazývá se SP3S
+MP1 called|;|Volal MP1
+SP1/SP2 called|;|Volání SP1 / SP2
+onMessage called for connection: {0}:{1}|;|onMessage vyzval k připojení: {0}: {1}
+Broadlink response OK!|;|Broadlink response OK!
+Request from : {}:{} to : {}|;|Žádost od: {}: {} do: {}
+Plugin restarted !|;|Plugin byl restartován!
+Refresh|;|Obnovit
+Backup finished.|;|"Zálohování bylo dokončeno"
+ERROR Unknown url from : {}:{} to : {}|;|ERROR Neznámá adresa URL od: {}: {} do: {}
+Broadlink not know what to do!|;|Broadlink neví, co dělat!
+ERROR Unknown key from : {}:{} to : {}|;|CHYBA Neznámý klíč od: {}: {} do: {}
+Broadlink bad key!|;|Špatný klíč pro Broadlink!
+Not implemented Request from : {}:{} to : {}|;|Neimplementováno Žádost od: {}: {} do: {}
+Broadlink : not implemented !|;|Broadlink: není implementován!
+Unknown verb in request: {}|;|Neznámé sloveso v žádosti: {}
+We bypass URL check|;|Kontrola obejít URL
+We process this url: {}|;|Zpracováváme tuto adresu URL: {}
+data process OK|;|zpracování dat je v pořádku
+Error to process data|;|Chyba při zpracování dat
+Nothing to do ...|;|Není co dělat!
+Connected successfully to {}:{}|;|Úspěšně připojeno.
+onDisconnect called for connection '{}'|;|onDisconnect vyzval k připojení &#39;{}&#39;
+Server Connections: |;|Připojení k serveru:
+Device not modified by plugin|;|Zařízení nebylo pluginem upraveno
+Error to update the config file: customname|;|Chyba při aktualizaci konfiguračního souboru: customname
+Generate "ON" Command for learned code stored on unit/ini : {}|;|Vygenerujte příkaz „ON“ pro naučený kód uložený na jednotce / ini: {}
+Not able to update device : {}|;|Nelze aktualizovat zařízení: {}
+Error to update the config file : customname|;|Chyba při aktualizaci konfiguračního souboru: customname
+File exist : {}|;|Soubor existuje: {}
+Not able to create : {}|;|Nelze vytvořit: {}
+Not able to create device : {}|;|Nelze vytvořit zařízení: {}
+Ini file / Device deleted : {}|;|Soubor / zařízení Ini bylo smazáno: {}
+Error on delete_ini : {}|;|Chyba na delete_ini: {}
+reset IR/RF|;|reset IR / RF
+Reset command executed|;|Byl proveden resetovací příkaz
+Error to create the config file : {}|;|Chyba při vytváření konfiguračního souboru: {}
+ini file created...{}|;|vytvořen soubor ini ... {}
+Connected to Broadlink device: {} {}|;|Připojeno k zařízení Broadlink: {} {}
+Error to connect to Broadlink device: {}|;|Chyba při připojení k zařízení Broadlink: {}
+Error getting temperature data from Broadlink device....Timeout|;|Chyba při získávání údajů o teplotě ze zařízení Broadlink .... Časový limit
+Number of ini file to create : {}|;|Počet ini souborů, které je třeba vytvořit: {}
+You need to select Import for that|;|Musíte vybrat Importovat
+No ini files found|;|Nenalezeny žádné soubory
+Removing : {}|;|Odstraňuje se
+No json files found|;|Nenalezeny žádné soubory
+No more device available ...|;|Žádná dostupná zařízení
+Send .. : {} {} {}|;|Odeslat odpověď na:
+Bypass .. : {} {} {}|;|Bypass
+Send error or command for remote controller not set into ini file: {}|;|Chyba nebo příkaz odeslání pro dálkový ovladač není nastaven do ini souboru: {}
+Command for remote not defined: {}|;|Příkaz pro dálkový ovladač není definován: {}
+ini file read....{}|;|ini file read .... {}
+Custom Commands: {}|;|Vlastní příkazy: {}
+No ini file : {}|;|Žádný ini soubor: {}
+Custom Commands for Remote controller not managed|;|Vlastní příkazy pro dálkový ovladač nebyly spravovány
+Last character must be <,> into the remote controller file|;|Poslední znak musí být &lt;,&gt; do souboru vzdáleného ovladače
+Invalid number in ini file, string or leading zero|;|Neplatné číslo v ini souboru, řetězci nebo úvodní nule
+Error getting sensor data from Broadlink device....Timeout|;|Při načítání dat ze senzoru ze zařízení Broadlink došlo k chybě. Časový limit
+Error getting sensor data raw from Broadlink device....Timeout|;|Chyba při získávání nezpracovaných dat ze zařízení Broadlink .... Časový limit
+State of the plug : {}|;|Stav zástrčky: {}
+Error to retrieve plug status|;|Chyba při načítání stavu připojení
+State of the light : {}|;|Stav světla: {}
+Error to retrieve light status|;|Chyba při načítání stavu kontrolky
+Power state for device MP1 : {} |;|Stav napájení zařízení MP1: {}
+Error to check power state of MP1 device|;|Chyba při kontrole stavu napájení zařízení MP1
+Energy for device SP3S: {}|;|Energie pro zařízení SP3S: {}
+Error to get power energy from device SP3S|;|Chyba při získávání energie ze zařízení SP3S
+Lang file not exist or problem to read data from : {}|;|Soubor Lang neexistuje nebo problém číst data z: {}
+lang file : {}|;|lang file: {}
+argument is missing|;|argument chybí
+command to execute : {}|;|Příkaz ke spuštění
+ERROR to start subprocess|;|CHYBA pro spuštění podprocesu
+Request from domoticz to : {} with encoding : {}|;|Žádost od domoticze na: {} s kódováním: {}
+File {} uploaded.|;|Soubor odeslán
+Error to create file : {}|;|Chyba při vytváření souboru: {}
+Error to find file name from: {} or not valid path: {}|;|Chyba při hledání názvu souboru z: {} nebo neplatná cesta: {}
+Error to find file name from : {}|;|Chyba při hledání názvu souboru od: {}
+Code loaded : {}|;|Načtený kód: {}
+Not able to send command : Not connected|;|Nelze odeslat příkaz: Není připojeno
+Error on fpronto from Received Data: {}|;|Chyba na fprontu z přijatých dat: {}
+Error to update the config file : multi-code|;|Chyba při aktualizaci konfiguračního souboru: vícenásobný kód
+Error to update the config file : repeat|;|Chyba při aktualizaci konfiguračního souboru: opakujte
+Error on Multi-code from Received Data: {}|;|Chyba ve vícerozměnném kódu z přijatých dat: {}
+Error on json from Received Data: {}|;|Chyba na json z přijatých dat: {}
+processing data : {}|;|zpracování dat: {}
+New version available|;|Nová verze k dispozici
+we do not know what to do of received data|;|nevíme, co dělat s přijatými daty
+Error to read image file :{}|;|Chyba při čtení obrazového souboru: {}
+Are you sure you want restart Plugin ?|;|Opravdu chcete restartovat plugin?
+Are you sure you want update Plugin ?|;|Opravdu chcete aktualizovat plugin?
+Are you sure you want backup Plugin data ?|;|Opravdu chcete zálohovat data pluginu?
+File name is required|;|Název souboru je povinný
+Uploaded |;|Nahráno
+ bytes of |;|bajtů
+Work in progress|;|Probíhá zpracování
+% uploaded... please wait|;|% uploaded ... počkejte prosím
+Upload Failed|;|Nahrávání selhalo
+Upload Aborted|;|Odeslání souboru bylo přerušeno
+Wait for few seconds before restarting|;|Před restartováním počkejte několik sekund
+Restart Failed|;|Restart se nezdařil
+Restart Aborted|;|Restart přerušen
+Restart|;|Restartovat
+Upload|;|Nahrát
+System information|;|Systémové informace
+Domoticz language is : {}|;|Jazyk Domoticz je: {}
+Edit|;|Upravit
+Create|;|Vytvořit
+Domoticz, number of plugin devices : {}|;|Domoticz, počet pluginů: {}
+Domoticz, Hardware IDX : {}|;|Domoticz, hardware IDX: {}
+HTTP Key : {}|;|Klíč HTTP: {}
+Plugin directory|;|Adresář pluginů
+Ini directory|;|Adresář
+Manage|;|Spravovat
+Plugin Log|;|Plugin
+Verify version|;|Ověřte verzi
+Update|;|Aktualizovat
+Backup|;|Záloha
+No permission to list directory|;|Žádné oprávnění k seznamu adresářů
+Directory content for : {} |;|Obsah adresáře pro: {}
+Go back|;|Jít zpět
+Are you sure you want to update data ?|;|Opravdu chcete aktualizovat data?
+File not exist or problem to access : {}|;|Soubor neexistuje nebo problém s přístupem: {}
+update|;|aktualizovat
+search|;|vyhledávání
+replace|;|nahradit
+undo|;|zpět
+redo|;|předělat
+FullScreen|;|Celá obrazovka
+File not found|;|Súbor nebol nájdený
+Are you sure you want to delete Ini file and all related data ?|;|Opravdu chcete smazat soubor Ini a všechna související data?
+Are you sure ?|;|Jste si jisti?
+Error retrieve data from device : {}|;|Chyba při načítání dat ze zařízení: {}
+... Verify import result ...|;|... Ověřte výsledek importu ...
+... Verify ini generation ...|;|... Ověřte ini generaci ...
+Device information for Broadlink type : |;|Informace o zařízení pro typ širokopásmového připojení:
+Scan Broadlink devices|;|Skenování zařízení Broadlink
+Network scan|;|ProhledÃ¡nÃ­ sÃ­tÄ:
+Show Broadlink usage and devices linked|;|Zobrazit využití Broadlink a propojených zařízení
+Usage|;|Použití
+Create ini file for send more than one code RF / IR|;|Vytvořte ini soubor pro odeslání více než jednoho kódu RF / IR
+Multi-Code|;|Multi-Code
+Not able to retrieve data for Usage kWh -- verify device|;|Nelze načíst data pro použití kWh - ověřte zařízení
+Click to switch|;|Klepnutím přepnete
+Air quality|;|Kvalita ovzduší
+Quiet|;|Ticho
+Noisy|;|Hlučný
+Generate .ini files from e-Control database|;|Generujte soubory INI z databáze e-Control
+Import .ini files from the _import_ directory|;|Importujte soubory INI z adresáře _import_
+Import|;|Import
+Edit ini file for remote controller|;|Upravit ini soubor pro dálkový ovladač
+Infra-red codes database|;|Databáze infračervených kódů
+IR code DB|;|IR kód DB
+Create Broadlink code from Pronto HEX|;|Vytvořte Broadlink kód z Pronto HEX
+Create from Pronto|;|Vytvořte z Pronto
+Copy Past here 'Pronto HEX' code|;|Zkopírujte zde kód „Pronto HEX“
+create|;|vytvořit
+Next refresh in|;|Další aktualizace v
+Ini file content|;|Obsah souboru Ini
+Delete|;|Odstranit
+Create device|;|Vytvořte zařízení
+show code|;|Zobrazit kód
+send code|;|Odeslat kód
+Number of time you want that the code be repeated|;|Kolikrát chcete, aby se kód opakoval
+modify repetition|;|upravit opakování
+Code sent from unit :|;|Kód odeslaný z jednotky:
+Number of repeat :|;|Počet opakování:
+Background process running ... wait for few seconds|;|Probíhá proces na pozadí ... počkejte několik sekund
+Remaining time before --|;|Zbývající čas před -
+seconds|;|s
+Multi-code ini file creation|;|Vytváření souborů ve více kódech ini
+Source available|;|Zdroj k dispozici
+Drop ini file you want to include|;|Přetáhněte ini soubor, který chcete zahrnout
+Include this sequence|;|Zahrňte tuto sekvenci
+Create ini|;|Vytvořit
+Submit ini file creation|;|Odeslat vytvoření souboru ini
+Timer|;|Časovač
+Add 1 second|;|1 sekunda
+Connected to Broadlink device: {} {} {}|;|Připojen k Broadlink zařízení: {} {} {}
+Error to retrieve type from this file : {}|;|Chyba načíst typ z tohoto souboru: {}
+Extracting all the files now...|;|Extrahování všech souborů teď ...
+File : {} exist, we bypass|;|Soubor: {} existují, my bypass
+Are you sure ? you need to restart Plugin after ...|;|Jsi si jistá ? je nutné restartovat Plugin po ...
+Overwrite default device type|;|Přepsat výchozí typ zařízení
+Select Device Type|;|Vyberte typ zařízení
+Update device type|;|Aktualizovat typ zařízení
+About|;|O
+Device 1 not exist|;|Zařízení 1 neexistuje
+Edit ini file. Caution, no verification will be made|;|Editovat ini soubor. Pozor, bude provedena žádná kontrola
+Delete ini file and related Domoticz device|;|Delete ini soubor a související zařízení Domoticz
+Create Domoticz device linked to the ini file|;|Vytvořit Domoticz zařízení spojenou s ini souboru

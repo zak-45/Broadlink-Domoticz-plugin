@@ -1,0 +1,323 @@
+Error to load language file|;|שגיאה בטעינת קובץ השפה
+we translate the text : {}|;|אנו מתרגמים את הטקסט: {}
+error in translation, we keep original text|;|שגיאה בתרגום, אנו שומרים על טקסט מקורי
+Request Domoticz to : {} used encoding is : {}|;|בקש Domoticz ל: {} קידוד משומש הוא: {}
+Error sending command to Domoticz : {}|;|שגיאה בשליחת הפקודה לדומוטיץ: {}
+Error sending data|;|שגיאה בשליחת נתונים
+Domoticz do not send OK message for: {} ??|;|Domoticz לא שולחים הודעת אישור עבור: {} ??
+Error retrieve dict data from Domoticz : {}|;|שגיאה באחזור נתונים מוכנים מ- Domoticz: {}
+...|;|...
+ ...  |;|...
+Not able to enter learning mode|;|אין אפשרות להיכנס למצב למידה
+Learning...|;|לומדים
+No data received...|;|לא התקבלו נתונים ...
+Code learned|;|קוד נלמד
+sweeping...; LED should be RED|;|סוֹחֵף...; לד צריך להיות אדום
+check frequency... {}|;|בדוק תדירות ... {}
+frequency found! check LED, should be off|;|נמצא תדר! בדוק נורית, צריך להיות כבוי
+frequency not found... |;|התדר לא נמצא ...
+learning command|;|פיקוד למידה
+verify command...{} |;|אמת את הפקודה ... {}
+not able to learn command|;|לא יכול ללמוד פקודה
+Code stored in memory|;|קוד המאוחסן בזיכרון
+RF not true, sweep necessary|;|RF לא נכון, לטאטא הכרחי
+We download plugin file to: {}|;|אנו מורידים את קובץ התוסף ל: {}
+Error receive / save file from dropbox : {}|;|שגיאה בקבלה / שמירה של קובץ מ- dropbox: {}
+Error to retrieve plugin version from : {}|;|שגיאה באחזור גרסת הפלאגין מ: {}
+Connected to Broadlink device: {}|;|מחובר למכשיר Broadlink: {}
+Error Connecting to Broadlink device....|;|שגיאה בחיבור למכשיר Broadlink ....
+Backup file name : {}|;|שם קובץ הגיבוי: {}
+Error to backup file : {}|;|שגיאה בגיבוי קובץ: {}
+Name : {} -- Unit : {} -- IDX : {} |;|שם: {} - יחידה: {} - IDX: {}
+Detected here : |;|מתגלה כאן:
+Domoticz device created|;|נוצר מכשיר Domoticz
+ini file not found: {}|;|קובץ לא נמצא
+bad code in ini file: {}|;|קוד רע בקובץ ה- ini: {}
+we execute this command : {}|;|אנו מבצעים את הפקודה הזו: {}
+Next|;|הבא
+Error to send code|;|שגיאה בשליחת קוד
+We try to sleep : {} s|;|אנו מנסים לישון: {} ש
+bad timer value : {}|;|ערך טיימר גרוע: {}
+we send code from : {}|;|אנו שולחים קוד מ: {}
+Not able to load command from {}|;|לא ניתן לטעון פקודה מ- {}
+Nothing to send|;|אין מה לשלוח
+Code sent....|;|קוד נשלח....
+Warning : Code sent ....Probably timeout|;|אזהרה: נשלח קוד .... כנראה פסק זמן
+Not able to find file {}|;|לא ניתן למצוא את הקובץ {}
+Discover finished|;|גלה גמור
+Error to retrieve Broadlink devices|;|שגיאה באחזור מכשירי Broadlink
+END scan|;|סוף סריקה
+IR code learned|;|קוד IR נלמד
+Error to learn IR code|;|שגיאה בלימוד קוד IR
+Sweep ok|;|לטאטא בסדר
+Error in sweep|;|שגיאה בטאטא
+RF code learned|;|קוד RF נלמד
+Error to learn RF code|;|שגיאה בלימוד קוד RF
+END learnrf|;|סוף לימוד
+Usage ok|;|שימוש
+Error in usage|;|שגיאה בשימוש
+END usage|;|שימוש
+Finished|;|סיימתי
+END translation|;|תרגום
+We do backup before update|;|אנו מבצעים גיבוי לפני העדכון
+New Plugin uploaded|;|תוסף חדש שהועלה
+Error receive / save files from dropbox : {}|;|שגיאה בקבלה / שמירה של קבצים מ- dropbox: {}
+Extracting all the files now...|;|מחלץ את כל הקבצים כעת ...
+Not able to create backup file|;|לא ניתן ליצור קובץ גיבוי
+If necessary, do 'sudo -H chmod +x *.py'|;|במידת הצורך, עשה &#39;sudo -H chmod + x * .py&#39;
+End of plugin update|;|סוף עדכון התוסף
+Backup OK|;|גיבוי
+Backup error|;|שגיאה בגיבוי
+End of plugin backup|;|סוף גיבוי התוסף
+END of Backup|;|סוף הגיבוי
+RemotePlugin OK|;|RemotePlugin אישור
+we have downloaded plugin file for version test|;|הורדנו את קובץ התוסף לבדיקת הגרסאות
+plugin : new version available|;|תוסף: גרסה חדשה זמינה
+RemotePlugin Error|;|שגיאת RemotePlugin
+End of remote plugin version test|;|סוף מבחן גרסת התוסף המרוחק
+END of remotePlugin|;|סיום של RemotePlugin
+Multi-code OK|;|אישור רב-קוד
+We have sent multi-code|;|שלחנו ריבוי קוד
+Multi-code Error|;|שגיאה מרובת-קוד
+End of multi-code send|;|סוף שליחת ריבוי קוד
+END of multi-code|;|סוף ריבוי קוד
+unknown step|;|לא ידוע
+Not able to load debug module|;|לא ניתן לטעון את מודול הבאגים
+Language loaded for  : {} |;|שפה טעונה עבור: {}
+Language file is missing for : {}|;|קובץ השפה חסר ב: {}
+Port already in use|;|הנמל כבר בשימוש
+Listen on BROWebServer - Port: {}|;|האזן ב- BROWebServer - פורט: {}
+Hardware ID: {} |;|מזהה חומרה: {}
+Status|;|סטטוס
+Learn|;|ללמוד
+Test|;|בדיקה
+Save|;|שמור
+Reset|;|איפוס
+IR Commands|;|פקודות IR
+Sweep|;|SweepName
+RF Commands|;|פקודות RF
+Temperature|;|טמפרטורה
+Light|;|בהיר
+Humidity|;|לחות
+Air Quality|;|איכות אוויר
+Noise|;|רעש
+plug|;|פלאג
+Connecting to: {} : {}|;|מתחבר אל:
+Ini file for remote controller created: {}|;|נוצר קובץ Ini לבקר מרחוק: {}
+Error to create ini file for remote controller : {}|;|שגיאה ביצירת קובץ ini עבור בקר מרחוק: {}
+Plugin Device count start on : {}|;|ספירת התקני הפלאגין מתחילה ב-: {}
+Admin html file created: {}|;|קובץ html של מנהל המערכת נוצר: {}
+Error to create admin html file : {}|;|שגיאה ביצירת קובץ html של מנהל המערכת: {}
+Error to found www/templates for html file : {}|;|שגיאה במציאת www / תבניות לקובץ html: {}
+Command line file created: {}|;|קובץ שורת הפקודה נוצר: {}
+Error to create device file : {}|;|שגיאה ביצירת קובץ מכשיר: {}
+We cannot continue ...|;|אנחנו לא יכולים להמשיך ...
+Learn IR command|;|למד את פקודת ה- IR
+Nothing to save|;|אין מה לחסוך
+Ini created|;|נוצר
+Nothing to reset|;|אין מה לאפס
+unknown level command|;|פקודה ברמה לא ידועה
+Wait for sweep...|;|חכה לטאטא ...
+Learn RF command|;|למד פקודת RF
+Sweep first|;|טאטא קודם
+Unit unknown|;|לא ידוע
+Error to put "ON" SP1/SP2/SP3|;|שגיאה בהפעלת &quot;ON&quot; SP1 / SP2 / SP3
+Error to put "on" light for SPx|;|שגיאה בהדלקת האור &quot;עבור&quot; עבור SPx
+Error to put "ON" MP1 for plug : {}|;|שגיאה בהכנת MP1 &quot;ON&quot; לתקע: {}
+Unknown command|;|פקודה לא מוכרת:% 1.
+Error to put Off SP1/SP2/SP3|;|שגיאה בכיבוי SP1 / SP2 / SP3
+Error to put off light for SPx|;|שגיאה בכיבוי האור עבור SPx
+Error to put Off MP1 for plug : {}|;|שגיאה בכיבוי MP1 לתקע: {}
+Unit error update|;|עדכון שגיאת יחידה
+undefined|;|×× ×××××¨
+A1 called|;|חויגו
+Get Data From Sensors|;|קבל נתונים מחיישנים
+SP3S called|;|חויגו
+MP1 called|;|חויגו
+SP1/SP2 called|;|SP1 / SP2 התקשר
+onMessage called for connection: {0}:{1}|;|onMessage קרא לחיבור: {0}: {1}
+Broadlink response OK!|;|תגובת Broadlink בסדר!
+Request from : {}:{} to : {}|;|בקשה מ: {}: {} אל: {}
+Plugin restarted !|;|הפלאגין הופעל מחדש!
+Refresh|;|רענון
+Backup finished.|;|הגיבוי הסתיים.
+ERROR Unknown url from : {}:{} to : {}|;|שגיאה URL לא ידוע מ: {}: {} ל-: {}
+Broadlink not know what to do!|;|Broadlink לא יודע מה לעשות!
+ERROR Unknown key from : {}:{} to : {}|;|שגיאה מפתח לא ידוע מ: {}: {} ל: {}
+Broadlink bad key!|;|מפתח רע של Broadlink!
+Not implemented Request from : {}:{} to : {}|;|לא מיושם בקשה מ-: {}: {} ל-: {}
+Broadlink : not implemented !|;|Broadlink: לא מיושם!
+Unknown verb in request: {}|;|פועל לא ידוע בבקשה: {}
+We bypass URL check|;|אנו עוקפים את בדיקת כתובת האתר
+We process this url: {}|;|אנו מעבדים את כתובת האתר הזו: {}
+data process OK|;|תהליך נתונים אישור
+Error to process data|;|שגיאה בעיבוד נתונים
+Nothing to do ...|;|אין מה לעשות ...
+Connected successfully to {}:{}|;|מחובר בהצלחה ל- {}: {}
+onDisconnect called for connection '{}'|;|onDisconnect קרא לחיבור &#39;{}&#39;
+Server Connections: |;|חיבורי שרת:
+Device not modified by plugin|;|המכשיר לא השתנה על ידי תוסף
+Error to update the config file: customname|;|שגיאה בעדכון קובץ התצורה: שם מותאם אישית
+Generate "ON" Command for learned code stored on unit/ini : {}|;|צור פקודה &quot;ON&quot; לקוד שנלמד המאוחסן ביחידה / ini: {}
+Not able to update device : {}|;|לא ניתן לעדכן את המכשיר: {}
+Error to update the config file : customname|;|שגיאה בעדכון קובץ התצורה: שם מותאם אישית
+File exist : {}|;|הקובץ קיים: {}
+Not able to create : {}|;|לא ניתן ליצור: {}
+Not able to create device : {}|;|לא ניתן ליצור מכשיר: {}
+Ini file / Device deleted : {}|;|קובץ / מכשיר Ini נמחק: {}
+Error on delete_ini : {}|;|שגיאה במחק_יני: {}
+reset IR/RF|;|לאפס IR / RF
+Reset command executed|;|איפוס הפקודה בוצע
+Error to create the config file : {}|;|שגיאה ביצירת קובץ התצורה: {}
+ini file created...{}|;|נוצר קובץ ini ... {}
+Connected to Broadlink device: {} {}|;|מחובר למכשיר Broadlink: {} {}
+Error to connect to Broadlink device: {}|;|שגיאה בחיבור למכשיר Broadlink: {}
+Error getting temperature data from Broadlink device....Timeout|;|שגיאה בהשגת נתוני טמפרטורה ממכשיר Broadlink .... פסק זמן
+Number of ini file to create : {}|;|מספר קובץ ה- ini ליצירה: {}
+You need to select Import for that|;|עליך לבחור יבוא לשם כך
+No ini files found|;|לא נמצאו קבצי ini
+Removing : {}|;|הסר
+No json files found|;|לא נמצאו קבצי json
+No more device available ...|;|אין מכשיר נוסף זמין ...
+Send .. : {} {} {}|;|שליחה
+Bypass .. : {} {} {}|;|עקוף ..: {} {} {}
+Send error or command for remote controller not set into ini file: {}|;|שלח שגיאה או פקודה לבקר מרחוק שלא מוגדר לקובץ ini: {}
+Command for remote not defined: {}|;|פקודה עבור מרחוק שלא הוגדרה: {}
+ini file read....{}|;|קרא קובץ ini .... {}
+Custom Commands: {}|;|פקודות מותאמות אישית: {}
+No ini file : {}|;|אין קובץ ini: {}
+Custom Commands for Remote controller not managed|;|פקודות מותאמות אישית לבקר מרחוק לא מנוהלות
+Last character must be <,> into the remote controller file|;|התו האחרון חייב להיות &lt;,&gt; בקובץ השלט הרחוק
+Invalid number in ini file, string or leading zero|;|מספר לא חוקי בקובץ ini, מחרוזת או אפס מוביל
+Error getting sensor data from Broadlink device....Timeout|;|שגיאה בקבלת נתוני חיישן ממכשיר Broadlink .... פסק זמן
+Error getting sensor data raw from Broadlink device....Timeout|;|אירעה שגיאה בהעברת נתוני חיישנים ממכשיר Broadlink .... פסק זמן
+State of the plug : {}|;|מצב התקע: {}
+Error to retrieve plug status|;|שגיאה באחזור מצב התקע
+State of the light : {}|;|מצב האור: {}
+Error to retrieve light status|;|שגיאה בהשגת מצב האור
+Power state for device MP1 : {} |;|מצב צריכת חשמל למכשיר MP1: {}
+Error to check power state of MP1 device|;|שגיאה בבדיקת מצב הכוח של התקן MP1
+Energy for device SP3S: {}|;|אנרגיה למכשיר SP3S: {}
+Error to get power energy from device SP3S|;|שגיאה בהשגת אנרגיית כוח ממכשיר SP3S
+Lang file not exist or problem to read data from : {}|;|קובץ Lang לא קיים או בעיה בקריאת נתונים מ-: {}
+lang file : {}|;|lang file: {}
+argument is missing|;|ויכוח חסר
+command to execute : {}|;|פקודה לביצוע
+ERROR to start subprocess|;|שגיאה כדי להתחיל בתת-מעבד
+Request from domoticz to : {} with encoding : {}|;|בקשה מ- domoticz ל: {} עם קידוד: {}
+File {} uploaded.|;|הדף הועלה.
+Error to create file : {}|;|שגיאה ביצירת קובץ: {}
+Error to find file name from: {} or not valid path: {}|;|שגיאה במציאת שם קובץ מ: {} או נתיב לא חוקי: {}
+Error to find file name from : {}|;|שגיאה במציאת שם הקובץ מ: {}
+Code loaded : {}|;|קוד טעון: {}
+Not able to send command : Not connected|;|אין אפשרות לשלוח פקודה: לא מחובר
+Error on fpronto from Received Data: {}|;|שגיאה ב- fpronto מנתונים שהתקבלו: {}
+Error to update the config file : multi-code|;|שגיאה בעדכון קובץ התצורה: ריבוי קוד
+Error to update the config file : repeat|;|שגיאה בעדכון קובץ התצורה: חזור
+Error on Multi-code from Received Data: {}|;|שגיאה ברב-קוד מנתונים שהתקבלו: {}
+Error on json from Received Data: {}|;|שגיאה ב- json מנתונים שהתקבלו: {}
+processing data : {}|;|מעבד נתונים: {}
+New version available|;|קיימת גרסה חדשה
+we do not know what to do of received data|;|איננו יודעים מה לעשות מנתונים שהתקבלו
+Error to read image file :{}|;|שגיאה בקריאת קובץ תמונה: {}
+Are you sure you want restart Plugin ?|;|האם אתה בטוח שברצונך להפעיל מחדש את הפלאגין?
+Are you sure you want update Plugin ?|;|האם אתה בטוח שברצונך לעדכן את הפלאגין?
+Are you sure you want backup Plugin data ?|;|האם אתה בטוח שאתה רוצה נתוני פלאגין לגיבוי?
+File name is required|;|נדרש שם .
+Uploaded |;|הועלה
+ bytes of |;|בתים של
+Work in progress|;|בתהליך
+% uploaded... please wait|;|% שהועלה ... אנא המתן
+Upload Failed|;|ההעלאה נכשלה.
+Upload Aborted|;|העלה בוטלה
+Wait for few seconds before restarting|;|המתן מספר שניות לפני שתתחיל שוב
+Restart Failed|;|ההפעלה מחדש נכשלה
+Restart Aborted|;|הפעל מחדש
+Restart|;|הפעלה מחדש
+Upload|;|העלה
+System information|;|מידע מערכת
+Domoticz language is : {}|;|שפת Domoticz היא: {}
+Edit|;|ערוך
+Create|;|יצירה
+Domoticz, number of plugin devices : {}|;|Domoticz, מספר מכשירי פלאגין: {}
+Domoticz, Hardware IDX : {}|;|Domoticz, מזהה חומרה: {}
+HTTP Key : {}|;|מפתח HTTP: {}
+Plugin directory|;|מדריך התוספים
+Ini directory|;|רשימת משתמשים
+Manage|;|ניהול
+Plugin Log|;|תוסף
+Verify version|;|אמת גרסה
+Update|;|עדכון
+Backup|;|גיבוי
+No permission to list directory|;|אין הרשאה לרשום את הספריה
+Directory content for : {} |;|תוכן ספרייה עבור: {}
+Go back|;|חזור
+Are you sure you want to update data ?|;|האם אתה בטוח שברצונך לעדכן נתונים?
+File not exist or problem to access : {}|;|הקובץ לא קיים או בעיה לגישה: {}
+update|;|עדכון
+search|;|חיפוש
+replace|;|החלף
+undo|;|ביטול הפעולה האחרונה
+redo|;|בצע שוב
+FullScreen|;|מסך מלא
+File not found|;|קובץ לא נמצא
+Are you sure you want to delete Ini file and all related data ?|;|האם אתה בטוח שברצונך למחוק את קובץ ה- Ini ואת כל הנתונים הקשורים אליו?
+Are you sure ?|;|האם בטוח?
+Error retrieve data from device : {}|;|שגיאה באחזור נתונים מהמכשיר: {}
+... Verify import result ...|;|... אמת את תוצאת הייבוא ...
+... Verify ini generation ...|;|... אמת את דור ה- ini ...
+Device information for Broadlink type : |;|מידע על מכשירים לסוג Broadlink:
+Scan Broadlink devices|;|סרוק התקני Broadlink
+Network scan|;|×¡×¨××§×ª ×¨×©×ª:
+Show Broadlink usage and devices linked|;|הצג את השימוש ב- Broadlink ואת המכשירים המקושרים
+Usage|;|שימוש
+Create ini file for send more than one code RF / IR|;|צור קובץ ini לשליחה של יותר מקוד אחד RF / IR
+Multi-Code|;|ריבוי קוד
+Not able to retrieve data for Usage kWh -- verify device|;|לא ניתן לאחזר נתונים עבור השימוש kWh - אמת מכשיר
+Click to switch|;|לחץ כדי לעבור
+Air quality|;|איכות אוויר
+Quiet|;|הס!
+Noisy|;|מר אף
+Generate .ini files from e-Control database|;|צור קבצי .ini ממסד הנתונים של בקרת דואר אלקטרוני
+Import .ini files from the _import_ directory|;|ייבא קובצי .ini מספריית _import_
+Import|;|יבא
+Edit ini file for remote controller|;|ערוך קובץ ini לבקר מרחוק
+Infra-red codes database|;|מסד נתונים של קודים אינפרא אדום
+IR code DB|;|קוד IR DB
+Create Broadlink code from Pronto HEX|;|צור קוד קישור של פרונטו HEX
+Create from Pronto|;|צור מפרונטו
+Copy Past here 'Pronto HEX' code|;|העתק עבר כאן קוד &#39;פרונטו HEX&#39;
+create|;|נוצר
+Next refresh in|;|הבא לרענן פנימה
+Ini file content|;|תוכן קובץ Ini
+Edit ini file. Caution, no verification will be made|;|ערוך את קובץ ה- ini. זהירות, לא תבוצע אימות
+Delete ini file and related Domoticz device|;|מחק את קובץ ה- ini ומכשיר Domoticz הקשור אליו
+Delete|;|מחק
+Create Domoticz device linked to the ini file|;|צור מכשיר Domoticz המקושר לקובץ ה- ini
+Create device|;|צור מכשיר
+show code|;|הצג קוד
+send code|;|שלח קוד
+Number of time you want that the code be repeated|;|מספר הפעמים שאתה רוצה שהקוד יחזור על עצמו
+modify repetition|;|שנה חזרה
+Code sent from unit :|;|הקוד נשלח מיחידה:
+Number of repeat :|;|מספר החזרות:
+Background process running ... wait for few seconds|;|תהליך רקע פועל ... המתן מספר שניות
+Remaining time before --|;|זמן שנותר לפני -
+seconds|;|שניות
+Multi-code ini file creation|;|יצירת קובצי ini מרובי-קוד
+Source available|;|המקור זמין
+Drop ini file you want to include|;|שחרר את קובץ ה- ini שברצונך לכלול
+Include this sequence|;|כלול רצף זה
+Create ini|;|יצירה
+Submit ini file creation|;|הגש יצירת קובץ ini
+Timer|;|קוצב זמן
+Add 1 second|;|שניה
+Connected to Broadlink device: {} {} {}|;|תקן מחובר Broadlink: {} {} {}
+Error to retrieve type from this file : {}|;|שגיאה לאחזר סוג מקובץ זה: {}
+File : {} exist, we bypass|;|קובץ: {} להתקיים, אנו עוקפים
+Are you sure ? you need to restart Plugin after ...|;|האם אתה בטוח ? אתה צריך להפעיל מחדש תוסף אחרי ...
+Overwrite default device type|;|סוג המכשיר מחדל חלף
+Select Device Type|;|בחר סוג המכשיר
+Update device type|;|סוג המכשיר עדכנתי
+About|;|על אודות
+Device 1 not exist|;|התקן 1 לא קיימות

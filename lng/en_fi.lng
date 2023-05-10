@@ -1,0 +1,323 @@
+Error to load language file|;|Virhe kuorman kielitiedostoa
+we translate the text : {}|;|me kääntää tekstin: {}
+error in translation, we keep original text|;|käännösvirhe, pidämme alkuperäisen tekstin
+Request Domoticz to : {} used encoding is : {}|;|Pyytää Domoticz on: {} käytetty koodaus on: {}
+Error sending command to Domoticz : {}|;|Virhe lähettämällä komento Domoticz: {}
+Error sending data|;|Virhe lähetettäessä dataa
+Domoticz do not send OK message for: {} ??|;|Domoticz älä lähetä OK viesti: {} ??
+Error retrieve dict data from Domoticz : {}|;|Virhe hakea dict tietoja Domoticz: {}
+...|;|...
+ ...  |;|...
+Not able to enter learning mode|;|Ei voinut syöttää oppimistilaan
+Learning...|;|Learning ...
+No data received...|;|Ei tietoja ...
+Code learned|;|koodi oppinut
+sweeping...; LED should be RED|;|lakaistaan ​​...; LED olisi PUNAINEN
+check frequency... {}|;|tarkista taajuus ... {}
+frequency found! check LED, should be off|;|taajuus löytynyt! check LED, pitäisi olla pois päältä
+frequency not found... |;|taajuus ei löydy ...
+learning command|;|oppiminen komento
+verify command...{} |;|tarkistaa komento ... {}
+not able to learn command|;|ei voi oppia komentoa
+Code stored in memory|;|Koodi tallennetaan muistiin
+RF not true, sweep necessary|;|RF ei ole totta, pyyhkäistä tarvittavat
+We download plugin file to: {}|;|Me Lataa laajennus tiedosto: {}
+Error receive / save file from dropbox : {}|;|Virhe vastaanottaa / Tallenna tiedosto dropbox: {}
+Error to retrieve plugin version from : {}|;|Virhe hakea plugin versio: {}
+Connected to Broadlink device: {}|;|Liitetty Broadlink laite: {}
+Error Connecting to Broadlink device....|;|Virhe yhdistettäessä Broadlink laite ....
+Backup file name : {}|;|Varmuuskopio tiedoston nimi: {}
+Error to backup file : {}|;|VIRHE varmuuskopio: {}
+Name : {} -- Unit : {} -- IDX : {} |;|Nimi: {} - Yksikkö: {} - IDX: {}
+Detected here : |;|Havaittujen:
+Domoticz device created|;|Domoticz laite luotu
+ini file not found: {}|;|ini tiedostoa ei löydy: {}
+bad code in ini file: {}|;|huono koodi INI file: {}
+we execute this command : {}|;|me tätä komentoa: {}
+Next|;|Seuraava
+Error to send code|;|Virhe lähettää koodin
+We try to sleep : {} s|;|Yritämme nukkua: {} s
+bad timer value : {}|;|huono ajastimen arvo: {}
+we send code from : {}|;|lähetämme koodi: {}
+Not able to load command from {}|;|Ei voi ladata komennon {}
+Nothing to send|;|Mitään lähetettävää
+Code sent....|;|Koodi lähetetty....
+Warning : Code sent ....Probably timeout|;|Varoitus: Koodi lähetetty .... Luultavasti timeout
+Not able to find file {}|;|Ei löydä tiedostoa {}
+Discover finished|;|Tutustu päättynyt
+Error to retrieve Broadlink devices|;|Virhe hakea Broadlink laitteisiin
+END scan|;|END skannaus
+IR code learned|;|Infrapunakoodin oppinut
+Error to learn IR code|;|Virhe oppia infrapunakoodin
+Sweep ok|;|Sweep ok
+Error in sweep|;|Virhe lakaista
+RF code learned|;|RF koodi oppinut
+Error to learn RF code|;|Virhe oppia RF koodia
+END learnrf|;|END learnrf
+Usage ok|;|Käyttö ok
+Error in usage|;|Virhe käyttöesimerkeistä
+END usage|;|END käyttö
+Finished|;|päättynyt
+END translation|;|END käännös
+We do backup before update|;|Teemme varmuuskopio ennen päivitystä
+New Plugin uploaded|;|Uusi Plugin latasi
+Error receive / save files from dropbox : {}|;|Virhe vastaanottaa / tallenna tiedostoja dropbox: {}
+Extracting all the files now...|;|Talteen kaikki tiedostot nyt ...
+Not able to create backup file|;|Ei kykene luomaan varmuuskopio
+If necessary, do 'sudo -H chmod +x *.py'|;|Tarvittaessa tee  sudo -H chmod + x * .py 
+End of plugin update|;|Lopussa plugin päivitys
+Backup OK|;|backup OK
+Backup error|;|backup virhe
+End of plugin backup|;|Lopussa plugin varmuuskopioinnin
+END of Backup|;|END Backup
+RemotePlugin OK|;|RemotePlugin OK
+we have downloaded plugin file for version test|;|olemme ladannut plugin tiedoston versiotesti
+plugin : new version available|;|plugin: uusi versio
+RemotePlugin Error|;|RemotePlugin Error
+End of remote plugin version test|;|Pää kauko Laajennuksen versio testi
+END of remotePlugin|;|END remotePlugin
+Multi-code OK|;|Multi-koodi OK
+We have sent multi-code|;|Olemme lähettäneet monikoodilähetyksen
+Multi-code Error|;|Multi-koodi Virhe
+End of multi-code send|;|End multi-code Lähetä
+END of multi-code|;|END monikoodisten
+unknown step|;|tuntematon vaihe
+Not able to load debug module|;|Ei voi ladata debug-moduuli
+Language loaded for  : {} |;|Kieli ladataan: {}
+Language file is missing for : {}|;|Kieli tiedosto puuttuu: {}
+Port already in use|;|Portti on jo käytössä
+Listen on BROWebServer - Port: {}|;|Kuuntele BROWebServer - Portti: {}
+Hardware ID: {} |;|Laitteisto ID: {}
+Status|;|Tila
+Learn|;|Oppia
+Test|;|Testata
+Save|;|Tallentaa
+Reset|;|Nollaa
+IR Commands|;|IR-komennot
+Sweep|;|Lakaista
+RF Commands|;|RF-komennot
+Temperature|;|Lämpötila
+Light|;|valo
+Humidity|;|Kosteus
+Air Quality|;|Ilman laatu
+Noise|;|melu
+plug|;|pistoke
+Connecting to: {} : {}|;|Yhdistetään: {} : {}
+Ini file for remote controller created: {}|;|Ini-tiedoston kauko-ohjain luotu: {}
+Error to create ini file for remote controller : {}|;|Virhe luoda ini tiedosto kaukosäädin: {}
+Plugin Device count start on : {}|;|Plugin laite määrä käyntiin: {}
+Admin html file created: {}|;|Admin html-tiedosto luotu: {}
+Error to create admin html file : {}|;|Virhe luoda admin html-tiedosto: {}
+Error to found www/templates for html file : {}|;|Virhe perustaa www / malleja html-tiedosto: {}
+Command line file created: {}|;|Komentorivi luotu tiedosto: {}
+Error to create device file : {}|;|Virhe luoda laitteeseen tiedostoon: {}
+We cannot continue ...|;|Emme voi jatkaa ...
+Learn IR command|;|Opi IR-komento
+Nothing to save|;|Mikään säästää
+Ini created|;|Ini luotu
+Nothing to reset|;|Mitään reset
+unknown level command|;|tuntematonta komentoa
+Wait for sweep...|;|Odota lakaista ...
+Learn RF command|;|Opi RF komento
+Sweep first|;|Sweep ensin
+Unit unknown|;|yksikkö tuntematon
+Error to put "ON" SP1/SP2/SP3|;|Error laittaa "ON" SP1 / SP2 / SP3
+Error to put "on" light for SPx|;|Error laittaa "päälle" kevyt SPX
+Error to put "ON" MP1 for plug : {}|;|Virhe laittaa "ON" MP1 pistoke: {}
+Unknown command|;|Tuntematon komento
+Error to put Off SP1/SP2/SP3|;|Virhe lykätä SP1 / SP2 / SP3
+Error to put off light for SPx|;|Virhe lykätä valoa SPx
+Error to put Off MP1 for plug : {}|;|Virhe lykätä MP1 pistoke: {}
+Unit error update|;|Yksikkö virhe päivitys
+undefined|;|määrittelemätön
+A1 called|;|A1 nimeltään
+Get Data From Sensors|;|Saat anturien tietoja
+SP3S called|;|SP3S nimeltään
+MP1 called|;|MP1 nimeltään
+SP1/SP2 called|;|SP1 / SP2 nimeltään
+onMessage called for connection: {0}:{1}|;|onMessage vaati yhteys: {0}: {1}
+Broadlink response OK!|;|Broadlink vastaus OK!
+Request from : {}:{} to : {}|;|Pyynnöstä: {}: {} on: {}
+Plugin restarted !|;|Plugin uudelleen!
+Refresh|;|virkistää
+Backup finished.|;|Varmuuskopiointi valmis.
+ERROR Unknown url from : {}:{} to : {}|;|ERROR Tuntematon url seuraavista: {}: {} on: {}
+Broadlink not know what to do!|;|Broadlink tiedä mitä tehdä!
+ERROR Unknown key from : {}:{} to : {}|;|ERROR Tuntematon avain: {}: {} on: {}
+Broadlink bad key!|;|Broadlink huono avain!
+Not implemented Request from : {}:{} to : {}|;|Ei toteutettu pyyntö: {}: {} on: {}
+Broadlink : not implemented !|;|Broadlink: ei toteutettu!
+Unknown verb in request: {}|;|Tuntematon verbi pyyntö: {}
+We bypass URL check|;|Me ohitus URL-osoitteen tarkistus
+We process this url: {}|;|Käsittelemme tätä url: {}
+data process OK|;|dataprosessi OK
+Error to process data|;|Virhe prosessitietoihin
+Nothing to do ...|;|Ei mitään tehtävää ...
+Connected successfully to {}:{}|;|Kytketty onnistuneesti {}: {}
+onDisconnect called for connection '{}'|;|onDisconnect kutsutaan yhteyden  {} 
+Server Connections: |;|Palvelinyhteydet:
+Device not modified by plugin|;|Laite ei muutettu laajennus
+Error to update the config file: customname|;|Virhe päivittää asetustiedostoon: customname
+Generate "ON" Command for learned code stored on unit/ini : {}|;|Luo "ON" Command oppineillekin koodia tallennettuna yksikkö / INI: {}
+Not able to update device : {}|;|Ei voi päivittää laitteeseen: {}
+Error to update the config file : customname|;|Virhe päivittää asetustiedostoon: customname
+File exist : {}|;|Tiedosto ovat olemassa: {}
+Not able to create : {}|;|Ei kykene luomaan: {}
+Not able to create device : {}|;|Ei kykene luomaan laite: {}
+Ini file / Device deleted : {}|;|Ini-tiedoston / laite poistetaan: {}
+Error on delete_ini : {}|;|Virhe delete_ini: {}
+reset IR/RF|;|nollata IR / RF-
+Reset command executed|;|Reset komennon
+Error to create the config file : {}|;|Virhe luoda config tiedosto: {}
+ini file created...{}|;|ini tiedosto luotu ... {}
+Connected to Broadlink device: {} {}|;|Liitetty Broadlink laite: {} {}
+Error to connect to Broadlink device: {}|;|Virhe yhteyden Broadlink laite: {}
+Error getting temperature data from Broadlink device....Timeout|;|Virhe lämpötila tietoja Broadlink laite .... aikakatkaisu
+Number of ini file to create : {}|;|Määrä ini-tiedoston luomiseen: {}
+You need to select Import for that|;|Sinun täytyy valita Tuo kyseiselle
+No ini files found|;|Ei ini tiedostoja löytynyt
+Removing : {}|;|Poistamalla: {}
+No json files found|;|Ei json löytyneiden tiedostojen
+No more device available ...|;|Ei enää käyttövalmiina ...
+Send .. : {} {} {}|;|Lähettää .. : {} {} {}
+Bypass .. : {} {} {}|;|Ohittaa .. : {} {} {}
+Send error or command for remote controller not set into ini file: {}|;|Lähetä virhe tai komento kauko-ohjain ei ole asetettu osaksi ini-tiedoston: {}
+Command for remote not defined: {}|;|Komento kauko ei ole määritelty: {}
+ini file read....{}|;|ini-tiedoston luku .... {}
+Custom Commands: {}|;|Mukautetun Komennot: {}
+No ini file : {}|;|Ei ini tiedosto: {}
+Custom Commands for Remote controller not managed|;|Custom Käskyjä Kaukosäädin ei hoideta
+Last character must be <,> into the remote controller file|;|Viimeinen merkki on oltava <,> osaksi kaukosäädin tiedosto
+Invalid number in ini file, string or leading zero|;|Virheellinen numero ini-tiedoston, merkkijono tai etunolla
+Error getting sensor data from Broadlink device....Timeout|;|Virhe anturin tietoja Broadlink laite .... aikakatkaisu
+Error getting sensor data raw from Broadlink device....Timeout|;|Virhe anturitietoja raaka peräisin Broadlink laite .... aikakatkaisu
+State of the plug : {}|;|Toteavat tulpan: {}
+Error to retrieve plug status|;|Virhe hakea plug tila
+State of the light : {}|;|Tila valo: {}
+Error to retrieve light status|;|Virhe hakea valoa tila
+Power state for device MP1 : {} |;|Teho tilassa laite MP1: {}
+Error to check power state of MP1 device|;|Virhe tarkistaa valtaa tilan MP1 laitteen
+Energy for device SP3S: {}|;|Energiaa laite SP3S: {}
+Error to get power energy from device SP3S|;|Virhe saada valtaa energiaa laitteesta SP3S
+Lang file not exist or problem to read data from : {}|;|Lang tiedostoa ei ole tai ongelmaa lukea tietoja: {}
+lang file : {}|;|Lang tiedosto: {}
+argument is missing|;|argumentti puuttuu
+command to execute : {}|;|Komento, joka suoritetaan: {}
+ERROR to start subprocess|;|ERROR aloittaa aliprosessi
+Request from domoticz to : {} with encoding : {}|;|Pyynnöstä domoticz on: {} koodausta: {}
+File {} uploaded.|;|Tiedosto {} ladattu.
+Error to create file : {}|;|Virhe luoda tiedostoa: {}
+Error to find file name from: {} or not valid path: {}|;|Virhe löytää tiedostonimi: {} tai se ei kelpaa polku: {}
+Error to find file name from : {}|;|Virhe löytää tiedostonimi: {}
+Code loaded : {}|;|Koodi ladattu: {}
+Not able to send command : Not connected|;|Ei pysty lähettämään komento: Ei yhteyttä
+Error on fpronto from Received Data: {}|;|Virhe fpronto päässä vastaanotettu tieto: {}
+Error to update the config file : multi-code|;|Virhe päivittää config file: multi-koodi
+Error to update the config file : repeat|;|Virhe päivittää asetustiedostoon: toista
+Error on Multi-code from Received Data: {}|;|Virhe Multi-koodi vastaanotettu data: {}
+Error on json from Received Data: {}|;|Virheestä json päässä vastaanotettu tieto: {}
+processing data : {}|;|käsittelee tietoa: {}
+New version available|;|Uusi versio saatavilla
+we do not know what to do of received data|;|emme tiedä mitä tehdä vastaanotettua dataa
+Error to read image file :{}|;|Virhe lukea kuvatiedosto: {}
+Are you sure you want restart Plugin ?|;|Oletko varma että haluat uudelleenkäynnistyksen Ampua?
+Are you sure you want update Plugin ?|;|Oletko varma, että haluat päivittää Ampua?
+Are you sure you want backup Plugin data ?|;|Oletko varma, että haluat varmuuskopioida Plugin tietoja?
+File name is required|;|Tiedoston nimi on pakollinen
+Uploaded |;|Ladattu
+ bytes of |;|tavua
+Work in progress|;|Työn alla
+% uploaded... please wait|;|% Ladatut ... odota hetki
+Upload Failed|;|lataus epäonnistui
+Upload Aborted|;|Siirto keskeytetty
+Wait for few seconds before restarting|;|Odota muutama sekunti ennen uudelleenkäynnistystä
+Restart Failed|;|uudelleenkäynnistys epäonnistui
+Restart Aborted|;|uudelleenkäynnistys Keskeytetty
+Restart|;|Uudelleenkäynnistää
+Upload|;|upload
+System information|;|järjestelmän tiedot
+Domoticz language is : {}|;|Domoticz kieli on: {}
+Edit|;|Muokata
+Create|;|Luoda
+Domoticz, number of plugin devices : {}|;|Domoticz, lukumäärä laajennuksen laitteiden: {}
+Domoticz, Hardware IDX : {}|;|Domoticz, Laitteisto idx: {}
+HTTP Key : {}|;|HTTP-Key: {}
+Plugin directory|;|liitännäishakemistosta
+Ini directory|;|Ini hakemisto
+Manage|;|hoitaa
+Plugin Log|;|plugin Log
+Verify version|;|tarkistaa versio
+Update|;|Päivittää
+Backup|;|Varmuuskopioida
+No permission to list directory|;|Ei lupaa lista hakemistoon
+Directory content for : {} |;|Hakemiston sisältöä: {}
+Go back|;|Mene takaisin
+Are you sure you want to update data ?|;|Oletko varma, että haluat päivittää tietoja?
+File not exist or problem to access : {}|;|Tiedostoa ei ole tai ongelma pääsyä: {}
+update|;|päivittää
+search|;|Hae
+replace|;|korvata
+undo|;|kumoa
+redo|;|Toista
+FullScreen|;|Koko näyttö
+File not found|;|Tiedostoa ei löytynyt
+Are you sure you want to delete Ini file and all related data ?|;|Oletko varma, että haluat poistaa Ini tiedosto ja kaikki siihen liittyvät tiedot?
+Are you sure ?|;|Oletko varma ?
+Error retrieve data from device : {}|;|Virhe hakea tietoja laitteesta: {}
+... Verify import result ...|;|... Tarkista tuonti tulos ...
+... Verify ini generation ...|;|... Tarkista ini sukupolven ...
+Device information for Broadlink type : |;|Laitteen tiedot Broadlink tyyppi:
+Scan Broadlink devices|;|Scan Broadlink laitteiden
+Network scan|;|verkkoskannauksen
+Show Broadlink usage and devices linked|;|Näytä Broadlink käyttöä ja laitteisiin liittyvät
+Usage|;|Käyttö
+Create ini file for send more than one code RF / IR|;|Luo ini tiedosto lähettää useamman kuin yhden koodin RF / IR
+Multi-Code|;|Multi-koodi
+Not able to retrieve data for Usage kWh -- verify device|;|Ei voida hakea tietoja käytöstä kWh - tarkista laite
+Click to switch|;|Napsauta vaihtaaksesi
+Air quality|;|Ilmanlaatu
+Quiet|;|Hiljainen
+Noisy|;|Äänenvoimakkuus
+Generate .ini files from e-Control database|;|Luo .ini-tiedostoja e-Control-tietokannasta
+Import .ini files from the _import_ directory|;|Tuo .ini-tiedostot _import_-hakemistosta
+Import|;|Importti
+Edit ini file for remote controller|;|Muokkaa kauko-ohjaimen ini-tiedostoa
+Infra-red codes database|;|Infrapunakooditietokanta
+IR code DB|;|IR-koodi DB
+Create Broadlink code from Pronto HEX|;|Luo Broadlink-koodi Pronto HEX -sovelluksesta
+Create from Pronto|;|Luo Prontosta
+Copy Past here 'Pronto HEX' code|;|Kopioi aikaisemmin &#39;Pronto HEX&#39; -koodi
+create|;|tehdä
+Next refresh in|;|Seuraava päivitys sisään
+Ini file content|;|Tiedoston sisältö
+Edit ini file. Caution, no verification will be made|;|Muokkaa ini-tiedostoa. Varoitus, mitään varmennusta ei tehdä
+Delete ini file and related Domoticz device|;|Poista ini-tiedosto ja siihen liittyvä Domoticz-laite
+Delete|;|Poista
+Create Domoticz device linked to the ini file|;|Luo inotic-tiedostoon linkitetty Domoticz-laite
+Create device|;|Luo laite
+show code|;|näytä koodi
+send code|;|Lähetä koodi
+Number of time you want that the code be repeated|;|Aika, jonka haluat koodin toistuvan
+modify repetition|;|muokata toistoa
+Code sent from unit :|;|Yksiköstä lähetetty koodi:
+Number of repeat :|;|Toistojen lukumäärä:
+Background process running ... wait for few seconds|;|Taustaprosessi käynnissä ... odota muutama sekunti
+Remaining time before --|;|Jäljellä oleva aika ennen -
+seconds|;|aikana.
+Multi-code ini file creation|;|Monikoodisen ini-tiedoston luominen
+Source available|;|Lähde saatavilla
+Drop ini file you want to include|;|Pudota ini-tiedosto, jonka haluat sisällyttää
+Include this sequence|;|Sisällytä tämä sekvenssi
+Create ini|;|Luo
+Submit ini file creation|;|Lähetä ini-tiedoston luominen
+Timer|;|Ajastin
+Add 1 second|;|<ph id="mtc_1" equiv-text="base64:JXM="/> sekunti
+Connected to Broadlink device: {} {} {}|;|Liitetty Broadlink laite: {} {} {}
+Error to retrieve type from this file : {}|;|Virhe hakea tyypin tästä tiedostosta: {}
+File : {} exist, we bypass|;|Tiedosto: {} olemassa, me ohitus
+Are you sure ? you need to restart Plugin after ...|;|Oletko varma ? sinun täytyy käynnistää Plugin jälkeen ...
+Overwrite default device type|;|Ylikirjoita oletus laitetyyppi
+Select Device Type|;|Valitse laitetyyppi
+Update device type|;|Päivitä laitetyyppi
+About|;|Noin
+Device 1 not exist|;|Laite 1 ei ole

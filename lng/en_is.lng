@@ -1,0 +1,323 @@
+Error to load language file|;|Villa við að hlaða tungumálaskrá
+we translate the text : {}|;|við þýðum textann: {}
+error in translation, we keep original text|;|villa í þýðingu, við geymum frumtextann
+Request Domoticz to : {} used encoding is : {}|;|Biðja um Domoticz til: {} notuð kóðun er: {}
+Error sending command to Domoticz : {}|;|Villa við að senda skipun til Domoticz: {}
+Error sending data|;|VILLA Í SENDINGU
+Domoticz do not send OK message for: {} ??|;|Domoticz sendir ekki OK skilaboð fyrir: {} ??
+Error retrieve dict data from Domoticz : {}|;|Villa við að sækja gögnum frá Domoticz: {}
+...|;|...
+ ...  |;|...
+Not able to enter learning mode|;|Get ekki farið í námsaðferð
+Learning...|;|Að læra ...
+No data received...|;|Engin gögn bárust ...
+Code learned|;|Kóða lært
+sweeping...; LED should be RED|;|sópa...; LED ætti að vera Rauð
+check frequency... {}|;|athuga tíðni ... {}
+frequency found! check LED, should be off|;|tíðni fundin! athuga LED, ætti að vera slökkt
+frequency not found... |;|tíðni fannst ekki ...
+learning command|;|læra stjórn
+verify command...{} |;|staðfesta skipun ... {}
+not able to learn command|;|ekki fær um að læra stjórn
+Code stored in memory|;|Kóði geymdur í minni
+RF not true, sweep necessary|;|RF ekki satt, sópa nauðsynlegt
+We download plugin file to: {}|;|Við halum niður viðbótarskránni í: {}
+Error receive / save file from dropbox : {}|;|Villa við að taka við / vista skrá úr dropbox: {}
+Error to retrieve plugin version from : {}|;|Villa við að sækja viðbótarútgáfuna frá: {}
+Connected to Broadlink device: {}|;|Tengt við breiðlinkstæki: {}
+Error Connecting to Broadlink device....|;|Villa við tengingu við breiðlinkstæki ...
+Backup file name : {}|;|Heiti öryggisafrits: {}
+Error to backup file : {}|;|Villa við afritun skráar: {}
+Name : {} -- Unit : {} -- IDX : {} |;|Nafn: {} - Eining: {} - IDX: {}
+Detected here : |;|Fannst hér:
+Domoticz device created|;|Domoticz tæki búið til
+ini file not found: {}|;|Skrá finnst ekki
+bad code in ini file: {}|;|slæmur kóða í ini skránni: {}
+we execute this command : {}|;|við framkvæma þessa skipun: {}
+Next|;|Síðasta Next Næsta
+Error to send code|;|Villa við að senda kóða
+We try to sleep : {} s|;|Við reynum að sofa: {} s
+bad timer value : {}|;|slæmt teljara gildi: {}
+we send code from : {}|;|við sendum kóða frá: {}
+Not able to load command from {}|;|Ekki hægt að hlaða skipun frá {}
+Nothing to send|;|Ekkert að senda
+Code sent....|;|Kóði sendur ...
+Warning : Code sent ....Probably timeout|;|Viðvörun: Kóði sendur .... Líklega tímamörk
+Not able to find file {}|;|Ekki hægt að finna skrána {}
+Discover finished|;|Uppgötvaðu lokið
+Error to retrieve Broadlink devices|;|Villa við að sækja Broadlink tæki
+END scan|;|END skanna
+IR code learned|;|IR kóða lært
+Error to learn IR code|;|Villa við að læra IR kóða
+Sweep ok|;|Sópa ok
+Error in sweep|;|Villa við sópa
+RF code learned|;|RF kóða lært
+Error to learn RF code|;|Villa við að læra RF kóða
+END learnrf|;|END læra
+Usage ok|;|Notkun í lagi
+Error in usage|;|Villa við notkun
+END usage|;|END notkun
+Finished|;|Lokið
+END translation|;|Þýðing
+We do backup before update|;|Við gerum öryggisafrit fyrir uppfærslu
+New Plugin uploaded|;|Nýtt viðbætur hlaðið upp
+Error receive / save files from dropbox : {}|;|Villa við að taka við / vista skrár frá dropbox: {}
+Extracting all the files now...|;|Útdráttur allra skjalanna núna ...
+Not able to create backup file|;|Ekki hægt að búa til öryggisafrit
+If necessary, do 'sudo -H chmod +x *.py'|;|Ef nauðsyn krefur, gerðu &#39;sudo -H chmod + x * .py&#39;
+End of plugin update|;|Lok uppfærslu viðbóta
+Backup OK|;|Afritun í lagi
+Backup error|;|Afritunarvilla
+End of plugin backup|;|Lok öryggisafritunar
+END of Backup|;|END afritunar
+RemotePlugin OK|;|RemotePlugin í lagi
+we have downloaded plugin file for version test|;|við höfum halað niður viðbótarskránni til að prófa útgáfu
+plugin : new version available|;|viðbót: ný útgáfa í boði
+RemotePlugin Error|;|RemotePlugin Villa
+End of remote plugin version test|;|Lok útgáfu prófunar við ytri tappi
+END of remotePlugin|;|END af fjarstýringu
+Multi-code OK|;|Fjölkóði í lagi
+We have sent multi-code|;|Við höfum sent fjölkóða
+Multi-code Error|;|Villa í mörgum kóða
+End of multi-code send|;|Lok multi-kóða sendingar
+END of multi-code|;|END af fjölkóða
+unknown step|;|Óþekkt veita
+Not able to load debug module|;|Ekki hægt að hlaða kembiforrit
+Language loaded for  : {} |;|Tungumál hlaðið fyrir: {}
+Language file is missing for : {}|;|Tungumálaskrá vantar fyrir: {}
+Port already in use|;|Höfn þegar í notkun
+Listen on BROWebServer - Port: {}|;|Hlustaðu á BROWebServer - Port: {}
+Hardware ID: {} |;|Vélbúnaðarauðkenni: {}
+Status|;|Staða
+Learn|;|Læra
+Test|;|Próf
+Save|;|Vista
+Reset|;|Endurstilla
+IR Commands|;|skipanir
+Sweep|;|SweepName
+RF Commands|;|skipanir
+Temperature|;|Hitastig
+Light|;|Ljóst
+Humidity|;|Rakastig
+Air Quality|;|Gæði
+Noise|;|Hávaði
+plug|;|Tengill
+Connecting to: {} : {}|;|Tengist:
+Ini file for remote controller created: {}|;|Ini skrá fyrir fjarstýringu búin til: {}
+Error to create ini file for remote controller : {}|;|Villa við að búa til ini skrá fyrir fjarstýringu: {}
+Plugin Device count start on : {}|;|Tæki fyrir tappi hefst á: {}
+Admin html file created: {}|;|Stjórnandi HTML skjal búin til: {}
+Error to create admin html file : {}|;|Villa við að búa til admin html skrá: {}
+Error to found www/templates for html file : {}|;|Villa við að finna www / sniðmát fyrir HTML skjal: {}
+Command line file created: {}|;|Skipanalínuskrá búin til: {}
+Error to create device file : {}|;|Villa við að búa til tæki skrá: {}
+We cannot continue ...|;|Við getum ekki haldið áfram ...
+Learn IR command|;|Lærðu IR skipun
+Nothing to save|;|Ekkert til að spara
+Ini created|;|búið til
+Nothing to reset|;|Ekkert að endurstilla
+unknown level command|;|óþekkt stig skipun
+Wait for sweep...|;|Bíddu eftir sópa ...
+Learn RF command|;|Lærðu RF stjórn
+Sweep first|;|Sópaðu fyrst
+Unit unknown|;|Óþekkt veita
+Error to put "ON" SP1/SP2/SP3|;|Villa við að setja „ON“ SP1 / SP2 / SP3
+Error to put "on" light for SPx|;|Villa við að setja „á“ ljós fyrir SPx
+Error to put "ON" MP1 for plug : {}|;|Villa við að setja „ON“ MP1 fyrir stinga: {}
+Unknown command|;|Óþekktur litur
+Error to put Off SP1/SP2/SP3|;|Villa við að slökkva á SP1 / SP2 / SP3
+Error to put off light for SPx|;|Villa við að slökkva á ljósi fyrir SPx
+Error to put Off MP1 for plug : {}|;|Villa við að slökkva á MP1 fyrir stinga: {}
+Unit error update|;|Uppfærsla á einingavillu
+undefined|;|Ãskilgreint
+A1 called|;|A1 hringdi
+Get Data From Sensors|;|Fáðu gögn frá skynjara
+SP3S called|;|SP3S hringdi
+MP1 called|;|MP1 hringdi
+SP1/SP2 called|;|SP1 / SP2 kallaður
+onMessage called for connection: {0}:{1}|;|onMessage kallaði á tengingu: {0}: {1}
+Broadlink response OK!|;|Broadlink svar OK!
+Request from : {}:{} to : {}|;|Beiðni frá: {}: {} til: {}
+Plugin restarted !|;|Tappið endurræst!
+Refresh|;|Endurhlaða
+Backup finished.|;|Afritun lokið.
+ERROR Unknown url from : {}:{} to : {}|;|VILLA Óþekkt url frá: {}: {} til: {}
+Broadlink not know what to do!|;|Broadlink veit ekki hvað ég á að gera!
+ERROR Unknown key from : {}:{} to : {}|;|VILLA Óþekktur lykill frá: {}: {} til: {}
+Broadlink bad key!|;|Slæmur lykill breiðhnappsins!
+Not implemented Request from : {}:{} to : {}|;|Ekki hrint í framkvæmd Beiðni frá: {}: {} til: {}
+Broadlink : not implemented !|;|Broadlink: ekki útfært!
+Unknown verb in request: {}|;|Óþekkt sögn í beiðni: {}
+We bypass URL check|;|Við framhjá vefskoðun
+We process this url: {}|;|Við vinnum þessa vefslóð: {}
+data process OK|;|gagnaferli Í lagi
+Error to process data|;|Villa við að vinna úr gögnum
+Nothing to do ...|;|Ekkert að gera ...
+Connected successfully to {}:{}|;|Tengt við {}: {}
+onDisconnect called for connection '{}'|;|onDisconnect kallaði á tengingu &#39;{}&#39;
+Server Connections: |;|Netþjónustutengingar:
+Device not modified by plugin|;|Tæki ekki breytt með viðbótinni
+Error to update the config file: customname|;|Villa við að uppfæra config skrána: sérsniðið nafn
+Generate "ON" Command for learned code stored on unit/ini : {}|;|Búðu til &quot;ON&quot; skipun fyrir lærða kóða sem eru vistaðir á unit / ini: {}
+Not able to update device : {}|;|Ekki hægt að uppfæra tæki: {}
+Error to update the config file : customname|;|Villa við að uppfæra config skrána: sérsniðið nafn
+File exist : {}|;|Skrá er til: {}
+Not able to create : {}|;|Ekki hægt að búa til: {}
+Not able to create device : {}|;|Ekki hægt að búa til tæki: {}
+Ini file / Device deleted : {}|;|Ini skrá / tæki eytt: {}
+Error on delete_ini : {}|;|Villa við delete_ini: {}
+reset IR/RF|;|endurstilla IR / RF
+Reset command executed|;|Núllstilla skipun keyrð
+Error to create the config file : {}|;|Villa við að búa til config skrána: {}
+ini file created...{}|;|ini skrá búin til ... {}
+Connected to Broadlink device: {} {}|;|Tengt við breiðtengistæki: {} {}
+Error to connect to Broadlink device: {}|;|Villa við að tengjast Broadlink tæki: {}
+Error getting temperature data from Broadlink device....Timeout|;|Villa kom upp við að fá hitastigagögn frá Broadlink tæki .... Timeout
+Number of ini file to create : {}|;|Fjöldi ini skráa til að búa til: {}
+You need to select Import for that|;|Þú verður að velja Flytja inn fyrir það
+No ini files found|;|Engar ini skrár fundust
+Removing : {}|;|Fjarlægi
+No json files found|;|Engar json skrár fundust
+No more device available ...|;|Ekkert tæki í boði ...
+Send .. : {} {} {}|;|Senda
+Bypass .. : {} {} {}|;|Hliðarbraut ..: {} {} {}
+Send error or command for remote controller not set into ini file: {}|;|Senda villu eða skipun fyrir fjarstýringu sem ekki er stillt í ini skrá: {}
+Command for remote not defined: {}|;|Skipun fyrir fjarstýringu ekki skilgreind: {}
+ini file read....{}|;|ini skrá lesin .... {}
+Custom Commands: {}|;|Sérsniðnar skipanir: {}
+No ini file : {}|;|Engin ini skrá: {}
+Custom Commands for Remote controller not managed|;|Sérsniðnar skipanir fyrir fjarstýringu ekki stjórnaðar
+Last character must be <,> into the remote controller file|;|Síðasti stafurinn verður að vera &lt;,&gt; í skrána á fjarstýringunni
+Invalid number in ini file, string or leading zero|;|Ógild tala í ini skrá, strengur eða núll sem leiðir
+Error getting sensor data from Broadlink device....Timeout|;|Villa við að fá skynjara gögn úr breiðbandstæki .... Tímamörk
+Error getting sensor data raw from Broadlink device....Timeout|;|Villa við að fá skynjara gögn hráa frá Broadlink tæki .... Tími
+State of the plug : {}|;|Staða tappans: {}
+Error to retrieve plug status|;|Villa við að sækja stöðu stinga
+State of the light : {}|;|Ríki ljóssins: {}
+Error to retrieve light status|;|Villa við að ná ljósastöðu
+Power state for device MP1 : {} |;|Rafmagnsstaður fyrir tæki MP1: {}
+Error to check power state of MP1 device|;|Villa við að kanna afl MP1 tækisins
+Energy for device SP3S: {}|;|Orka fyrir tæki SP3S: {}
+Error to get power energy from device SP3S|;|Villa við að fá orku frá tæki SP3S
+Lang file not exist or problem to read data from : {}|;|Lang skrá er ekki til eða vandamál við að lesa gögn frá: {}
+lang file : {}|;|lang skrá: {}
+argument is missing|;|rök vantar
+command to execute : {}|;|Skipun að framkvæma
+ERROR to start subprocess|;|VILLA til að hefja undirvinnslu
+Request from domoticz to : {} with encoding : {}|;|Beiðni frá domoticz til: {} með kóðun: {}
+File {} uploaded.|;|Send skrá
+Error to create file : {}|;|Villa við að búa til skrá: {}
+Error to find file name from: {} or not valid path: {}|;|Villa við að finna skráarheiti frá: {} eða ekki gildri slóð: {}
+Error to find file name from : {}|;|Villa við að finna skráarheiti frá: {}
+Code loaded : {}|;|Kóði hlaðinn: {}
+Not able to send command : Not connected|;|Get ekki sent skipun: Ekki tengd
+Error on fpronto from Received Data: {}|;|Villa við fpronto frá mótteknum gögnum: {}
+Error to update the config file : multi-code|;|Villa við að uppfæra config skjalið: multi-code
+Error to update the config file : repeat|;|Villa við að uppfæra config skrána: endurtaka
+Error on Multi-code from Received Data: {}|;|Villa við fjölkóða úr mótteknum gögnum: {}
+Error on json from Received Data: {}|;|Villa við json frá mótteknum gögnum: {}
+processing data : {}|;|vinnsla gagna: {}
+New version available|;|Ný útgáfa í boði
+we do not know what to do of received data|;|við vitum ekki hvað við eigum að gera af mótteknum gögnum
+Error to read image file :{}|;|Villa við að lesa myndaskrá: {}
+Are you sure you want restart Plugin ?|;|Ertu viss um að þú viljir endurræsa viðbótina?
+Are you sure you want update Plugin ?|;|Ertu viss um að þú viljir uppfæra viðbótina?
+Are you sure you want backup Plugin data ?|;|Ertu viss um að þú viljir taka öryggisafrit af viðbótargögnum?
+File name is required|;|Nafns er krafist.
+Uploaded |;|Hlaðið inn
+ bytes of |;|bæti af
+Work in progress|;|Í ferli
+% uploaded... please wait|;|% hlaðið ... vinsamlegast bíddu
+Upload Failed|;|Upphleðsla mistókst
+Upload Aborted|;|Hladdu niður
+Wait for few seconds before restarting|;|Bíddu í nokkrar sekúndur áður en þú byrjar aftur
+Restart Failed|;|Endurræsing mistókst
+Restart Aborted|;|Endurræstu hætt
+Restart|;|Endurræsa
+Upload|;|Hlaða upp
+System information|;|Kerfisupplýsingar
+Domoticz language is : {}|;|Domoticz tungumál er: {}
+Edit|;|Breyta
+Create|;|Búa til
+Domoticz, number of plugin devices : {}|;|Domoticz, fjöldi tappatækja: {}
+Domoticz, Hardware IDX : {}|;|Domoticz, Vélbúnaður IDX: {}
+HTTP Key : {}|;|HTTP lykill: {}
+Plugin directory|;|Plugin skrá
+Ini directory|;|Ini skrá
+Manage|;|Hleð inn...
+Plugin Log|;|Viðbót
+Verify version|;|Staðfestu útgáfu
+Update|;|Uppfæra
+Backup|;|Afrit
+No permission to list directory|;|Engin leyfi til að skrá skrá
+Directory content for : {} |;|Innihald skráasafns fyrir: {}
+Go back|;|Til baka
+Are you sure you want to update data ?|;|Ertu viss um að þú viljir uppfæra gögn?
+File not exist or problem to access : {}|;|Skráin er ekki til eða vandamál til að fá aðgang: {}
+update|;|Uppfæra
+search|;|leita
+replace|;|Endurtaka
+undo|;|Afturkalla
+redo|;|Endurtaka
+FullScreen|;|Fylla út í skjá
+File not found|;|Skrá finnst ekki
+Are you sure you want to delete Ini file and all related data ?|;|Ertu viss um að þú viljir eyða Ini skrá og öllum skyldum gögnum?
+Are you sure ?|;|Ertu viss?
+Error retrieve data from device : {}|;|Villa við að sækja gögn úr tækinu: {}
+... Verify import result ...|;|... Staðfestu niðurstöðu innflutnings ...
+... Verify ini generation ...|;|... Staðfestu ini kynslóð ...
+Device information for Broadlink type : |;|Tækisupplýsingar fyrir gerð breiðlínu:
+Scan Broadlink devices|;|Skannaðu Broadlink tæki
+Network scan|;|Leita Ã¡ neti:
+Show Broadlink usage and devices linked|;|Sýna Broadlink notkun og tæki tengd
+Usage|;|Notkun
+Create ini file for send more than one code RF / IR|;|Búðu til ini skrá til að senda fleiri en einn kóða RF / IR
+Multi-Code|;|Fjölkóði
+Not able to retrieve data for Usage kWh -- verify device|;|Ekki hægt að sækja gögn um notkun kWh - staðfestu tæki
+Click to switch|;|Smelltu til að skipta
+Air quality|;|Gæði
+Quiet|;|Rólegur
+Noisy|;|Noseguy
+Generate .ini files from e-Control database|;|Búðu til .ini skrár úr gagnagrunni e-Control
+Import .ini files from the _import_ directory|;|Flytja inn .ini skrár úr _import_ skránni
+Import|;|Flytja inn
+Edit ini file for remote controller|;|Breyta ini skrá fyrir fjarstýringu
+Infra-red codes database|;|Innrautt rauðan kóða gagnagrunns
+IR code DB|;|IR kóða DB
+Create Broadlink code from Pronto HEX|;|Búðu til breiðlink kóða frá Pronto HEX
+Create from Pronto|;|Búðu til úr Pronto
+Copy Past here 'Pronto HEX' code|;|Afritaðu hér „Pronto HEX“ kóða
+create|;|Búa til
+Next refresh in|;|Næsta hressing inn
+Ini file content|;|Innihald skrár
+Edit ini file. Caution, no verification will be made|;|Breyta ini skrá. Varúð, engin staðfesting verður gerð
+Delete ini file and related Domoticz device|;|Eyða ini skrá og tengdu Domoticz tæki
+Delete|;|Eyða
+Create Domoticz device linked to the ini file|;|Búðu til Domoticz tæki sem er tengt við ini skrána
+Create device|;|Búðu til tæki
+show code|;|sýna kóða
+send code|;|senda kóða
+Number of time you want that the code be repeated|;|Fjöldi tíma sem þú vilt að kóðinn verði endurtekinn
+modify repetition|;|breyta endurtekningu
+Code sent from unit :|;|Kóði sendur frá einingunni:
+Number of repeat :|;|Fjöldi endurtekninga:
+Background process running ... wait for few seconds|;|Bakgrunnsferlið í gangi ... bíddu í nokkrar sekúndur
+Remaining time before --|;|Eftirstöðvar áður -
+seconds|;|sekúndur
+Multi-code ini file creation|;|Fjölkóða ini skráarsköpun
+Source available|;|Heimild tiltæk
+Drop ini file you want to include|;|Sendu inni skrána sem þú vilt hafa með
+Include this sequence|;|Láttu þessa röð fylgja með
+Create ini|;|Búa til
+Submit ini file creation|;|Sendu inn skráarsköpun
+Timer|;|Klukka
+Add 1 second|;|1 sekúndu
+Connected to Broadlink device: {} {} {}|;|Tengt við Broadlink tæki: {} {} {}
+Error to retrieve type from this file : {}|;|Villa til að sækja gerð þessarar skráar: {}
+File : {} exist, we bypass|;|File: {} fyrir hendi, við framhjá
+Are you sure ? you need to restart Plugin after ...|;|Ertu viss ? þú þarft að endurræsa Plugin eftir ...
+Overwrite default device type|;|Skrifa yfir sjálfgefna gerð tæki
+Select Device Type|;|Veldu tegund tækis
+Update device type|;|Uppfæra gerð tæki
+About|;|um
+Device 1 not exist|;|Tæki 1 ekki til

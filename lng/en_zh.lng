@@ -1,0 +1,322 @@
+Error to load language file|;|加载语言文件时出错
+we translate the text : {}|;|我们翻译文本：{}
+error in translation, we keep original text|;|翻译错误，我们保留原文
+Request Domoticz to : {} used encoding is : {}|;|要求Domoticz：{}使用的编码是：{}
+Error sending command to Domoticz : {}|;|向Domoticz发送命令时出错：{}
+Error sending data|;|数据发送出现错误
+Domoticz do not send OK message for: {} ??|;|Domoticz不发送以下确认消息：{} ??
+Error retrieve dict data from Domoticz : {}|;|从Domoticz中检索字典数据时出错：{}
+...|;|...
+ ...  |;|...
+Not able to enter learning mode|;|无法进入学习模式
+Learning...|;|学习
+No data received...|;|未接收到数据
+Code learned|;|学习代码
+sweeping...; LED should be RED|;|清扫...; LED应为红色
+check frequency... {}|;|检查频率... {}
+frequency found! check LED, should be off|;|发现频率！检查LED，应该熄灭
+frequency not found... |;|找不到频率...
+learning command|;|学习命令
+verify command...{} |;|验证命令... {}
+not able to learn command|;|无法学习命令
+Code stored in memory|;|代码存储在内存中
+RF not true, sweep necessary|;|射频不正确，需要扫描
+We download plugin file to: {}|;|我们将插件文件下载到：{}
+Error receive / save file from dropbox : {}|;|从Dropbox接收/保存文件时出错：{}
+Error to retrieve plugin version from : {}|;|从以下位置检索插件版本时出错：
+Connected to Broadlink device: {} {} {}|;|已连接到Broadlink设备：{} {} {}
+Error Connecting to Broadlink device....|;|连接到Broadlink设备时出错。
+Error to retrieve type from this file : {}|;|从此文件中检索类型时出错：{}
+Backup file name : {}|;|备份文件名：
+Error to backup file : {}|;|备份文件时出错：{}
+Name : {} -- Unit : {} -- IDX : {} |;|名称：{}-单位：{}-IDX：{}
+Detected here : |;|在这里检测到：
+Domoticz device created|;|已创建Domoticz设备
+ini file not found: {}|;|文件未找到：
+bad code in ini file: {}|;|ini文件中的错误代码：{}
+we execute this command : {}|;|我们执行以下命令：{}
+Next|;|下一步
+Error to send code|;|发送代码错误
+We try to sleep : {} s|;|我们尝试入睡：{} s
+bad timer value : {}|;|计时器值错误：{}
+we send code from : {}|;|我们从以下位置发送代码：
+Not able to load command from {}|;|无法从{}加载命令
+Nothing to send|;|什么也没发送
+Code sent....|;|代码发送....
+Warning : Code sent ....Probably timeout|;|警告：代码已发送...。可能超时
+Not able to find file {}|;|找不到文件{}
+Discover finished|;|发现完成
+Error to retrieve Broadlink devices|;|检索Broadlink设备时出错
+END scan|;|结束扫描
+IR code learned|;|红外代码学习
+Error to learn IR code|;|学习IR代码时出错
+Sweep ok|;|扫一下
+Error in sweep|;|扫描错误
+RF code learned|;|射频代码学习
+Error to learn RF code|;|学习RF代码时出错
+END learnrf|;|结束学习者
+Usage ok|;|用法还可以
+Error in usage|;|使用错误
+END usage|;|结束用法
+Finished|;|已完成
+END translation|;|结束翻译
+We do backup before update|;|我们在更新之前先做备份
+New Plugin uploaded|;|新插件已上传
+Error receive / save files from dropbox : {}|;|从Dropbox接收/保存文件时出错：{}
+Extracting all the files now...|;|立即提取所有文件...
+Not able to create backup file|;|无法创建备份文件
+If necessary, do 'sudo -H chmod +x *.py'|;|如有必要，请执行&#39;sudo -H chmod + x * .py&#39;
+End of plugin update|;|插件更新结束
+Backup OK|;|备份确定
+Backup error|;|备份错误
+End of plugin backup|;|插件备份结束
+END of Backup|;|备份结束
+RemotePlugin OK|;|RemotePlugin确定
+we have downloaded plugin file for version test|;|我们已经下载了用于版本测试的插件文件
+plugin : new version available|;|插件：可用新版本
+RemotePlugin Error|;|RemotePlugin错误
+End of remote plugin version test|;|远程插件版本测试结束
+END of remotePlugin|;|END_remotePlugin
+Multi-code OK|;|多码OK
+We have sent multi-code|;|我们已发送多码
+Multi-code Error|;|多码错误
+End of multi-code send|;|多码发送结束
+END of multi-code|;|多码结束
+unknown step|;|未知步骤：
+Not able to load debug module|;|无法加载调试模块
+Language loaded for  : {} |;|加载的语言：{}
+Language file is missing for : {}|;|缺少以下语言文件：{}
+Port already in use|;|端口已在使用中。
+Listen on BROWebServer - Port: {}|;|在BROWebServer上侦听-端口：{}
+Hardware ID: {} |;|硬件ID
+Status|;|职位
+Learn|;|学习
+Test|;|检测项目
+Save|;|保存
+Reset|;|重置
+IR Commands|;|红外线命令
+Sweep|;|清理
+RF Commands|;|射频命令
+Temperature|;|温度
+Light|;|浅色
+Humidity|;|湿度
+Air Quality|;|空气质量
+Noise|;|噪音
+plug|;|堵头
+Ini file for remote controller created: {}|;|已创建用于遥控器的Ini文件：{}
+Error to create ini file for remote controller : {}|;|为遥控器创建ini文件时出错：{}
+Plugin Device count start on : {}|;|插件设备计数始于：{}
+Command line file created: {}|;|命令行文件已创建：{}
+File : {} exist, we bypass|;|文件：{}存在，我们绕过
+Error to create device file : {}|;|创建设备文件时出错：{}
+Connecting to: {} : {}|;|连接到：
+Admin html file created: {}|;|创建的管理html文件：{}
+Error to create admin html file : {}|;|创建管理html文件时出错：{}
+Error to found www/templates for html file : {}|;|找不到HTML文件的www / templates时出错：{}
+We cannot continue ...|;|我们不能继续...
+Learn IR command|;|学习IR命令
+Nothing to save|;|没有文件可以保存
+Ini created|;|创建的Ini
+Nothing to reset|;|没有复位
+unknown level command|;|未知级别的命令
+Wait for sweep...|;|等扫...
+Learn RF command|;|学习射频命令
+Sweep first|;|先扫一下
+Unit unknown|;|单位未知
+Error to put "ON" SP1/SP2/SP3|;|将“ SP1 / SP2 / SP3”设置为“ ON”时出错
+Error to put "on" light for SPx|;|错误为SPx点亮
+Error to put "ON" MP1 for plug : {}|;|将“ MP1”插入插头时出错：{}
+Unknown command|;|% 1： 未知命令 。
+Error to put Off SP1/SP2/SP3|;|推迟SP1 / SP2 / SP3时出错
+Error to put off light for SPx|;|为SPx熄灯时出错
+Error to put Off MP1 for plug : {}|;|插上MP1插头时出错：{}
+Unit error update|;|单元错误更新
+undefined|;|错误。未定义的发布参数“执行”
+A1 called|;|A1叫
+Get Data From Sensors|;|从传感器获取数据
+SP3S called|;|SP3S称为
+MP1 called|;|MP1被称为
+SP1/SP2 called|;|SP1 / SP2称为
+onMessage called for connection: {0}:{1}|;|onMessage要求建立连接：{0}：{1}
+Broadlink response OK!|;|Broadlink响应还可以！
+Request from : {}:{} to : {}|;|来自：{}：{}的请求：{}
+Plugin restarted !|;|插件重新启动！
+Refresh|;|刷新
+Backup finished.|;|备份完成
+ERROR Unknown url from : {}:{} to : {}|;|错误未知的网址，从：{}：{}到：{}
+Broadlink not know what to do!|;|Broadlink不知道该怎么办！
+ERROR Unknown key from : {}:{} to : {}|;|错误未知密钥，从：{}：{}到：{}
+Broadlink bad key!|;|Broadlink坏钥匙！
+Not implemented Request from : {}:{} to : {}|;|未实现的请求从：{}：{}到：{}
+Broadlink : not implemented !|;|Broadlink：未实施！
+Unknown verb in request: {}|;|请求中的未知动词：{}
+We bypass URL check|;|我们绕过URL检查
+We process this url: {}|;|我们处理以下网址：{}
+data process OK|;|数据处理
+Error to process data|;|处理数据时出错
+Nothing to do ...|;|没有事情可以做了。
+Connected successfully to {}:{}|;|已成功连接
+onDisconnect called for connection '{}'|;|onDisconnect要求建立连接“ {}”
+Server Connections: |;|服务器连接：
+Device not modified by plugin|;|设备未通过插件修改
+Error to update the config file: customname|;|更新配置文件时出错：customname
+Generate "ON" Command for learned code stored on unit/ini : {}|;|为存储在unit / ini中的学习到的代码生成“ ON”命令：{}
+Not able to update device : {}|;|无法更新设备：{}
+Error to update the config file : customname|;|更新配置文件时出错：customname
+File exist : {}|;|文件存在：{}
+Not able to create : {}|;|无法创建：{}
+Not able to create device : {}|;|无法创建设备：{}
+Ini file / Device deleted : {}|;|INI文件/设备已删除：{}
+Error on delete_ini : {}|;|delete_ini错误：{}
+reset IR/RF|;|重置IR / RF
+Reset command executed|;|执行重置命令
+Error to create the config file : {}|;|创建配置文件时出错：{}
+ini file created...{}|;|已创建ini文件... {}
+Connected to Broadlink device: {} {}|;|已连接到Broadlink设备：{} {}
+Error to connect to Broadlink device: {}|;|连接到Broadlink设备时出错：{}
+Error getting temperature data from Broadlink device....Timeout|;|从Broadlink设备获取温度数据时出错。...超时
+Number of ini file to create : {}|;|要创建的ini文件数：{}
+You need to select Import for that|;|您需要为此选择导入
+No ini files found|;|找不到文件
+Removing : {}|;|删除
+No json files found|;|找不到文件
+No more device available ...|;|没有更多可用的设备...
+Send .. : {} {} {}|;|发送
+Bypass .. : {} {} {}|;|绕过
+Send error or command for remote controller not set into ini file: {}|;|发送未设置为ini文件的遥控器错误或命令：{}
+Command for remote not defined: {}|;|未定义远程命令：{}
+ini file read....{}|;|已读取ini文件。...{}
+Custom Commands: {}|;|自定义命令...
+No ini file : {}|;|没有ini文件：{}
+Custom Commands for Remote controller not managed|;|不受管理的遥控器自定义命令
+Last character must be <,> into the remote controller file|;|最后一个字符必须是&lt;，&gt;到遥控器文件中
+Invalid number in ini file, string or leading zero|;|ini文件中的数字无效，字符串或前导零
+Error getting sensor data from Broadlink device....Timeout|;|从Broadlink设备获取传感器数据时出错。...超时
+Error getting sensor data raw from Broadlink device....Timeout|;|从Broadlink设备获取传感器数据时出错。...超时
+State of the plug : {}|;|插头状态：{}
+Error to retrieve plug status|;|检索插头状态时出错
+State of the light : {}|;|光的状态：{}
+Error to retrieve light status|;|检索灯光状态时出错
+Power state for device MP1 : {} |;|设备MP1的电源状态：{}
+Error to check power state of MP1 device|;|检查MP1设备的电源状态时出错
+Energy for device SP3S: {}|;|设备SP3S的能量：{}
+Error to get power energy from device SP3S|;|从设备SP3S获取电能的错误
+Lang file not exist or problem to read data from : {}|;|Lang文件不存在或从以下位置读取数据存在问题：
+lang file : {}|;|lang文件：{}
+argument is missing|;|缺少论点
+command to execute : {}|;|待执行的命令
+ERROR to start subprocess|;|启动子过程出错
+Request from domoticz to : {} with encoding : {}|;|来自domoticz的请求：编码为{}的{}
+File {} uploaded.|;|已上传文件
+Error to create file : {}|;|创建文件时出错：{}
+Error to find file name from: {} or not valid path: {}|;|无法从以下位置找到文件名：{}或无效路径：{}
+Error to find file name from : {}|;|无法从以下位置找到文件名：{}
+Code loaded : {}|;|加载的代码：{}
+Not able to send command : Not connected|;|无法发送命令：未连接
+Error on fpronto from Received Data: {}|;|来自收到的数据的fpronto错误：{}
+Error to update the config file : multi-code|;|更新配置文件时出错：多代码
+Error to update the config file : repeat|;|更新配置文件时出错：重复
+Error on Multi-code from Received Data: {}|;|来自接收到的数据的多代码错误：{}
+Error on json from Received Data: {}|;|来自接收到的数据的json错误：{}
+processing data : {}|;|处理数据：{}
+New version available|;|新版本可用
+we do not know what to do of received data|;|我们不知道如何处理收到的数据
+Error to read image file :{}|;|读取图片文件时出错：{}
+Are you sure ? you need to restart Plugin after ...|;|你确定吗 ？您需要在...之后重新启动插件
+Are you sure you want restart Plugin ?|;|您确定要重新启动插件吗？
+Are you sure you want update Plugin ?|;|您确定要更新插件吗？
+Are you sure you want backup Plugin data ?|;|您确定要备份插件数据吗？
+File name is required|;|档案名称为必填项
+Uploaded |;|已上传
+ bytes of |;|个字节
+Work in progress|;|正在制作中
+% uploaded... please wait|;|％上传...请稍候
+Upload Failed|;|文件上传失败.
+Upload Aborted|;|上传已经中止
+Wait for few seconds before restarting|;|等待几秒钟，然后重新启动
+Restart Failed|;|重新启动失败
+Restart Aborted|;|重新启动已中止
+Restart|;|重启动
+Upload|;|上传
+System information|;|系统信息
+Domoticz language is : {}|;|Domoticz语言是：{}
+Edit|;|编辑
+Create|;|新建
+Domoticz, number of plugin devices : {}|;|Domoticz，插件设备数量：{}
+Domoticz, Hardware IDX : {}|;|Domoticz，硬件IDX：{}
+HTTP Key : {}|;|HTTP密钥：{}
+Plugin directory|;|插件目录
+Ini directory|;|INI目录
+Manage|;|管理
+Plugin Log|;|插件日志
+Verify version|;|验证 PHP 版本
+Update|;|更新
+Backup|;|备份
+Overwrite default device type|;|覆盖默认设备类型
+Select Device Type|;|デバイスを選択
+Update device type|;|更新设备
+update|;|更新
+About|;|关于
+No permission to list directory|;|没有列出目录的权限
+Directory content for : {} |;|{}的目录内容
+Go back|;|返回
+Are you sure you want to update data ?|;|你确定要现在更新吗?
+File not exist or problem to access : {}|;|文件不存在或无法访问：{}
+search|;|搜索
+replace|;|替换
+undo|;|你确定？这是不能撤销的！
+redo|;|重试
+FullScreen|;|全屏
+File not found|;|文件未找到
+Are you sure you want to delete Ini file and all related data ?|;|您确定要删除Ini文件和所有相关数据吗？
+Are you sure ?|;|确定吗？
+Device 1 not exist|;|设备1不存在
+Error retrieve data from device : {}|;|从设备检索数据时出错：{}
+... Verify import result ...|;|...验证导入结果...
+... Verify ini generation ...|;|...验证ini生成...
+Device information for Broadlink type : |;|Broadlink类型的设备信息：
+Scan Broadlink devices|;|扫描Broadlink设备
+Network scan|;|网络扫描
+Show Broadlink usage and devices linked|;|显示Broadlink的使用情况和链接的设备
+Usage|;|已使用
+Create ini file for send more than one code RF / IR|;|创建ini文件以发送多个代码RF / IR
+Multi-Code|;|多码
+Not able to retrieve data for Usage kWh -- verify device|;|无法检索使用量kWh的数据-验证设备
+Click to switch|;|点击切换
+Air quality|;|空气质量
+Quiet|;|安静
+Noisy|;|大鼻头
+Generate .ini files from e-Control database|;|从e-Control数据库生成.ini文件
+Import .ini files from the _import_ directory|;|从_import_目录导入.ini文件
+Import|;|进口
+Edit ini file for remote controller|;|编辑遥控器的ini文件
+Infra-red codes database|;|红外代码数据库
+IR code DB|;|红外代码数据库
+Create Broadlink code from Pronto HEX|;|从Pronto HEX创建Broadlink代码
+Create from Pronto|;|从Pronto创建
+Copy Past here 'Pronto HEX' code|;|在此处复制过去的“ Pronto HEX”代码
+create|;|创建
+Next refresh in|;|下次刷新
+Ini file content|;|文件内容
+Edit ini file. Caution, no verification will be made|;|编辑ini文件。注意，将不进行验证
+Delete ini file and related Domoticz device|;|删除ini文件及相关的Domoticz设备
+Delete|;|删除
+Create Domoticz device linked to the ini file|;|创建链接到ini文件的Domoticz设备
+Create device|;|创建设备
+show code|;|显示代码
+send code|;|发送验证码
+Number of time you want that the code be repeated|;|您希望重复代码的次数
+modify repetition|;|修改重复
+Code sent from unit :|;|从单位发送的代码：
+Number of repeat :|;|重复次数：
+Background process running ... wait for few seconds|;|后台进程正在运行...等待几秒钟
+Remaining time before --|;|-之前的剩余时间
+seconds|;|秒
+Multi-code ini file creation|;|多代码ini文件创建
+Source available|;|可用资源
+Drop ini file you want to include|;|删除要包含的ini文件
+Include this sequence|;|包括这个顺序
+Create ini|;|创建ini
+Submit ini file creation|;|提交ini文件创建
+Timer|;|定时器
+Add 1 second|;|1 秒

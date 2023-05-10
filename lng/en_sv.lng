@@ -1,0 +1,323 @@
+Error to load language file|;|Fel vid inläsning av språkfilen
+we translate the text : {}|;|vi översätter texten: {}
+error in translation, we keep original text|;|fel i översättningen, vi behåller originaltexten
+Request Domoticz to : {} used encoding is : {}|;|Begär Domoticz till: {} använd kodning är: {}
+Error sending command to Domoticz : {}|;|Fel vid överföring av kommando till Domoticz: {}
+Error sending data|;|Fel vid skicka data
+Domoticz do not send OK message for: {} ??|;|Domoticz skickar inte OK meddelande för: {} ??
+Error retrieve dict data from Domoticz : {}|;|Fel vid hämtning av dikterade data från Domoticz: {}
+...|;|...
+ ...  |;|...
+Not able to enter learning mode|;|Det går inte att gå in i inlärningsläget
+Learning...|;|Inlärning
+No data received...|;|Inga användardata har tagits emot
+Code learned|;|Kod lärt
+sweeping...; LED should be RED|;|sotning...; Lysdioden ska vara RÖD
+check frequency... {}|;|kontrollera frekvens ... {}
+frequency found! check LED, should be off|;|hittades frekvens! kontrollera LED, ska vara av
+frequency not found... |;|frekvens hittades inte ...
+learning command|;|lärande kommando
+verify command...{} |;|verifiera kommando ... {}
+not able to learn command|;|inte kan lära sig kommando
+Code stored in memory|;|Kod lagrad i minnet
+RF not true, sweep necessary|;|RF inte sant, svep nödvändigt
+We download plugin file to: {}|;|Vi laddar ner plugin-filen till: {}
+Error receive / save file from dropbox : {}|;|Fel vid mottagning / spara fil från dropbox: {}
+Error to retrieve plugin version from : {}|;|Fel vid hämtning av pluginversion från: {}
+Connected to Broadlink device: {}|;|Ansluten till Broadlink-enhet: {}
+Error Connecting to Broadlink device....|;|Fel vid anslutning till bredbandsenhet ....
+Backup file name : {}|;|Säkerhetskopieringsfilnamn: {}
+Error to backup file : {}|;|Fel vid säkerhetskopiering av fil: {}
+Name : {} -- Unit : {} -- IDX : {} |;|Namn: {} - Enhet: {} - IDX: {}
+Detected here : |;|Upptäckt här:
+Domoticz device created|;|Domoticz-enhet skapad
+ini file not found: {}|;|Filen har ej hittats:
+bad code in ini file: {}|;|dålig kod i ini-filen: {}
+we execute this command : {}|;|vi kör detta kommando: {}
+Next|;|Nästa
+Error to send code|;|Fel vid skicka kod
+We try to sleep : {} s|;|Vi försöker sova: {} s
+bad timer value : {}|;|dåligt timervärde: {}
+we send code from : {}|;|vi skickar kod från: {}
+Not able to load command from {}|;|Det går inte att ladda kommandot från {}
+Nothing to send|;|Ingenting att skicka
+Code sent....|;|Kod skickad....
+Warning : Code sent ....Probably timeout|;|Varning: kod skickas .... Förmodligen timeout
+Not able to find file {}|;|Kan inte hitta filen {}
+Discover finished|;|Upptäck färdig
+Error to retrieve Broadlink devices|;|Fel vid hämtning av Broadlink-enheter
+END scan|;|END scan
+IR code learned|;|IR-kod lärt
+Error to learn IR code|;|Fel vid inlärning av IR-kod
+Sweep ok|;|Sopa ok
+Error in sweep|;|Fel vid svepning
+RF code learned|;|RF-kod lärt sig
+Error to learn RF code|;|Fel vid lärande av RF-kod
+END learnrf|;|END learningrf
+Usage ok|;|Användning ok
+Error in usage|;|Fel vid användning
+END usage|;|SLUT användning
+Finished|;|Slutfört
+END translation|;|SLUT-översättning
+We do backup before update|;|Vi gör säkerhetskopiering före uppdatering
+New Plugin uploaded|;|Nytt plugin laddat upp
+Error receive / save files from dropbox : {}|;|Fel vid mottagande / spara filer från dropbox: {}
+Extracting all the files now...|;|Extraherar alla filer nu ...
+Not able to create backup file|;|Det går inte att skapa säkerhetskopia
+If necessary, do 'sudo -H chmod +x *.py'|;|Om det behövs, gör &#39;sudo -H chmod + x * .py&#39;
+End of plugin update|;|Slutet av plugin-uppdateringen
+Backup OK|;|Säkerhetskopiera OK
+Backup error|;|Fel vid säkerhetskopiering
+End of plugin backup|;|Slut på backup-plugin
+END of Backup|;|Slut på säkerhetskopieringen
+RemotePlugin OK|;|RemotePlugin OK
+we have downloaded plugin file for version test|;|Vi har laddat ner plugin-filen för versionstest
+plugin : new version available|;|plugin: ny version tillgänglig
+RemotePlugin Error|;|RemotePlugin-fel
+End of remote plugin version test|;|Avsluta testet för fjärr pluginversion
+END of remotePlugin|;|SLUT av fjärrPlugin
+Multi-code OK|;|Multikod OK
+We have sent multi-code|;|Vi har skickat multikod
+Multi-code Error|;|Fel med flera koder
+End of multi-code send|;|Slut på skickning av flera koder
+END of multi-code|;|SLUT på multikoden
+unknown step|;|okänt steg
+Not able to load debug module|;|Det går inte att ladda felsökningsmodulen
+Language loaded for  : {} |;|Språk laddat för: {}
+Language file is missing for : {}|;|Språkfilen saknas för: {}
+Port already in use|;|Används redan
+Listen on BROWebServer - Port: {}|;|Lyssna på BROWebServer - Port: {}
+Hardware ID: {} |;|maskinvaru-ID
+Status|;|Status
+Learn|;|Läs mer
+Test|;|Test
+Save|;|Spara
+Reset|;|Återställ
+IR Commands|;|IR-kommandon
+Sweep|;|Rensa
+RF Commands|;|RF-kommandon
+Temperature|;|Temperatur
+Light|;|Lätt
+Humidity|;|Luftfuktighet
+Air Quality|;|Luftkvalitet
+Noise|;|Buller
+plug|;|plugg
+Connecting to: {} : {}|;|Ansluter till:
+Ini file for remote controller created: {}|;|Ini-fil för fjärrkontroll skapad: {}
+Error to create ini file for remote controller : {}|;|Fel vid ini-fil för fjärrkontroll: {}
+Plugin Device count start on : {}|;|Plugin Device count startar på: {}
+Admin html file created: {}|;|Admin html-fil skapad: {}
+Error to create admin html file : {}|;|Fel vid skapande av admin-html-fil: {}
+Error to found www/templates for html file : {}|;|Fel vid hittande av www / mallar för html-fil: {}
+Command line file created: {}|;|Kommandoradsfil skapad: {}
+Error to create device file : {}|;|Fel vid skapande av enhetsfil: {}
+We cannot continue ...|;|Vi kan inte fortsätta ...
+Learn IR command|;|Lär dig IR-kommandot
+Nothing to save|;|Finns inget att spara
+Ini created|;|Ini skapade
+Nothing to reset|;|Inget att återställa
+unknown level command|;|okänd nivå kommando
+Wait for sweep...|;|Vänta på svep ...
+Learn RF command|;|Lär dig RF-kommando
+Sweep first|;|Sopa först
+Unit unknown|;|Enhet okänd
+Error to put "ON" SP1/SP2/SP3|;|Fel vid inställning av &quot;ON&quot; SP1 / SP2 / SP3
+Error to put "on" light for SPx|;|Fel vid uppsättning av ljus på SPx
+Error to put "ON" MP1 for plug : {}|;|Fel vid att sätta &quot;ON&quot; MP1 för plug: {}
+Unknown command|;|Okänt kommando.
+Error to put Off SP1/SP2/SP3|;|Fel vid avstängning av SP1 / SP2 / SP3
+Error to put off light for SPx|;|Fel vid avstängning av ljus för SPx
+Error to put Off MP1 for plug : {}|;|Fel vid avstängning av MP1 för plug: {}
+Unit error update|;|Uppdatering av enhetsfel
+undefined|;|odefinierad
+A1 called|;|A1 ringde
+Get Data From Sensors|;|Hämta data från sensorer
+SP3S called|;|SP3S ringde
+MP1 called|;|MP1 ringde
+SP1/SP2 called|;|SP1 / SP2 kallas
+onMessage called for connection: {0}:{1}|;|onMessage krävde anslutning: {0}: {1}
+Broadlink response OK!|;|Bredlänk svar OK!
+Request from : {}:{} to : {}|;|Begäran från: {}: {} till: {}
+Plugin restarted !|;|Plugin startade om!
+Refresh|;|Uppdatera
+Backup finished.|;|Säkerhetskopieringen är klar.
+ERROR Unknown url from : {}:{} to : {}|;|FEL Okänd url från: {}: {} till: {}
+Broadlink not know what to do!|;|Broadlink vet inte vad jag ska göra!
+ERROR Unknown key from : {}:{} to : {}|;|FEL Okänd nyckel från: {}: {} till: {}
+Broadlink bad key!|;|Bredlänk dålig nyckel!
+Not implemented Request from : {}:{} to : {}|;|Ej implementerad Begäran från: {}: {} till: {}
+Broadlink : not implemented !|;|Bredlänk: inte implementerad!
+Unknown verb in request: {}|;|Okänt verb på begäran: {}
+We bypass URL check|;|Vi kringgår URL-kontroll
+We process this url: {}|;|Vi bearbetar denna url: {}
+data process OK|;|dataprocess OK
+Error to process data|;|Fel vid bearbetning av data
+Nothing to do ...|;|Inget att göra.
+Connected successfully to {}:{}|;|Anslöts framgångsrikt.
+onDisconnect called for connection '{}'|;|onDisconnect krävde anslutning &#39;{}&#39;
+Server Connections: |;|Serveranslutningar:
+Device not modified by plugin|;|Enheten ändras inte av plugin
+Error to update the config file: customname|;|Fel vid uppdatering av konfigurationsfilen: anpassat namn
+Generate "ON" Command for learned code stored on unit/ini : {}|;|Generera &quot;ON&quot; -kommando för inlärd kod lagrad på enhet / ini: {}
+Not able to update device : {}|;|Det går inte att uppdatera enheten: {}
+Error to update the config file : customname|;|Fel vid uppdatering av konfigurationsfilen: anpassat namn
+File exist : {}|;|Fil finns: {}
+Not able to create : {}|;|Det går inte att skapa: {}
+Not able to create device : {}|;|Det går inte att skapa enhet: {}
+Ini file / Device deleted : {}|;|Ini-fil / enhet raderad: {}
+Error on delete_ini : {}|;|Fel vid delete_ini: {}
+reset IR/RF|;|återställ IR / RF
+Reset command executed|;|Återställ kommandot körs
+Error to create the config file : {}|;|Fel vid skapandet av konfigurationsfilen: {}
+ini file created...{}|;|ini-fil skapad ... {}
+Connected to Broadlink device: {} {}|;|Ansluten till Broadlink-enhet: {} {}
+Error to connect to Broadlink device: {}|;|Fel vid anslutning till Broadlink-enhet: {}
+Error getting temperature data from Broadlink device....Timeout|;|Fel vid hämtning av temperaturdata från Broadlink-enheten .... Timeout
+Number of ini file to create : {}|;|Antal ini-filer som ska skapas: {}
+You need to select Import for that|;|Du måste välja Importera för det
+No ini files found|;|Hittade inga filer
+Removing : {}|;|Ta bort:
+No json files found|;|Hittade inga filer
+No more device available ...|;|Inga fler enheter tillgängliga ...
+Send .. : {} {} {}|;|Skicka
+Bypass .. : {} {} {}|;|Förbifart
+Send error or command for remote controller not set into ini file: {}|;|Skicka fel eller kommando för fjärrkontrollen inte inställd i ini-fil: {}
+Command for remote not defined: {}|;|Kommando för fjärrkontroll inte definierad: {}
+ini file read....{}|;|ini-fil läst .... {}
+Custom Commands: {}|;|Anpassade kommandon: {}
+No ini file : {}|;|Ingen ini-fil: {}
+Custom Commands for Remote controller not managed|;|Anpassade kommandon för fjärrkontrollen hanteras inte
+Last character must be <,> into the remote controller file|;|Det sista tecknet måste vara &lt;,&gt; i fjärrkontrollfilen
+Invalid number in ini file, string or leading zero|;|Ogiltigt nummer i ini-fil, sträng eller ledande noll
+Error getting sensor data from Broadlink device....Timeout|;|Fel vid hämtning av sensordata från Broadlink-enheten .... Timeout
+Error getting sensor data raw from Broadlink device....Timeout|;|Fel vid hämtning av sensordata från Broadlink-enheten .... Timeout
+State of the plug : {}|;|Anslutningsstatus: {}
+Error to retrieve plug status|;|Fel för att hämta plug-status
+State of the light : {}|;|Ljusets tillstånd: {}
+Error to retrieve light status|;|Fel för att hämta ljusstatus
+Power state for device MP1 : {} |;|Strömtillstånd för enhet MP1: {}
+Error to check power state of MP1 device|;|Fel vid kontroll av MP1-enhetens strömtillstånd
+Energy for device SP3S: {}|;|Energi för enhet SP3S: {}
+Error to get power energy from device SP3S|;|Fel för att få energi från enheten SP3S
+Lang file not exist or problem to read data from : {}|;|Lang fil finns inte eller problem att läsa data från: {}
+lang file : {}|;|Lang fil
+argument is missing|;|argument saknas
+command to execute : {}|;|Kommando att utföra
+ERROR to start subprocess|;|FEL för att starta delprocessen
+Request from domoticz to : {} with encoding : {}|;|Begäran från domoticz till: {} med kodning: {}
+File {} uploaded.|;|Fil uppladdad
+Error to create file : {}|;|Fel vid skapande av fil: {}
+Error to find file name from: {} or not valid path: {}|;|Fel för att hitta filnamn från: {} eller inte giltig sökväg: {}
+Error to find file name from : {}|;|Fel för att hitta filnamn från: {}
+Code loaded : {}|;|Kod laddad: {}
+Not able to send command : Not connected|;|Kan inte skicka kommando: Ej ansluten
+Error on fpronto from Received Data: {}|;|Fel på fpronto från mottagna data: {}
+Error to update the config file : multi-code|;|Fel vid uppdatering av konfigurationsfilen: multikod
+Error to update the config file : repeat|;|Fel vid uppdatering av konfigurationsfilen: upprepa
+Error on Multi-code from Received Data: {}|;|Fel vid multikod från mottagna data: {}
+Error on json from Received Data: {}|;|Fel vid json från mottagna data: {}
+processing data : {}|;|Bearbetar data : {}
+New version available|;|Ny version tillgänglig.
+we do not know what to do of received data|;|vi vet inte vad vi ska göra för mottagna data
+Error to read image file :{}|;|Fel vid läsning av bildfil: {}
+Are you sure you want restart Plugin ?|;|Är du säker på att du vill starta om plugin?
+Are you sure you want update Plugin ?|;|Är du säker på att du vill uppdatera plugin?
+Are you sure you want backup Plugin data ?|;|Är du säker på att du vill ha backup-plugin-data?
+File name is required|;|Filnamn krävs
+Uploaded |;|Överförd
+ bytes of |;|byte av
+Work in progress|;|Arbete i rådet
+% uploaded... please wait|;|% laddat upp ... vänta
+Upload Failed|;|Uppladdning misslyckades
+Upload Aborted|;|Ladda upp avbruten
+Wait for few seconds before restarting|;|Vänta några sekunder innan du startar om
+Restart Failed|;|Omstart misslyckades
+Restart Aborted|;|Starta om avbruten
+Restart|;|Börja om
+Upload|;|Överför
+System information|;|Systeminformation
+Domoticz language is : {}|;|Domoticz-språket är: {}
+Edit|;|Redigera
+Create|;|Skapa
+Domoticz, number of plugin devices : {}|;|Domoticz, antal plugin-enheter: {}
+Domoticz, Hardware IDX : {}|;|Domoticz, hårdvaru-IDX: {}
+HTTP Key : {}|;|HTTP-nyckel: {}
+Plugin directory|;|Plugin-katalog
+Ini directory|;|Ini-katalog
+Manage|;|Hantera
+Plugin Log|;|Pluginlogg
+Verify version|;|Verifiera versionen
+Update|;|Uppdatera
+Backup|;|Säkerhetskopia
+No permission to list directory|;|Ingen tillåtelse att lista katalog
+Directory content for : {} |;|Kataloginnehåll för: {}
+Go back|;|Gå tillbaka
+Are you sure you want to update data ?|;|﻿Är du säker du på att du vill uppdatera?
+File not exist or problem to access : {}|;|Filen finns inte eller problem att komma åt: {}
+update|;|uppdatera
+search|;|sök
+replace|;|ersätta
+undo|;|ångra
+redo|;|gör om
+FullScreen|;|Fullskärmsläge
+File not found|;|Fil hittades inte
+Are you sure you want to delete Ini file and all related data ?|;|Är du säker på att du vill ta bort Ini-filen och alla relaterade data?
+Are you sure ?|;|Är du säker ?
+Error retrieve data from device : {}|;|Fel vid hämtning av data från enheten: {}
+... Verify import result ...|;|... Verifiera importresultat ...
+... Verify ini generation ...|;|... Verifiera ini generationen ...
+Device information for Broadlink type : |;|Enhetsinformation för Broadlink-typ:
+Scan Broadlink devices|;|Skanna bredbandsenheter
+Network scan|;|NÃ¤tverkssÃ¶kning:
+Show Broadlink usage and devices linked|;|Visa bredbandsanvändning och länkade enheter
+Usage|;|Användning
+Create ini file for send more than one code RF / IR|;|Skapa ini-fil för att skicka mer än en kod RF / IR
+Multi-Code|;|Multi-kod
+Not able to retrieve data for Usage kWh -- verify device|;|Det går inte att hämta data för användning kWh - verifiera enheten
+Click to switch|;|Klicka för att växla
+Air quality|;|Luftkvalitet
+Quiet|;|Tyst
+Noisy|;|Bullrigt
+Generate .ini files from e-Control database|;|Generera .ini-filer från databasen e-Control
+Import .ini files from the _import_ directory|;|Importera .ini-filer från _import_-katalogen
+Import|;|Import
+Edit ini file for remote controller|;|Redigera ini-fil för fjärrkontroll
+Infra-red codes database|;|Infraröd kodedatabas
+IR code DB|;|IR-kod DB
+Create Broadlink code from Pronto HEX|;|Skapa breddkod från Pronto HEX
+Create from Pronto|;|Skapa från Pronto
+Copy Past here 'Pronto HEX' code|;|Kopiera tidigare här &#39;Pronto HEX&#39; -kod
+create|;|skriv
+Next refresh in|;|Nästa uppdatering i
+Ini file content|;|CNT
+Edit ini file. Caution, no verification will be made|;|Redigera ini-filen. Varning, ingen verifiering görs
+Delete ini file and related Domoticz device|;|Radera ini-fil och relaterad Domoticz-enhet
+Delete|;|Radera
+Create Domoticz device linked to the ini file|;|Skapa Domoticz-enhet länkad till ini-filen
+Create device|;|Skapa enhet
+show code|;|Visa kod
+send code|;|skicka kod
+Number of time you want that the code be repeated|;|Antal gånger du vill att koden ska upprepas
+modify repetition|;|ändra upprepning
+Code sent from unit :|;|Koden skickas från enheten:
+Number of repeat :|;|Antal upprepningar:
+Background process running ... wait for few seconds|;|Bakgrundsprocessen körs ... vänta några sekunder
+Remaining time before --|;|Återstående tid innan -
+seconds|;|sekunder
+Multi-code ini file creation|;|Skapa ini-fil med flera koder
+Source available|;|Källa tillgänglig
+Drop ini file you want to include|;|Släpp ini-filen du vill inkludera
+Include this sequence|;|Inkludera den här sekvensen
+Create ini|;|Skapa ini
+Submit ini file creation|;|Skicka ini-fil skapande
+Timer|;|Timer
+Add 1 second|;|1 sekund
+Connected to Broadlink device: {} {} {}|;|Ansluten till Broadlink enhet: {} {} {}
+Error to retrieve type from this file : {}|;|Fel att hämta typ från denna fil: {}
+File : {} exist, we bypass|;|Fil: {} existerar, vi bypass
+Are you sure ? you need to restart Plugin after ...|;|Är du säker ? du behöver för att starta Plugin efter ...
+Overwrite default device type|;|Överskrivningsstandardtypen anordning
+Select Device Type|;|Välj Typ av enhet
+Update device type|;|Uppdatering enhetstyp
+About|;|Handla om
+Device 1 not exist|;|Enhet 1 inte existerar

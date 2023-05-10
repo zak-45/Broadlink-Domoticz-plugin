@@ -1,0 +1,323 @@
+Error to load language file|;|Eroare la încărcarea fișierului de limbă
+we translate the text : {}|;|traducem textul: {}
+error in translation, we keep original text|;|eroare de traducere, păstrăm textul original
+Request Domoticz to : {} used encoding is : {}|;|Solicitați Domoticz la: {} codificarea utilizată este: {}
+Error sending command to Domoticz : {}|;|Eroare la trimiterea comenzii către Domoticz: {}
+Error sending data|;|Eroare la trimiterea
+Domoticz do not send OK message for: {} ??|;|Domoticz nu trimite un mesaj OK pentru: {} ??
+Error retrieve dict data from Domoticz : {}|;|Eroare la preluarea datelor dict din Domoticz: {}
+...|;|...
+ ...  |;|...
+Not able to enter learning mode|;|Nu poate intra în modul de învățare
+Learning...|;|Învățare
+No data received...|;|Nicio dată furnizată.
+Code learned|;|Învățat
+sweeping...; LED should be RED|;|zdrobitoare ...; LED-ul ar trebui să fie ROSU
+check frequency... {}|;|verificați frecvența de
+frequency found! check LED, should be off|;|frecvența găsită! verificați LED-ul, ar trebui să fie stins
+frequency not found... |;|frecvența nu a fost găsită ...
+learning command|;|comanda de învățare
+verify command...{} |;|verifica comanda ... {}
+not able to learn command|;|nu este capabil să învețe comanda
+Code stored in memory|;|Codul stocat în memorie
+RF not true, sweep necessary|;|RF nu este adevărat, este necesară măturarea
+We download plugin file to: {}|;|Descărcăm fișierul plugin în: {}
+Error receive / save file from dropbox : {}|;|Eroare la primirea / salvarea fișierului din dropbox: {}
+Error to retrieve plugin version from : {}|;|Eroare la preluarea versiunii pluginului din: {}
+Connected to Broadlink device: {}|;|Conectat la dispozitivul Broadlink: {}
+Error Connecting to Broadlink device....|;|Eroare la conectarea la dispozitivul Broadlink ...
+Backup file name : {}|;|Numele fișierului de rezervă: {}
+Error to backup file : {}|;|Eroare la fișierul de rezervă: {}
+Name : {} -- Unit : {} -- IDX : {} |;|Nume: {} - Unitate: {} - IDX: {}
+Detected here : |;|Detectat aici:
+Domoticz device created|;|A fost creat dispozitivul Domoticz
+ini file not found: {}|;|Fișierul nu a fost găsit
+bad code in ini file: {}|;|cod rău în fișier ini: {}
+we execute this command : {}|;|executăm această comandă: {}
+Next|;|Următorul
+Error to send code|;|Eroare la trimiterea codului
+We try to sleep : {} s|;|Încercăm să dormim: {} s
+bad timer value : {}|;|valoare cronometrată necorespunzătoare: {}
+we send code from : {}|;|trimitem cod de la: {}
+Not able to load command from {}|;|Nu a putut încărca comanda de la {}
+Nothing to send|;|Nimic de trimis
+Code sent....|;|Cod trimis....
+Warning : Code sent ....Probably timeout|;|Avertisment: Cod trimis .... Probabil că a expirat
+Not able to find file {}|;|Nu am putut găsi fișierul {}
+Discover finished|;|Descoperă terminat
+Error to retrieve Broadlink devices|;|Eroare la preluarea dispozitivelor Broadlink
+END scan|;|Scanare FINALĂ
+IR code learned|;|Cod IR aflat
+Error to learn IR code|;|Eroare la învățarea codului IR
+Sweep ok|;|Balei
+Error in sweep|;|Eroare la măturare
+RF code learned|;|Cod RF învățat
+Error to learn RF code|;|Eroare la învățarea codului RF
+END learnrf|;|END învățat
+Usage ok|;|Utilizare
+Error in usage|;|Eroare la utilizare
+END usage|;|Utilizare
+Finished|;|Terminat
+END translation|;|TRANSLATION
+We do backup before update|;|Facem backup înainte de actualizare
+New Plugin uploaded|;|Plugin nou încărcat
+Error receive / save files from dropbox : {}|;|Eroare la primirea / salvarea fișierelor din dropbox: {}
+Extracting all the files now...|;|Extragerea tuturor fișierelor acum ...
+Not able to create backup file|;|Nu este capabil să creeze fișier de rezervă
+If necessary, do 'sudo -H chmod +x *.py'|;|Dacă este necesar, faceți „sudo -H chmod + x * .py”
+End of plugin update|;|Sfârșitul actualizării pluginului
+Backup OK|;|Ia Backup
+Backup error|;|Comment
+End of plugin backup|;|Sfârșitul backup-ului pluginului
+END of Backup|;|FINUL copiei de rezervă
+RemotePlugin OK|;|RemotePlugin OK
+we have downloaded plugin file for version test|;|am descărcat fișierul plugin pentru testarea versiunii
+plugin : new version available|;|plugin: versiune nouă disponibilă
+RemotePlugin Error|;|RemotePlugin Eroare
+End of remote plugin version test|;|Sfârșitul testului de versiune a pluginului la distanță
+END of remotePlugin|;|FINALUL telecomandăPlugin
+Multi-code OK|;|Multi-cod OK
+We have sent multi-code|;|Am trimis mai multe coduri
+Multi-code Error|;|Eroare cu mai multe coduri
+End of multi-code send|;|Sfârșitul trimiterii cu mai multe coduri
+END of multi-code|;|FINALUL codului multiplu
+unknown step|;|Necunoscut
+Not able to load debug module|;|Nu se poate încărca modulul de depanare
+Language loaded for  : {} |;|Limba încărcată pentru: {}
+Language file is missing for : {}|;|Fișierul de limbă lipsește pentru: {}
+Port already in use|;|Portul deja folosit
+Listen on BROWebServer - Port: {}|;|Ascultați pe BROWebServer - Port: {}
+Hardware ID: {} |;|ID hardware
+Status|;|Stare
+Learn|;|Învățați
+Test|;|Test
+Save|;|Păstrați
+Reset|;|Șterge
+IR Commands|;|minim>
+Sweep|;|Balei
+RF Commands|;|minim>
+Temperature|;|Temperatura
+Light|;|Luminozitate
+Humidity|;|Umiditate
+Air Quality|;|Calitatea Aerului
+Noise|;|Zgomot
+plug|;|ștecăr
+Connecting to: {} : {}|;|Conectare la:
+Ini file for remote controller created: {}|;|Fișier Ini pentru telecomandă creat: {}
+Error to create ini file for remote controller : {}|;|Eroare la crearea fișierului ini pentru telecomandă: {}
+Plugin Device count start on : {}|;|Începutul numărului de plugin-uri începe cu: {}
+Admin html file created: {}|;|Fișier html administrat creat: {}
+Error to create admin html file : {}|;|Eroare la crearea fișierului admin html: {}
+Error to found www/templates for html file : {}|;|Eroare la găsirea www / șabloane pentru fișierul html: {}
+Command line file created: {}|;|Fișierul de linie de comandă creat: {}
+Error to create device file : {}|;|Eroare la crearea fișierului dispozitivului: {}
+We cannot continue ...|;|Nu se poate continua.
+Learn IR command|;|Aflați comanda IR
+Nothing to save|;|Nimic de salvat
+Ini created|;|Realizat
+Nothing to reset|;|Nimic de resetat
+unknown level command|;|comandă de nivel necunoscut
+Wait for sweep...|;|Așteptați mătura ...
+Learn RF command|;|Aflați comanda RF
+Sweep first|;|Măriți mai întâi
+Unit unknown|;|Necunoscut
+Error to put "ON" SP1/SP2/SP3|;|Eroare la punerea „ON” SP1 / SP2 / SP3
+Error to put "on" light for SPx|;|Eroare la punerea luminii „on” pentru SPx
+Error to put "ON" MP1 for plug : {}|;|Eroare la punerea „ON” MP1 pentru plug: {}
+Unknown command|;|Comandă necunoscută
+Error to put Off SP1/SP2/SP3|;|Eroare la oprirea SP1 / SP2 / SP3
+Error to put off light for SPx|;|Eroare la stingerea luminii pentru SPx
+Error to put Off MP1 for plug : {}|;|Eroare la dezactivarea MP1 pentru plug: {}
+Unit error update|;|Actualizare eroare unitate
+undefined|;|nedefinit
+A1 called|;|Apelat
+Get Data From Sensors|;|Obțineți date de la senzori
+SP3S called|;|Apelat
+MP1 called|;|Apelat
+SP1/SP2 called|;|SP1 / SP2 apelat
+onMessage called for connection: {0}:{1}|;|onMessage apelat la conectare: {0}: {1}
+Broadlink response OK!|;|Răspuns la conexiunea largă OK!
+Request from : {}:{} to : {}|;|Solicitare de la: {}: {} la: {}
+Plugin restarted !|;|Plugin-ul a repornit!
+Refresh|;|Actualizare
+Backup finished.|;|Backup-ul a fost terminat.
+ERROR Unknown url from : {}:{} to : {}|;|EROARE URL necunoscută de la: {}: {} la: {}
+Broadlink not know what to do!|;|Broadlink nu știu ce să facă!
+ERROR Unknown key from : {}:{} to : {}|;|EROARE Cheie necunoscută de la: {}: {} la: {}
+Broadlink bad key!|;|Cheie greșită pentru conexiune largă
+Not implemented Request from : {}:{} to : {}|;|Neimplementat Cerere de la: {}: {} la: {}
+Broadlink : not implemented !|;|Broadlink: nu este implementat!
+Unknown verb in request: {}|;|Verb necunoscut la cerere: {}
+We bypass URL check|;|Evităm verificarea adresei URL
+We process this url: {}|;|Procesăm această adresă URL: {}
+data process OK|;|proces de date OK
+Error to process data|;|Eroare la procesarea datelor
+Nothing to do ...|;|Nimic de efectuat
+Connected successfully to {}:{}|;|Conectat cu succes la {}: {}
+onDisconnect called for connection '{}'|;|onDisconnect a solicitat conexiunea &#39;{}&#39;
+Server Connections: |;|Conexiuni server:
+Device not modified by plugin|;|Dispozitiv nemodificat prin plugin
+Error to update the config file: customname|;|Eroare la actualizarea fișierului de configurare: nume personalizat
+Generate "ON" Command for learned code stored on unit/ini : {}|;|Generați comanda „ON” pentru codul învățat stocat pe unitate / ini: {}
+Not able to update device : {}|;|Nu se poate actualiza dispozitivul: {}
+Error to update the config file : customname|;|Eroare la actualizarea fișierului de configurare: nume personalizat
+File exist : {}|;|Fișierul există: {}
+Not able to create : {}|;|Nu se poate crea: {}
+Not able to create device : {}|;|Nu se poate crea dispozitiv: {}
+Ini file / Device deleted : {}|;|Fișier Ini / Dispozitiv șters: {}
+Error on delete_ini : {}|;|Eroare la delete_ini: {}
+reset IR/RF|;|resetează IR / RF
+Reset command executed|;|Resetează comanda executată
+Error to create the config file : {}|;|Eroare la crearea fișierului de configurare: {}
+ini file created...{}|;|fișier ini creat ... {}
+Connected to Broadlink device: {} {}|;|Conectat la dispozitivul Broadlink: {} {}
+Error to connect to Broadlink device: {}|;|Eroare la conectarea la dispozitivul Broadlink: {}
+Error getting temperature data from Broadlink device....Timeout|;|Eroare la obținerea datelor de temperatură de pe dispozitivul Broadlink .... Timeout
+Number of ini file to create : {}|;|Număr de fișier ini de creat: {}
+You need to select Import for that|;|Trebuie să selectați Import pentru asta
+No ini files found|;|Nu s-a găsit niciun fișier
+Removing : {}|;|EliminareThe role of the transaction, in present tense
+No json files found|;|Nu s-a găsit niciun fișier
+No more device available ...|;|Nu mai există dispozitiv disponibil ...
+Send .. : {} {} {}|;|Trimitere
+Bypass .. : {} {} {}|;|Ocolire
+Send error or command for remote controller not set into ini file: {}|;|Trimiteți eroare sau comandă pentru telecomanda care nu este setată în fișier ini: {}
+Command for remote not defined: {}|;|Comandă pentru telecomandă nedefinită: {}
+ini file read....{}|;|fișier ini citit .... {}
+Custom Commands: {}|;|Comenzi personalizate: {}
+No ini file : {}|;|Fără fișier ini: {}
+Custom Commands for Remote controller not managed|;|Comenzile personalizate pentru telecomandă nu au fost gestionate
+Last character must be <,> into the remote controller file|;|Ultimul caracter trebuie să fie &lt;,&gt; în fișierul telecomenzii
+Invalid number in ini file, string or leading zero|;|Număr nevalid în fișier ini, șir sau zero
+Error getting sensor data from Broadlink device....Timeout|;|Eroare la obținerea datelor senzorilor de pe dispozitivul Broadlink .... Timeout
+Error getting sensor data raw from Broadlink device....Timeout|;|Eroare la obținerea brută a datelor despre senzori de pe dispozitivul Broadlink .... Timeout
+State of the plug : {}|;|Starea mufei: {}
+Error to retrieve plug status|;|Eroare la preluarea stării plug-ului
+State of the light : {}|;|Starea luminii: {}
+Error to retrieve light status|;|Eroare la preluarea stării de lumină
+Power state for device MP1 : {} |;|Stare de alimentare pentru dispozitivul MP1: {}
+Error to check power state of MP1 device|;|Eroare la verificarea stării de alimentare a dispozitivului MP1
+Energy for device SP3S: {}|;|Energie pentru dispozitivul SP3S: {}
+Error to get power energy from device SP3S|;|Eroare la obținerea energiei energetice de la dispozitivul SP3S
+Lang file not exist or problem to read data from : {}|;|Fișierul Lang nu există sau este posibil să citiți datele din: {}
+lang file : {}|;|fișier lang: {}
+argument is missing|;|argumentul lipsește
+command to execute : {}|;|Comanda de executat
+ERROR to start subprocess|;|EROARE pentru a începe subprocesul
+Request from domoticz to : {} with encoding : {}|;|Solicitare de la domoticz la: {} cu codificare: {}
+File {} uploaded.|;|Fișierul a fost încărcat!
+Error to create file : {}|;|Eroare la crearea fișierului: {}
+Error to find file name from: {} or not valid path: {}|;|Eroare la găsirea numelui de fișier din: {} sau calea nevalidă: {}
+Error to find file name from : {}|;|Eroare la găsirea numelui fișierului de la: {}
+Code loaded : {}|;|Cod încărcat: {}
+Not able to send command : Not connected|;|Nu poate trimite comanda: Nu este conectat
+Error on fpronto from Received Data: {}|;|Eroare pe fpronto de la datele primite: {}
+Error to update the config file : multi-code|;|Eroare la actualizarea fișierului de configurare: multi-cod
+Error to update the config file : repeat|;|Eroare la actualizarea fișierului de configurare: repetați
+Error on Multi-code from Received Data: {}|;|Eroare pe codul multiplu din datele primite: {}
+Error on json from Received Data: {}|;|Eroare la json de la datele primite: {}
+processing data : {}|;|date de procesare : {}
+New version available|;|Versiune nouă disponibilă
+we do not know what to do of received data|;|nu știm ce să facem din datele primite
+Error to read image file :{}|;|Eroare la citirea fișierului imagine: {}
+Are you sure you want restart Plugin ?|;|Sigur doriți să reporniți pluginul?
+Are you sure you want update Plugin ?|;|Ești sigur că vrei plugin de actualizare?
+Are you sure you want backup Plugin data ?|;|Sunteți sigur că doriți date despre plugin-urile de rezervă?
+File name is required|;|Numele fișierului este necesar
+Uploaded |;|Încărcat
+ bytes of |;|octeți de
+Work in progress|;|Lucru în progres
+% uploaded... please wait|;|% încărcat ... vă rugăm să așteptați
+Upload Failed|;|Încărcare eșuată
+Upload Aborted|;|Încărcați abandonat
+Wait for few seconds before restarting|;|Așteptați câteva secunde înainte de a reporni
+Restart Failed|;|Restart a eșuat
+Restart Aborted|;|Reporniți anulat
+Restart|;|Repornește
+Upload|;|Încărcare
+System information|;|Informații sistem
+Domoticz language is : {}|;|Limba Domoticz este: {}
+Edit|;|Editare
+Create|;|Creează
+Domoticz, number of plugin devices : {}|;|Domoticz, numărul de dispozitive plugin: {}
+Domoticz, Hardware IDX : {}|;|Domoticz, IDX hardware: {}
+HTTP Key : {}|;|Cheia HTTP: {}
+Plugin directory|;|Director de pluginuri
+Ini directory|;|Turism
+Manage|;|Gestionare
+Plugin Log|;|Modul
+Verify version|;|Verificați versiunea
+Update|;|Actualizați
+Backup|;|Ia Backup
+No permission to list directory|;|Fără permisiune de listare a directorului
+Directory content for : {} |;|Conținut de director pentru: {}
+Go back|;|Înapoi
+Are you sure you want to update data ?|;|Sigur doriți să actualizați datele?
+File not exist or problem to access : {}|;|Fișierul nu există sau problema de acces: {}
+update|;|Actualizați
+search|;|căutare
+replace|;|înlocui
+undo|;|anulare
+redo|;|refacere
+FullScreen|;|Ecran complet
+File not found|;|Fișierul nu a fost găsit
+Are you sure you want to delete Ini file and all related data ?|;|Sigur doriți să ștergeți fișierul Ini și toate datele conexe?
+Are you sure ?|;|Ești sigur?
+Error retrieve data from device : {}|;|Eroare la preluarea datelor de pe dispozitiv: {}
+... Verify import result ...|;|... Verificați rezultatul importului ...
+... Verify ini generation ...|;|... Verificați generația ini ...
+Device information for Broadlink type : |;|Informații despre dispozitiv pentru tipul Broadlink:
+Scan Broadlink devices|;|Scanați dispozitivele de tip Broadlink
+Network scan|;|Scanare reÈea:
+Show Broadlink usage and devices linked|;|Afișați utilizarea Broadlink și dispozitivele legate
+Usage|;|Utilizare
+Create ini file for send more than one code RF / IR|;|Creați fișier ini pentru a trimite mai multe coduri RF / IR
+Multi-Code|;|Multi-Code
+Not able to retrieve data for Usage kWh -- verify device|;|Nu puteți prelua date pentru kWh de utilizare - verificați dispozitivul
+Click to switch|;|Faceți clic pentru a comuta
+Air quality|;|Calitatea aerului
+Quiet|;|Linişte.
+Noisy|;|Zgomotos
+Generate .ini files from e-Control database|;|Generați fișiere .ini din baza de date e-Control
+Import .ini files from the _import_ directory|;|Importați fișiere .ini din directorul _import_
+Import|;|Import
+Edit ini file for remote controller|;|Editați fișier ini pentru telecomandă
+Infra-red codes database|;|Baza de date de coduri infra-roșii
+IR code DB|;|Cod IR DB
+Create Broadlink code from Pronto HEX|;|Creați cod Broadlink din Pronto HEX
+Create from Pronto|;|Creați din Pronto
+Copy Past here 'Pronto HEX' code|;|Copiați trecut aici codul „Pronto HEX”
+create|;|a face
+Next refresh in|;|Următorul refresh în
+Ini file content|;|Conținutul fișierului Ini
+Edit ini file. Caution, no verification will be made|;|Editează fișier ini. Atenție, nu se va face nicio verificare
+Delete ini file and related Domoticz device|;|Ștergeți fișierul inițial și dispozitivul Domoticz aferent
+Delete|;|Ștergere
+Create Domoticz device linked to the ini file|;|Creați dispozitivul Domoticz conectat la fișierul ini
+Create device|;|Creați dispozitiv
+show code|;|Arată codul
+send code|;|Trimite codul
+Number of time you want that the code be repeated|;|Numărul de timp pe care doriți să îl repetați codul
+modify repetition|;|modifica repetarea
+Code sent from unit :|;|Cod trimis de la unitate:
+Number of repeat :|;|Numărul de repetări:
+Background process running ... wait for few seconds|;|Procesul de fundal care rulează ... așteptați câteva secunde
+Remaining time before --|;|Timp rămas înainte -
+seconds|;|secunde
+Multi-code ini file creation|;|Crearea fișierului multi-cod ini
+Source available|;|Sursa disponibilă
+Drop ini file you want to include|;|Renunțați la fișierul inițial pe care doriți să-l includeți
+Include this sequence|;|Includeți această secvență
+Create ini|;|Creează
+Submit ini file creation|;|Trimiteți crearea fișierului ini
+Timer|;|Cronometru
+Add 1 second|;|1 secunda
+Connected to Broadlink device: {} {} {}|;|Conectat la Broadlink dispozitiv: {} {} {}
+Error to retrieve type from this file : {}|;|Eroare de tip pentru a prelua din acest fișier: {}
+File : {} exist, we bypass|;|Fișier: {} există, am by-pass
+Are you sure ? you need to restart Plugin after ...|;|Esti sigur ? aveți nevoie pentru a reporni Plugin după ...
+Overwrite default device type|;|Tipul dispozitivului suprascriere implicit
+Select Device Type|;|Selectați tipul de dispozitiv
+Update device type|;|Actualizați tipul de dispozitiv
+About|;|Despre
+Device 1 not exist|;|Dispozitiv 1 nu există

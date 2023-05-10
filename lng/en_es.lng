@@ -1,0 +1,323 @@
+Error to load language file|;|Error al cargar el archivo de idioma
+we translate the text : {}|;|traducimos el texto: {}
+error in translation, we keep original text|;|error de traducción, conservamos el texto original
+Request Domoticz to : {} used encoding is : {}|;|Solicite a Domoticz que: {} la codificación utilizada sea: {}
+Error sending command to Domoticz : {}|;|Error al enviar el comando a Domoticz: {}
+Error sending data|;|Error al enviar los datos
+Domoticz do not send OK message for: {} ??|;|Domoticz no envía un mensaje OK para: {} ??
+Error retrieve dict data from Domoticz : {}|;|Error al recuperar datos dictados de Domoticz: {}
+...|;|...
+ ...  |;|...
+Not able to enter learning mode|;|No se puede ingresar al modo de aprendizaje
+Learning...|;|Aprendizaje
+No data received...|;|No se han recibido datos
+Code learned|;|Código aprendido
+sweeping...; LED should be RED|;|barriendo...; El LED debe estar ROJO
+check frequency... {}|;|comprobar frecuencia ... {}
+frequency found! check LED, should be off|;|frecuencia encontrada! comprobar LED, debe estar apagado
+frequency not found... |;|frecuencia no encontrada ...
+learning command|;|comando de aprendizaje
+verify command...{} |;|verificar comando ... {}
+not able to learn command|;|no puede aprender el comando
+Code stored in memory|;|Código almacenado en la memoria
+RF not true, sweep necessary|;|RF no es cierto, barrido necesario
+We download plugin file to: {}|;|Descargamos el archivo de complemento a: {}
+Error receive / save file from dropbox : {}|;|Error al recibir / guardar archivo de Dropbox: {}
+Error to retrieve plugin version from : {}|;|Error al recuperar la versión del complemento de: {}
+Connected to Broadlink device: {}|;|Conectado al dispositivo Broadlink: {}
+Error Connecting to Broadlink device....|;|Error al conectarse al dispositivo Broadlink ...
+Backup file name : {}|;|Nombre del archivo de respaldo: {}
+Error to backup file : {}|;|Error al archivo de respaldo: {}
+Name : {} -- Unit : {} -- IDX : {} |;|Nombre: {} - Unidad: {} - IDX: {}
+Detected here : |;|Detectado aquí:
+Domoticz device created|;|Dispositivo Domoticz creado
+ini file not found: {}|;|Archivo no encontrado:
+bad code in ini file: {}|;|código incorrecto en el archivo ini: {}
+we execute this command : {}|;|ejecutamos este comando: {}
+Next|;|Sig
+Error to send code|;|Error al enviar código
+We try to sleep : {} s|;|Tratamos de dormir: {} s
+bad timer value : {}|;|valor de temporizador incorrecto: {}
+we send code from : {}|;|enviamos código desde: {}
+Not able to load command from {}|;|No se puede cargar el comando desde {}
+Nothing to send|;|No hay nada para enviar
+Code sent....|;|CÓDIGO ENVIADO
+Warning : Code sent ....Probably timeout|;|Advertencia: código enviado ... Probablemente tiempo de espera
+Not able to find file {}|;|No se puede encontrar el archivo {}
+Discover finished|;|Descubre terminado
+Error to retrieve Broadlink devices|;|Error al recuperar dispositivos Broadlink
+END scan|;|Escaneo FINAL
+IR code learned|;|Código IR aprendido
+Error to learn IR code|;|Error al aprender el código IR
+Sweep ok|;|Barrer bien
+Error in sweep|;|Error en barrido
+RF code learned|;|Código RF aprendido
+Error to learn RF code|;|Error al aprender el código RF
+END learnrf|;|END learnrf
+Usage ok|;|Uso ok
+Error in usage|;|Error en uso
+END usage|;|Uso final
+Finished|;|Terminado
+END translation|;|Traducción
+We do backup before update|;|Hacemos copias de seguridad antes de actualizar
+New Plugin uploaded|;|Nuevo complemento cargado
+Error receive / save files from dropbox : {}|;|Error al recibir / guardar archivos de Dropbox: {}
+Extracting all the files now...|;|Extrayendo todos los archivos ahora ...
+Not able to create backup file|;|No se puede crear el archivo de respaldo
+If necessary, do 'sudo -H chmod +x *.py'|;|Si es necesario, haga &#39;sudo -H chmod + x * .py&#39;
+End of plugin update|;|Fin de la actualización del complemento
+Backup OK|;|Copia de seguridad OK
+Backup error|;|Error de copia de seguridad.
+End of plugin backup|;|Fin de la copia de seguridad del complemento
+END of Backup|;|FIN de la copia de seguridad
+RemotePlugin OK|;|RemotePlugin OK
+we have downloaded plugin file for version test|;|hemos descargado el archivo de complemento para la prueba de versión
+plugin : new version available|;|Plugin: nueva versión disponible
+RemotePlugin Error|;|Error de RemotePlugin
+End of remote plugin version test|;|Fin de la prueba de versión remota del complemento
+END of remotePlugin|;|FIN de remotePlugin
+Multi-code OK|;|Multi-código OK
+We have sent multi-code|;|Hemos enviado códigos múltiples
+Multi-code Error|;|Error de código múltiple
+End of multi-code send|;|Fin del envío de múltiples códigos
+END of multi-code|;|FIN del código múltiple
+unknown step|;|Paso incierto
+Not able to load debug module|;|No se puede cargar el módulo de depuración
+Language loaded for  : {} |;|Idioma cargado para: {}
+Language file is missing for : {}|;|Falta el archivo de idioma para: {}
+Port already in use|;|Puerto ya en uso
+Listen on BROWebServer - Port: {}|;|Escuche en BROWebServer - Puerto: {}
+Hardware ID: {} |;|ID del hardware:
+Status|;|Estado
+Learn|;|Aprender
+Test|;|Prueba
+Save|;|Guardar
+Reset|;|Restablecer
+IR Commands|;|Comandos IR
+Sweep|;|Barrer
+RF Commands|;|Comandos de RF
+Temperature|;|Temperatura
+Light|;|Ligera
+Humidity|;|Humedad
+Air Quality|;|Calidad del Aire
+Noise|;|Nivel de ruido
+plug|;|clavija
+Connecting to: {} : {}|;|Conectando con:
+Ini file for remote controller created: {}|;|Archivo INI para el control remoto creado: {}
+Error to create ini file for remote controller : {}|;|Error al crear el archivo ini para el control remoto: {}
+Plugin Device count start on : {}|;|El recuento de dispositivos de complemento comienza el: {}
+Admin html file created: {}|;|Archivo html de administrador creado: {}
+Error to create admin html file : {}|;|Error al crear el archivo html de administrador: {}
+Error to found www/templates for html file : {}|;|Error al encontrar www / templates para el archivo html: {}
+Command line file created: {}|;|Archivo de línea de comando creado: {}
+Error to create device file : {}|;|Error al crear el archivo del dispositivo: {}
+We cannot continue ...|;|No podemos continuar ...
+Learn IR command|;|Aprender IR comando
+Nothing to save|;|Nada que guardar
+Ini created|;|Ini creado
+Nothing to reset|;|Nada que restablecer
+unknown level command|;|comando de nivel desconocido
+Wait for sweep...|;|Espera a barrer ...
+Learn RF command|;|Aprender RF comando
+Sweep first|;|Barrer primero
+Unit unknown|;|Unidad desconocida
+Error to put "ON" SP1/SP2/SP3|;|Error al poner &quot;ENCENDIDO&quot; SP1 / SP2 / SP3
+Error to put "on" light for SPx|;|Error al poner la luz &quot;encendida&quot; para SPx
+Error to put "ON" MP1 for plug : {}|;|Error al poner &quot;ENCENDIDO&quot; MP1 para el enchufe: {}
+Unknown command|;|Comando desconocido.
+Error to put Off SP1/SP2/SP3|;|Error al posponer SP1 / SP2 / SP3
+Error to put off light for SPx|;|Error al apagar la luz para SPx
+Error to put Off MP1 for plug : {}|;|Error al posponer MP1 para el enchufe: {}
+Unit error update|;|Actualización de error de unidad
+undefined|;|sin definir
+A1 called|;|A1 llamado
+Get Data From Sensors|;|Obtener datos de sensores
+SP3S called|;|SP3S llamado
+MP1 called|;|MP1 llamado
+SP1/SP2 called|;|SP1 / SP2 llamado
+onMessage called for connection: {0}:{1}|;|onMessage solicitó conexión: {0}: {1}
+Broadlink response OK!|;|Respuesta de Broadlink OK!
+Request from : {}:{} to : {}|;|Solicitud de: {}: {} a: {}
+Plugin restarted !|;|¡Complemento reiniciado!
+Refresh|;|Refrescar
+Backup finished.|;|Copia de seguridad terminada!
+ERROR Unknown url from : {}:{} to : {}|;|ERROR URL desconocida de: {}: {} a: {}
+Broadlink not know what to do!|;|Broadlink no sabe qué hacer!
+ERROR Unknown key from : {}:{} to : {}|;|ERROR Clave desconocida de: {}: {} a: {}
+Broadlink bad key!|;|Broadlink bad key!
+Not implemented Request from : {}:{} to : {}|;|Solicitud no implementada de: {}: {} a: {}
+Broadlink : not implemented !|;|Broadlink: no implementado!
+Unknown verb in request: {}|;|Verbo desconocido en la solicitud: {}
+We bypass URL check|;|Omitimos la comprobación de URL
+We process this url: {}|;|Procesamos esta url: {}
+data process OK|;|proceso de datos OK
+Error to process data|;|Error al procesar datos
+Nothing to do ...|;|Nada que hacer
+Connected successfully to {}:{}|;|Conectado correctamente
+onDisconnect called for connection '{}'|;|onDisconnect solicitó la conexión &#39;{}&#39;
+Server Connections: |;|Conexiones de Servidor
+Device not modified by plugin|;|Dispositivo no modificado por el complemento
+Error to update the config file: customname|;|Error al actualizar el archivo de configuración: nombre personalizado
+Generate "ON" Command for learned code stored on unit/ini : {}|;|Genere el comando &quot;ON&quot; para el código aprendido almacenado en la unidad / ini: {}
+Not able to update device : {}|;|No se puede actualizar el dispositivo: {}
+Error to update the config file : customname|;|Error al actualizar el archivo de configuración: nombre personalizado
+File exist : {}|;|El archivo existe: {}
+Not able to create : {}|;|No se puede crear: {}
+Not able to create device : {}|;|No se puede crear el dispositivo: {}
+Ini file / Device deleted : {}|;|Archivo INI / Dispositivo eliminado: {}
+Error on delete_ini : {}|;|Error en delete_ini: {}
+reset IR/RF|;|restablecer IR / RF
+Reset command executed|;|Comando de reinicio ejecutado
+Error to create the config file : {}|;|Error al crear el archivo de configuración: {}
+ini file created...{}|;|archivo ini creado ... {}
+Connected to Broadlink device: {} {}|;|Conectado al dispositivo Broadlink: {} {}
+Error to connect to Broadlink device: {}|;|Error al conectarse al dispositivo Broadlink: {}
+Error getting temperature data from Broadlink device....Timeout|;|Error al obtener datos de temperatura del dispositivo Broadlink ... Tiempo de espera
+Number of ini file to create : {}|;|Número de archivos ini para crear: {}
+You need to select Import for that|;|Debe seleccionar Importar para eso
+No ini files found|;|No se han encontrado archivos
+Removing : {}|;|Eliminando
+No json files found|;|No se han encontrado archivos
+No more device available ...|;|No hay más dispositivos disponibles ...
+Send .. : {} {} {}|;|Enviar a (nombre de usuario o nombre de amigos)
+Bypass .. : {} {} {}|;|Bypass:
+Send error or command for remote controller not set into ini file: {}|;|Enviar error o comando para el control remoto no configurado en el archivo ini: {}
+Command for remote not defined: {}|;|Comando para control remoto no definido: {}
+ini file read....{}|;|archivo ini leído ... {}
+Custom Commands: {}|;|Comandos personalizados: {}
+No ini file : {}|;|Sin archivo ini: {}
+Custom Commands for Remote controller not managed|;|Comandos personalizados para el control remoto no administrado
+Last character must be <,> into the remote controller file|;|El último carácter debe estar &lt;,&gt; en el archivo del controlador remoto
+Invalid number in ini file, string or leading zero|;|Número no válido en el archivo ini, cadena o cero inicial
+Error getting sensor data from Broadlink device....Timeout|;|Error al obtener datos del sensor del dispositivo Broadlink ... Tiempo de espera
+Error getting sensor data raw from Broadlink device....Timeout|;|Error al obtener datos del sensor sin procesar del dispositivo Broadlink ... Tiempo de espera
+State of the plug : {}|;|Estado del enchufe: {}
+Error to retrieve plug status|;|Error al recuperar el estado del enchufe
+State of the light : {}|;|Estado de la luz: {}
+Error to retrieve light status|;|Error al recuperar el estado de la luz
+Power state for device MP1 : {} |;|Estado de energía para el dispositivo MP1: {}
+Error to check power state of MP1 device|;|Error al verificar el estado de alimentación del dispositivo MP1
+Energy for device SP3S: {}|;|Energía para el dispositivo SP3S: {}
+Error to get power energy from device SP3S|;|Error al obtener energía del dispositivo SP3S
+Lang file not exist or problem to read data from : {}|;|El archivo Lang no existe o es un problema para leer datos de: {}
+lang file : {}|;|archivo lang: {}
+argument is missing|;|falta argumento
+command to execute : {}|;|comando a ejecutar :
+ERROR to start subprocess|;|ERROR para iniciar el subproceso
+Request from domoticz to : {} with encoding : {}|;|Solicitud de domoticz a: {} con codificación: {}
+File {} uploaded.|;|Subido
+Error to create file : {}|;|Error al crear el archivo: {}
+Error to find file name from: {} or not valid path: {}|;|Error al encontrar el nombre de archivo de: {} o ruta no válida: {}
+Error to find file name from : {}|;|Error al encontrar el nombre del archivo de: {}
+Code loaded : {}|;|Código cargado: {}
+Not able to send command : Not connected|;|No se puede enviar el comando: no está conectado
+Error on fpronto from Received Data: {}|;|Error en fpronto de los datos recibidos: {}
+Error to update the config file : multi-code|;|Error al actualizar el archivo de configuración: código múltiple
+Error to update the config file : repeat|;|Error al actualizar el archivo de configuración: repetir
+Error on Multi-code from Received Data: {}|;|Error en código múltiple de datos recibidos: {}
+Error on json from Received Data: {}|;|Error en json de los datos recibidos: {}
+processing data : {}|;|proceso de datos/tratamiento de la información
+New version available|;|Nueva versión disponible
+we do not know what to do of received data|;|no sabemos qué hacer con los datos recibidos
+Error to read image file :{}|;|Error al leer el archivo de imagen: {}
+Are you sure you want restart Plugin ?|;|¿Seguro que quieres reiniciar el complemento?
+Are you sure you want update Plugin ?|;|¿Seguro que quieres actualizar el complemento?
+Are you sure you want backup Plugin data ?|;|¿Está seguro de que desea hacer una copia de seguridad de los datos del complemento?
+File name is required|;|El nombre del archivo es necesario
+Uploaded |;|Subido
+ bytes of |;|bytes de
+Work in progress|;|Acciones en curso
+% uploaded... please wait|;|% subido ... por favor espere
+Upload Failed|;|Error al subir
+Upload Aborted|;|Subida abortada
+Wait for few seconds before restarting|;|Espere unos segundos antes de reiniciar
+Restart Failed|;|Reinicio fallido:
+Restart Aborted|;|Reiniciar abortado
+Restart|;|Reiniciar
+Upload|;|SUBIR FOTOS INTERIORES
+System information|;|Información del Sistema
+Domoticz language is : {}|;|El idioma de Domoticz es: {}
+Edit|;|Editar
+Create|;|Crear
+Domoticz, number of plugin devices : {}|;|Domoticz, número de dispositivos de complemento: {}
+Domoticz, Hardware IDX : {}|;|Domoticz, IDX de hardware: {}
+HTTP Key : {}|;|Clave HTTP: {}
+Plugin directory|;|Directorio de plugins
+Ini directory|;|Directorio INI
+Manage|;|Gestionar
+Plugin Log|;|Registro de complementos
+Verify version|;|Verificar versión
+Update|;|Actualizar Productos
+Backup|;|Copia de seguridad
+No permission to list directory|;|Sin permiso para listar el directorio
+Directory content for : {} |;|Contenido del directorio para: {}
+Go back|;|Volver
+Are you sure you want to update data ?|;|¿Seguro que deseas actualizar este suministro de datos?
+File not exist or problem to access : {}|;|Archivo no existe o problema para acceder: {}
+update|;|actualizar
+search|;|buscar
+replace|;|reemplace
+undo|;|Deshacer
+redo|;|rehacer
+FullScreen|;|FullScreen
+File not found|;|Archivo no encontrado
+Are you sure you want to delete Ini file and all related data ?|;|¿Está seguro de que desea eliminar el archivo Ini y todos los datos relacionados?
+Are you sure ?|;|¿Está seguro?
+Error retrieve data from device : {}|;|Error al recuperar datos del dispositivo: {}
+... Verify import result ...|;|... Verificar resultado de importación ...
+... Verify ini generation ...|;|... Verificar la generación ini ...
+Device information for Broadlink type : |;|Información del dispositivo para el tipo de Broadlink:
+Scan Broadlink devices|;|Escanear dispositivos Broadlink
+Network scan|;|MonitorizaciÃ³n de red:
+Show Broadlink usage and devices linked|;|Mostrar el uso de Broadlink y los dispositivos vinculados
+Usage|;|Uso
+Create ini file for send more than one code RF / IR|;|Cree un archivo ini para enviar más de un código RF / IR
+Multi-Code|;|MULTI CODE
+Not able to retrieve data for Usage kWh -- verify device|;|No se pueden recuperar datos para el uso de kWh: verificar dispositivo
+Click to switch|;|Haga clic para cambiar
+Air quality|;|Calidad del aire
+Quiet|;|Callado
+Noisy|;|Ruidoso
+Generate .ini files from e-Control database|;|Generar archivos .ini desde la base de datos de e-Control
+Import .ini files from the _import_ directory|;|Importe archivos .ini desde el directorio _import_
+Import|;|Importar
+Edit ini file for remote controller|;|Editar archivo ini para control remoto
+Infra-red codes database|;|Base de datos de códigos infrarrojos
+IR code DB|;|Código IR DB
+Create Broadlink code from Pronto HEX|;|Crear código Broadlink desde Pronto HEX
+Create from Pronto|;|Crear desde Pronto
+Copy Past here 'Pronto HEX' code|;|Copie el código Pasado aquí &#39;Pronto HEX&#39;
+create|;|crear
+Next refresh in|;|Próxima actualización en
+Ini file content|;|Contenido del archivo
+Edit ini file. Caution, no verification will be made|;|Editar archivo ini. Precaución, no se realizará ninguna verificación
+Delete ini file and related Domoticz device|;|Eliminar archivo ini y dispositivo Domoticz relacionado
+Delete|;|Borrar
+Create Domoticz device linked to the ini file|;|Crear dispositivo Domoticz vinculado al archivo ini
+Create device|;|Crear dispositivo
+show code|;|MOSTRAR CÓDIGO
+send code|;|Enviar código
+Number of time you want that the code be repeated|;|Número de veces que desea que se repita el código
+modify repetition|;|modificar la repetición
+Code sent from unit :|;|Código enviado desde la unidad:
+Number of repeat :|;|Número de repeticiones:
+Background process running ... wait for few seconds|;|Proceso en segundo plano en ejecución ... espere unos segundos
+Remaining time before --|;|Tiempo restante antes -
+seconds|;|segundos
+Multi-code ini file creation|;|Creación de archivos ini de código múltiple
+Source available|;|Fuente disponible
+Drop ini file you want to include|;|Suelte el archivo ini que desea incluir
+Include this sequence|;|Incluir esta secuencia
+Create ini|;|Crear ini
+Submit ini file creation|;|Enviar creación de archivos ini
+Timer|;|Temporizador
+Add 1 second|;|1 segundo
+Connected to Broadlink device: {} {} {}|;|Conectado a Broadlink dispositivo: {} {} {}
+Error to retrieve type from this file : {}|;|Error para recuperar el tipo de este archivo: {}
+File : {} exist, we bypass|;|Archivo: {} existe, nos derivación
+Are you sure ? you need to restart Plugin after ...|;|Estás seguro ? es necesario reiniciar después Plugin ...
+Overwrite default device type|;|Tipo de dispositivo predeterminado de sobreescritura
+Select Device Type|;|Seleccionar tipo de dispositivo
+Update device type|;|Actualización de tipo de dispositivo
+About|;|Acerca de
+Device 1 not exist|;|El dispositivo 1 no existe

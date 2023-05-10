@@ -1,0 +1,323 @@
+Error to load language file|;|Viga koormusele keelefail
+we translate the text : {}|;|tõlgime tekst: {}
+error in translation, we keep original text|;|vea tõlkes, me hoiame originaaltekst
+Request Domoticz to : {} used encoding is : {}|;|Taotleda Domoticz to: {} kasutatud kodeering: {}
+Error sending command to Domoticz : {}|;|Viga saatmisel käsu Domoticz: {}
+Error sending data|;|Viga andmete saatmise
+Domoticz do not send OK message for: {} ??|;|Domoticz ärge saatke OK sõnum: {} ??
+Error retrieve dict data from Domoticz : {}|;|Viga laadida dict andmeid Domoticz: {}
+...|;|...
+ ...  |;|...
+Not able to enter learning mode|;|Ei saa sisestada õppe režiim
+Learning...|;|Õppimine ...
+No data received...|;|Andmed ei ole saanud ...
+Code learned|;|kood õppinud
+sweeping...; LED should be RED|;|pühkimine ...; LED peaks olema RED
+check frequency... {}|;|kontrollima sagedust ... {}
+frequency found! check LED, should be off|;|sagedus leitud! kontrollida LED, peaks olema välja lülitatud
+frequency not found... |;|sagedus ei leitud ...
+learning command|;|õppe käsk
+verify command...{} |;|kontrollida käsu ... {}
+not able to learn command|;|ei suuda õppida käsk
+Code stored in memory|;|Kood mällu salvestatud
+RF not true, sweep necessary|;|RF ei ole tõsi, pühkima vaja
+We download plugin file to: {}|;|Me laadi pistikprogramm faili: {}
+Error receive / save file from dropbox : {}|;|Viga saada / kokkuhoid fail edastuskasti: {}
+Error to retrieve plugin version from : {}|;|Viga laadida plugin versioon: {}
+Connected to Broadlink device: {}|;|Ühendatud Broadlink seade: {}
+Error Connecting to Broadlink device....|;|Viga ühendamine Broadlink seade ....
+Backup file name : {}|;|Backup faili nimi: {}
+Error to backup file : {}|;|Viga varukoopia: {}
+Name : {} -- Unit : {} -- IDX : {} |;|Nimi: {} - Unit: {} - IDX: {}
+Detected here : |;|Avastati siin:
+Domoticz device created|;|Domoticz seadme loodud
+ini file not found: {}|;|ini faili ei leitud: {}
+bad code in ini file: {}|;|halb koodi ini faili: {}
+we execute this command : {}|;|me seda käsku käivitada: {}
+Next|;|järgmine
+Error to send code|;|Viga saata koodi
+We try to sleep : {} s|;|Püüame magama: {} s
+bad timer value : {}|;|halb taimer väärtus: {}
+we send code from : {}|;|saadame kood: {}
+Not able to load command from {}|;|Ei suuda laadida käsu {}
+Nothing to send|;|Miski saata
+Code sent....|;|Kood Saadetud....
+Warning : Code sent ....Probably timeout|;|Hoiatus: Kood saadetakse .... Ilmselt timeout
+Not able to find file {}|;|Ei suutnud leida faili {}
+Discover finished|;|Avasta lõppenud
+Error to retrieve Broadlink devices|;|Viga laadida Broadlink seadmed
+END scan|;|END scan
+IR code learned|;|IR koodi õppinud
+Error to learn IR code|;|Viga õppida IR koodi
+Sweep ok|;|Sweep ok
+Error in sweep|;|Viga pühkima
+RF code learned|;|RF-koodi õppinud
+Error to learn RF code|;|Viga õppida RF-koodi
+END learnrf|;|END learnrf
+Usage ok|;|kasutamine ok
+Error in usage|;|Viga kasutamine
+END usage|;|END kasutamine
+Finished|;|lõppenud
+END translation|;|END tõlge
+We do backup before update|;|Teeme backup enne värskenduse
+New Plugin uploaded|;|Uus Plugin üleslaetud
+Error receive / save files from dropbox : {}|;|Viga saada / kokkuhoid faile edastuskasti: {}
+Extracting all the files now...|;|Taastan kõik failid nüüd ...
+Not able to create backup file|;|Ei saa luua varukoopia
+If necessary, do 'sudo -H chmod +x *.py'|;|Vajadusel teha  sudot -H chmod + x * .py "
+End of plugin update|;|End of plugin uuendatud
+Backup OK|;|backup OK
+Backup error|;|backup vea
+End of plugin backup|;|End of plugin backup
+END of Backup|;|END Backup
+RemotePlugin OK|;|RemotePlugin OK
+we have downloaded plugin file for version test|;|oleme alla plugin faili versiooni test
+plugin : new version available|;|plugin: uus versioon saadaval
+RemotePlugin Error|;|RemotePlugin Error
+End of remote plugin version test|;|End of remote plugin versioon test
+END of remotePlugin|;|END remotePlugin
+Multi-code OK|;|Multi-kood OK
+We have sent multi-code|;|Saatsime multi-koodi
+Multi-code Error|;|Multi-koodi viga
+End of multi-code send|;|End of multi-koodi saata
+END of multi-code|;|END multi-koodi
+unknown step|;|tundmatu samm
+Not able to load debug module|;|Ei suuda laadida siluda moodul
+Language loaded for  : {} |;|Keel laaditud: {}
+Language file is missing for : {}|;|Keel fail on puudu eest: {}
+Port already in use|;|Port juba kasutusel
+Listen on BROWebServer - Port: {}|;|Kuulake BROWebServer - Port: {}
+Hardware ID: {} |;|Riistvara ID: {}
+Status|;|staatus
+Learn|;|õppima
+Test|;|test
+Save|;|Salvesta
+Reset|;|Nulli
+IR Commands|;|IR käsud
+Sweep|;|Pühkima
+RF Commands|;|RF käsud
+Temperature|;|temperatuur
+Light|;|Valgus
+Humidity|;|niiskus
+Air Quality|;|Õhu kvaliteet
+Noise|;|müra
+plug|;|pistik
+Connecting to: {} : {}|;|Ühendamine: {}: {}
+Ini file for remote controller created: {}|;|Ini faili pult loodud: {}
+Error to create ini file for remote controller : {}|;|Viga luua ini faili pult: {}
+Plugin Device count start on : {}|;|Pluginatega Seade count alustamine: {}
+Admin html file created: {}|;|Admin html faili loodud: {}
+Error to create admin html file : {}|;|Viga luua admin html faili: {}
+Error to found www/templates for html file : {}|;|Viga leitud www / malle html faili: {}
+Command line file created: {}|;|Käsurea loodud fail: {}
+Error to create device file : {}|;|Viga luua seadme fail: {}
+We cannot continue ...|;|Me ei saa jätkata ...
+Learn IR command|;|Lugege IR käsk
+Nothing to save|;|Midagi päästa
+Ini created|;|Ini loodud
+Nothing to reset|;|Midagi reset
+unknown level command|;|tundmatu tasandil käsk
+Wait for sweep...|;|Oodake pühkima ...
+Learn RF command|;|Lugege RF käsk
+Sweep first|;|Sweep esimese
+Unit unknown|;|Üksus teada
+Error to put "ON" SP1/SP2/SP3|;|Viga panna "ON" SP1 / SP2 / SP3
+Error to put "on" light for SPx|;|Viga panna "on" valguse SPX
+Error to put "ON" MP1 for plug : {}|;|Viga panna "ON" MP1 plug: {}
+Unknown command|;|Tundmatu käsk
+Error to put Off SP1/SP2/SP3|;|Viga panna Off SP1 / SP2 / SP3
+Error to put off light for SPx|;|Viga lükata valgust SPX
+Error to put Off MP1 for plug : {}|;|Viga panna Off MP1 plug: {}
+Unit error update|;|Üksus vea uuendatud
+undefined|;|defineerimata
+A1 called|;|A1 nimetatakse
+Get Data From Sensors|;|Saa andurite andmetele
+SP3S called|;|SP3S nimetatakse
+MP1 called|;|MP1 nimetatakse
+SP1/SP2 called|;|SP1 / SP2 nimetatakse
+onMessage called for connection: {0}:{1}|;|onMessage nõudis ühendus: {0}: {1}
+Broadlink response OK!|;|Broadlink vastuseks OK!
+Request from : {}:{} to : {}|;|Taotlusel: {}: {} to: {}
+Plugin restarted !|;|Plugin uuesti!
+Refresh|;|värskendama
+Backup finished.|;|Backup lõppenud.
+ERROR Unknown url from : {}:{} to : {}|;|ERROR Tundmatu url: {}: {}, et: {}
+Broadlink not know what to do!|;|Broadlink ei tea, mida teha!
+ERROR Unknown key from : {}:{} to : {}|;|ERROR Tundmatu võti: {}: {}, et: {}
+Broadlink bad key!|;|Broadlink halb võti!
+Not implemented Request from : {}:{} to : {}|;|Ei ole rakendatud taotlus: {}: {}, et: {}
+Broadlink : not implemented !|;|Broadlink: ei rakendata!
+Unknown verb in request: {}|;|Tundmatu tegusõna taotluse: {}
+We bypass URL check|;|Me ümbersõit URL kontroll
+We process this url: {}|;|Me töötleme seda url: {}
+data process OK|;|andmed protsessi OK
+Error to process data|;|Viga andmete töötlemiseks
+Nothing to do ...|;|Pole midagi teha ...
+Connected successfully to {}:{}|;|Ühendatud edukalt {}: {}
+onDisconnect called for connection '{}'|;|onDisconnect nõudis ühendus  {} "
+Server Connections: |;|Server Ühendused:
+Device not modified by plugin|;|Seade ei muudetud plugin
+Error to update the config file: customname|;|Viga ajakohastada konfiguratsioonifaili: customname
+Generate "ON" Command for learned code stored on unit/ini : {}|;|Loo "ON" käsk õppinud koodi salvestatud üksus / ini: {}
+Not able to update device : {}|;|Ei suuda uuendada seadme: {}
+Error to update the config file : customname|;|Viga ajakohastada konfiguratsioonifaili: customname
+File exist : {}|;|Fail exist: {}
+Not able to create : {}|;|Ei saa luua: {}
+Not able to create device : {}|;|Ei saa luua seade: {}
+Ini file / Device deleted : {}|;|Ini faili / seade välja: {}
+Error on delete_ini : {}|;|Viga delete_ini: {}
+reset IR/RF|;|reset IR / RF
+Reset command executed|;|Nulli käivitatav käsk
+Error to create the config file : {}|;|Viga luua konfiguratsioonifaili: {}
+ini file created...{}|;|ini faili loodud ... {}
+Connected to Broadlink device: {} {}|;|Ühendatud Broadlink seade: {} {}
+Error to connect to Broadlink device: {}|;|Viga ühendada Broadlink seade: {}
+Error getting temperature data from Broadlink device....Timeout|;|Viga temperatuuri andmeid Broadlink seade .... Aegumine
+Number of ini file to create : {}|;|Arv ini faili luua: {}
+You need to select Import for that|;|Peate valima Import et
+No ini files found|;|Nr ini faili ei leitud
+Removing : {}|;|Eemaldamine: {}
+No json files found|;|Nr Jon failid leitud
+No more device available ...|;|Enam seade olemas ...
+Send .. : {} {} {}|;|Saada .. : {} {} {}
+Bypass .. : {} {} {}|;|Bypass ..: {} {} {}
+Send error or command for remote controller not set into ini file: {}|;|Saada vea või käsu pult ei määra arvesse ini faili: {}
+Command for remote not defined: {}|;|Käskude kaugete ole määratud: {}
+ini file read....{}|;|ini faili lugeda .... {}
+Custom Commands: {}|;|Kohandatud Käsud: {}
+No ini file : {}|;|Nr ini faili: {}
+Custom Commands for Remote controller not managed|;|Custom käsud Kaugjuhtimispult ei suutnud
+Last character must be <,> into the remote controller file|;|Viimase iseloomu peab olema <,> sisestage pulti faili
+Invalid number in ini file, string or leading zero|;|Vale number ini faili string või nullita
+Error getting sensor data from Broadlink device....Timeout|;|Viga sensor andmeid Broadlink seade .... Aegumine
+Error getting sensor data raw from Broadlink device....Timeout|;|Viga andurite andmeid toores Broadlink seade .... Aegumine
+State of the plug : {}|;|Riigi pistikust: {}
+Error to retrieve plug status|;|Viga laadida plug staatus
+State of the light : {}|;|Riigi valguses: {}
+Error to retrieve light status|;|Viga laadida valguse staatus
+Power state for device MP1 : {} |;|Võimsus olekus seadme MP1: {}
+Error to check power state of MP1 device|;|Viga kontrollida toiteolekut MP1 seade
+Energy for device SP3S: {}|;|Energiat seadme SP3S: {}
+Error to get power energy from device SP3S|;|Viga saada võimu energia seadme SP3S
+Lang file not exist or problem to read data from : {}|;|Lang faili ei eksisteeri või probleem andmete lugemiseks: {}
+lang file : {}|;|lang faili: {}
+argument is missing|;|argument on puudu
+command to execute : {}|;|käsu: {}
+ERROR to start subprocess|;|ERROR alustada alamprotsessi
+Request from domoticz to : {} with encoding : {}|;|Päringu domoticz to: {} kodeerimisega: {}
+File {} uploaded.|;|Fail {} laadinud.
+Error to create file : {}|;|Viga faili loomine: {}
+Error to find file name from: {} or not valid path: {}|;|Viga leida faili nime: {} või ei kehti tee: {}
+Error to find file name from : {}|;|Viga leida faili nime: {}
+Code loaded : {}|;|Kood koormatud: {}
+Not able to send command : Not connected|;|Ei saa saata käsk: Pole ühendatud
+Error on fpronto from Received Data: {}|;|Viga fpronto alates vastuvõetud andmed: {}
+Error to update the config file : multi-code|;|Viga ajakohastada konfiguratsioonifaili: multi-koodi
+Error to update the config file : repeat|;|Viga ajakohastada konfiguratsioonifaili: korrake
+Error on Multi-code from Received Data: {}|;|Viga Multi-koodi Vastatud Andmed: {}
+Error on json from Received Data: {}|;|Viga json alates vastuvõetud andmed: {}
+processing data : {}|;|Andmete töötlemisel: {}
+New version available|;|Saadaval on uus versioon
+we do not know what to do of received data|;|me ei tea, mida teha laekunud andmete
+Error to read image file :{}|;|Viga lugeda pildifaili: {}
+Are you sure you want restart Plugin ?|;|Kas olete kindel, et soovite taaskäivitada Plugin?
+Are you sure you want update Plugin ?|;|Kas soovite kindlasti uuendatud Plugin?
+Are you sure you want backup Plugin data ?|;|Oled sa kindel, et soovid backup plugin andmed?
+File name is required|;|Faili nimi on nõutav
+Uploaded |;|Üleslaetud
+ bytes of |;|baiti
+Work in progress|;|Töö käib
+% uploaded... please wait|;|% Üleslaaditud ... Palun oodake
+Upload Failed|;|Üleslaadimine ebaõnnestus
+Upload Aborted|;|Laadi katkestatud
+Wait for few seconds before restarting|;|Oodake paar sekundit enne taaskäivitamist
+Restart Failed|;|Restart ebaõnnestus
+Restart Aborted|;|Restart katkestatud
+Restart|;|Taaskäivita
+Upload|;|Laadi üles
+System information|;|Süsteemi info
+Domoticz language is : {}|;|Domoticz keel on: {}
+Edit|;|Edit
+Create|;|looma
+Domoticz, number of plugin devices : {}|;|Domoticz, pluginatööriistad seadmeid: {}
+Domoticz, Hardware IDX : {}|;|Domoticz, Riistvara IDX: {}
+HTTP Key : {}|;|HTTP Võti: {}
+Plugin directory|;|plugin kataloogi
+Ini directory|;|Ini kataloog
+Manage|;|juhtima
+Plugin Log|;|plugin Logi
+Verify version|;|Kinnita versioon
+Update|;|ajakohastama
+Backup|;|backup
+No permission to list directory|;|Ei luba nimekirja kataloog
+Directory content for : {} |;|Kataloogi sisu: {}
+Go back|;|Mine tagasi
+Are you sure you want to update data ?|;|Kas olete kindel, et soovite uuendada andmeid?
+File not exist or problem to access : {}|;|Faili ei eksisteeri või probleem juurdepääsu: {}
+update|;|ajakohastama
+search|;|otsing
+replace|;|asendama
+undo|;|Undo
+redo|;|Redo
+FullScreen|;|Täisekraan
+File not found|;|Faili ei leitud
+Are you sure you want to delete Ini file and all related data ?|;|Oled sa kindel, et soovid kustutada Ini faili ja kõik seotud andmed?
+Are you sure ?|;|Oled sa kindel ?
+Error retrieve data from device : {}|;|Viga andmete toomiseks seade: {}
+... Verify import result ...|;|... Kinnita import tulemus ...
+... Verify ini generation ...|;|... Kinnita ini põlvkonna ...
+Device information for Broadlink type : |;|Seadme teave Broadlink tüüp:
+Scan Broadlink devices|;|Skaneeri Broadlink seadmed
+Network scan|;|Network scan
+Show Broadlink usage and devices linked|;|Näita Broadlink kasutamine ja seadmed seotud
+Usage|;|kasutus
+Create ini file for send more than one code RF / IR|;|Loo ini faili saata rohkem kui ühe koodi RF / IR
+Multi-Code|;|Multi-kood
+Not able to retrieve data for Usage kWh -- verify device|;|Ei saanud tuua andmete kasutamine kWh - kontrollida seadme
+Click to switch|;|Klõpsake vahetada
+Air quality|;|Õhu kvaliteet
+Quiet|;|vaikne
+Noisy|;|lärmakas
+Generate .ini files from e-Control database|;|Loo Ini faile e-Control andmebaasi
+Import .ini files from the _import_ directory|;|Importida Ini faile _import_ kataloog
+Import|;|import
+Edit ini file for remote controller|;|Edit ini faili pult
+Infra-red codes database|;|Infra-red-koodide andmebaas
+IR code DB|;|IR koodi DB
+Create Broadlink code from Pronto HEX|;|Loo Broadlink kood Pronto HEX
+Create from Pronto|;|Loo alates Pronto
+Copy Past here 'Pronto HEX' code|;|Kopeerimine ja kleepimine siin "Pronto HEX" koodi
+create|;|looma
+Next refresh in|;|Järgmine värskendamist
+Ini file content|;|Ini faili sisu
+Edit ini file. Caution, no verification will be made|;|Edit ini faili. Ettevaatust, ei kontrollimine tehakse
+Delete ini file and related Domoticz device|;|Kustuta ini faili ja sellega seotud Domoticz seade
+Delete|;|Kustuta
+Create Domoticz device linked to the ini file|;|Loo Domoticz seade seotud ini faili
+Create device|;|Loo seade
+show code|;|näita koodi
+send code|;|Saada kood
+Number of time you want that the code be repeated|;|Arv kord, kui soovite, et kood korrata
+modify repetition|;|Muuda kordamine
+Code sent from unit :|;|Kood saadetakse üksus:
+Number of repeat :|;|Arv korrake:
+Background process running ... wait for few seconds|;|Taustaprotsesside töötab ... Oodake paar sekundit
+Remaining time before --|;|Järelejäänud aeg enne -
+seconds|;|sekundit
+Multi-code ini file creation|;|Multi-kood ini faili loomine
+Source available|;|Allikas saadaval
+Drop ini file you want to include|;|Drop ini faili, mida soovite lisada
+Include this sequence|;|Kaasa selles järjestuses
+Create ini|;|Loo ini
+Submit ini file creation|;|Esita ini faili loomine
+Timer|;|taimer
+Add 1 second|;|Lisa 1 sekund
+Connected to Broadlink device: {} {} {}|;|Ühendatud Broadlink seade: {} {} {}
+Error to retrieve type from this file : {}|;|Viga laadida tüüp seda faili: {}
+File : {} exist, we bypass|;|File: {} olemas, me bypass
+Are you sure ? you need to restart Plugin after ...|;|Oled sa kindel ? peate taaskäivitage Plugin pärast ...
+Overwrite default device type|;|Ülekirjutamine vaikimisi seadme tüüp
+Select Device Type|;|Select Device Type
+Update device type|;|Värskenda seadme tüüp
+About|;|umbes
+Device 1 not exist|;|Seade 1 ei eksisteeri

@@ -1,0 +1,323 @@
+Error to load language file|;|Σφάλμα φόρτωσης αρχείου γλώσσας
+we translate the text : {}|;|μεταφράζουμε το κείμενο: {}
+error in translation, we keep original text|;|σφάλμα στη μετάφραση, διατηρούμε το αρχικό κείμενο
+Request Domoticz to : {} used encoding is : {}|;|Αίτημα Domoticz για: {} η κωδικοποίηση που χρησιμοποιείται είναι: {}
+Error sending command to Domoticz : {}|;|Σφάλμα κατά την αποστολή εντολής στο Domoticz: {}
+Error sending data|;|Λάθος κατά την αποστολή των δεδομένων.
+Domoticz do not send OK message for: {} ??|;|Η Domoticz δεν στέλνει μήνυμα ΟΚ για: {} ??
+Error retrieve dict data from Domoticz : {}|;|Σφάλμα ανάκτησης δεδομένων υπαγόρευσης από το Domoticz: {}
+...|;|...
+ ...  |;|...
+Not able to enter learning mode|;|Δεν είναι δυνατή η είσοδος στη λειτουργία εκμάθησης
+Learning...|;|Μαθαίνω
+No data received...|;|Δεν ελήφθησαν δεδομένα ...
+Code learned|;|Ο κώδικας έμαθε
+sweeping...; LED should be RED|;|σκούπισμα...; Το LED πρέπει να είναι ΚΟΚΚΙΝΟ
+check frequency... {}|;|έλεγχος συχνότητας ... {}
+frequency found! check LED, should be off|;|βρέθηκε συχνότητα! ελέγξτε το LED, πρέπει να είναι σβηστό
+frequency not found... |;|η συχνότητα δεν βρέθηκε ...
+learning command|;|εντολή μάθησης
+verify command...{} |;|επαλήθευση εντολής ... {}
+not able to learn command|;|δεν μπορώ να μάθω εντολή
+Code stored in memory|;|Κωδικός αποθηκευμένος στη μνήμη
+RF not true, sweep necessary|;|Το RF δεν είναι αλήθεια, απαιτείται σάρωση
+We download plugin file to: {}|;|Λήψη αρχείου προσθήκης σε: {}
+Error receive / save file from dropbox : {}|;|Σφάλμα λήψης / αποθήκευσης αρχείου από το dropbox: {}
+Error to retrieve plugin version from : {}|;|Σφάλμα για ανάκτηση της έκδοσης προσθήκης από: {}
+Connected to Broadlink device: {}|;|Συνδέθηκε με συσκευή ευρείας σύνδεσης: {}
+Error Connecting to Broadlink device....|;|Σφάλμα σύνδεσης με συσκευή ευρείας σύνδεσης ....
+Backup file name : {}|;|Όνομα αρχείου αντιγράφου ασφαλείας: {}
+Error to backup file : {}|;|Σφάλμα δημιουργίας αντιγράφων ασφαλείας αρχείου: {}
+Name : {} -- Unit : {} -- IDX : {} |;|Όνομα: {} - Ενότητα: {} - IDX: {}
+Detected here : |;|Εντοπίστηκε εδώ:
+Domoticz device created|;|Δημιουργήθηκε συσκευή Domoticz
+ini file not found: {}|;|: αρχείο δεν βρέθηκε
+bad code in ini file: {}|;|κακός κώδικας στο αρχείο ini: {}
+we execute this command : {}|;|εκτελούμε αυτήν την εντολή: {}
+Next|;|Επόμενο
+Error to send code|;|Σφάλμα αποστολής κωδικού
+We try to sleep : {} s|;|Προσπαθούμε να κοιμηθούμε: {} s
+bad timer value : {}|;|Τιμή χρονόμετρου
+we send code from : {}|;|στέλνουμε τον κωδικό από: {}
+Not able to load command from {}|;|Δεν είναι δυνατή η φόρτωση της εντολής από {}
+Nothing to send|;|Τίποτα για αποστολή
+Code sent....|;|Ο κωδικός στάλθηκε....
+Warning : Code sent ....Probably timeout|;|Προειδοποίηση: Ο κωδικός εστάλη .... Πιθανότατα λήξη
+Not able to find file {}|;|Δεν είναι δυνατή η εύρεση του αρχείου {}
+Discover finished|;|Η ανακάλυψη ολοκληρώθηκε
+Error to retrieve Broadlink devices|;|Σφάλμα ανάκτησης συσκευών ευρείας σύνδεσης
+END scan|;|ΤΕΛΟΣ σάρωση
+IR code learned|;|Έγινε κωδικός IR
+Error to learn IR code|;|Σφάλμα για την εκμάθηση κωδικού IR
+Sweep ok|;|Σκουπίστε εντάξει
+Error in sweep|;|Σφάλμα σάρωσης
+RF code learned|;|Ο κωδικός RF έμαθε
+Error to learn RF code|;|Σφάλμα εκμάθησης κωδικού RF
+END learnrf|;|ΤΕΛΟΣ Learnrf
+Usage ok|;|Χρήση εντάξει
+Error in usage|;|Σφάλμα κατά τη χρήση
+END usage|;|ΧΡΗΣΗ
+Finished|;|Ολοκληρώθηκε
+END translation|;|Vu+族汉化
+We do backup before update|;|Κάνουμε αντίγραφα ασφαλείας πριν από την ενημέρωση
+New Plugin uploaded|;|Μεταφορτώθηκε νέα προσθήκη
+Error receive / save files from dropbox : {}|;|Σφάλμα λήψης / αποθήκευσης αρχείων από το dropbox: {}
+Extracting all the files now...|;|Εξαγωγή όλων των αρχείων τώρα ...
+Not able to create backup file|;|Δεν είναι δυνατή η δημιουργία εφεδρικού αρχείου
+If necessary, do 'sudo -H chmod +x *.py'|;|Εάν είναι απαραίτητο, κάντε «sudo -H chmod + x * .py»
+End of plugin update|;|Λήξη ενημέρωσης προσθήκης
+Backup OK|;|Αντίγραφα
+Backup error|;|Σφάλμα λήψης αντιγράφου ασφαλείας
+End of plugin backup|;|Τέλος δημιουργίας αντιγράφων ασφαλείας προσθηκών
+END of Backup|;|ΤΕΛΟΣ αντιγράφων ασφαλείας
+RemotePlugin OK|;|Απομακρυσμένη προσθήκη ΟΚ
+we have downloaded plugin file for version test|;|κατεβάσαμε το αρχείο προσθήκης για δοκιμή έκδοσης
+plugin : new version available|;|plugin: διαθέσιμη νέα έκδοση
+RemotePlugin Error|;|Σφάλμα RemotePlugin
+End of remote plugin version test|;|Τέλος της δοκιμής έκδοσης απομακρυσμένης προσθήκης
+END of remotePlugin|;|ΤΕΛΟΣ απομακρυσμένης προσθήκης
+Multi-code OK|;|Πολλαπλός κωδικός ΟΚ
+We have sent multi-code|;|Έχουμε στείλει πολλούς κωδικούς
+Multi-code Error|;|Σφάλμα πολλαπλών κωδικών
+End of multi-code send|;|Τέλος αποστολής πολλαπλών κωδικών
+END of multi-code|;|ΤΕΛΟΣ πολλών κωδικών
+unknown step|;|Αγνωστο
+Not able to load debug module|;|Δεν είναι δυνατή η φόρτωση της μονάδας εντοπισμού σφαλμάτων
+Language loaded for  : {} |;|Η γλώσσα φορτώθηκε για: {}
+Language file is missing for : {}|;|Λείπει το αρχείο γλώσσας για: {}
+Port already in use|;|Χρησιμοποιείται ήδη
+Listen on BROWebServer - Port: {}|;|Ακούστε στο BROWebServer - Port: {}
+Hardware ID: {} |;|Αναγνωριστικό υλικού: {}
+Status|;|Κατάσταση
+Learn|;|Εκμάθηση
+Test|;|Δοκιμή
+Save|;|Αποθήκευση
+Reset|;|Eπανεκκίνηση
+IR Commands|;|Εντολές IR
+Sweep|;|Sweep
+RF Commands|;|Εντολές RF
+Temperature|;|Θερμοκρασία
+Light|;|Φωτεινό
+Humidity|;|Υγρασία
+Air Quality|;|Ποιότητα του αέρα
+Noise|;|Θόρυβος
+plug|;|βύσμα
+Connecting to: {} : {}|;|Σύνδεση στο:
+Ini file for remote controller created: {}|;|Δημιουργήθηκε αυτό το αρχείο για το τηλεχειριστήριο: {}
+Error to create ini file for remote controller : {}|;|Σφάλμα για τη δημιουργία αυτού του αρχείου για το τηλεχειριστήριο: {}
+Plugin Device count start on : {}|;|Ο αριθμός συσκευών προσθήκης ξεκινά στις: {}
+Admin html file created: {}|;|Δημιουργήθηκε αρχείο html διαχειριστή: {}
+Error to create admin html file : {}|;|Σφάλμα για τη δημιουργία αρχείου html διαχειριστή: {}
+Error to found www/templates for html file : {}|;|Σφάλμα κατά την εύρεση www / templates για το αρχείο html: {}
+Command line file created: {}|;|Δημιουργήθηκε αρχείο γραμμής εντολών: {}
+Error to create device file : {}|;|Σφάλμα δημιουργίας αρχείου συσκευής: {}
+We cannot continue ...|;|Δεν είναι δυνατή η συνέχεια.
+Learn IR command|;|Μάθετε την εντολή IR
+Nothing to save|;|Τίποτα προς αποθήκευση
+Ini created|;|Δημιουργήθηκε
+Nothing to reset|;|Τίποτα για επαναφορά
+unknown level command|;|άγνωστη εντολή επιπέδου
+Wait for sweep...|;|Περιμένετε για σάρωση ...
+Learn RF command|;|Μάθετε την εντολή RF
+Sweep first|;|Σκουπίστε πρώτα
+Unit unknown|;|Αγνωστο
+Error to put "ON" SP1/SP2/SP3|;|Σφάλμα κατά την ενεργοποίηση του SP1 / SP2 / SP3 &quot;ON&quot;
+Error to put "on" light for SPx|;|Σφάλμα κατά την ενεργοποίηση του φωτός για το SPx
+Error to put "ON" MP1 for plug : {}|;|Σφάλμα κατά την τοποθέτηση &quot;ON&quot; MP1 για βύσμα: {}
+Unknown command|;|Άγνωστη εντολή
+Error to put Off SP1/SP2/SP3|;|Σφάλμα κατά την απενεργοποίηση SP1 / SP2 / SP3
+Error to put off light for SPx|;|Σφάλμα κατά την απενεργοποίηση του SPx
+Error to put Off MP1 for plug : {}|;|Σφάλμα κατά την απενεργοποίηση του MP1 για βύσμα: {}
+Unit error update|;|Ενημέρωση σφάλματος μονάδας
+undefined|;|απροσδιόριστο
+A1 called|;|της είπε
+Get Data From Sensors|;|Λήψη δεδομένων από αισθητήρες
+SP3S called|;|της είπε
+MP1 called|;|της είπε
+SP1/SP2 called|;|Κλήθηκε το SP1 / SP2
+onMessage called for connection: {0}:{1}|;|Το onMessage ζήτησε σύνδεση: {0}: {1}
+Broadlink response OK!|;|Ευρυζωνική απόκριση ΟΚ!
+Request from : {}:{} to : {}|;|Αίτημα από: {}: {} έως: {}
+Plugin restarted !|;|Επανεκκινήθηκε η προσθήκη!
+Refresh|;|Ανανέωση
+Backup finished.|;|Η δημιουργία αντιγράφων ασφαλείας ολοκληρώθηκε.
+ERROR Unknown url from : {}:{} to : {}|;|ΣΦΑΛΜΑ Άγνωστο url από: {}: {} έως: {}
+Broadlink not know what to do!|;|Ο ευρυζωνικός σύνδεσμος δεν ξέρει τι να κάνει!
+ERROR Unknown key from : {}:{} to : {}|;|ΣΦΑΛΜΑ Άγνωστο κλειδί από: {}: {} έως: {}
+Broadlink bad key!|;|Κακό κλειδί ευρυζωνικής σύνδεσης!
+Not implemented Request from : {}:{} to : {}|;|Δεν εφαρμόστηκε Αίτημα από: {}: {} έως: {}
+Broadlink : not implemented !|;|Ευρυζωνική σύνδεση: δεν έχει εφαρμοστεί!
+Unknown verb in request: {}|;|Άγνωστο ρήμα στο αίτημα: {}
+We bypass URL check|;|Παρακάμπτουμε τον έλεγχο διεύθυνσης URL
+We process this url: {}|;|Επεξεργαζόμαστε αυτήν τη διεύθυνση URL: {}
+data process OK|;|επεξεργασία δεδομένων ΟΚ
+Error to process data|;|Σφάλμα επεξεργασίας δεδομένων
+Nothing to do ...|;|Δεν μπορεί να γίνει κάτι άλλο
+Connected successfully to {}:{}|;|Συνδεθήκατε επιτυχώς
+onDisconnect called for connection '{}'|;|Το onDisconnect ζήτησε σύνδεση &quot;{}&quot;
+Server Connections: |;|Συνδέσεις διακομιστή:
+Device not modified by plugin|;|Η συσκευή δεν τροποποιήθηκε με προσθήκη
+Error to update the config file: customname|;|Σφάλμα για την ενημέρωση του αρχείου διαμόρφωσης: customname
+Generate "ON" Command for learned code stored on unit/ini : {}|;|Δημιουργία εντολής &quot;ΕΝΕΡΓΟΠΟΙΗΜΕΝΟΥ&quot; για τον κωδικό που έχει μάθει αποθηκευμένος στη μονάδα / αυτό: {}
+Not able to update device : {}|;|Δεν είναι δυνατή η ενημέρωση της συσκευής: {}
+Error to update the config file : customname|;|Σφάλμα για την ενημέρωση του αρχείου διαμόρφωσης: customname
+File exist : {}|;|Το αρχείο υπάρχει: {}
+Not able to create : {}|;|Δεν είναι δυνατή η δημιουργία: {}
+Not able to create device : {}|;|Δεν είναι δυνατή η δημιουργία συσκευής: {}
+Ini file / Device deleted : {}|;|Το αρχείο / η συσκευή διαγράφηκε: {}
+Error on delete_ini : {}|;|Σφάλμα στο delete_ini: {}
+reset IR/RF|;|επαναφορά IR / RF
+Reset command executed|;|Εκτελέστηκε επαναφορά εντολής
+Error to create the config file : {}|;|Σφάλμα για τη δημιουργία του αρχείου διαμόρφωσης: {}
+ini file created...{}|;|δημιουργήθηκε αυτό το αρχείο ... {}
+Connected to Broadlink device: {} {}|;|Συνδέθηκε με συσκευή Broadlink: {} {}
+Error to connect to Broadlink device: {}|;|Σφάλμα σύνδεσης με συσκευή Broadlink: {}
+Error getting temperature data from Broadlink device....Timeout|;|Σφάλμα κατά τη λήψη δεδομένων θερμοκρασίας από τη συσκευή Broadlink .... Timeout
+Number of ini file to create : {}|;|Αριθμός αρχείου για δημιουργία: {}
+You need to select Import for that|;|Πρέπει να επιλέξετε Εισαγωγή για αυτό
+No ini files found|;|Δεν βρέθηκαν αρχεία
+Removing : {}|;|#-#-#-#-#  gnome-settings-daemon.master.el.po (el)  #-#-#-#-#Διαγραφή: #-#-#-#-#  gnome-applets.master.el.po (gnome-applets.HEAD.el)  #-#-#-#-#Απομάκρυνση:
+No json files found|;|Δεν βρέθηκαν αρχεία
+No more device available ...|;|Δεν υπάρχει διαθέσιμη άλλη συσκευή ...
+Send .. : {} {} {}|;|Αποστολή:
+Bypass .. : {} {} {}|;|Παράκαμψη
+Send error or command for remote controller not set into ini file: {}|;|Αποστολή σφάλματος ή εντολής για το τηλεχειριστήριο που δεν έχει οριστεί σε αυτό το αρχείο: {}
+Command for remote not defined: {}|;|Η εντολή για το τηλεχειριστήριο δεν έχει οριστεί: {}
+ini file read....{}|;|αυτό το αρχείο διαβάζεται .... {}
+Custom Commands: {}|;|Προσαρμοσμένες εντολές: {}
+No ini file : {}|;|Δεν υπάρχει αρχείο αυτό: {}
+Custom Commands for Remote controller not managed|;|Δεν διαχειρίζονται προσαρμοσμένες εντολές για τηλεχειριστήριο
+Last character must be <,> into the remote controller file|;|Ο τελευταίος χαρακτήρας πρέπει να είναι &lt;,&gt; στο αρχείο του τηλεχειριστηρίου
+Invalid number in ini file, string or leading zero|;|Μη έγκυρος αριθμός σε αυτό το αρχείο, συμβολοσειρά ή αρχικό μηδέν
+Error getting sensor data from Broadlink device....Timeout|;|Σφάλμα κατά τη λήψη δεδομένων αισθητήρα από τη συσκευή Broadlink .... Timeout
+Error getting sensor data raw from Broadlink device....Timeout|;|Παρουσιάστηκε σφάλμα κατά τη λήψη των δεδομένων αισθητήρα από τη συσκευή Broadlink .... Timeout
+State of the plug : {}|;|Κατάσταση του βύσματος: {}
+Error to retrieve plug status|;|Σφάλμα για ανάκτηση της κατάστασης της προσθήκης
+State of the light : {}|;|Κατάσταση του φωτός: {}
+Error to retrieve light status|;|Σφάλμα για ανάκτηση της κατάστασης φωτός
+Power state for device MP1 : {} |;|Κατάσταση ισχύος για συσκευή MP1: {}
+Error to check power state of MP1 device|;|Σφάλμα για τον έλεγχο της κατάστασης ισχύος της συσκευής MP1
+Energy for device SP3S: {}|;|Ενέργεια για συσκευή SP3S: {}
+Error to get power energy from device SP3S|;|Σφάλμα λήψης ενέργειας από τη συσκευή SP3S
+Lang file not exist or problem to read data from : {}|;|Δεν υπάρχει αρχείο Lang ή πρόβλημα ανάγνωσης δεδομένων από: {}
+lang file : {}|;|αρχείο lang: {}
+argument is missing|;|λείπει το επιχείρημα
+command to execute : {}|;|Εντολή για εκτέλεση :
+ERROR to start subprocess|;|ΣΦΑΛΜΑ για έναρξη της υποεπεξεργασίας
+Request from domoticz to : {} with encoding : {}|;|Αίτημα από domoticz σε: {} με κωδικοποίηση: {}
+File {} uploaded.|;|Το αρχείο αναρτήθηκε με επιτυχία.
+Error to create file : {}|;|Σφάλμα δημιουργίας αρχείου: {}
+Error to find file name from: {} or not valid path: {}|;|Σφάλμα εύρεσης ονόματος αρχείου από: {} ή μη έγκυρη διαδρομή: {}
+Error to find file name from : {}|;|Σφάλμα εύρεσης ονόματος αρχείου από: {}
+Code loaded : {}|;|Φορτώθηκε κωδικός: {}
+Not able to send command : Not connected|;|Δεν είναι δυνατή η αποστολή εντολής: Δεν έχει συνδεθεί
+Error on fpronto from Received Data: {}|;|Σφάλμα στο fpronto από τα ληφθέντα δεδομένα: {}
+Error to update the config file : multi-code|;|Σφάλμα για την ενημέρωση του αρχείου διαμόρφωσης: πολλών κωδικών
+Error to update the config file : repeat|;|Σφάλμα ενημέρωσης του αρχείου διαμόρφωσης: επαναλάβετε
+Error on Multi-code from Received Data: {}|;|Σφάλμα πολλών κωδικών από τα ληφθέντα δεδομένα: {}
+Error on json from Received Data: {}|;|Σφάλμα στο json από τα ληφθέντα δεδομένα: {}
+processing data : {}|;|επεξεργασία δεδομένων: {}
+New version available|;|Νέα διαθέσιμη έκδοση
+we do not know what to do of received data|;|δεν ξέρουμε τι να κάνουμε για τα ληφθέντα δεδομένα
+Error to read image file :{}|;|Σφάλμα ανάγνωσης αρχείου εικόνας: {}
+Are you sure you want restart Plugin ?|;|Είστε βέβαιοι ότι θέλετε να κάνετε επανεκκίνηση του Plugin;
+Are you sure you want update Plugin ?|;|Είστε βέβαιοι ότι θέλετε την ενημέρωση της προσθήκης;
+Are you sure you want backup Plugin data ?|;|Είστε βέβαιοι ότι θέλετε τα εφεδρικά δεδομένα της προσθήκης;
+File name is required|;|Απαιτείται ένα όνομα αρχείου.
+Uploaded |;|Μεταφορτώθηκε
+ bytes of |;|byte του
+Work in progress|;|Υπό επεξεργασία
+% uploaded... please wait|;|% ανέβηκε ... περιμένετε
+Upload Failed|;|Αποτυχία αποστολής
+Upload Aborted|;|Η μεταφόρτωση rpd ματαιώθηκε..
+Wait for few seconds before restarting|;|Περιμένετε λίγα δευτερόλεπτα πριν από την επανεκκίνηση
+Restart Failed|;|Η επανεκκίνηση απέτυχε
+Restart Aborted|;|Επανεκκίνηση Ματαιώθηκε
+Restart|;|Επανεκκίνηση
+Upload|;|Μεταφόρτωση
+System information|;|Πληροφορίες συστήματος
+Domoticz language is : {}|;|Η γλώσσα Domoticz είναι: {}
+Edit|;|Επεξεργασία
+Create|;|Δημιουργία
+Domoticz, number of plugin devices : {}|;|Domoticz, αριθμός συσκευών προσθήκης: {}
+Domoticz, Hardware IDX : {}|;|Domoticz, Hardware IDX: {}
+HTTP Key : {}|;|Κλειδί HTTP: {}
+Plugin directory|;|Κατάλογος Πρόσθετου
+Ini directory|;|Κατάλογος
+Manage|;|Διαχείριση
+Plugin Log|;|Πρόσθετο
+Verify version|;|Επαληθεύστε την έκδοση
+Update|;|Ενημέρωση
+Backup|;|Αντίγραφα
+No permission to list directory|;|Δεν υπάρχει άδεια για κατάλογο καταλόγου
+Directory content for : {} |;|Περιεχόμενο καταλόγου
+Go back|;|Επιστροφή
+Are you sure you want to update data ?|;|Είστε βέβαιοι ότι θέλετε να ενημερώσετε τα δεδομένα;
+File not exist or problem to access : {}|;|Δεν υπάρχει αρχείο ή υπάρχει πρόβλημα πρόσβασης: {}
+update|;|ενημέρωση
+search|;|ψάξε
+replace|;|να αντικατασταθεί
+undo|;|Αναίρεση
+redo|;|επανάληψη
+FullScreen|;|Πλήρης οθόνη
+File not found|;|Το αρχείο δε βρέθηκε
+Are you sure you want to delete Ini file and all related data ?|;|Είστε βέβαιοι ότι θέλετε να διαγράψετε το αρχείο Ini και όλα τα σχετικά δεδομένα;
+Are you sure ?|;|Είστε σίγουροι;
+Error retrieve data from device : {}|;|Σφάλμα ανάκτησης δεδομένων από τη συσκευή: {}
+... Verify import result ...|;|... Επαλήθευση αποτελέσματος εισαγωγής ...
+... Verify ini generation ...|;|... Επαλήθευση της παραγωγής αυτής ...
+Device information for Broadlink type : |;|Πληροφορίες συσκευής για τύπο Broadlink:
+Scan Broadlink devices|;|Σάρωση συσκευών ευρείας σύνδεσης
+Network scan|;|Î£Î¬ÏÏÏÎ· Î´Î¹ÎºÏÏÎ¿Ï:
+Show Broadlink usage and devices linked|;|Εμφάνιση χρήσης ευρείας σύνδεσης και συνδεδεμένων συσκευών
+Usage|;|Χρήση
+Create ini file for send more than one code RF / IR|;|Δημιουργήστε αυτό το αρχείο για αποστολή περισσότερων από ενός κωδικών RF / IR
+Multi-Code|;|ΜΟΝΟΣ ΚΩΔΙΚΟΣ
+Not able to retrieve data for Usage kWh -- verify device|;|Δεν είναι δυνατή η ανάκτηση δεδομένων για χρήση kWh - επαλήθευση συσκευής
+Click to switch|;|Κάντε κλικ για εναλλαγή
+Air quality|;|Την ποιότητα του αέρα
+Quiet|;|Σιγανά
+Noisy|;|Θόρυβος
+Generate .ini files from e-Control database|;|Δημιουργήστε αρχεία .ini από τη βάση δεδομένων e-Control
+Import .ini files from the _import_ directory|;|Εισαγάγετε αρχεία .ini από τον κατάλογο _import_
+Import|;|Εισαγωγή
+Edit ini file for remote controller|;|Επεξεργασία αυτού του αρχείου για το τηλεχειριστήριο
+Infra-red codes database|;|Βάση δεδομένων υπέρυθρων κωδικών
+IR code DB|;|Κωδικός υπερύθρων DB
+Create Broadlink code from Pronto HEX|;|Δημιουργήστε κώδικα Broadlink από το Pronto HEX
+Create from Pronto|;|Δημιουργήστε από το Pronto
+Copy Past here 'Pronto HEX' code|;|Αντιγράψτε το παρελθόν εδώ «Pronto HEX» κωδικός
+create|;|δημιουργία
+Next refresh in|;|Επόμενη ανανέωση στις
+Ini file content|;|Αυτό το περιεχόμενο αρχείου
+Edit ini file. Caution, no verification will be made|;|Επεξεργασία αυτού του αρχείου. Προσοχή, δεν θα γίνει επαλήθευση
+Delete ini file and related Domoticz device|;|Διαγράψτε αυτό το αρχείο και τη σχετική συσκευή Domoticz
+Delete|;|Διαγραφή
+Create Domoticz device linked to the ini file|;|Δημιουργήστε συσκευή Domoticz συνδεδεμένη με το αρχείο ini
+Create device|;|Δημιουργία συσκευής
+show code|;|Δείτε τον κωδικό
+send code|;|στέλνω κωδικό
+Number of time you want that the code be repeated|;|Ο χρόνος που θέλετε να επαναληφθεί ο κωδικός
+modify repetition|;|τροποποιήστε την επανάληψη
+Code sent from unit :|;|Κωδικός που στάλθηκε από τη μονάδα:
+Number of repeat :|;|Αριθμός επανάληψης:
+Background process running ... wait for few seconds|;|Η διαδικασία παρασκηνίου εκτελείται ... περιμένετε λίγα δευτερόλεπτα
+Remaining time before --|;|Υπολειπόμενος χρόνος πριν -
+seconds|;|δευτερόλεπτα
+Multi-code ini file creation|;|Δημιουργία αρχείων πολλαπλών κωδικών
+Source available|;|Διαθέσιμη πηγή
+Drop ini file you want to include|;|Αποθέστε αυτό το αρχείο που θέλετε να συμπεριλάβετε
+Include this sequence|;|Συμπεριλάβετε αυτήν την ακολουθία
+Create ini|;|Δημιουργία
+Submit ini file creation|;|Υποβολή δημιουργίας αρχείων
+Timer|;|Χρονοδιακόπτης
+Add 1 second|;|1 δευτερόλεπτο
+Connected to Broadlink device: {} {} {}|;|Συνδεδεμένο με Broadlink συσκευή: {} {} {}
+Error to retrieve type from this file : {}|;|Σφάλμα για να ανακτήσετε τον τύπο από αυτό το αρχείο: {}
+File : {} exist, we bypass|;|Αρχείο: {} υπάρχουν, εμείς παράκαμψης
+Are you sure ? you need to restart Plugin after ...|;|Είσαι σίγουρος ? θα πρέπει να επανεκκινήσετε Plugin μετά ...
+Overwrite default device type|;|Αντικατάσταση προεπιλεγμένος τύπος συσκευής
+Select Device Type|;|Επιλογή τύπου συσκευής
+Update device type|;|Ενημέρωση τύπο της συσκευής
+About|;|Σχετικά με
+Device 1 not exist|;|Συσκευή 1 δεν υπάρχουν

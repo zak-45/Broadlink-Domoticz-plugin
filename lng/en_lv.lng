@@ -1,0 +1,323 @@
+Error to load language file|;|Kļūda, ielādējot valodas failu
+we translate the text : {}|;|mēs tulkojam tekstu: {}
+error in translation, we keep original text|;|kļūda tulkojumā, mēs saglabājam oriģinālo tekstu
+Request Domoticz to : {} used encoding is : {}|;|Pieprasiet Domoticz, lai: {} izmantotais kodējums ir: {}
+Error sending command to Domoticz : {}|;|Kļūda, nosūtot komandu uz Domoticz: {}
+Error sending data|;|Nosūtot datus, radās kļūda
+Domoticz do not send OK message for: {} ??|;|Domoticz nesūta OK ziņojumu par: {} ??
+Error retrieve dict data from Domoticz : {}|;|Izgūstot diktētos datus no Domoticz, radās kļūda: {}
+...|;|...
+ ...  |;|...
+Not able to enter learning mode|;|Nevar pāriet mācību režīmā
+Learning...|;|Mācīšanās
+No data received...|;|Netika saņemti dati ...
+Code learned|;|Kods iemācīts
+sweeping...; LED should be RED|;|slaucīšana ...; Gaismas diodei jābūt sarkanai
+check frequency... {}|;|pārbaudīt biežumu ... {}
+frequency found! check LED, should be off|;|frekvence atrasta! pārbaudiet gaismas diodi, jābūt izslēgtai
+frequency not found... |;|frekvence nav atrasta ...
+learning command|;|mācīšanās komanda
+verify command...{} |;|verificēt komandu ... {}
+not able to learn command|;|nespēj iemācīties komandu
+Code stored in memory|;|Kods saglabāts atmiņā
+RF not true, sweep necessary|;|RF neatbilst patiesībai, nepieciešams slaucīt
+We download plugin file to: {}|;|Mēs lejupielādējam spraudņa failu uz: {}
+Error receive / save file from dropbox : {}|;|Kļūda saņemot / saglabājot failu no dropbox: {}
+Error to retrieve plugin version from : {}|;|Kļūda, lai izgūtu spraudņa versiju no: {}
+Connected to Broadlink device: {}|;|Savienots ar Broadlink ierīci: {}
+Error Connecting to Broadlink device....|;|Kļūda, savienojot ar Broadlink ierīci ...
+Backup file name : {}|;|Rezerves faila nosaukums: {}
+Error to backup file : {}|;|Kļūda dublējuma failā: {}
+Name : {} -- Unit : {} -- IDX : {} |;|Vārds: {} - Vienība: {} - IDX: {}
+Detected here : |;|Atklāts šeit:
+Domoticz device created|;|Izveidota Domoticz ierīce
+ini file not found: {}|;|Fails netika atrasts
+bad code in ini file: {}|;|nepareizs kods ini failā: {}
+we execute this command : {}|;|mēs izpildām šo komandu: {}
+Next|;|Nākamais
+Error to send code|;|Kļūda, nosūtot kodu
+We try to sleep : {} s|;|Mēs cenšamies gulēt: {} s
+bad timer value : {}|;|slikta taimera vērtība: {}
+we send code from : {}|;|mēs sūtām kodu no: {}
+Not able to load command from {}|;|Nevar ielādēt komandu no {}
+Nothing to send|;|Nav ko sūtīt
+Code sent....|;|Kods nosūtīts....
+Warning : Code sent ....Probably timeout|;|Brīdinājums: kods nosūtīts .... Droši vien noildze
+Not able to find file {}|;|Nevar atrast failu {}
+Discover finished|;|Atklājiet pabeigtu
+Error to retrieve Broadlink devices|;|Kļūda, lai izgūtu Broadlink ierīces
+END scan|;|Beigu skenēšana
+IR code learned|;|IR kods iemācīts
+Error to learn IR code|;|Kļūda, apgūstot IR kodu
+Sweep ok|;|Slaucīt labi
+Error in sweep|;|Kļūda slaucīšanā
+RF code learned|;|RF kods iemācīts
+Error to learn RF code|;|Kļūda, apgūstot RF kodu
+END learnrf|;|BEIGU mācīties
+Usage ok|;|Lietojums
+Error in usage|;|Kļūda lietošanā
+END usage|;|Lietojums
+Finished|;|Pabeigts
+END translation|;|Translation
+We do backup before update|;|Mēs veicam dublējumu pirms atjaunināšanas
+New Plugin uploaded|;|Augšupielādēts jauns spraudnis
+Error receive / save files from dropbox : {}|;|Kļūda, saņemot / saglabājot failus no dropbox: {}
+Extracting all the files now...|;|Notiek visu failu ieguve tagad ...
+Not able to create backup file|;|Nevar izveidot dublējuma failu
+If necessary, do 'sudo -H chmod +x *.py'|;|Ja nepieciešams, veiciet “sudo -H chmod + x * .py”
+End of plugin update|;|Spraudņa atjaunināšanas beigas
+Backup OK|;|Rezerves kopēšana
+Backup error|;|Rezerves kopēšanas kļūda
+End of plugin backup|;|Spraudņa dublējuma beigas
+END of Backup|;|Dublējuma beigas
+RemotePlugin OK|;|RemotePlugin ir kārtībā
+we have downloaded plugin file for version test|;|versijas pārbaudei mēs esam lejupielādējuši spraudņa failu
+plugin : new version available|;|spraudnis: pieejama jauna versija
+RemotePlugin Error|;|RemotePlugin kļūda
+End of remote plugin version test|;|Attālā spraudņa versijas testa beigas
+END of remotePlugin|;|RemotePlugin beigas
+Multi-code OK|;|Vairāks kods ir kārtībā
+We have sent multi-code|;|Mēs esam nosūtījuši multi-kodu
+Multi-code Error|;|Vairāku kodu kļūda
+End of multi-code send|;|Vairāku kodu nosūtīšanas beigas
+END of multi-code|;|Vairāku kodu beigas
+unknown step|;|Nezināms
+Not able to load debug module|;|Nevar ielādēt atkļūdošanas moduli
+Language loaded for  : {} |;|Valoda ielādēta: {}
+Language file is missing for : {}|;|Trūkst valodas faila: {}
+Port already in use|;|Osta jau tiek izmantota
+Listen on BROWebServer - Port: {}|;|Klausieties vietnē BROWebServer - Port: {}
+Hardware ID: {} |;|aparatūras ID
+Status|;|Statuss
+Learn|;|Mācīties
+Test|;|Kontroldarbs
+Save|;|Saglabāt
+Reset|;|Atiestatīt
+IR Commands|;|KOMANDAS
+Sweep|;|Slaucīt
+RF Commands|;|KOMANDAS
+Temperature|;|Temperatūra
+Light|;|Gaisma
+Humidity|;|Mitrums
+Air Quality|;|Gaisa kvalitāte
+Noise|;|Troksnis
+plug|;|noslēgs
+Connecting to: {} : {}|;|Pieslēdzas pie:
+Ini file for remote controller created: {}|;|Izveidots tālvadības pults ini fails: {}
+Error to create ini file for remote controller : {}|;|Kļūda, izveidojot ini failu tālvadības pultim: {}
+Plugin Device count start on : {}|;|Spraudņa ierīču skaits sākas: {}
+Admin html file created: {}|;|Izveidots administratora html fails: {}
+Error to create admin html file : {}|;|Kļūda, izveidojot administratora html failu: {}
+Error to found www/templates for html file : {}|;|Kļūda, atrodot html faila www / veidnes: {}
+Command line file created: {}|;|Izveidots komandrindas fails: {}
+Error to create device file : {}|;|Kļūda, izveidojot ierīces failu: {}
+We cannot continue ...|;|Mēs nevaram turpināt ...
+Learn IR command|;|Uzziniet IR komandu
+Nothing to save|;|Nav ko ietaupīt
+Ini created|;|izveidots
+Nothing to reset|;|Nav ko atiestatīt
+unknown level command|;|nezināma līmeņa komanda
+Wait for sweep...|;|Gaidiet slaucīšanu ...
+Learn RF command|;|Uzziniet RF komandu
+Sweep first|;|Vispirms slaucīt
+Unit unknown|;|Nezināms
+Error to put "ON" SP1/SP2/SP3|;|Kļūda, ievietojot “ON” SP1 / SP2 / SP3
+Error to put "on" light for SPx|;|Kļūda, ieliekot &quot;uz&quot; gaismu SPx
+Error to put "ON" MP1 for plug : {}|;|Kļūda, iespraužot MP1 spraudnim “ON”: {}
+Unknown command|;|Nezināma komanda
+Error to put Off SP1/SP2/SP3|;|Kļūda SP1 / SP2 / SP3 izslēgšanā
+Error to put off light for SPx|;|Kļūda SPx gaismas izslēgšanā
+Error to put Off MP1 for plug : {}|;|Kļūda, lai izslēgtu MP1 spraudni: {}
+Unit error update|;|Vienības kļūdas atjaunināšana
+undefined|;|nedefinēts
+A1 called|;|tā sauktās
+Get Data From Sensors|;|Iegūstiet datus no sensoriem
+SP3S called|;|tā sauktās
+MP1 called|;|tā sauktās
+SP1/SP2 called|;|Izsaukts SP1 / SP2
+onMessage called for connection: {0}:{1}|;|onMessage aicināja izveidot savienojumu: {0}: {1}
+Broadlink response OK!|;|Platjoslas atbilde ir laba!
+Request from : {}:{} to : {}|;|Pieprasījums no: {}: {} adresātam: {}
+Plugin restarted !|;|Spraudnis ir restartēts!
+Refresh|;|Atsvaidzināšana
+Backup finished.|;|Dublēšana ir pabeigta.
+ERROR Unknown url from : {}:{} to : {}|;|KĻŪDA Nezināms URL no: {}: {} uz: {}
+Broadlink not know what to do!|;|Broadlink nezina, ko darīt!
+ERROR Unknown key from : {}:{} to : {}|;|KĻŪDA Nezināma atslēga no: {}: {} līdz: {}
+Broadlink bad key!|;|Platjoslas sliktā atslēga!
+Not implemented Request from : {}:{} to : {}|;|Nav ieviests Pieprasījums no: {}: {} adresātam: {}
+Broadlink : not implemented !|;|Platjosla: nav ieviesta!
+Unknown verb in request: {}|;|Nezināms darbības vārds pieprasījumā: {}
+We bypass URL check|;|Mēs apiet URL pārbaudi
+We process this url: {}|;|Mēs apstrādājam šo URL: {}
+data process OK|;|datu process ir kārtībā
+Error to process data|;|Kļūda datu apstrādē
+Nothing to do ...|;|Nav ko darīt ...
+Connected successfully to {}:{}|;|Veiksmīgi izveidots savienojums ar {}: {}
+onDisconnect called for connection '{}'|;|onDisconnect aicināja izveidot savienojumu &#39;{}&#39;
+Server Connections: |;|Serveru savienojumi:
+Device not modified by plugin|;|Ierīce nav modificēta ar spraudni
+Error to update the config file: customname|;|Kļūda, atjauninot konfigurācijas failu: pielāgotais nosaukums
+Generate "ON" Command for learned code stored on unit/ini : {}|;|Ģenerējiet komandu “ON” iemācītajam kodam, kas glabājas vienībā / ini: {}
+Not able to update device : {}|;|Nevar atjaunināt ierīci: {}
+Error to update the config file : customname|;|Kļūda, atjauninot konfigurācijas failu: pielāgotais nosaukums
+File exist : {}|;|Fails pastāv: {}
+Not able to create : {}|;|Nevar izveidot: {}
+Not able to create device : {}|;|Nevar izveidot ierīci: {}
+Ini file / Device deleted : {}|;|Ini fails / ierīce izdzēsta: {}
+Error on delete_ini : {}|;|Kļūda vietnē delete_ini: {}
+reset IR/RF|;|atiestatīt IR / RF
+Reset command executed|;|Reset komanda izpildīta
+Error to create the config file : {}|;|Kļūda, veidojot konfigurācijas failu: {}
+ini file created...{}|;|ini fails izveidots ... {}
+Connected to Broadlink device: {} {}|;|Savienots ar Broadlink ierīci: {} {}
+Error to connect to Broadlink device: {}|;|Kļūda, izveidojot savienojumu ar Broadlink ierīci: {}
+Error getting temperature data from Broadlink device....Timeout|;|Kļūda, iegūstot temperatūras datus no Broadlink ierīces .... Taimauts
+Number of ini file to create : {}|;|Izveidojamo ini failu skaits: {}
+You need to select Import for that|;|Tam jums jāizvēlas Importēt
+No ini files found|;|Faili netika atrasti!
+Removing : {}|;|Izņemšana:
+No json files found|;|Faili netika atrasti!
+No more device available ...|;|Neviena ierīce nav pieejama ...
+Send .. : {} {} {}|;|Nosūtīt
+Bypass .. : {} {} {}|;|Apvedceļš ..: {} {} {}
+Send error or command for remote controller not set into ini file: {}|;|Sūtīt kļūdu vai komandu tālvadības pultim, kas nav iestatīts ini failā: {}
+Command for remote not defined: {}|;|Komanda tālvadībai nav definēta: {}
+ini file read....{}|;|ini fails lasīts .... {}
+Custom Commands: {}|;|Pielāgotas komandas: {}
+No ini file : {}|;|Nav ini faila: {}
+Custom Commands for Remote controller not managed|;|Tālvadības pults pielāgotās komandas netiek pārvaldītas
+Last character must be <,> into the remote controller file|;|Pēdējam burtam jābūt &lt;,&gt; tālvadības pults failā
+Invalid number in ini file, string or leading zero|;|Nederīgs numurs ini failā, virknē vai nulles sākumā
+Error getting sensor data from Broadlink device....Timeout|;|Kļūda, iegūstot sensora datus no Broadlink ierīces
+Error getting sensor data raw from Broadlink device....Timeout|;|Kļūda, iegūstot sensoru datus neapstrādātus no Broadlink ierīces .... Taimauts
+State of the plug : {}|;|Spraudņa stāvoklis: {}
+Error to retrieve plug status|;|Kļūda, lai izgūtu spraudņa statusu
+State of the light : {}|;|Gaismas stāvoklis: {}
+Error to retrieve light status|;|Kļūda, lai izgūtu gaismas statusu
+Power state for device MP1 : {} |;|Ierīces MP1 barošanas stāvoklis: {}
+Error to check power state of MP1 device|;|Kļūda MP1 ierīces enerģijas stāvokļa pārbaudē
+Energy for device SP3S: {}|;|Enerģija ierīcei SP3S: {}
+Error to get power energy from device SP3S|;|Kļūda, lai iegūtu enerģijas enerģiju no ierīces SP3S
+Lang file not exist or problem to read data from : {}|;|Lang fails neeksistē vai ir problēma nolasīt datus no: {}
+lang file : {}|;|lang fails: {}
+argument is missing|;|argumenta trūkst
+command to execute : {}|;|Izpildāmā komanda
+ERROR to start subprocess|;|KĻŪDA, lai sāktu apakšprocesu
+Request from domoticz to : {} with encoding : {}|;|Pieprasījums no domoticz adresātam: {} ar kodējumu: {}
+File {} uploaded.|;|Lapa ielādēta.
+Error to create file : {}|;|Kļūda, izveidojot failu: {}
+Error to find file name from: {} or not valid path: {}|;|Kļūda, lai atrastu faila nosaukumu no: {} vai nav derīgs ceļš: {}
+Error to find file name from : {}|;|Kļūda, lai atrastu faila nosaukumu no: {}
+Code loaded : {}|;|Iekrauts kods: {}
+Not able to send command : Not connected|;|Nevar nosūtīt komandu: nav izveidots savienojums
+Error on fpronto from Received Data: {}|;|Kļūda fpronto, izmantojot saņemtos datus: {}
+Error to update the config file : multi-code|;|Kļūda, atjauninot konfigurācijas failu: daudzkods
+Error to update the config file : repeat|;|Kļūda, atjauninot konfigurācijas failu: atkārtojiet
+Error on Multi-code from Received Data: {}|;|Kļūda multikodā no saņemtajiem datiem: {}
+Error on json from Received Data: {}|;|Kļūda json no saņemtajiem datiem: {}
+processing data : {}|;|apstrādā datus: {}
+New version available|;|Ir pieejama jauna versija.
+we do not know what to do of received data|;|mēs nezinām, kā rīkoties saņemtajiem datiem
+Error to read image file :{}|;|Kļūda, lasot attēla failu: {}
+Are you sure you want restart Plugin ?|;|Vai tiešām vēlaties restartēt spraudni?
+Are you sure you want update Plugin ?|;|Vai tiešām vēlaties atjaunināt spraudni?
+Are you sure you want backup Plugin data ?|;|Vai tiešām vēlaties dublēt spraudņa datus?
+File name is required|;|Nepieciešams nosaukums
+Uploaded |;|Augšupielādēts
+ bytes of |;|7 baiti no
+Work in progress|;|Darbu norise
+% uploaded... please wait|;|% augšupielādēts ... lūdzu, uzgaidiet
+Upload Failed|;|Augšupielāde neizdevās
+Upload Aborted|;|Augšupielāde pārtraukta
+Wait for few seconds before restarting|;|Pirms restartēšanas nogaidiet dažas sekundes
+Restart Failed|;|Restartēt neizdevās
+Restart Aborted|;|Restartēt pārtraukts
+Restart|;|Atsākt
+Upload|;|Augšupielādēt
+System information|;|Sistēmas informācija.
+Domoticz language is : {}|;|Domoticz valoda ir: {}
+Edit|;|Rediģēt
+Create|;|Izveidot
+Domoticz, number of plugin devices : {}|;|Domoticz, spraudņu ierīču skaits: {}
+Domoticz, Hardware IDX : {}|;|Domoticz, aparatūras IDX: {}
+HTTP Key : {}|;|HTTP atslēga: {}
+Plugin directory|;|Spraudņu direktorijs
+Ini directory|;|Direktorija
+Manage|;|Pārvaldīt
+Plugin Log|;|Spraudnis
+Verify version|;|Pārbaudiet versiju
+Update|;|Atjaunināt
+Backup|;|Rezerves kopēšana
+No permission to list directory|;|Nav atļaujas direktoriju sarakstam
+Directory content for : {} |;|Kataloga saturs: {}
+Go back|;|Doties atpakaļ
+Are you sure you want to update data ?|;|Vai tiešām vēlaties atjaunināt datus?
+File not exist or problem to access : {}|;|Faila nav vai ir piekļuve piekļuves problēmai: {}
+update|;|jaunināt
+search|;|meklēt
+replace|;|Aizvietot
+undo|;|atsaukt
+redo|;|atkārtot
+FullScreen|;|Pilnekrāna režīms
+File not found|;|Fails netika atrasts
+Are you sure you want to delete Ini file and all related data ?|;|Vai tiešām vēlaties izdzēst Ini failu un visus saistītos datus?
+Are you sure ?|;|Vai tiešām vēlaties?
+Error retrieve data from device : {}|;|Izgūstot datus no ierīces, radās kļūda: {}
+... Verify import result ...|;|... Pārbaudiet importēšanas rezultātu ...
+... Verify ini generation ...|;|... pārbaudiet ini paaudzi ...
+Device information for Broadlink type : |;|Informācija par ierīci Broadlink veidam:
+Scan Broadlink devices|;|Skenēt Broadlink ierīces
+Network scan|;|Tīkla skenēšana:
+Show Broadlink usage and devices linked|;|Rādīt platjoslas lietojumu un saistītās ierīces
+Usage|;|Lietojums
+Create ini file for send more than one code RF / IR|;|Izveidojiet ini failu, lai nosūtītu vairāk nekā vienu kodu RF / IR
+Multi-Code|;|Daudzkods
+Not able to retrieve data for Usage kWh -- verify device|;|Nevar iegūt datus par patēriņu kWh - pārbaudiet ierīci
+Click to switch|;|Noklikšķiniet, lai pārslēgtos
+Air quality|;|Gaisa kvalitāte
+Quiet|;|Kluss
+Noisy|;|trokšņainas telpas:
+Generate .ini files from e-Control database|;|Ģenerējiet .ini failus no e-Control datu bāzes
+Import .ini files from the _import_ directory|;|Importējiet .ini failus no direktorija _import_
+Import|;|Importēt
+Edit ini file for remote controller|;|Rediģēt tālvadības pults ini failu
+Infra-red codes database|;|Infrasarkano kodu datu bāze
+IR code DB|;|IR kods DB
+Create Broadlink code from Pronto HEX|;|Izveidojiet Broadlink kodu no Pronto HEX
+Create from Pronto|;|Izveidot no Pronto
+Copy Past here 'Pronto HEX' code|;|Kopēt iepriekš “Pronto HEX” kodu
+create|;|Izveidot
+Next refresh in|;|Nākamais atsvaidzinājums
+Ini file content|;|Ini faila saturs
+Edit ini file. Caution, no verification will be made|;|Rediģēt ini failu. Uzmanību, pārbaude netiks veikta
+Delete ini file and related Domoticz device|;|Izdzēsiet ini failu un ar to saistīto Domoticz ierīci
+Delete|;|Dzēst
+Create Domoticz device linked to the ini file|;|Izveidojiet Domoticz ierīci, kas saistīta ar ini failu
+Create device|;|Izveidot ierīci
+show code|;|parādīt kodu
+send code|;|nosūtīt kodu
+Number of time you want that the code be repeated|;|Cik reizes vēlaties atkārtot kodu
+modify repetition|;|modificēt atkārtojumu
+Code sent from unit :|;|Kods nosūtīts no vienības:
+Number of repeat :|;|Atkārtojumu skaits:
+Background process running ... wait for few seconds|;|Fona process darbojas ... pagaidiet dažas sekundes
+Remaining time before --|;|Atlikušais laiks pirms -
+seconds|;|sekundes
+Multi-code ini file creation|;|Vairāku kodu ini failu izveidošana
+Source available|;|Pieejams avots
+Drop ini file you want to include|;|Nometiet ini failu, kuru vēlaties iekļaut
+Include this sequence|;|Iekļaujiet šo secību
+Create ini|;|Izveidot
+Submit ini file creation|;|Iesniegt ini faila izveidošanu
+Timer|;|Taimeris
+Add 1 second|;|1 sekunde
+Connected to Broadlink device: {} {} {}|;|Savienots ar Broadlink ierīce: {} {} {}
+Error to retrieve type from this file : {}|;|Kļūda iegūt tipu no šī faila: {}
+File : {} exist, we bypass|;|Fails: {} pastāvēt, mēs bypass
+Are you sure ? you need to restart Plugin after ...|;|Vai tu esi pārliecināts ? jums ir nepieciešams restartēt Plugin pēc ...
+Overwrite default device type|;|Pārrakstīt noklusējuma ierīces tips
+Select Device Type|;|Izvēlieties Ierīces veids
+Update device type|;|Atjaunināt ierīces tips
+About|;|par
+Device 1 not exist|;|Ierīce 1 nepastāv

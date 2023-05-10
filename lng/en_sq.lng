@@ -1,0 +1,323 @@
+Error to load language file|;|Gabim të ngarkesës fotografi gjuhës
+we translate the text : {}|;|Ne përkthejnë tekstin: {}
+error in translation, we keep original text|;|gabim në përkthim, do të vazhdojmë tekstin origjinal
+Request Domoticz to : {} used encoding is : {}|;|Kërkojnë Domoticz te: {} kodues i përdorur është: {}
+Error sending command to Domoticz : {}|;|Gabime dërgimit komandën për Domoticz: {}
+Error sending data|;|Gabim dërgimin e të dhënave
+Domoticz do not send OK message for: {} ??|;|Domoticz mos dërgoni mesazh OK për: {} ??
+Error retrieve dict data from Domoticz : {}|;|Error tërhequr Dict dhëna nga Domoticz: {}
+...|;|...
+ ...  |;|...
+Not able to enter learning mode|;|Jo në gjendje për të hyrë në mënyrën e të mësuarit
+Learning...|;|Mësoni ...
+No data received...|;|Nuk ka të dhëna të marra ...
+Code learned|;|Kodi i mësuar
+sweeping...; LED should be RED|;|gjithëpërfshirës ...; LED duhet të jetë RED
+check frequency... {}|;|kontrolloni frekuencën ... {}
+frequency found! check LED, should be off|;|frekuencë të gjetur! kontrolloni LED, duhet të jetë jashtë
+frequency not found... |;|frekuenca nuk u gjet ...
+learning command|;|command mësuarit
+verify command...{} |;|verifikuar komandën ... {}
+not able to learn command|;|nuk është në gjendje për të mësuar komandën
+Code stored in memory|;|Kodi i ruajtur në kujtesë
+RF not true, sweep necessary|;|RF nuk është e vërtetë, fshij nevojshme
+We download plugin file to: {}|;|Ne shkarko plugin fotografi të: {}
+Error receive / save file from dropbox : {}|;|Error marrin / ruaj fotografi nga Dropbox: {}
+Error to retrieve plugin version from : {}|;|Gabim për të tërhequr plugin versionin nga: {}
+Connected to Broadlink device: {}|;|Lidhur me pajisjen Broadlink: {}
+Error Connecting to Broadlink device....|;|Gabim Po lidhet me pajisjen Broadlink ....
+Backup file name : {}|;|Emri backup file: {}
+Error to backup file : {}|;|Gabim në file backup: {}
+Name : {} -- Unit : {} -- IDX : {} |;|Emri: {} - Njësia: {} - IDX: {}
+Detected here : |;|Zbuluar këtu:
+Domoticz device created|;|Pajisja Domoticz krijuar
+ini file not found: {}|;|skedar ini nuk u gjet: {}
+bad code in ini file: {}|;|Kodi i keq në dosjen ini: {}
+we execute this command : {}|;|ne ekzekutuar këtë komandë: {}
+Next|;|tjetër
+Error to send code|;|Gabim të kodit të dërgoni
+We try to sleep : {} s|;|Ne përpiqemi për të fjetur: {} s
+bad timer value : {}|;|vlera e keqe timer: {}
+we send code from : {}|;|ne kemi dërguar kodin: {}
+Not able to load command from {}|;|Nuk është në gjendje të ngarkesës komandën nga {}
+Nothing to send|;|Asgjë për të dërguar
+Code sent....|;|Kodi u dergua....
+Warning : Code sent ....Probably timeout|;|Warning: Kodi i dërgoi .... ndoshta timeout
+Not able to find file {}|;|Jo në gjendje për të gjetur fotografi {}
+Discover finished|;|Discover përfunduar
+Error to retrieve Broadlink devices|;|Gabim të rifitoj pajisje Broadlink
+END scan|;|END scan
+IR code learned|;|Kodi IR mësuar
+Error to learn IR code|;|Gabim për të mësuar kodin IR
+Sweep ok|;|Fshij ok
+Error in sweep|;|Gabim në spastrim
+RF code learned|;|Kodi RF mësuar
+Error to learn RF code|;|Gabim për të mësuar kodin RF
+END learnrf|;|END learnrf
+Usage ok|;|ok Usage
+Error in usage|;|Gabim në përdorim
+END usage|;|përdorimi END
+Finished|;|i përfunduar
+END translation|;|përkthim END
+We do backup before update|;|Ne bëjmë backup para përditësimit
+New Plugin uploaded|;|New Plugin ngarkuar
+Error receive / save files from dropbox : {}|;|Error marrin / ruaj fotografi nga Dropbox: {}
+Not able to create backup file|;|Nuk është në gjendje të krijojë file backup
+If necessary, do 'sudo -H chmod +x *.py'|;|Nëse është e nevojshme, të bëjë  sudo H chmod + x * .py 
+End of plugin update|;|Fundi i përditësimit plugin
+Backup OK|;|OK backup
+Backup error|;|gabim backup
+End of plugin backup|;|Fundi i backup plugin
+END of Backup|;|Fundi i Backup
+RemotePlugin OK|;|RemotePlugin OK
+we have downloaded plugin file for version test|;|ne kemi shkarkuar plugin dosjen për test version
+plugin : new version available|;|plugin: versioni i ri i disponueshëm
+RemotePlugin Error|;|RemotePlugin gabim
+End of remote plugin version test|;|Fundi i versionit të largët plugin provë
+END of remotePlugin|;|Fundi i remotePlugin
+Multi-code OK|;|Multi-code OK
+We have sent multi-code|;|Ne kemi dërguar multi-kod
+Multi-code Error|;|Multi-code Error
+End of multi-code send|;|Fundi i multi-kodit të dërguar
+END of multi-code|;|Fundi i multi-kod
+unknown step|;|hapi i panjohur
+Not able to load debug module|;|Nuk është në gjendje të ngarkesës modul debug
+Language loaded for  : {} |;|Gjuha ngarkuar për: {}
+Language file is missing for : {}|;|Skedari Gjuha mungon për: {}
+Port already in use|;|Port tashmë në përdorim
+Listen on BROWebServer - Port: {}|;|Dëgjuar në BROWebServer - Port: {}
+Hardware ID: {} |;|Pajisje ID: {}
+Status|;|status
+Learn|;|mësoj
+Test|;|provë
+Save|;|Save
+Reset|;|Reset
+IR Commands|;|IR Komandat
+Sweep|;|fshij
+RF Commands|;|RF Komandat
+Temperature|;|temperaturë
+Light|;|dritë
+Humidity|;|lagështi
+Air Quality|;|Cilësia e ajrit
+Noise|;|zhurmë
+plug|;|prizë
+Connecting to: {} : {}|;|Lidh në: {}: {}
+Ini file for remote controller created: {}|;|fotografi ini për kontrollues të largët krijuar: {}
+Error to create ini file for remote controller : {}|;|Gabim për të krijuar fotografi ini për kontrollues të largët: {}
+Plugin Device count start on : {}|;|Plugin numërimin Device fillojë më: ​​{}
+Admin html file created: {}|;|Dosja Admin html krijuar: {}
+Error to create admin html file : {}|;|Gabim për të krijuar fotografi admin html: {}
+Error to found www/templates for html file : {}|;|Gabim të gjetur www / templates për skedar HTML: {}
+Command line file created: {}|;|Command line fotografi krijuar: {}
+Error to create device file : {}|;|Gabim për të krijuar fotografi të pajisjes: {}
+We cannot continue ...|;|Ne nuk mund të vazhdojë ...
+Learn IR command|;|Mësoni komandën IR
+Nothing to save|;|Asgjë për të ruajtur
+Ini created|;|Ini krijuar
+Nothing to reset|;|Asgjë për të rivendosur
+unknown level command|;|komanda Niveli i panjohur
+Wait for sweep...|;|Prisni për spastrim ...
+Learn RF command|;|Mësoni komandën RF
+Sweep first|;|fshij parë
+Unit unknown|;|Njësia e panjohur
+Error to put "ON" SP1/SP2/SP3|;|Gabim për të vënë "ON" SP1 / SP2 / SP3
+Error to put "on" light for SPx|;|Gabim për të vënë "në" dritë për SPX
+Error to put "ON" MP1 for plug : {}|;|Gabim për të vënë "ON" MP1 për prizë: {}
+Unknown command|;|Komandë e panjohur
+Error to put Off SP1/SP2/SP3|;|Gabim të shtyrë SP1 / SP2 / SP3
+Error to put off light for SPx|;|Gabim të shtyrë dritë për SPX
+Error to put Off MP1 for plug : {}|;|Gabim të shtyrë MP1 për prizë: {}
+Unit error update|;|Unit përditësim gabim
+undefined|;|undefined
+A1 called|;|A1 quajtur
+Get Data From Sensors|;|Marrë të dhëna nga Sensore
+SP3S called|;|SP3S quajtur
+MP1 called|;|MP1 quajtur
+SP1/SP2 called|;|SP1 / SP2 quajtur
+onMessage called for connection: {0}:{1}|;|onMessage thirrje për lidhjen: {0}: {1}
+Broadlink response OK!|;|Broadlink përgjigje OK!
+Request from : {}:{} to : {}|;|Kërkesa nga: {}: {} në: {}
+Plugin restarted !|;|Plugin rifilluar!
+Refresh|;|freskoj
+Backup finished.|;|Backup mbaruar.
+ERROR Unknown url from : {}:{} to : {}|;|ERROR Unknown url nga: {}: {} në: {}
+Broadlink not know what to do!|;|Broadlink nuk e di se çfarë të bëni!
+ERROR Unknown key from : {}:{} to : {}|;|ERROR Unknown kryesor nga: {}: {} në: {}
+Broadlink bad key!|;|Broadlink butonin e keqe!
+Not implemented Request from : {}:{} to : {}|;|Nuk është zbatuar kërkesën nga: {}: {} për: {}
+Broadlink : not implemented !|;|Broadlink: nuk zbatohen!
+Unknown verb in request: {}|;|v panjohur në kërkesës: {}
+We bypass URL check|;|Ne Bypass kontrolloni URL
+We process this url: {}|;|Ne proces këtë url: {}
+data process OK|;|Procesi i të dhënave OK
+Error to process data|;|Gabim të dhënave të procesit
+Nothing to do ...|;|Asgje per te bere ...
+Connected successfully to {}:{}|;|Lidhur me sukses tek {}: {}
+onDisconnect called for connection '{}'|;|onDisconnect thirrje për lidhjen  {} 
+Server Connections: |;|Server Connections:
+Device not modified by plugin|;|Pajisja nuk modifikohen nga plugin
+Error to update the config file: customname|;|Gabim për të rinovuar config file: customname
+Generate "ON" Command for learned code stored on unit/ini : {}|;|Generate "ON" Komandës për kodin mësuar ruajtur në njësi / ini: {}
+Not able to update device : {}|;|Jo në gjendje për të rinovuar pajisjen: {}
+Error to update the config file : customname|;|Gabim për të rinovuar config file: customname
+File exist : {}|;|ekzistojnë dokumentit: {}
+Not able to create : {}|;|Nuk është në gjendje të krijojë: {}
+Not able to create device : {}|;|Jo në gjendje për të krijuar pajisje: {}
+Ini file / Device deleted : {}|;|skedë Ini / Pajisja fshihen: {}
+Error on delete_ini : {}|;|Error në delete_ini: {}
+reset IR/RF|;|rivendosur IR / RF
+Reset command executed|;|komanda ekzekutohet Reset
+Error to create the config file : {}|;|Gabim për të krijuar file config: {}
+ini file created...{}|;|fotografi ini krijuar ... {}
+Connected to Broadlink device: {} {}|;|Lidhur me Broadlink Pajisja: {} {}
+Error to connect to Broadlink device: {}|;|Gabime për t u lidhur me pajisjen Broadlink: {}
+Error getting temperature data from Broadlink device....Timeout|;|Gabim duke marrë të dhënat e temperaturës nga pajisja Broadlink .... Timeout
+Number of ini file to create : {}|;|Numri i INI file për të krijuar: {}
+You need to select Import for that|;|Ju duhet të selektoni Import për këtë
+No ini files found|;|Nuk fotografi INI gjetur
+Removing : {}|;|Largimin e: {}
+No json files found|;|Nuk JSON fotografi gjetur
+No more device available ...|;|Jo më shumë pajisje në dispozicion ...
+Send .. : {} {} {}|;|Dërgo ..: {} {} {}
+Bypass .. : {} {} {}|;|Bajpas ..: {} {} {}
+Send error or command for remote controller not set into ini file: {}|;|Dërgo gabim ose komandën për kontrollues të largët nuk është caktuar në INI file: {}
+Command for remote not defined: {}|;|Komande per largët nuk përcaktohen: {}
+ini file read....{}|;|skedë ini lexuar .... {}
+Custom Commands: {}|;|Custom komanda: {}
+No ini file : {}|;|Nuk ka fotografi ini: {}
+Custom Commands for Remote controller not managed|;|Custom Komandat për Telekomanda nuk menaxhohen
+Last character must be <,> into the remote controller file|;|Karakteri i fundit duhet të jetë <,> në dosjen Telekomandë
+Invalid number in ini file, string or leading zero|;|Numri i pavlefshëm në INI file, string apo zero kryesor
+Error getting sensor data from Broadlink device....Timeout|;|Gabim duke marrë të dhënat e sensor nga pajisja Broadlink .... Timeout
+Error getting sensor data raw from Broadlink device....Timeout|;|Gabim marrjen e të dhënave sensor para nga pajisja Broadlink .... Timeout
+State of the plug : {}|;|Deklarojnë të tapës: {}
+Error to retrieve plug status|;|Gabim të rifitoj statusin plug
+State of the light : {}|;|Gjendja e dritës: {}
+Error to retrieve light status|;|Gabim të rifitoj statusin drita
+Power state for device MP1 : {} |;|shtet energji per MP1 pajisjes: {}
+Error to check power state of MP1 device|;|Gabim për të kontrolluar gjendjen e energjisë të pajisjes MP1
+Energy for device SP3S: {}|;|Energji per SP3S pajisjes: {}
+Error to get power energy from device SP3S|;|Gabim për të marrë energji të energjisë nga pajisja SP3S
+Lang file not exist or problem to read data from : {}|;|Lang skedari nuk ekziston ose problemi për të lexuar të dhënat nga: {}
+lang file : {}|;|lang skedës: {}
+argument is missing|;|Argumenti mungon
+command to execute : {}|;|komande te ekzekutuar: {}
+ERROR to start subprocess|;|ERROR për të filluar subprocess
+Request from domoticz to : {} with encoding : {}|;|Kërkesa nga domoticz te: {} me kodimin: {}
+File {} uploaded.|;|I dokumentit {} ngarkohet.
+Error to create file : {}|;|Gabim për të krijuar skedarin: {}
+Error to find file name from: {} or not valid path: {}|;|Gabim për të gjetur emrin e file nga: {} ose jo rrugën e vlefshme: {}
+Error to find file name from : {}|;|Gabim për të gjetur emrin e file nga: {}
+Code loaded : {}|;|Postar ngarkuar: {}
+Not able to send command : Not connected|;|Jo në gjendje për të dërguar komandën: Nuk lidhur
+Error on fpronto from Received Data: {}|;|Gabime në fpronto nga të dhënat e marra: {}
+Error to update the config file : multi-code|;|Gabim për të rinovuar config file: multi-kod
+Error to update the config file : repeat|;|Gabim për të rinovuar config file: përsëritje
+Error on Multi-code from Received Data: {}|;|Gabime në multi-kodi nga të dhënat e marra: {}
+Error on json from Received Data: {}|;|Gabime në JSON nga të dhënat e marra: {}
+processing data : {}|;|përpunimin e të dhënave: {}
+New version available|;|version i ri i disponueshëm
+we do not know what to do of received data|;|ne nuk e dimë se çfarë të bëjmë e të dhënave të marra
+Error to read image file :{}|;|Gabim të lexuar image file: {}
+Are you sure you want restart Plugin ?|;|Jeni te sigurte qe doni restart Plugin?
+Are you sure you want update Plugin ?|;|A jeni te sigurte qe doni freskimit Plugin?
+Are you sure you want backup Plugin data ?|;|Jeni te sigurte qe doni dhënat backup Plugin?
+File name is required|;|Emri i file është e nevojshme
+Uploaded |;|Ngarkuar
+ bytes of |;|bytes i
+Work in progress|;|Puna në progres
+% uploaded... please wait|;|% Ngarkuar ... prisni ju lutem
+Upload Failed|;|Ngarkimi dështoi
+Upload Aborted|;|Ngarko u Ndërpre
+Wait for few seconds before restarting|;|Prisni për disa sekonda para se rifillimi
+Restart Failed|;|Restart Dështoi
+Restart Aborted|;|Restart u Ndërpre
+Restart|;|Rifillo, fillo përsëri
+Upload|;|Ngarkoni
+System information|;|sistemi Informativ
+Domoticz language is : {}|;|gjuha Domoticz është: {}
+Edit|;|redaktoj
+Create|;|krijoj
+Domoticz, number of plugin devices : {}|;|Domoticz, numri i pajisjeve plugin: {}
+Domoticz, Hardware IDX : {}|;|Domoticz, Hardware IDX: {}
+HTTP Key : {}|;|HTTP kryesor: {}
+Plugin directory|;|Lista plugin
+Ini directory|;|Lista ini
+Manage|;|Menaxho
+Plugin Log|;|plugin Identifikohu
+Verify version|;|Verifikoni versionin
+Update|;|Update
+Backup|;|rezervë
+No permission to list directory|;|Nuk ka leje për të directory listën
+Directory content for : {} |;|përmbajtje Directory për: {}
+Go back|;|Kthehu mbrapa
+Are you sure you want to update data ?|;|Jeni te sigurte qe doni te dhënave përditësimit?
+File not exist or problem to access : {}|;|Skedari nuk ekziston ose problem për qasje: {}
+update|;|Përditësimi
+search|;|kërko
+replace|;|zëvendësoj
+undo|;|undo
+redo|;|Redo
+FullScreen|;|Ekran i plotë
+File not found|;|Dokumentit nuk u gjet
+Are you sure you want to delete Ini file and all related data ?|;|Jeni te sigurte qe doni te fshini skedar Ini dhe të gjitha të dhënat lidhur?
+Are you sure ?|;|A je i sigurt ?
+Error retrieve data from device : {}|;|Error marrim të dhëna nga pajisja: {}
+... Verify import result ...|;|... Verifikoni rezultat importit ...
+... Verify ini generation ...|;|... Verifikoni brez ini ...
+Device information for Broadlink type : |;|Informacion Device për llojin Broadlink:
+Scan Broadlink devices|;|Pajisjet Scan Broadlink
+Network scan|;|Rrjeti scan
+Show Broadlink usage and devices linked|;|Tregoni përdorimin Broadlink dhe pajisje të lidhura
+Usage|;|përdorim
+Create ini file for send more than one code RF / IR|;|Krijo skedar ini për të dërguar më shumë se një kod RF / IR
+Multi-Code|;|Multi-Code
+Not able to retrieve data for Usage kWh -- verify device|;|Nuk është në gjendje të rifitoj të dhënave për kWh përdorimit - verifikojë pajisje
+Click to switch|;|Kliko për të kaluar
+Air quality|;|cilësisë së ajrit
+Quiet|;|i qetë
+Noisy|;|Noisy
+Generate .ini files from e-Control database|;|Generate fotografi .ini nga e-Kontrollit dhënave
+Import .ini files from the _import_ directory|;|Të importuar fotografi .ini nga directory _import_
+Import|;|import
+Edit ini file for remote controller|;|Edit fotografi ini për kontrollues të largët
+Infra-red codes database|;|Infra-kuqe database kodet
+IR code DB|;|IR Kodi DB
+Create Broadlink code from Pronto HEX|;|Krijo kodin Broadlink nga Pronto magji
+Create from Pronto|;|Krijo nga Pronto
+Copy Past here 'Pronto HEX' code|;|Copy Paste këtu kodin  Pronto Hex 
+create|;|krijoj
+Next refresh in|;|refresh Next në
+Ini file content|;|Përmbajtja ini fotografi
+Delete|;|fshini
+Create device|;|Krijo pajisje
+show code|;|Kodi show
+send code|;|Kodi dërgoni
+Number of time you want that the code be repeated|;|Numri i kohës që ju dëshironi që kodi të përsëritet
+modify repetition|;|Modifiko përsëritje
+Code sent from unit :|;|Kodi i dërguar nga njësi:
+Number of repeat :|;|Numri i përsëritur:
+Background process running ... wait for few seconds|;|Procesi sfond running ... Prisni për disa sekonda
+Remaining time before --|;|Mbetur kohë më parë -
+seconds|;|sekonda
+Multi-code ini file creation|;|Multi-code krijimi fotografi ini
+Source available|;|burimi në dispozicion
+Drop ini file you want to include|;|Drop fotografi ini ju dëshironi që të përfshijë
+Include this sequence|;|Përfshije këtë rend
+Create ini|;|Krijo ini
+Submit ini file creation|;|Submit krijimin ini skedarëve
+Timer|;|kohëmatës
+Add 1 second|;|Shtoni 1 sekondë
+Connected to Broadlink device: {} {} {}|;|Lidhur me Broadlink Pajisja: {} {} {}
+Error to retrieve type from this file : {}|;|Gabim për të tërhequr lloj nga kjo skedë: {}
+Extracting all the files now...|;|Nxjerrjen gjitha dosjet tani ...
+File : {} exist, we bypass|;|Skeda: {} ekzistojnë, ne bypass
+Are you sure ? you need to restart Plugin after ...|;|A je i sigurt ? ju duhet të rinisni Plugin pas ...
+Overwrite default device type|;|Prishësh parazgjedhur lloj pajisje
+Select Device Type|;|Select Device Type
+Update device type|;|Update lloj pajisje
+About|;|për
+Device 1 not exist|;|Device 1 nuk ekziston
+Edit ini file. Caution, no verification will be made|;|Edit fotografi ini. Kujdes, nuk verifikimi do të bëhet
+Delete ini file and related Domoticz device|;|fotografi fshini ini dhe pajisje të lidhura Domoticz
+Create Domoticz device linked to the ini file|;|Krijo pajisje Domoticz lidhur me dosjen ini

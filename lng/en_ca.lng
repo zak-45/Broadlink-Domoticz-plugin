@@ -1,0 +1,323 @@
+Error to load language file|;|S&#39;ha produït un error en carregar el fitxer d&#39;idioma
+we translate the text : {}|;|traduïm el text: {}
+error in translation, we keep original text|;|error en la traducció, mantenim el text original
+Request Domoticz to : {} used encoding is : {}|;|Sol·liciteu a Domoticz que: {} la codificació utilitzada sigui: {}
+Error sending command to Domoticz : {}|;|S&#39;ha produït un error en enviar la comanda a Domoticz: {}
+Error sending data|;|S&#39;ha produït un error en enviar dades
+Domoticz do not send OK message for: {} ??|;|Domoticz no envia un missatge OK per a: {} ??
+Error retrieve dict data from Domoticz : {}|;|S&#39;ha produït un error en recuperar les dades del dictat de Domoticz: {}
+...|;|...
+ ...  |;|...
+Not able to enter learning mode|;|No es pot entrar al mode d&#39;aprenentatge
+Learning...|;|Aprenentatge
+No data received...|;|No s’han rebut dades ...
+Code learned|;|Codi après
+sweeping...; LED should be RED|;|escombrar ...; El LED ha de ser VERMELL
+check frequency... {}|;|comprova la freqüència ... {}
+frequency found! check LED, should be off|;|freqüència trobada comproveu el LED, hauria d&#39;estar apagat
+frequency not found... |;|no es troba la freqüència ...
+learning command|;|comandament d’aprenentatge
+verify command...{} |;|comprova l&#39;ordre ... {}
+not able to learn command|;|no és capaç d&#39;aprendre el comandament
+Code stored in memory|;|Codi emmagatzemat a la memòria
+RF not true, sweep necessary|;|RF no és veritat, es necessita barres
+We download plugin file to: {}|;|Baixem el fitxer del complement a: {}
+Error receive / save file from dropbox : {}|;|S&#39;ha produït un error en rebre / desar el fitxer des del dropbox: {}
+Error to retrieve plugin version from : {}|;|S&#39;ha produït un error en recuperar la versió del complement des de: {}
+Connected to Broadlink device: {}|;|Connectat al dispositiu de Broadlink: {}
+Error Connecting to Broadlink device....|;|S&#39;ha produït un error en connectar-se al dispositiu de Broadlink ...
+Backup file name : {}|;|Nom del fitxer de còpia de seguretat: {}
+Error to backup file : {}|;|Error al fitxer de còpia de seguretat: {}
+Name : {} -- Unit : {} -- IDX : {} |;|Nom: {} - Unitat: {} - IDX: {}
+Detected here : |;|Detectat aquí:
+Domoticz device created|;|S&#39;ha creat el dispositiu Domoticz
+ini file not found: {}|;|No es troba el fitxer:
+bad code in ini file: {}|;|codi dolent al fitxer ini: {}
+we execute this command : {}|;|executem aquesta comanda: {}
+Next|;|Següent
+Error to send code|;|S&#39;ha produït un error en enviar el codi
+We try to sleep : {} s|;|Intentem dormir: {} s
+bad timer value : {}|;|valor del temporitzador incorrecte: {}
+we send code from : {}|;|enviem codi des de: {}
+Not able to load command from {}|;|No es pot carregar ordre des de {}
+Nothing to send|;|Res d’enviar
+Code sent....|;|Codi enviat....
+Warning : Code sent ....Probably timeout|;|Advertència: Codi enviat ... Probablement es preveu el temps
+Not able to find file {}|;|No s&#39;ha pogut trobar el fitxer {}
+Discover finished|;|Descobriu acabat
+Error to retrieve Broadlink devices|;|S&#39;ha produït un error en recuperar els dispositius de Broadlink
+END scan|;|Exploració FINAL
+IR code learned|;|Codi IR après
+Error to learn IR code|;|S&#39;ha produït un error en aprendre el codi IR
+Sweep ok|;|netejar
+Error in sweep|;|Error al barrer
+RF code learned|;|Codi RF après
+Error to learn RF code|;|S&#39;ha produït un error en aprendre el codi de RF
+END learnrf|;|FIN aprendre
+Usage ok|;|Ús
+Error in usage|;|Error en l&#39;ús
+END usage|;|Ús
+Finished|;|Finalitzat
+END translation|;|Traducció
+We do backup before update|;|Fem còpia de seguretat abans de l’actualització
+New Plugin uploaded|;|S&#39;ha penjat un nou complement
+Error receive / save files from dropbox : {}|;|S&#39;ha produït un error en rebre / desar els fitxers del dropbox: {}
+Not able to create backup file|;|No és capaç de crear fitxers de còpia de seguretat
+If necessary, do 'sudo -H chmod +x *.py'|;|Si cal, feu &#39;sudo -H chmod + x * .py&#39;
+End of plugin update|;|Finalització de l’actualització del complement
+Backup OK|;|Copia de seguretat
+Backup error|;|Error de còpia de seguretatComment
+End of plugin backup|;|Final de la còpia de seguretat del complement
+END of Backup|;|FIN de la còpia de seguretat
+RemotePlugin OK|;|RemotePlugin D&#39;acord
+we have downloaded plugin file for version test|;|hem descarregat el fitxer de complements per a la prova de versió
+plugin : new version available|;|plugin: nova versió disponible
+RemotePlugin Error|;|Error RemotePlugin
+End of remote plugin version test|;|Final de la prova de versió del complement remot
+END of remotePlugin|;|FIN de remotPlugin
+Multi-code OK|;|Multi-codi D&#39;acord
+We have sent multi-code|;|Hem enviat diversos codis
+Multi-code Error|;|Error de múltiples codis
+End of multi-code send|;|Final d&#39;enviament de múltiples codis
+END of multi-code|;|FIN del codi multi
+unknown step|;|desconegut
+Not able to load debug module|;|No es pot carregar el mòdul de depuració
+Language loaded for  : {} |;|Idioma carregat per a: {}
+Language file is missing for : {}|;|Falta el fitxer d&#39;idioma per a: {}
+Port already in use|;|Port ja en ús
+Listen on BROWebServer - Port: {}|;|Escolteu a BROWebServer - Port: {}
+Hardware ID: {} |;|ID de Maquinari:
+Status|;|Estat
+Learn|;|Aprenentatge
+Test|;|Prova
+Save|;|Guardar
+Reset|;|Restablir
+IR Commands|;|Comandes IR
+Sweep|;|Neteja
+RF Commands|;|Comandaments RF
+Temperature|;|Temperatura
+Light|;|Clar
+Humidity|;|Humitat
+Air Quality|;|Qualitat de l Aire
+Noise|;|Soroll
+plug|;|Endoll
+Connecting to: {} : {}|;|S&apos; està connectant amb:
+Ini file for remote controller created: {}|;|Creat un fitxer Ini per al control remot: {}
+Error to create ini file for remote controller : {}|;|Error al crear un fitxer ini per a control remot: {}
+Plugin Device count start on : {}|;|Començament del recompte de dispositius addicionals: {}
+Admin html file created: {}|;|Fitxer html d&#39;administració creat: {}
+Error to create admin html file : {}|;|Error al crear un fitxer html d&#39;administració: {}
+Error to found www/templates for html file : {}|;|S&#39;ha produït un error en trobar www / templates per al fitxer html: {}
+Command line file created: {}|;|S&#39;ha creat un fitxer de línia d&#39;ordres: {}
+Error to create device file : {}|;|Error al crear el fitxer de dispositiu: {}
+We cannot continue ...|;|No podem continuar ...
+Learn IR command|;|Aprengueu ordre IR
+Nothing to save|;|No hi ha res a guardar
+Ini created|;|Creat
+Nothing to reset|;|Res de restablir
+unknown level command|;|comandament de nivell desconegut
+Wait for sweep...|;|Espereu escombrat ...
+Learn RF command|;|Aprengueu comandaments RF
+Sweep first|;|Escombra primer
+Unit unknown|;|desconegut
+Error to put "ON" SP1/SP2/SP3|;|Error en posar &quot;ON&quot; SP1 / SP2 / SP3
+Error to put "on" light for SPx|;|S&#39;ha produït un error en posar llum &quot;a&quot; per a SPx
+Error to put "ON" MP1 for plug : {}|;|S&#39;ha produït un error en posar &quot;ON&quot; MP1 al connector: {}
+Unknown command|;|% 1: Ordre desconeguda.
+Error to put Off SP1/SP2/SP3|;|S&#39;ha produït un error en desactivar SP1 / SP2 / SP3
+Error to put off light for SPx|;|S&#39;ha produït un error en apagar el llum per a SPx
+Error to put Off MP1 for plug : {}|;|Error a desactivar MP1 per al connector: {}
+Unit error update|;|Actualització d’errors d’unitat
+undefined|;|no s&apos; ha definit
+A1 called|;|A1 trucat
+Get Data From Sensors|;|Obteniu dades dels sensors
+SP3S called|;|Es diu SP3S
+MP1 called|;|MP1 trucat
+SP1/SP2 called|;|Es diu SP1 / SP2
+onMessage called for connection: {0}:{1}|;|onMessage crida per a la connexió: {0}: {1}
+Broadlink response OK!|;|Resposta de Broadlink D&#39;acord!
+Request from : {}:{} to : {}|;|Sol·licitud de: {}: {} a: {}
+Plugin restarted !|;|S&#39;ha reiniciat el connector!
+Refresh|;|Actualitzar
+Backup finished.|;|S&#39;ha finalitzat la còpia de seguretat.
+ERROR Unknown url from : {}:{} to : {}|;|ERROR URL url desconeguda de: {}: {} a: {}
+Broadlink not know what to do!|;|Broadlink no sap què fer!
+ERROR Unknown key from : {}:{} to : {}|;|ERROR Clau desconeguda de: {}: {} a: {}
+Broadlink bad key!|;|Clau dolenta de Broadlink!
+Not implemented Request from : {}:{} to : {}|;|No implementat Sol·licitud de: {}: {} a: {}
+Broadlink : not implemented !|;|Enllaç ampli: no implementat
+Unknown verb in request: {}|;|Verb desconegut a la sol·licitud: {}
+We bypass URL check|;|Superem la comprovació d’URL
+We process this url: {}|;|Processem aquesta url: {}
+data process OK|;|procés de dades d’acord
+Error to process data|;|S&#39;ha produït un error en processar dades
+Nothing to do ...|;|Res a fer ...
+Connected successfully to {}:{}|;|S&#39;ha connectat correctament a {}: {}
+onDisconnect called for connection '{}'|;|onDisconnect va demanar la connexió &quot;{}&quot;
+Server Connections: |;|Connexions de servidor:
+Device not modified by plugin|;|Dispositiu no modificat per complement
+Error to update the config file: customname|;|S&#39;ha produït un error en actualitzar el fitxer de configuració: nom personalitzat
+Generate "ON" Command for learned code stored on unit/ini : {}|;|Genereu la comanda &quot;ON&quot; per a codis apresos emmagatzemats a la unitat / ini: {}
+Not able to update device : {}|;|No es pot actualitzar el dispositiu: {}
+Error to update the config file : customname|;|S&#39;ha produït un error en actualitzar el fitxer de configuració: nom personalitzat
+File exist : {}|;|El fitxer existeix: {}
+Not able to create : {}|;|No es pot crear: {}
+Not able to create device : {}|;|No es pot crear el dispositiu: {}
+Ini file / Device deleted : {}|;|Fitxer Ini / Dispositiu suprimit: {}
+Error on delete_ini : {}|;|Error a delete_ini: {}
+reset IR/RF|;|restablir IR / RF
+Reset command executed|;|S&#39;ha executat la comanda de restabliment
+Error to create the config file : {}|;|Error al crear el fitxer de configuració: {}
+ini file created...{}|;|fitxer ini creat ... {}
+Connected to Broadlink device: {} {}|;|Connectat al dispositiu de Broadlink: {} {}
+Error to connect to Broadlink device: {}|;|Error de connectar-se al dispositiu de Broadlink: {}
+Error getting temperature data from Broadlink device....Timeout|;|S&#39;ha produït un error en obtenir dades de temperatura del dispositiu de Broadlink
+Number of ini file to create : {}|;|Nombre de fitxers ini a crear: {}
+You need to select Import for that|;|Heu de seleccionar Importa per això
+No ini files found|;|No s&#39;ha trobat cap fitxer ini
+Removing : {}|;|Elimina.
+No json files found|;|No s&#39;han trobat fitxers json
+No more device available ...|;|No hi ha més dispositiu disponible ...
+Send .. : {} {} {}|;|Envia
+Bypass .. : {} {} {}|;|Bypass ..: {} {} {}
+Send error or command for remote controller not set into ini file: {}|;|Envia un error o ordre per al control remot que no es defineix en el fitxer ini: {}
+Command for remote not defined: {}|;|Ordre remota no definida: {}
+ini file read....{}|;|fitxer ini llegit .... {}
+Custom Commands: {}|;|Ordres personalitzades: {}
+No ini file : {}|;|Sense fitxer ini: {}
+Custom Commands for Remote controller not managed|;|No s&#39;han gestionat les comandes personalitzades del control remot
+Last character must be <,> into the remote controller file|;|El darrer caràcter ha de ser &lt;,&gt; al fitxer del controlador remot
+Invalid number in ini file, string or leading zero|;|El número no vàlid del fitxer ini, la cadena o el zero principal
+Error getting sensor data from Broadlink device....Timeout|;|S&#39;ha produït un error en obtenir les dades del sensor del dispositiu de Broadlink
+Error getting sensor data raw from Broadlink device....Timeout|;|S&#39;ha produït un error en recuperar les dades del sensor des del dispositiu de Broadlink
+State of the plug : {}|;|Estat del connector: {}
+Error to retrieve plug status|;|S&#39;ha produït un error en recuperar l&#39;estat del connector
+State of the light : {}|;|Estat de la llum: {}
+Error to retrieve light status|;|S&#39;ha produït un error en recuperar l&#39;estat de la llum
+Power state for device MP1 : {} |;|Estat d&#39;alimentació per al dispositiu MP1: {}
+Error to check power state of MP1 device|;|S&#39;ha produït un error en comprovar l&#39;estat d&#39;energia del dispositiu MP1
+Energy for device SP3S: {}|;|Energia per al dispositiu SP3S: {}
+Error to get power energy from device SP3S|;|S&#39;ha produït un error en obtenir energia d&#39;energia des del dispositiu SP3S
+Lang file not exist or problem to read data from : {}|;|El fitxer Lang no existeix o el problema per llegir les dades de: {}
+lang file : {}|;|fitxer lang: {}
+argument is missing|;|falta argument
+command to execute : {}|;|Ordre per executar
+ERROR to start subprocess|;|ERROR per iniciar el subprocessament
+Request from domoticz to : {} with encoding : {}|;|Sol·licitud de domoticz a: {} amb codificació: {}
+File {} uploaded.|;|S&apos; ha pujat el fitxer
+Error to create file : {}|;|Error al crear el fitxer: {}
+Error to find file name from: {} or not valid path: {}|;|S&#39;ha produït un error en trobar el nom del fitxer de: {} o ruta no vàlida: {}
+Error to find file name from : {}|;|S&#39;ha produït un error en trobar el nom del fitxer de: {}
+Code loaded : {}|;|Codi carregat: {}
+Not able to send command : Not connected|;|No s&#39;ha pogut enviar ordre: No està connectat
+Error on fpronto from Received Data: {}|;|Error al fpronto de les dades rebudes: {}
+Error to update the config file : multi-code|;|S&#39;ha produït un error en actualitzar el fitxer de configuració: multi-codi
+Error to update the config file : repeat|;|S&#39;ha produït un error en actualitzar el fitxer de configuració: repetir
+Error on Multi-code from Received Data: {}|;|Error al codi múltiple de les dades rebudes: {}
+Error on json from Received Data: {}|;|Error a json de les dades rebudes: {}
+processing data : {}|;|processament de dades: {}
+New version available|;|Nova versió disponible
+we do not know what to do of received data|;|no sabem què fer de les dades rebudes
+Error to read image file :{}|;|Error en llegir el fitxer d&#39;imatge: {}
+Are you sure you want restart Plugin ?|;|Esteu segur que voleu reiniciar el complement?
+Are you sure you want update Plugin ?|;|Esteu segur que voleu actualitzar el complement?
+Are you sure you want backup Plugin data ?|;|Esteu segur que voleu dades del complement de còpia de seguretat?
+File name is required|;|Cal el nom.
+Uploaded |;|Pujada
+ bytes of |;|bytes de
+Work in progress|;|Productes en curs
+% uploaded... please wait|;|% penjat ... espera
+Upload Failed|;|Pujada errònia
+Upload Aborted|;|Carrega avortat
+Wait for few seconds before restarting|;|Espereu uns segons abans de reiniciar
+Restart Failed|;|S&#39;ha produït un error en reiniciar
+Restart Aborted|;|Reinicia avortat
+Restart|;|Reinicia
+Upload|;|Puja
+System information|;|Informació del sistema
+Domoticz language is : {}|;|El llenguatge Domoticz és: {}
+Edit|;|Edita
+Create|;|Crear
+Domoticz, number of plugin devices : {}|;|Domoticz, nombre de dispositius de complement: {}
+Domoticz, Hardware IDX : {}|;|Domoticz, IDX de maquinari: {}
+HTTP Key : {}|;|Clau HTTP: {}
+Plugin directory|;|Directori de connectors
+Ini directory|;|Directori
+Manage|;|Gestionar
+Plugin Log|;|extensió
+Verify version|;|Verifica la versió
+Update|;|actualitzar
+Backup|;|Copia de seguretat
+No permission to list directory|;|No teniu permís per llistar el directori
+Directory content for : {} |;|Contingut del directori per a: {}
+Go back|;|Tornar
+Are you sure you want to update data ?|;|Esteu segur que voleu actualitzar les dades?
+File not exist or problem to access : {}|;|El fitxer no existeix o el problema per accedir: {}
+update|;|actualitzar
+search|;|cerca
+replace|;|substituir
+undo|;|desfer
+redo|;|refer
+FullScreen|;|Pantalla completa
+File not found|;|No s ha trobat el fitxer
+Are you sure you want to delete Ini file and all related data ?|;|Esteu segur que voleu suprimir el fitxer Ini i totes les dades relacionades?
+Are you sure ?|;|N&apos;esteu segur?
+Error retrieve data from device : {}|;|S&#39;ha produït un error en recuperar dades del dispositiu: {}
+... Verify import result ...|;|... Verifica el resultat de la importació ...
+... Verify ini generation ...|;|... Verifica la generació ini ...
+Device information for Broadlink type : |;|Informació del dispositiu per al tipus de Broadlink:
+Scan Broadlink devices|;|Escanejar dispositius de banda ampla
+Network scan|;|ExploraciÃ³ de xarxa:
+Show Broadlink usage and devices linked|;|Mostra l&#39;ús de Broadlink i dispositius enllaçats
+Usage|;|Ús
+Create ini file for send more than one code RF / IR|;|Creeu un fitxer ini per enviar més d’un codi RF / IR
+Multi-Code|;|Multi-codi
+Not able to retrieve data for Usage kWh -- verify device|;|No és capaç de recuperar dades de l&#39;ús de kWh: comprova el dispositiu
+Click to switch|;|Feu clic per canviar
+Air quality|;|Qualitat de l Aire
+Quiet|;|Tranquil
+Noisy|;|Sorollós
+Generate .ini files from e-Control database|;|Genereu fitxers .ini a la base de dades de control electrònic
+Import .ini files from the _import_ directory|;|Importeu fitxers .ini del directori _import_
+Import|;|Importació
+Edit ini file for remote controller|;|Edita el fitxer ini per a control remot
+Infra-red codes database|;|Base de dades de codis infra-vermells
+IR code DB|;|Codi IR DB
+Create Broadlink code from Pronto HEX|;|Creeu codi de Broadlink a partir de Pronto HEX
+Create from Pronto|;|Crear a partir de Pronto
+Copy Past here 'Pronto HEX' code|;|Copieu aquí el codi &quot;Pronto HEX&quot;
+create|;|crear
+Next refresh in|;|Següent actualització a
+Ini file content|;|Contingut del fitxer Ini
+Delete|;|Elimina
+Create device|;|Crea un dispositiu
+show code|;|Mostra el codi
+send code|;|enviar codi
+Number of time you want that the code be repeated|;|Nombre de vegades que voleu que es repeteixi el codi
+modify repetition|;|modifica la repetició
+Code sent from unit :|;|Codi enviat des de la unitat:
+Number of repeat :|;|Nombre de repeticions:
+Background process running ... wait for few seconds|;|Procés en segon pla en funcionament ... espereu uns segons
+Remaining time before --|;|Temps restant abans -
+seconds|;|segons
+Multi-code ini file creation|;|Creació d’arxius multi-codi ini
+Source available|;|Font disponible
+Drop ini file you want to include|;|Desplaceu el fitxer ini que voleu incloure
+Include this sequence|;|Inclou aquesta seqüència
+Create ini|;|Crear
+Submit ini file creation|;|Enviar creació de fitxers ini
+Timer|;|Temporitzador
+Add 1 second|;|Afegiu 1 segon
+Connected to Broadlink device: {} {} {}|;|Connectat a Broadlink dispositiu: {} {} {}
+Error to retrieve type from this file : {}|;|Error per recuperar el tipus de aquesta imatge: {}
+Extracting all the files now...|;|L extracció de tots els fitxers ara ...
+File : {} exist, we bypass|;|Arxiu: {} existeix, ens derivació
+Are you sure ? you need to restart Plugin after ...|;|Estàs segur ? cal reiniciar després Plugin ...
+Overwrite default device type|;|Tipus de dispositiu per defecte de sobreescriure
+Select Device Type|;|Seleccionar tipus de dispositiu
+Update device type|;|Actualització de tipus de dispositiu
+About|;|Sobre
+Device 1 not exist|;|El dispositiu 1 no existeix
+Edit ini file. Caution, no verification will be made|;|Edita arxiu INI. Precaució, no es farà cap verificació
+Delete ini file and related Domoticz device|;|ini d eliminació i el dispositiu Domoticz relacionats
+Create Domoticz device linked to the ini file|;|Crear un dispositiu Domoticz relacionat amb l arxiu ini

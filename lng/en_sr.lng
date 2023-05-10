@@ -1,0 +1,323 @@
+Error to load language file|;|Грешка приликом учитавања језичке датотеке
+we translate the text : {}|;|преводимо текст: {}
+error in translation, we keep original text|;|грешка у преводу, задржавамо оригинални текст
+Request Domoticz to : {} used encoding is : {}|;|Затражите Домотицз за: {} коришћено кодирање је: {}
+Error sending command to Domoticz : {}|;|Грешка приликом слања наредбе Домотицз-у: {}
+Error sending data|;|Погрешка приликом слања података
+Domoticz do not send OK message for: {} ??|;|Домотицз не шаљу ОК поруку за: {} ??
+Error retrieve dict data from Domoticz : {}|;|Грешка при дохваћању података из Домотицза: {}
+...|;|...
+ ...  |;|...
+Not able to enter learning mode|;|Не може да уђе у режим учења
+Learning...|;|Учење
+No data received...|;|"Primljeni podaci"
+Code learned|;|Код научен
+sweeping...; LED should be RED|;|бришући ...; ЛЕД треба да буде ЦРВЕН
+check frequency... {}|;|проверити фреквенцију ... {}
+frequency found! check LED, should be off|;|пронађена фреквенција! проверити ЛЕД, треба да буде искључен
+frequency not found... |;|фреквенција није пронађена ...
+learning command|;|команда за учење
+verify command...{} |;|верифи цомманд ... {}
+not able to learn command|;|није у стању да научи команду
+Code stored in memory|;|Код сачуван у меморији
+RF not true, sweep necessary|;|РФ није тачан, потребно је брисање
+We download plugin file to: {}|;|Датотеку додатака преузимамо на: {}
+Error receive / save file from dropbox : {}|;|Грешка при примању / спремању датотеке са падајуће кутије: {}
+Error to retrieve plugin version from : {}|;|Грешка при преузимању верзије додатка са: {}
+Connected to Broadlink device: {}|;|Веза са уређајем Броадлинк: {}
+Error Connecting to Broadlink device....|;|Грешка приликом повезивања са уређајем Броадлинк ....
+Backup file name : {}|;|Назив резервне датотеке: {}
+Error to backup file : {}|;|Грешка приликом прављења резервне датотеке: {}
+Name : {} -- Unit : {} -- IDX : {} |;|Име: {} - Јединица: {} - ИДКС: {}
+Detected here : |;|Овде је откривено:
+Domoticz device created|;|Домотицз уређај је креиран
+ini file not found: {}|;|Datoteka nije pronađena:
+bad code in ini file: {}|;|лош код у ини датотеци: {}
+we execute this command : {}|;|извршавамо ову команду: {}
+Next|;|Наставите
+Error to send code|;|Грешка код слања кода
+We try to sleep : {} s|;|Покушавамо да заспимо: {} с
+bad timer value : {}|;|лоша вредност тајмера: {}
+we send code from : {}|;|шаљемо код са: {}
+Not able to load command from {}|;|Не може се учитати команда од {}
+Nothing to send|;|Ништа за слање
+Code sent....|;|Код је послат....
+Warning : Code sent ....Probably timeout|;|Упозорење: Код је послан .... Вероватно прекида
+Not able to find file {}|;|Не могу да нађем датотеку {}
+Discover finished|;|Откријте завршено
+Error to retrieve Broadlink devices|;|Погрешка при преузимању уређаја са широкопојасном везом
+END scan|;|ЕНД скенирање
+IR code learned|;|ИР код научен
+Error to learn IR code|;|Грешка код учења ИР кода
+Sweep ok|;|Свееп ок
+Error in sweep|;|Грешка приликом брисања
+RF code learned|;|РФ код научен
+Error to learn RF code|;|Грешка код учења РФ кода
+END learnrf|;|ЕНД леарнрф
+Usage ok|;|UPOTREBA
+Error in usage|;|Грешка у коришћењу
+END usage|;|UPOTREBA
+Finished|;|Završeno
+END translation|;|Translation
+We do backup before update|;|Израђујемо резервне копије пре ажурирања
+New Plugin uploaded|;|Нови додатак је пренесен
+Error receive / save files from dropbox : {}|;|Грешка приликом примања / чувања датотека са дропбок-а: {}
+Extracting all the files now...|;|Екстрахирање свих датотека сада ...
+Not able to create backup file|;|Није могуће да направите резервну датотеку
+If necessary, do 'sudo -H chmod +x *.py'|;|Ако је потребно, урадите &#39;судо -Х цхмод + к * .пи&#39;
+End of plugin update|;|Крај ажурирања додатака
+Backup OK|;|Резервна копија
+Backup error|;|Грешка у резервној копији
+End of plugin backup|;|Крај резервне копије додатка
+END of Backup|;|ЕНД оф Бацкуп
+RemotePlugin OK|;|РемотеПлугин ОК
+we have downloaded plugin file for version test|;|преузели смо датотеку додатка за тестирање верзије
+plugin : new version available|;|плугин: нова верзија доступна
+RemotePlugin Error|;|Грешка РемотеПлугин
+End of remote plugin version test|;|Крај тестирања верзије даљинског додатка
+END of remotePlugin|;|ЕНД оф ремотеПлугин
+Multi-code OK|;|ОК са више кода
+We have sent multi-code|;|Послали смо мулти-код
+Multi-code Error|;|Грешка са више кода
+End of multi-code send|;|Крај слања више кодова
+END of multi-code|;|ЕНД вишекода
+unknown step|;|Nepoznato
+Not able to load debug module|;|Није могуће учитати модул за уклањање погрешака
+Language loaded for  : {} |;|Језик учитан за: {}
+Language file is missing for : {}|;|Недостаје језичка датотека за: {}
+Port already in use|;|Лука је већ у употреби
+Listen on BROWebServer - Port: {}|;|Слушајте на БРОВебСервер - Порт: {}
+Hardware ID: {} |;|ИД хардвера: {}
+Status|;|Status
+Learn|;|Naučite
+Test|;|Тест
+Save|;|Сачувај
+Reset|;|Resetovanje
+IR Commands|;|KOMANDE
+Sweep|;|СвипName
+RF Commands|;|KOMANDE
+Temperature|;|Температура
+Light|;|Светлост
+Humidity|;|Влажност
+Air Quality|;|Квалитет
+Noise|;|Buka
+plug|;|Čep
+Connecting to: {} : {}|;|Повезујем се:
+Ini file for remote controller created: {}|;|Направљена је Ини датотека за даљински управљач: {}
+Error to create ini file for remote controller : {}|;|Погрешка приликом креирања ини датотеке за даљински управљач: {}
+Plugin Device count start on : {}|;|Број додатака уређаја почиње: {}
+Admin html file created: {}|;|Направљена хтмл датотека за администраторе: {}
+Error to create admin html file : {}|;|Погрешка приликом прављења хтмл датотеке за администрацију: {}
+Error to found www/templates for html file : {}|;|Грешка у проналажењу ввв / темплатес за хтмл датотеку: {}
+Command line file created: {}|;|Створена датотека наредбеног ретка: {}
+Error to create device file : {}|;|Грешка приликом креирања датотеке уређаја: {}
+We cannot continue ...|;|Не можемо наставити ...
+Learn IR command|;|Научите ИР команду
+Nothing to save|;|Ништа за уштеду
+Ini created|;|Kreirano
+Nothing to reset|;|Ништа се не може ресетовати
+unknown level command|;|команда непознатог нивоа
+Wait for sweep...|;|Сачекајте брисање ...
+Learn RF command|;|Научите РФ наредбу
+Sweep first|;|Прво пометајте
+Unit unknown|;|Nepoznato
+Error to put "ON" SP1/SP2/SP3|;|Грешка приликом стављања „ОН“ СП1 / СП2 / СП3
+Error to put "on" light for SPx|;|Грешка при стављању светла „на“ за СПк
+Error to put "ON" MP1 for plug : {}|;|Погрешка приликом стављања „ОН“ МП1 за плуг: {}
+Unknown command|;|Непозната команда
+Error to put Off SP1/SP2/SP3|;|Грешка при стављању опције СП1 / СП2 / СП3
+Error to put off light for SPx|;|Грешка при искључивању светла за СПк
+Error to put Off MP1 for plug : {}|;|Погрешка приликом искључивања МП1 за утикач: {}
+Unit error update|;|Ажурирање грешке јединице
+undefined|;|Nedefinisano
+A1 called|;|Позвао је А1
+Get Data From Sensors|;|Добијање података са сензора
+SP3S called|;|Позван СП3С
+MP1 called|;|МП1 је позвао
+SP1/SP2 called|;|СП1 / СП2 позван
+onMessage called for connection: {0}:{1}|;|онМессаге позвана за повезивање: {0}: {1}
+Broadlink response OK!|;|Одговор широкопојасне везе ОК!
+Request from : {}:{} to : {}|;|Захтев од: {}: {} до: {}
+Plugin restarted !|;|Додатак је поново покренут!
+Refresh|;|Освежити
+Backup finished.|;|резервна копија је завршена
+ERROR Unknown url from : {}:{} to : {}|;|ГРЕШКА Непознат урл од: {}: {} до: {}
+Broadlink not know what to do!|;|Броадлинк не зна шта да ради!
+ERROR Unknown key from : {}:{} to : {}|;|ГРЕШКА Непознат тастер од: {}: {} до: {}
+Broadlink bad key!|;|Широки кључ за широки линк!
+Not implemented Request from : {}:{} to : {}|;|Захтев није примењен од: {}: {} до: {}
+Broadlink : not implemented !|;|Широка веза: није имплементирано!
+Unknown verb in request: {}|;|Непознати глагол у захтеву: {}
+We bypass URL check|;|Заобилазимо проверу УРЛ адреса
+We process this url: {}|;|Обрађујемо овај УРЛ: {}
+data process OK|;|процес података у реду
+Error to process data|;|Погрешка приликом обраде података
+Nothing to do ...|;|Ništa.
+Connected successfully to {}:{}|;|Успешно сте повезани са {}: {}
+onDisconnect called for connection '{}'|;|онДисцоннецт позвао за повезивање &#39;{}&#39;
+Server Connections: |;|Везе са сервером:
+Device not modified by plugin|;|Уређај није модификован помоћу додатка
+Error to update the config file: customname|;|Грешка приликом ажурирања конфигурационе датотеке: цустомнаме
+Generate "ON" Command for learned code stored on unit/ini : {}|;|Генерирајте команду „ОН“ за научени код сачуван на унит / ини: {}
+Not able to update device : {}|;|Није могуће ажурирати уређај: {}
+Error to update the config file : customname|;|Грешка приликом ажурирања конфигурационе датотеке: цустомнаме
+File exist : {}|;|Datoteka postoji
+Not able to create : {}|;|Не могу да креирам: {}
+Not able to create device : {}|;|Не можете да направите уређај: {}
+Ini file / Device deleted : {}|;|Ини датотека / уређај је избрисан: {}
+Error on delete_ini : {}|;|Грешка на делете_ини: {}
+reset IR/RF|;|ресетујте ИР / РФ
+Reset command executed|;|Наредба за ресетовање је извршена
+Error to create the config file : {}|;|Грешка приликом креирања конфигурационе датотеке: {}
+ini file created...{}|;|ини датотека креирана ... {}
+Connected to Broadlink device: {} {}|;|Повезани са уређајем Броадлинк: {} {}
+Error to connect to Broadlink device: {}|;|Грешка приликом повезивања са уређајем Броадлинк: {}
+Error getting temperature data from Broadlink device....Timeout|;|Грешка при добијању података о температури са уређаја Броадлинк .... Истек времена
+Number of ini file to create : {}|;|Број ини датотеке за креирање: {}
+You need to select Import for that|;|За то морате одабрати Увоз
+No ini files found|;|Није пронађена ини датотека
+Removing : {}|;|Уклањање
+No json files found|;|Није пронађена јсон датотека
+No more device available ...|;|Nema dostupnih uređaja
+Send .. : {} {} {}|;|Pošalji
+Bypass .. : {} {} {}|;|Bajpas
+Send error or command for remote controller not set into ini file: {}|;|Пошаљите грешку или наредбу за даљински управљач који није постављен у ини датотеку: {}
+Command for remote not defined: {}|;|Команда за даљинско није дефинисана: {}
+ini file read....{}|;|ини датотека чита .... {}
+Custom Commands: {}|;|Прилагођене команде: {}
+No ini file : {}|;|Нема ини датотеке: {}
+Custom Commands for Remote controller not managed|;|Прилагођене команде за даљински управљач се не управљају
+Last character must be <,> into the remote controller file|;|Последњи знак мора бити &lt;,&gt; у датотеци даљинског управљача
+Invalid number in ini file, string or leading zero|;|Неважећи број ини датотеке, низа или водеће нуле
+Error getting sensor data from Broadlink device....Timeout|;|Погрешка приликом добијања података сензора са уређаја Броадлинк .... Истек времена
+Error getting sensor data raw from Broadlink device....Timeout|;|Грешка при добијању необрађених података сензора са уређаја Броадлинк .... Истек времена
+State of the plug : {}|;|Стање утикача: {}
+Error to retrieve plug status|;|Грешка при дохваћању статуса утикача
+State of the light : {}|;|Стање светлости: {}
+Error to retrieve light status|;|Грешка при дохваћању статуса светла
+Power state for device MP1 : {} |;|Стање напајања уређаја МП1: {}
+Error to check power state of MP1 device|;|Погрешка приликом провере стања напајања МП1 уређаја
+Energy for device SP3S: {}|;|Енергија за уређај СП3С: {}
+Error to get power energy from device SP3S|;|Грешка при добијању енергије за уређај са уређаја СП3С
+Lang file not exist or problem to read data from : {}|;|Ланг датотека не постоји или је проблем за читање података са: {}
+lang file : {}|;|ланг филе: {}
+argument is missing|;|аргумент недостаје
+command to execute : {}|;|Наредба за извршавање
+ERROR to start subprocess|;|ГРЕШКА за покретање подпроцеса
+Request from domoticz to : {} with encoding : {}|;|Захтјев од домотицз-а: {} са кодирањем: {}
+File {} uploaded.|;|Фајл отпремљен
+Error to create file : {}|;|Грешка приликом прављења датотеке: {}
+Error to find file name from: {} or not valid path: {}|;|Грешка у проналажењу имена датотеке са: {} или није валидна стаза: {}
+Error to find file name from : {}|;|Грешка приликом проналаска имена датотеке од: {}
+Code loaded : {}|;|Код је учитан: {}
+Not able to send command : Not connected|;|Није у могућности да пошаље команду: Није повезано
+Error on fpronto from Received Data: {}|;|Грешка на фпронту од примљених података: {}
+Error to update the config file : multi-code|;|Грешка приликом ажурирања конфигурационе датотеке: вишекода
+Error to update the config file : repeat|;|Грешка приликом ажурирања конфигурационе датотеке: поновите
+Error on Multi-code from Received Data: {}|;|Грешка код вишекода од примљених података: {}
+Error on json from Received Data: {}|;|Грешка на јсон-у од примљених података: {}
+processing data : {}|;|обрада података: {}
+New version available|;|Доступна нова верзија
+we do not know what to do of received data|;|не знамо шта да радимо са примљеним подацима
+Error to read image file :{}|;|Грешка приликом читања сликовне датотеке: {}
+Are you sure you want restart Plugin ?|;|Јесте ли сигурни да желите поново покренути додатак?
+Are you sure you want update Plugin ?|;|Јесте ли сигурни да желите надоградњу додатка?
+Are you sure you want backup Plugin data ?|;|Јесте ли сигурни да желите резервне податке додатка?
+File name is required|;|Име је неопходно.
+Uploaded |;|Otpremljeno
+ bytes of |;|битес оф
+Work in progress|;|Nedovršena proizvodnja
+% uploaded... please wait|;|% отпремљено ... причекајте
+Upload Failed|;|отпремање није успело
+Upload Aborted|;|Upload fajla je prekinut
+Wait for few seconds before restarting|;|Сачекајте неколико секунди пре поновног покретања
+Restart Failed|;|Рестарт није успео
+Restart Aborted|;|Рестарт Абортед
+Restart|;|Рестартуј
+Upload|;|Otpremi
+System information|;|подаци о систему
+Domoticz language is : {}|;|Домотицз језик је: {}
+Edit|;|Uredi
+Create|;|Kreiraj
+Domoticz, number of plugin devices : {}|;|Домотицз, број додатних уређаја: {}
+Domoticz, Hardware IDX : {}|;|Домотицз, ИД хардвера: {}
+HTTP Key : {}|;|ХТТП кључ: {}
+Plugin directory|;|Именик додатака
+Ini directory|;|Imenik
+Manage|;|Upravljanje
+Plugin Log|;|Plugin
+Verify version|;|Верификујте верзију
+Update|;|Ažuriraj
+Backup|;|Резервна копија
+No permission to list directory|;|Нема дозволу за попис директорија
+Directory content for : {} |;|Садржај именика за: {}
+Go back|;|Vrati se
+Are you sure you want to update data ?|;|Јесте ли сигурни да желите да ажурирате податке?
+File not exist or problem to access : {}|;|Датотека не постоји или је проблем приступити: {}
+update|;|Ažuriraj
+search|;|Pretraga
+replace|;|Zameni
+undo|;|Opozovi
+redo|;|ponovi
+FullScreen|;|Прикажи слику у преко целог екрана
+File not found|;|Datoteka nije pronađena
+Are you sure you want to delete Ini file and all related data ?|;|Јесте ли сигурни да желите избрисати Ини датотеку и све сродне податке?
+Are you sure ?|;|Sigurni ste?
+Error retrieve data from device : {}|;|Погрешка при преузимању података са уређаја: {}
+... Verify import result ...|;|... Проверите резултат увоза ...
+... Verify ini generation ...|;|... Провјери ини генерацију ...
+Device information for Broadlink type : |;|Информације о уређају за тип широке везе:
+Scan Broadlink devices|;|Скенирајте уређаје Броадлинк
+Network scan|;|Мрежа
+Show Broadlink usage and devices linked|;|Прикажи употребу широке везе и повезане уређаје
+Usage|;|Korišćenje
+Create ini file for send more than one code RF / IR|;|Направите ини датотеку за слање више од једног кода РФ / ИР
+Multi-Code|;|Мулти-код
+Not able to retrieve data for Usage kWh -- verify device|;|Не могу дохватити податке за Усаге кВх - верификовати уређај
+Click to switch|;|Кликните за прелазак
+Air quality|;|Квалитет
+Quiet|;|Тихо
+Noisy|;|Bučno
+Generate .ini files from e-Control database|;|Генерирајте .ини датотеке из базе података е-Цонтрол
+Import .ini files from the _import_ directory|;|Увоз .ини датотеке из _импорт_ директорија
+Import|;|Увези
+Edit ini file for remote controller|;|Уређивање ини датотеке за даљински управљач
+Infra-red codes database|;|Инфра-црвена база података кодова
+IR code DB|;|ИР код ДБ
+Create Broadlink code from Pronto HEX|;|Направите шифру Броадлинк-а из Пронто ХЕКС-а
+Create from Pronto|;|Креирајте из Пронто-а
+Copy Past here 'Pronto HEX' code|;|Копирајте прошлост овде „Пронто ХЕКС“ кода
+create|;|kreirati
+Next refresh in|;|Следеће освежење у
+Ini file content|;|Садржај фајла
+Edit ini file. Caution, no verification will be made|;|Уређивање ини датотеке. Опрез, верификација неће бити извршена
+Delete ini file and related Domoticz device|;|Избришите ини датотеку и повезани Домотицз уређај
+Delete|;|Obriši
+Create Domoticz device linked to the ini file|;|Направите Домотицз уређај повезан са ини датотеком
+Create device|;|Креирајте уређај
+show code|;|Prikaži kod
+send code|;|послати код
+Number of time you want that the code be repeated|;|Колико пута желите да се код понови
+modify repetition|;|модификовати понављање
+Code sent from unit :|;|Код послан са јединице:
+Number of repeat :|;|Број понављања:
+Background process running ... wait for few seconds|;|Позадински процес се покреће ... причекајте неколико секунди
+Remaining time before --|;|Преостало време пре -
+seconds|;|Sekunde
+Multi-code ini file creation|;|Стварање ини датотека са више кодова
+Source available|;|Извор доступан
+Drop ini file you want to include|;|Испусти ини датотеку коју желиш укључити
+Include this sequence|;|Укључите ову секвенцу
+Create ini|;|Kreiraj
+Submit ini file creation|;|Пошаљите ини датотеку
+Timer|;|Тајмер
+Add 1 second|;|1 секунд
+Connected to Broadlink device: {} {} {}|;|Цоннецтед то Броадлинк девице: {} {} {}
+Error to retrieve type from this file : {}|;|Еррор да преузмете тип из ове датотеке: {}
+File : {} exist, we bypass|;|Филе: {} постоји, ми обилазнице
+Are you sure ? you need to restart Plugin after ...|;|Јеси ли сигуран ? треба да поново Плугин после ...
+Overwrite default device type|;|Препиши подразумевани тип уређаја
+Select Device Type|;|Избор уређаја Тип
+Update device type|;|Упдате тип уређаја
+About|;|О томе
+Device 1 not exist|;|Девице 1 не постоји

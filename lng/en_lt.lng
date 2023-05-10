@@ -1,0 +1,314 @@
+Error to load language file|;|Klaida įkeliant kalbos failą
+we translate the text : {}|;|mes išverčiame tekstą: {}
+error in translation, we keep original text|;|vertimo klaida, mes išsaugome originalų tekstą
+Request Domoticz to : {} used encoding is : {}|;|Prašyti „Domoticz“: {} naudojamas kodavimas yra: {}
+Error sending command to Domoticz : {}|;|Klaida siunčiant komandą „Domoticz“: {}
+Error sending data|;|Klaida siunčiant duomenis
+Domoticz do not send OK message for: {} ??|;|„Domoticz“ nesiunčia OK pranešimo: {} ??
+Error retrieve dict data from Domoticz : {}|;|Klaida gaunant duomenis iš „Domoticz“: {}
+...|;|...
+ ...  |;|...
+Not able to enter learning mode|;|Neįmanoma pereiti į mokymosi režimą
+Learning...|;|Mokymasis
+No data received...|;|Dar duomenų nepriimta
+Code learned|;|Kodas išmoktas
+sweeping...; LED should be RED|;|valymas ...; Šviesos diodas turėtų būti RAUDONAS
+check frequency... {}|;|tikrinti dažnumą ... {}
+frequency found! check LED, should be off|;|rastas dažnis! pažymėkite LED, turėtų nedegti
+frequency not found... |;|dažnis nerastas ...
+learning command|;|mokymosi komanda
+verify command...{} |;|patvirtinti komandą ... {}
+not able to learn command|;|nesugeba išmokti komandos
+Code stored in memory|;|Kodas saugomas atmintyje
+RF not true, sweep necessary|;|RF netiesa, būtina valyti
+We download plugin file to: {}|;|Atsisiunčiame papildinio failą į: {}
+Error receive / save file from dropbox : {}|;|Klaida gaunant / išsaugojant failą iš „dropbox“: {}
+Error to retrieve plugin version from : {}|;|Klaida gaunant papildinio versiją iš: {}
+Connected to Broadlink device: {}|;|Prijungtas prie „Broadlink“ įrenginio: {}
+Error Connecting to Broadlink device....|;|Klaida jungiantis prie „Broadlink“ įrenginio ...
+Backup file name : {}|;|Atsarginio failo vardas: {}
+Error to backup file : {}|;|Atsarginio failo klaida: {}
+Name : {} -- Unit : {} -- IDX : {} |;|Vardas: {} - Vienetas: {} - IDX: {}
+Detected here : |;|Aptikta čia:
+Domoticz device created|;|Sukurtas „Domoticz“ įrenginys
+ini file not found: {}|;|Failo rasti nepavyko
+bad code in ini file: {}|;|blogas kodas ini faile: {}
+we execute this command : {}|;|vykdome šią komandą: {}
+Next|;|Kitas
+Error to send code|;|Klaida siunčiant kodą
+We try to sleep : {} s|;|Mes stengiamės miegoti: {} s
+bad timer value : {}|;|bloga laikmačio vertė: {}
+we send code from : {}|;|kodą siunčiame iš: {}
+Not able to load command from {}|;|Neįmanoma įkelti komandos iš {}
+Nothing to send|;|Nieko siųsti
+Code sent....|;|Kodas išsiųstas....
+Warning : Code sent ....Probably timeout|;|Įspėjimas: kodas išsiųstas .... Tikriausiai laikas pasibaigęs
+Not able to find file {}|;|Neįmanoma rasti failo {}
+Discover finished|;|Atraskite baigtą
+Error to retrieve Broadlink devices|;|Klaida gaunant „Broadlink“ įrenginius
+END scan|;|Baigti nuskaitymą
+IR code learned|;|IR kodas išmoktas
+Error to learn IR code|;|Klaida mokantis IR kodo
+Sweep ok|;|Valymas
+Error in sweep|;|Klaida šluojant
+RF code learned|;|RF kodas išmoktas
+Error to learn RF code|;|Klaida mokant RF kodą
+END learnrf|;|Baigti mokinį
+Usage ok|;|Panaudojimas
+Error in usage|;|Klaida naudojant
+END usage|;|Panaudojimas
+Finished|;|Baigta
+END translation|;|Vertimas
+We do backup before update|;|Mes darome atsarginę kopiją prieš atnaujindami
+New Plugin uploaded|;|Įkeltas naujas papildinys
+Error receive / save files from dropbox : {}|;|Klaida gaunant / išsaugojant failus iš „dropbox“: {}
+Extracting all the files now...|;|Gaunami visi failai dabar ...
+Not able to create backup file|;|Neįmanoma sukurti atsarginio failo
+If necessary, do 'sudo -H chmod +x *.py'|;|Jei reikia, darykite „sudo -H chmod + x * .py“
+End of plugin update|;|Papildinio atnaujinimo pabaiga
+Backup OK|;|ATSARGINĖ KOPIJA
+Backup error|;|Comment
+End of plugin backup|;|Papildinio atsarginės kopijos pabaiga
+END of Backup|;|Atsarginių kopijų pabaiga
+RemotePlugin OK|;|„RemotePlugin“ gerai
+we have downloaded plugin file for version test|;|atsisiuntėme papildinio failą versijos bandymui
+plugin : new version available|;|papildinys: yra nauja versija
+RemotePlugin Error|;|„RemotePlugin“ klaida
+End of remote plugin version test|;|Nuotolinio papildinio versijos testo pabaiga
+END of remotePlugin|;|„RemotePlugin“ pabaiga
+Multi-code OK|;|Kelių kodų gerai
+We have sent multi-code|;|Mes išsiuntėme kelių kodų kodą
+Multi-code Error|;|Kelių kodų klaida
+End of multi-code send|;|Kelių kodų siuntimo pabaiga
+END of multi-code|;|Kelių kodų pabaiga
+unknown step|;|Nežinoma
+Not able to load debug module|;|Neįmanoma įkelti derinimo modulio
+Language loaded for  : {} |;|Įkelta kalba: {}
+Language file is missing for : {}|;|Trūksta kalbos failo: {}
+Port already in use|;|Prievadas jau naudojamas
+Listen on BROWebServer - Port: {}|;|Klausykite „BROWebServer“ - prievadas: {}
+Hardware ID: {} |;|Techninės įrangos ID: {}
+Status|;|Būsena
+Learn|;|Sužinoti
+Test|;|Testuoti
+Save|;|Įrašyti
+Reset|;|Atstatymas
+IR Commands|;|veiksmus
+Sweep|;|Valymas
+RF Commands|;|veiksmus
+Temperature|;|Temperatūra
+Light|;|Šviesa
+Humidity|;|Drėgmė
+Air Quality|;|"Oro kokybė.
+Noise|;|Triukšmas
+plug|;|kištukas
+Connecting to: {} : {}|;|Jungiuosi prie:
+Ini file for remote controller created: {}|;|Sukurtas nuotolinio valdymo pulto ini failas: {}
+Error to create ini file for remote controller : {}|;|Klaida kuriant ini failą nuotolinio valdymo pultui: {}
+Plugin Device count start on : {}|;|Įskiepio įrenginių skaičius prasideda: {}
+Admin html file created: {}|;|Sukurtas administratoriaus HTML failas: {}
+Error to create admin html file : {}|;|Klaida kuriant administratoriaus html failą: {}
+Error to found www/templates for html file : {}|;|Klaida radus html failo www / šablonus: {}
+Command line file created: {}|;|Sukurtas komandos eilutės failas: {}
+Error to create device file : {}|;|Klaida kuriant įrenginio failą: {}
+We cannot continue ...|;|Negalime tęsti ...
+Learn IR command|;|Sužinokite IR komandą
+Nothing to save|;|Nieko neišsaugoti
+Ini created|;|sukurta
+Nothing to reset|;|Nieko iš naujo nustatyti
+unknown level command|;|nežinomo lygio komanda
+Wait for sweep...|;|Palaukite, kol nušluos ...
+Learn RF command|;|Išmokite RF komandą
+Sweep first|;|Pirmiausia nušluokite
+Unit unknown|;|Nežinoma
+Error to put "ON" SP1/SP2/SP3|;|Klaida įdedant „ON“ SP1 / SP2 / SP3
+Error to put "on" light for SPx|;|Klaida įdedant „ant“ lemputę „SPx“
+Error to put "ON" MP1 for plug : {}|;|Klaida įdedant „ON“ MP1 už kištuką: {}
+Unknown command|;|Nežinoma komanda
+Error to put Off SP1/SP2/SP3|;|Klaida atidaryti SP1 / SP2 / SP3
+Error to put off light for SPx|;|Klaida išjungti „SPx“
+Error to put Off MP1 for plug : {}|;|Klaida atidarant MP1 už kištuką: {}
+Unit error update|;|Vieneto klaidos atnaujinimas
+undefined|;|neapibrėžtas
+A1 called|;|A1 paskambino
+Get Data From Sensors|;|Gaukite duomenis iš jutiklių
+SP3S called|;|Paskambino SP3S
+MP1 called|;|MP1 paskambino
+SP1/SP2 called|;|Paskambino SP1 / SP2
+onMessage called for connection: {0}:{1}|;|„onMessage“ pakvietė prisijungti: {0}: {1}
+Broadlink response OK!|;|Plačiajuosčio ryšio atsakymas Gerai!
+Request from : {}:{} to : {}|;|Prašymas iš: {}: {} į: {}
+Plugin restarted !|;|Įskiepis paleistas iš naujo!
+Refresh|;|Atnaujinti
+Backup finished.|;|Atsarginė kopija sukurta!
+ERROR Unknown url from : {}:{} to : {}|;|KLAIDA Nežinomas URL iš: {}: {} į: {}
+Broadlink not know what to do!|;|Broadlink nežino, ką daryti!
+ERROR Unknown key from : {}:{} to : {}|;|KLAIDA Nežinomas raktas nuo: {}: {} iki: {}
+Broadlink bad key!|;|Blogas plačiajuosčio ryšio klavišas!
+Not implemented Request from : {}:{} to : {}|;|Neįgyvendinta Prašymas iš: {}: {} -: {}
+Broadlink : not implemented !|;|Broadlink: neįdiegta!
+Unknown verb in request: {}|;|Nežinomas veiksmažodis užklausoje: {}
+We bypass URL check|;|Mes apeiname URL patikrinimą
+We process this url: {}|;|Apdorojame šį URL: {}
+data process OK|;|duomenų tvarkymas gerai
+Error to process data|;|Klaida apdorojant duomenis
+Nothing to do ...|;|Nėra ką veikti ...
+Connected successfully to {}:{}|;|Sėkmingai sujungta su {}: {}
+onDisconnect called for connection '{}'|;|„onDisconnect“ paragino prisijungti „{}“
+Server Connections: |;|Serverio jungtys:
+Device not modified by plugin|;|Įrenginys nepakeistas papildiniu
+Error to update the config file: customname|;|Klaida atnaujinant konfigūracijos failą: pasirinktinis vardas
+Generate "ON" Command for learned code stored on unit/ini : {}|;|Sugeneruokite komandą „ĮJUNGTA“ išmoktam kodui, saugomam įrenginyje / ini: {}
+Not able to update device : {}|;|Neįmanoma atnaujinti įrenginio: {}
+Error to update the config file : customname|;|Klaida atnaujinant konfigūracijos failą: pasirinktinis vardas
+File exist : {}|;|Failas egzistuoja: {}
+Not able to create : {}|;|Neįmanoma sukurti: {}
+Not able to create device : {}|;|Neįmanoma sukurti įrenginio: {}
+Ini file / Device deleted : {}|;|„Ini“ failas / įrenginys ištrintas: {}
+Error on delete_ini : {}|;|Klaida „delete_ini“: {}
+reset IR/RF|;|atkurti IR / RF
+Reset command executed|;|Atlikta komanda „Reset“
+Error to create the config file : {}|;|Klaida kuriant konfigūracijos failą: {}
+ini file created...{}|;|Ini failas sukurtas ... {}
+Connected to Broadlink device: {} {}|;|Prijungtas prie „Broadlink“ įrenginio: {} {}
+Error to connect to Broadlink device: {}|;|Klaida prisijungiant prie „Broadlink“ įrenginio: {}
+Error getting temperature data from Broadlink device....Timeout|;|Klaida gaunant temperatūros duomenis iš „Broadlink“ įrenginio .... Laikas
+Number of ini file to create : {}|;|Kuriamo ini failo skaičius: {}
+You need to select Import for that|;|Tam turite pasirinkti Importuoti
+No ini files found|;|Nerasta failų
+Removing : {}|;|Pašalinama
+No json files found|;|Nerasta failų
+No more device available ...|;|Daugiau įrenginio nėra ...
+Send .. : {} {} {}|;|Siųsti:
+Bypass .. : {} {} {}|;|Šuntas:
+Send error or command for remote controller not set into ini file: {}|;|Siųsti klaidą arba nuotolinio valdymo pulto komanda nenustatyta į ini failą: {}
+Command for remote not defined: {}|;|Nuotolinio valdymo komanda neapibrėžta: {}
+ini file read....{}|;|ini failas skaitomas .... {}
+Custom Commands: {}|;|Pasirinktinės komandos: {}
+No ini file : {}|;|Nėra ini failo: {}
+Custom Commands for Remote controller not managed|;|Nevaldomos nuotolinio valdiklio pasirinktinės komandos
+Last character must be <,> into the remote controller file|;|Paskutinis simbolis turi būti &lt;,&gt; nuotolinio valdiklio faile
+Invalid number in ini file, string or leading zero|;|Neteisingas skaičius ini faile, eilutė arba pradinis nulis
+Error getting sensor data from Broadlink device....Timeout|;|Klaida gaunant jutiklio duomenis iš „Broadlink“ įrenginio .... Laikas
+Error getting sensor data raw from Broadlink device....Timeout|;|Klaida gaunant neapdorotus jutiklio duomenis iš „Broadlink“ įrenginio .... Laikas baigėsi
+State of the plug : {}|;|Kištuko būsena: {}
+Error to retrieve plug status|;|Klaida gaunant kištuko būseną
+State of the light : {}|;|Šviesos būsena: {}
+Error to retrieve light status|;|Klaida gaunant šviesos būseną
+Power state for device MP1 : {} |;|Įrenginio MP1 galios būsena: {}
+Error to check power state of MP1 device|;|Klaida tikrinant MP1 įrenginio galios būseną
+Energy for device SP3S: {}|;|Energija įrenginiui SP3S: {}
+Error to get power energy from device SP3S|;|Klaida gaunant energijos iš įrenginio SP3S
+Lang file not exist or problem to read data from : {}|;|Lang failo nėra arba yra problema nuskaityti duomenis iš: {}
+lang file : {}|;|lang failas: {}
+argument is missing|;|trūksta argumento
+command to execute : {}|;|Komanda vykdymui :
+ERROR to start subprocess|;|KLAIDA paleisti antrinį procesą
+Request from domoticz to : {} with encoding : {}|;|„Domoticz“ užklausa: {} su užkodavimu: {}
+File {} uploaded.|;|Failas nusiųstas
+Error to create file : {}|;|Klaida kuriant failą: {}
+Error to find file name from: {} or not valid path: {}|;|Klaida ieškant failo vardo iš: {} arba negaliojantis kelias: {}
+Error to find file name from : {}|;|Klaida ieškant failo pavadinimo iš: {}
+Code loaded : {}|;|Įkeltas kodas: {}
+Not able to send command : Not connected|;|Neįmanoma išsiųsti komandos: neprijungta
+Error on fpronto from Received Data: {}|;|Fpronto klaida gaunant duomenis: {}
+Error to update the config file : multi-code|;|Klaida atnaujinant konfigūracijos failą: kelių kodų
+Error to update the config file : repeat|;|Klaida atnaujinant konfigūracijos failą: pakartokite
+Error on Multi-code from Received Data: {}|;|Kelių kodų iš gautų duomenų klaida: {}
+Error on json from Received Data: {}|;|Klaida json iš gautų duomenų: {}
+processing data : {}|;|apdoroti duomenis: {}
+New version available|;|Yra nauja versija.
+we do not know what to do of received data|;|nežinome, ką daryti su gautais duomenimis
+Error to read image file :{}|;|Klaida skaitant vaizdo failą: {}
+Are you sure you want restart Plugin ?|;|Ar tikrai norite iš naujo paleisti papildinį?
+Are you sure you want update Plugin ?|;|Ar tikrai norite atnaujinti papildinį?
+Are you sure you want backup Plugin data ?|;|Ar tikrai norite sukurti atsarginius papildinio duomenis?
+File name is required|;|Vardas yra privalomas
+Uploaded |;|Įkelta
+ bytes of |;|baitų
+Work in progress|;|Vykstantis darbas
+% uploaded... please wait|;|Įkelta% ... palaukite
+Upload Failed|;|Įkelti nepavyko
+Upload Aborted|;|Įkelti nutraukta
+Wait for few seconds before restarting|;|Prieš paleisdami iš naujo, palaukite kelias sekundes
+Restart Failed|;|Nepavyko paleisti naujo
+Restart Aborted|;|Paleisti iš naujo
+Restart|;|Paleisti iš naujo
+Upload|;|Įkelti
+System information|;|Sistemos informacija
+Domoticz language is : {}|;|„Domoticz“ kalba yra: {}
+Edit|;|Redaguoti
+Create|;|Sukurti
+Domoticz, number of plugin devices : {}|;|„Domoticz“, papildinių įrenginių skaičius: {}
+Domoticz, Hardware IDX : {}|;|„Domoticz“, aparatinės įrangos IDX: {}
+HTTP Key : {}|;|HTTP raktas: {}
+Plugin directory|;|Papildinių katalogas
+Ini directory|;|Aplankas
+Manage|;|Valdyti
+Plugin Log|;|Įskiepis
+Verify version|;|Patvirtinkite versiją
+Update|;|Naujinti
+Backup|;|Atkūrimas
+No permission to list directory|;|Neturime leidimo sudaryti katalogo
+Directory content for : {} |;|Katalogo turinys: {}
+Go back|;|Grįžti
+Are you sure you want to update data ?|;|Ar tikrai norite atnaujinti duomenis?
+File not exist or problem to access : {}|;|Failo nėra arba prieigos problema: {}
+update|;|atnaujiniti
+search|;|ieškoti
+replace|;|pakeiskite
+undo|;|anuliuoti
+redo|;|grąžinti veiksmą
+FullScreen|;|Per visą ekraną
+File not found|;|Failo rasti nepavyko
+Are you sure you want to delete Ini file and all related data ?|;|Ar tikrai norite ištrinti „Ini“ failą ir visus susijusius duomenis?
+Are you sure ?|;|Ar esate tikri?
+Error retrieve data from device : {}|;|Klaida gaunant duomenis iš įrenginio: {}
+... Verify import result ...|;|... patvirtinti importavimo rezultatą ...
+... Verify ini generation ...|;|... patikrinkite ini kartą ...
+Device information for Broadlink type : |;|Informacija apie „Broadlink“ tipo įrenginį:
+Scan Broadlink devices|;|Nuskaitykite „Broadlink“ įrenginius
+Network scan|;|Tinklo skenavimas
+Show Broadlink usage and devices linked|;|Rodyti plačiajuosčio ryšio naudojimą ir susietus įrenginius
+Usage|;|Panaudojimas
+Create ini file for send more than one code RF / IR|;|Sukurkite ini failą, kad galėtumėte siųsti daugiau nei vieną RF / IR kodą
+Multi-Code|;|Daugialypis kodas
+Not able to retrieve data for Usage kWh -- verify device|;|Neįmanoma nuskaityti duomenų apie „kWh“ naudojimą - patikrinkite įrenginį
+Click to switch|;|Spustelėkite norėdami perjungti
+Air quality|;|Oro kokybė
+Quiet|;|Tyliai
+Noisy|;|Triukšminga:
+Generate .ini files from e-Control database|;|Sukurkite .ini failus iš el. Valdymo duomenų bazės
+Import .ini files from the _import_ directory|;|Importuokite .ini failus iš katalogo _import_
+Import|;|Importuoti
+Edit ini file for remote controller|;|Redaguoti nuotolinio valdymo pulto ini failą
+Infra-red codes database|;|Infraraudonųjų spindulių kodų duomenų bazė
+IR code DB|;|IR kodas DB
+Create Broadlink code from Pronto HEX|;|Sukurkite „Broadlink“ kodą iš „Pronto HEX“
+Create from Pronto|;|Sukurti iš Pronto
+Copy Past here 'Pronto HEX' code|;|Nukopijuokite praeitą kodą „Pronto HEX“
+create|;|gaminti
+Next refresh in|;|Kitas atnaujinimas
+Ini file content|;|Dokumento turinys
+Edit ini file. Caution, no verification will be made|;|Redaguoti ini failą. Atsargiai, joks patikrinimas nebus atliekamas
+Delete ini file and related Domoticz device|;|Ištrinkite ini failą ir susijusį „Domoticz“ įrenginį
+Delete|;|Ištrinti
+Create Domoticz device linked to the ini file|;|Sukurkite „Domoticz“ įrenginį, susietą su ini failu
+Create device|;|Sukurti įrenginį
+show code|;|parodyti kodą
+send code|;|siųsti kodą
+Number of time you want that the code be repeated|;|Kiek kartų norite, kad kodas pasikartotų
+modify repetition|;|modifikuoti pakartojimą
+Code sent from unit :|;|Kodas išsiųstas iš vieneto:
+Number of repeat :|;|Pakartojimų skaičius:
+Background process running ... wait for few seconds|;|Fono procesas vykdomas ... palaukite kelias sekundes
+Remaining time before --|;|Likęs laikas anksčiau -
+seconds|;|sekundė
+Multi-code ini file creation|;|Kelių kodų ini failų kūrimas
+Source available|;|Šaltinis galimas
+Drop ini file you want to include|;|Nukreipkite ini failą, kurį norite įtraukti
+Include this sequence|;|Įtraukite šią seką
+Create ini|;|ĮVESTI
+Submit ini file creation|;|Pateikti ini failų kūrimą
+Timer|;|Laikmatis
+Add 1 second|;|1 sek.

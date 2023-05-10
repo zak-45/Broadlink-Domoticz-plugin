@@ -1,0 +1,323 @@
+Error to load language file|;|خطأ في ملف اللغة الحمل
+we translate the text : {}|;|نترجم النص: {}
+error in translation, we keep original text|;|خطأ في الترجمة، ونحافظ على النص الأصلي
+Request Domoticz to : {} used encoding is : {}|;|طلب Domoticz إلى: {} الترميز المستخدم هو: {}
+Error sending command to Domoticz : {}|;|خطأ في إرسال الأوامر لDomoticz: {}
+Error sending data|;|بيانات خطأ أثناء إرسال
+Domoticz do not send OK message for: {} ??|;|Domoticz لا ترسل رسالة موافق ل: {} ؟؟
+Error retrieve dict data from Domoticz : {}|;|خطأ استرداد ديكت البيانات من Domoticz: {}
+...|;|...
+ ...  |;|...
+Not able to enter learning mode|;|غير قادرة للدخول في وضع التعلم
+Learning...|;|تعلم...
+No data received...|;|لم تستلم أية بيانات...
+Code learned|;|علمت كود
+sweeping...; LED should be RED|;|كنس...؛ يجب أن يكون LED RED
+check frequency... {}|;|التحقق من تردد ... {}
+frequency found! check LED, should be off|;|وجد تردد! تحقق LED، يجب أن تكون خارج
+frequency not found... |;|تردد لم يتم العثور على ...
+learning command|;|قيادة التعلم
+verify command...{} |;|التحقق من القيادة ... {}
+not able to learn command|;|لم يكن قادرا على تعلم القيادة
+Code stored in memory|;|كود المخزنة في الذاكرة
+RF not true, sweep necessary|;|RF غير صحيح، اكتساح الضرورة
+We download plugin file to: {}|;|نحن التحميل المساعد الملف: {}
+Error receive / save file from dropbox : {}|;|خطأ يحصل / حفظ ملف من المربع المنسدل: {}
+Error to retrieve plugin version from : {}|;|خطأ لاسترداد المساعد نسخة من: {}
+Connected to Broadlink device: {}|;|متصلا جهاز Broadlink: {}
+Error Connecting to Broadlink device....|;|خطأ توصيل جهاز Broadlink ....
+Backup file name : {}|;|اسم ملف النسخ الاحتياطي: {}
+Error to backup file : {}|;|خطأ في ملف النسخ الاحتياطي: {}
+Name : {} -- Unit : {} -- IDX : {} |;|اسم: {} - الوحدة: {} - IDX: {}
+Detected here : |;|الكشف عن هنا:
+Domoticz device created|;|جهاز Domoticz خلق
+ini file not found: {}|;|ملف INI لم يتم العثور: {}
+bad code in ini file: {}|;|كود سيئة في ملف ini: {}
+we execute this command : {}|;|نقوم بتنفيذ هذا الأمر: {}
+Next|;|التالى
+Error to send code|;|خطأ إلى رمز الإرسال
+We try to sleep : {} s|;|نحن نحاول أن النوم: {} ق
+bad timer value : {}|;|سيئة قيمة الموقت: {}
+we send code from : {}|;|نرسل رمز من: {}
+Not able to load command from {}|;|غير قادر على تحميل الأوامر من {}
+Nothing to send|;|شيئا لإرسال
+Code sent....|;|تم ارسال الكود....
+Warning : Code sent ....Probably timeout|;|تحذير: كود أرسلت .... ربما المهلة
+Not able to find file {}|;|لم يتمكن من العثور على الملف {}
+Discover finished|;|اكتشاف الانتهاء
+Error to retrieve Broadlink devices|;|خطأ لاسترداد الأجهزة Broadlink
+END scan|;|مسح END
+IR code learned|;|كود IR علم
+Error to learn IR code|;|الخطأ لمعرفة كود IR
+Sweep ok|;|الاجتياح طيب
+Error in sweep|;|خطأ في الاجتياح
+RF code learned|;|كود RF علم
+Error to learn RF code|;|خطأ لمعرفة كود RF
+END learnrf|;|learnrf END
+Usage ok|;|استخدام طيب
+Error in usage|;|خطأ في استخدام
+END usage|;|استخدام END
+Finished|;|تم الانتهاء من
+END translation|;|ترجمة END
+We do backup before update|;|ونحن نفعل احتياطية قبل التحديث
+New Plugin uploaded|;|جديد البرنامج المساعد تحميلها
+Error receive / save files from dropbox : {}|;|خطأ يحصل / حفظ الملفات من المربع المنسدل: {}
+Not able to create backup file|;|لم يكن قادرا على إنشاء ملف النسخ الاحتياطي
+If necessary, do 'sudo -H chmod +x *.py'|;|إذا لزم الأمر، القيام "سودو -H شمود + س * .py"
+End of plugin update|;|نهاية التحديث المساعد
+Backup OK|;|OK النسخ الاحتياطي
+Backup error|;|خطأ النسخ الاحتياطي
+End of plugin backup|;|نهاية البرنامج المساعد احتياطية
+END of Backup|;|END النسخ الاحتياطي
+RemotePlugin OK|;|RemotePlugin OK
+we have downloaded plugin file for version test|;|لقد تم تحميل البرنامج المساعد الملف لاختبار نسخة
+plugin : new version available|;|المساعد: إصدار جديد متاح
+RemotePlugin Error|;|خطأ RemotePlugin
+End of remote plugin version test|;|نهاية البرنامج المساعد عن بعد نسخة تجريبية
+END of remotePlugin|;|END من remotePlugin
+Multi-code OK|;|متعدد كود OK
+We have sent multi-code|;|لقد أرسلت متعددة رمز
+Multi-code Error|;|متعدد رمز الخطأ
+End of multi-code send|;|إنهاء متعددة رمز الإرسال
+END of multi-code|;|END متعددة رمز
+unknown step|;|خطوة غير معروفة
+Not able to load debug module|;|غير قادر على تحميل الوحدة النمطية التصحيح
+Language loaded for  : {} |;|اللغة تحميلها لل: {}
+Language file is missing for : {}|;|ملف اللغة مفقود: {}
+Port already in use|;|ميناء قيد الاستخدام
+Listen on BROWebServer - Port: {}|;|الاستماع على BROWebServer - ميناء: {}
+Hardware ID: {} |;|معرف الجهاز: {}
+Status|;|الحالة
+Learn|;|تعلم
+Test|;|اختبار
+Save|;|حفظ
+Reset|;|إعادة تعيين
+IR Commands|;|IR أوامر
+Sweep|;|مسح
+RF Commands|;|RF أوامر
+Temperature|;|درجة الحرارة
+Light|;|ضوء
+Humidity|;|رطوبة
+Air Quality|;|جودة الهواء
+Noise|;|الضوضاء
+plug|;|قابس كهرباء
+Connecting to: {} : {}|;|الاتصال: {}: {}
+Ini file for remote controller created: {}|;|ملف ini للتحكم عن بعد الانشاء: {}
+Error to create ini file for remote controller : {}|;|خطأ في إنشاء ملف ini للتحكم عن بعد: {}
+Plugin Device count start on : {}|;|المساعد بدء العد الأجهزة على: {}
+Admin html file created: {}|;|ملف أتش تي أم أل مشرف خلق: {}
+Error to create admin html file : {}|;|خطأ في إنشاء ملف HTML مشرف: {}
+Error to found www/templates for html file : {}|;|خطأ لتأسيس شبكة الاتصالات العالمية / نماذج لملف HTML: {}
+Command line file created: {}|;|ملف سطر الأوامر الانشاء: {}
+Error to create device file : {}|;|خطأ في إنشاء ملف الجهاز: {}
+We cannot continue ...|;|ونحن لا يمكن أن يستمر ...
+Learn IR command|;|تعلم قيادة IR
+Nothing to save|;|لا شيء لإنقاذ
+Ini created|;|خلق رسائل كتبها هذا المؤلف
+Nothing to reset|;|شيئا لإعادة تعيين
+unknown level command|;|القيادة مستوى غير معروف
+Wait for sweep...|;|انتظر الاجتياح ...
+Learn RF command|;|تعلم قيادة RF
+Sweep first|;|اكتساح أولا
+Unit unknown|;|غير معروف حدة
+Error to put "ON" SP1/SP2/SP3|;|خطأ لوضع "ON" SP1 / SP2 / SP3
+Error to put "on" light for SPx|;|خطأ لوضع "على" ضوء لSPX
+Error to put "ON" MP1 for plug : {}|;|خطأ لوضع "ON" MP1 للسد: {}
+Unknown command|;|طلب مجهول
+Error to put Off SP1/SP2/SP3|;|خطأ لتأجيل SP1 / SP2 / SP3
+Error to put off light for SPx|;|خطأ لتأجيل ضوء لSPX
+Error to put Off MP1 for plug : {}|;|خطأ لتأجيل MP1 للسد: {}
+Unit error update|;|تحديث خطأ وحدة
+undefined|;|غير معرف
+A1 called|;|دعا A1
+Get Data From Sensors|;|الحصول على البيانات من أجهزة الاستشعار
+SP3S called|;|دعا SP3S
+MP1 called|;|MP1 يسمى
+SP1/SP2 called|;|SP1 / SP2 تسمى
+onMessage called for connection: {0}:{1}|;|دعا onMessage للاتصال: {0}: {1}
+Broadlink response OK!|;|استجابة Broadlink OK!
+Request from : {}:{} to : {}|;|طلب من: {}: {} إلى: {}
+Plugin restarted !|;|المساعد إعادة تشغيل!
+Refresh|;|تحديث
+Backup finished.|;|انتهت عملية النسخ الاحتياطي.
+ERROR Unknown url from : {}:{} to : {}|;|خطأ غير معروف رابط من: {}: {} إلى: {}
+Broadlink not know what to do!|;|Broadlink لا أعرف ماذا أفعل!
+ERROR Unknown key from : {}:{} to : {}|;|خطأ غير معروف المفتاح من: {}: {} إلى: {}
+Broadlink bad key!|;|Broadlink مفتاح سيئة!
+Not implemented Request from : {}:{} to : {}|;|لم تنفذ طلب من: {}: {} إلى: {}
+Broadlink : not implemented !|;|Broadlink: لم تنفذ!
+Unknown verb in request: {}|;|الفعل غير معروف في الطلب: {}
+We bypass URL check|;|نحن الالتفافية الاختيار URL
+We process this url: {}|;|نقوم بمعالجة هذا الرابط: {}
+data process OK|;|معالجة البيانات OK
+Error to process data|;|خطأ في معالجة البيانات
+Nothing to do ...|;|لا شيء لأفعله ...
+Connected successfully to {}:{}|;|الاتصال بنجاح إلى {}: {}
+onDisconnect called for connection '{}'|;|onDisconnect دعا للاتصال  {} 
+Server Connections: |;|اتصالات الخادم:
+Device not modified by plugin|;|الجهاز لا تعديلها من قبل المساعد
+Error to update the config file: customname|;|خطأ في تحديث ملف التكوين: customname
+Generate "ON" Command for learned code stored on unit/ini : {}|;|إنشاء "ON" القيادة لرمز علم المخزنة على وحدة / رسائل كتبها هذا المؤلف: {}
+Not able to update device : {}|;|لم تكن قادرا على تحديث الجهاز: {}
+Error to update the config file : customname|;|خطأ في تحديث ملف التكوين: customname
+File exist : {}|;|الوجود الملف: {}
+Not able to create : {}|;|لم يكن قادرا على خلق: {}
+Not able to create device : {}|;|لم يكن قادرا على إنشاء الجهاز: {}
+Ini file / Device deleted : {}|;|ملف ini / جهاز حذف: {}
+Error on delete_ini : {}|;|خطأ على delete_ini: {}
+reset IR/RF|;|إعادة تعيين IR / RF
+Reset command executed|;|تنفيذ أمر إعادة تعيين
+Error to create the config file : {}|;|خطأ في إنشاء ملف التكوين: {}
+ini file created...{}|;|ملف ini خلق ... {}
+Connected to Broadlink device: {} {}|;|متصلة Broadlink الجهاز: {} {}
+Error to connect to Broadlink device: {}|;|خطأ في الاتصال إلى جهاز Broadlink: {}
+Error getting temperature data from Broadlink device....Timeout|;|خطأ في الحصول على بيانات درجات الحرارة من جهاز Broadlink .... مهلة
+Number of ini file to create : {}|;|عدد من ملف ini لخلق: {}
+You need to select Import for that|;|تحتاج إلى تحديد استيراد لذلك
+No ini files found|;|لا توجد ملفات INI
+Removing : {}|;|إزالة: {}
+No json files found|;|لا توجد ملفات سلمان
+No more device available ...|;|لا مزيد من الجهاز متوفرا ...
+Send .. : {} {} {}|;|إرسال .. : {} {} {}
+Bypass .. : {} {} {}|;|الالتفافية ..: {} {} {}
+Send error or command for remote controller not set into ini file: {}|;|إرسال الخطأ أو الأمر للتحكم عن بعد يتم تعيين في ملف ini: {}
+Command for remote not defined: {}|;|القيادة لبعيد غير معرف: {}
+ini file read....{}|;|ملف ini قراءة .... {}
+Custom Commands: {}|;|أوامر مخصصة: {}
+No ini file : {}|;|لا ملف ini: {}
+Custom Commands for Remote controller not managed|;|العرف أوامر للتحكم عن بعد لم تتم إدارتها
+Last character must be <,> into the remote controller file|;|يجب أن يكون الحرف الأخير <،> في ملف التحكم عن بعد
+Invalid number in ini file, string or leading zero|;|عدد غير صالح في ملف ini، سلسلة أو الصفر
+Error getting sensor data from Broadlink device....Timeout|;|خطأ في الحصول على بيانات الاستشعار من جهاز Broadlink .... مهلة
+Error getting sensor data raw from Broadlink device....Timeout|;|خطأ في الحصول على الخام بيانات الاستشعار من جهاز Broadlink .... مهلة
+State of the plug : {}|;|حالة المكونات: {}
+Error to retrieve plug status|;|خطأ لاسترداد وضع المكونات
+State of the light : {}|;|حالة النور: {}
+Error to retrieve light status|;|خطأ لاسترداد ضوء الوضع
+Power state for device MP1 : {} |;|حالة الطاقة لMP1 الجهاز: {}
+Error to check power state of MP1 device|;|خطأ للتحقق من حالة قوة جهاز MP1
+Energy for device SP3S: {}|;|الطاقة لSP3S الجهاز: {}
+Error to get power energy from device SP3S|;|خطأ للحصول على الطاقة الكهربائية من جهاز SP3S
+Lang file not exist or problem to read data from : {}|;|لانج ملف غير موجود أو مشكلة لقراءة البيانات من: {}
+lang file : {}|;|ملف لانج: {}
+argument is missing|;|حجة مفقود
+command to execute : {}|;|الأوامر لتنفيذ: {}
+ERROR to start subprocess|;|خطأ لبدء فرعي أو جانبي
+Request from domoticz to : {} with encoding : {}|;|طلب من domoticz إلى: {} مع الترميز: {}
+File {} uploaded.|;|ملف مرفوع.
+Error to create file : {}|;|خطأ في إنشاء الملف: {}
+Error to find file name from: {} or not valid path: {}|;|خطأ للعثور على اسم الملف من: {} أم لا مسار صحيح: {}
+Error to find file name from : {}|;|خطأ للعثور على اسم الملف من: {}
+Code loaded : {}|;|كود تحميل: {}
+Not able to send command : Not connected|;|لا يمكن أن يرسل الأوامر: لا اتصال
+Error on fpronto from Received Data: {}|;|خطأ في fpronto من البيانات المتلقاة: {}
+Error to update the config file : multi-code|;|خطأ في تحديث ملف التكوين: متعددة رمز
+Error to update the config file : repeat|;|خطأ في تحديث ملف التكوين: تكرار
+Error on Multi-code from Received Data: {}|;|خطأ في موضوع رمز من البيانات المتلقاة: {}
+Error on json from Received Data: {}|;|خطأ على سلمان من البيانات المتلقاة: {}
+processing data : {}|;|معالجة البيانات : {}
+New version available|;|إصدار جديد متاح
+we do not know what to do of received data|;|نحن لا نعرف ما يجب القيام به من البيانات التي وردت
+Error to read image file :{}|;|خطأ في قراءة ملف الصورة: {}
+Are you sure you want restart Plugin ?|;|هل أنت متأكد أنك تريد إعادة تشغيل البرنامج المساعد؟
+Are you sure you want update Plugin ?|;|هل أنت متأكد أنك تريد تحديث البرنامج المساعد؟
+Are you sure you want backup Plugin data ?|;|هل أنت متأكد أنك تريد بيانات البرنامج المساعد احتياطية؟
+File name is required|;|مطلوب اسم الملف
+Uploaded |;|حملت
+ bytes of |;|بايت من
+Work in progress|;|أعمال جارية
+% uploaded... please wait|;|٪ حملت ... الرجاء الانتظار
+Upload Failed|;|التحميل فشل
+Upload Aborted|;|تحميل تم إحباط
+Wait for few seconds before restarting|;|انتظر بضع ثوان قبل استئناف
+Restart Failed|;|فشل إعادة تشغيل
+Restart Aborted|;|إعادة تشغيل تم إحباط
+Restart|;|اعادة البدء
+Upload|;|رفع
+System information|;|معلومات النظام
+Domoticz language is : {}|;|اللغة Domoticz هي: {}
+Edit|;|تعديل
+Create|;|خلق
+Domoticz, number of plugin devices : {}|;|Domoticz، وعدد من أجهزة المساعد: {}
+Domoticz, Hardware IDX : {}|;|Domoticz، أجهزة IDX: {}
+HTTP Key : {}|;|HTTP مفتاح: {}
+Plugin directory|;|الدليل المساعد
+Ini directory|;|رسائل كتبها هذا المؤلف الدليل
+Manage|;|يدير
+Plugin Log|;|المساعد دخول
+Verify version|;|تحقق من إصدار
+Update|;|تحديث
+Backup|;|دعم
+No permission to list directory|;|لا إذن لائحة
+Directory content for : {} |;|محتوى الدليل ل: {}
+Go back|;|عد
+Are you sure you want to update data ?|;|هل أنت متأكد أنك تريد تحديث البيانات؟
+File not exist or problem to access : {}|;|الملف غير موجود أو مشكلة الوصول: {}
+update|;|تحديث
+search|;|بحث
+replace|;|يحل محل
+undo|;|الغاء التحميل
+redo|;|إعادته
+FullScreen|;|تكبير الشاشة
+File not found|;|لم يتم العثور على الملف
+Are you sure you want to delete Ini file and all related data ?|;|هل أنت متأكد أنك تريد حذف رسائل كتبها هذا المؤلف الملف وجميع البيانات ذات الصلة؟
+Are you sure ?|;|هل أنت واثق ؟
+Error retrieve data from device : {}|;|خطأ استرداد البيانات من الجهاز: {}
+... Verify import result ...|;|... تحقق نتيجة استيراد ...
+... Verify ini generation ...|;|... التحقق من جيل رسائل كتبها هذا المؤلف ...
+Device information for Broadlink type : |;|معلومات الجهاز لنوع Broadlink:
+Scan Broadlink devices|;|أجهزة المسح الضوئي Broadlink
+Network scan|;|شبكة المسح
+Show Broadlink usage and devices linked|;|مشاهدة استخدام Broadlink وأجهزة ربط
+Usage|;|استعمال
+Create ini file for send more than one code RF / IR|;|إنشاء ملف ini لإرسال أكثر من رمز واحد RF / IR
+Multi-Code|;|متعدد كود
+Not able to retrieve data for Usage kWh -- verify device|;|لم يكن قادرا على استرداد البيانات للكيلوواط ساعة الاستخدام - تحقق من الجهاز
+Click to switch|;|انقر للتبديل
+Air quality|;|جودة الهواء
+Quiet|;|هادئ
+Noisy|;|مزعج
+Generate .ini files from e-Control database|;|توليد ملفات. ini من السيطرة البريد قاعدة البيانات
+Import .ini files from the _import_ directory|;|استيراد ملفات. ini من دليل _import_
+Import|;|استيراد
+Edit ini file for remote controller|;|تحرير ملف ini للتحكم عن بعد
+Infra-red codes database|;|قاعدة بيانات الرموز الحمراء الأشعة تحت
+IR code DB|;|IR كود DB
+Create Broadlink code from Pronto HEX|;|إنشاء رمز Broadlink من برونتو HEX
+Create from Pronto|;|خلق من برونتو
+Copy Past here 'Pronto HEX' code|;|نسخ لصق هنا كود "برونتو HEX"
+create|;|خلق
+Next refresh in|;|التحديث القادم في
+Ini file content|;|محتوى الملف INI
+Delete|;|حذف
+Create device|;|إنشاء جهاز
+show code|;|كود العرض
+send code|;|كود الإرسال
+Number of time you want that the code be repeated|;|عدد من الوقت تريد أن تتكرر رمز
+modify repetition|;|تعديل التكرار
+Code sent from unit :|;|إرسال رمز من الوحدة:
+Number of repeat :|;|عدد مرات التكرار:
+Background process running ... wait for few seconds|;|جارٍ تشغيل عملية الخلفية ... انتظر بضع ثوانٍ
+Remaining time before --|;|الوقت المتبقي قبل -
+seconds|;|ثواني
+Multi-code ini file creation|;|إنشاء ملف متعدد التعليمات البرمجية ini
+Source available|;|المصدر متاح
+Drop ini file you want to include|;|إسقاط ملف ini الذي تريد تضمينه
+Include this sequence|;|قم بتضمين هذا التسلسل
+Create ini|;|إنشاء
+Submit ini file creation|;|إرسال إنشاء ملف ini
+Timer|;|المؤقت
+Add 1 second|;|1 ثانية
+Connected to Broadlink device: {} {} {}|;|متصلة Broadlink الجهاز: {} {} {}
+Error to retrieve type from this file : {}|;|خطأ لاسترداد نوع من هذا الملف: {}
+Extracting all the files now...|;|استخراج كافة الملفات الآن ...
+File : {} exist, we bypass|;|ملف: {} موجودة، نحن الالتفافية
+Are you sure ? you need to restart Plugin after ...|;|هل أنت واثق ؟ تحتاج إلى إعادة تشغيل البرنامج المساعد بعد ...
+Overwrite default device type|;|نوع الجهاز الافتراضي الكتابة الفوقية
+Select Device Type|;|حدد نوع الجهاز
+Update device type|;|تحديث نوع الجهاز
+About|;|حول
+Device 1 not exist|;|جهاز 1 غير موجود
+Edit ini file. Caution, no verification will be made|;|تحرير ملف ini. الحذر، وسيتم إجراء أي التحقق
+Delete ini file and related Domoticz device|;|حذف رسائل كتبها هذا المؤلف الملف والمتعلقة جهاز Domoticz
+Create Domoticz device linked to the ini file|;|إنشاء جهاز Domoticz مرتبطة ملف ini

@@ -1,0 +1,323 @@
+Error to load language file|;|Помилка завантаження мовного файлу
+we translate the text : {}|;|перекладаємо текст: {}
+error in translation, we keep original text|;|помилка в перекладі, ми зберігаємо оригінальний текст
+Request Domoticz to : {} used encoding is : {}|;|Запросити Domoticz на: {} використовується кодування: {}
+Error sending command to Domoticz : {}|;|Помилка надсилання команди до Domoticz: {}
+Error sending data|;|Помилка надсилання даних
+Domoticz do not send OK message for: {} ??|;|Домотич не надсилає ОК повідомлення для: {} ??
+Error retrieve dict data from Domoticz : {}|;|Помилка отримання даних dict від Domoticz: {}
+...|;|...
+ ...  |;|...
+Not able to enter learning mode|;|Не вдається перейти в режим навчання
+Learning...|;|Пізнавальні здібності
+No data received...|;|Не отримано даних ...
+Code learned|;|Код вивчений
+sweeping...; LED should be RED|;|підмітання ...; Світлодіод повинен бути ЧЕРВЕНОМ
+check frequency... {}|;|перевірити частоту ... {}
+frequency found! check LED, should be off|;|частота знайдена! перевірити світлодіод, повинен бути вимкнено
+frequency not found... |;|частоту не знайдено ...
+learning command|;|команда навчання
+verify command...{} |;|перевірити команду ... {}
+not able to learn command|;|не в змозі навчитися команді
+Code stored in memory|;|Код, що зберігається в пам&#39;яті
+RF not true, sweep necessary|;|РФ не відповідає дійсності, підмітати потрібно
+We download plugin file to: {}|;|Ми завантажуємо файл плагіна на: {}
+Error receive / save file from dropbox : {}|;|Помилка отримання / збереження файлу з папки: {}
+Error to retrieve plugin version from : {}|;|Помилка завантаження версії плагіна з: {}
+Connected to Broadlink device: {}|;|Підключено до пристрою Broadlink: {}
+Error Connecting to Broadlink device....|;|Помилка підключення до пристрою Broadlink ....
+Backup file name : {}|;|Назва резервного файлу: {}
+Error to backup file : {}|;|Помилка резервного копіювання файлу: {}
+Name : {} -- Unit : {} -- IDX : {} |;|Ім&#39;я: {} - Підрозділ: {} - IDX: {}
+Detected here : |;|Виявлено тут:
+Domoticz device created|;|Пристрій Domoticz створено
+ini file not found: {}|;|ini файл не знайдено: {}
+bad code in ini file: {}|;|неправильний код у файлі ini: {}
+we execute this command : {}|;|ми виконуємо цю команду: {}
+Next|;|Наступ
+Error to send code|;|Помилка надсилання коду
+We try to sleep : {} s|;|Ми намагаємося спати: {} s
+bad timer value : {}|;|неправильне значення таймера: {}
+we send code from : {}|;|ми надсилаємо код від: {}
+Not able to load command from {}|;|Не вдається завантажити команду від {}
+Nothing to send|;|Нічого не надсилати
+Code sent....|;|Код надіслано....
+Warning : Code sent ....Probably timeout|;|Попередження: Код надіслано .... Ймовірно, тайм-аут
+Not able to find file {}|;|Не вдається знайти файл {}
+Discover finished|;|Дізнайся закінчено
+Error to retrieve Broadlink devices|;|Помилка пошуку пристроїв Broadlink
+END scan|;|КОНЕЧНЕ сканування
+IR code learned|;|Дізнався ІЧ-код
+Error to learn IR code|;|Помилка вивчення ІЧ-коду
+Sweep ok|;|Підмітати добре
+Error in sweep|;|Помилка підмітання
+RF code learned|;|Вивчений РФ код
+Error to learn RF code|;|Помилка вивчення RF-коду
+END learnrf|;|КІНЦЕ Learnrf
+Usage ok|;|Використання нормально
+Error in usage|;|Помилка використання
+END usage|;|END використання
+Finished|;|Завершено
+END translation|;|Кінцевий переклад
+We do backup before update|;|Ми робимо резервну копію перед оновленням
+New Plugin uploaded|;|Новий плагін завантажено
+Error receive / save files from dropbox : {}|;|Помилка отримання / збереження файлів з папки: {}
+Extracting all the files now...|;|Витягування всіх файлів зараз ...
+Not able to create backup file|;|Не вдається створити файл резервної копії
+If necessary, do 'sudo -H chmod +x *.py'|;|Якщо потрібно, зробіть &#39;sudo -H chmod + x * .py&#39;
+End of plugin update|;|Кінець оновлення плагіна
+Backup OK|;|Резервне копіювання в порядку
+Backup error|;|Помилка під час резервного копіюванняComment
+End of plugin backup|;|Кінець резервного копіювання плагіна
+END of Backup|;|Кінець резервного копіювання
+RemotePlugin OK|;|RemotePlugin OK
+we have downloaded plugin file for version test|;|ми завантажили файл плагіна для перевірки версії
+plugin : new version available|;|плагін: нова версія доступна
+RemotePlugin Error|;|Помилка RemotePlugin
+End of remote plugin version test|;|Закінчення тесту на версія віддаленого плагіна
+END of remotePlugin|;|Кінець віддаленого плагіна
+Multi-code OK|;|Багатокод
+We have sent multi-code|;|Ми надіслали мультикод
+Multi-code Error|;|Помилка з декількома кодами
+End of multi-code send|;|Кінець надсилання коду
+END of multi-code|;|КІНЦЯ мультикоду
+unknown step|;|Невідомий крок.
+Not able to load debug module|;|Не вдається завантажити модуль налагодження
+Language loaded for  : {} |;|Мова завантажена для: {}
+Language file is missing for : {}|;|Мовний файл відсутній для: {}
+Port already in use|;|Порт вже використовується
+Listen on BROWebServer - Port: {}|;|Слухати на BROWebServer - Порт: {}
+Hardware ID: {} |;|Ідентифікатор пристрою
+Status|;|Стан
+Learn|;|Вчитися
+Test|;|Протестувати
+Save|;|保存
+Reset|;|Скидання налаштувань
+IR Commands|;|Команди ІЧ
+Sweep|;|Підібрати
+RF Commands|;|Команди РФ
+Temperature|;|Температура
+Light|;|Світлий
+Humidity|;|Вологість
+Air Quality|;|Air Quality (Якість повітря)
+Noise|;|Шум
+plug|;|Заглушка
+Connecting to: {} : {}|;|З&apos; єднання з:
+Ini file for remote controller created: {}|;|Створений файл Ini для віддаленого контролера: {}
+Error to create ini file for remote controller : {}|;|Помилка створення ini-файла для віддаленого контролера: {}
+Plugin Device count start on : {}|;|Кількість плагін-пристроїв починається від часу: {}
+Admin html file created: {}|;|Створено HTML-файл адміністратора: {}
+Error to create admin html file : {}|;|Помилка створення HTML-файлу адміністратора: {}
+Error to found www/templates for html file : {}|;|Помилка знайденого www / templates для html-файлу: {}
+Command line file created: {}|;|Файл командного рядка створено: {}
+Error to create device file : {}|;|Помилка створення файлу пристрою: {}
+We cannot continue ...|;|Ми не можемо продовжувати ...
+Learn IR command|;|Дізнайтеся ІК команду
+Nothing to save|;|Нічого зберігати
+Ini created|;|Іні створив
+Nothing to reset|;|Нічого для скидання
+unknown level command|;|команда невідомого рівня
+Wait for sweep...|;|Зачекайте підмітання ...
+Learn RF command|;|Дізнайтеся команду РФ
+Sweep first|;|Помітайте спочатку
+Unit unknown|;|Підрозділ невідомий
+Error to put "ON" SP1/SP2/SP3|;|Помилка введення &quot;ON&quot; SP1 / SP2 / SP3
+Error to put "on" light for SPx|;|Помилка включення світла &quot;увімкнено&quot; для SPx
+Error to put "ON" MP1 for plug : {}|;|Помилка встановлення &quot;ON&quot; MP1 для плагіна: {}
+Unknown command|;|Невідома команда
+Error to put Off SP1/SP2/SP3|;|Помилка відключення SP1 / SP2 / SP3
+Error to put off light for SPx|;|Помилка відключення світла для SPx
+Error to put Off MP1 for plug : {}|;|Помилка вимкнення MP1 для штекера: {}
+Unit error update|;|Оновлення помилки блоку
+undefined|;|невизначено
+A1 called|;|А1 подзвонив
+Get Data From Sensors|;|Отримати дані від датчиків
+SP3S called|;|SP3S викликається
+MP1 called|;|MP1 зателефонував
+SP1/SP2 called|;|SP1 / SP2 викликається
+onMessage called for connection: {0}:{1}|;|onMessage закликає підключення: {0}: {1}
+Broadlink response OK!|;|Відповідь на широке посилання ОК!
+Request from : {}:{} to : {}|;|Запит від: {}: {} до: {}
+Plugin restarted !|;|Плагін перезапущено!
+Refresh|;|Оновити
+Backup finished.|;|Резервне копіювання завершено.
+ERROR Unknown url from : {}:{} to : {}|;|ПОМИЛКА Невідома URL-адреса від: {}: {} до: {}
+Broadlink not know what to do!|;|Broadlink не знаю, що робити!
+ERROR Unknown key from : {}:{} to : {}|;|ПОМИЛКА Невідомий ключ від: {}: {} до: {}
+Broadlink bad key!|;|Погана клавіша для широкого посилання!
+Not implemented Request from : {}:{} to : {}|;|Не реалізовано Запит від: {}: {} до: {}
+Broadlink : not implemented !|;|Широке посилання: не реалізовано!
+Unknown verb in request: {}|;|Невідомий дієслово у запиті: {}
+We bypass URL check|;|Ми обходимо перевірку URL-адрес
+We process this url: {}|;|Ми обробляємо цю URL-адресу: {}
+data process OK|;|обробка даних в порядку
+Error to process data|;|Помилка обробки даних
+Nothing to do ...|;|Нічого робити ...
+Connected successfully to {}:{}|;|Підключено успішно
+onDisconnect called for connection '{}'|;|onDisconnect викликає з&#39;єднання &quot;{}&quot;
+Server Connections: |;|Підключення до сервера:
+Device not modified by plugin|;|Пристрій не змінено плагіном
+Error to update the config file: customname|;|Помилка оновлення конфігураційного файлу: ім&#39;я користувача
+Generate "ON" Command for learned code stored on unit/ini : {}|;|Створити команду &quot;ON&quot; для вивченого коду, що зберігається на unit / ini: {}
+Not able to update device : {}|;|Не вдається оновити пристрій: {}
+Error to update the config file : customname|;|Помилка оновлення конфігураційного файла: ім&#39;я користувача
+File exist : {}|;|Файл існує: {}
+Not able to create : {}|;|Не вдається створити: {}
+Not able to create device : {}|;|Не вдається створити пристрій: {}
+Ini file / Device deleted : {}|;|Файл / пристрій видалено: {}
+Error on delete_ini : {}|;|Помилка delete_ini: {}
+reset IR/RF|;|скинути ІЧ / РЧ
+Reset command executed|;|Команда скидання виконана
+Error to create the config file : {}|;|Помилка створення конфігураційного файлу: {}
+ini file created...{}|;|файл ini створено ... {}
+Connected to Broadlink device: {} {}|;|Підключено до пристрою Broadlink: {} {}
+Error to connect to Broadlink device: {}|;|Помилка підключення до пристрою Broadlink: {}
+Error getting temperature data from Broadlink device....Timeout|;|Помилка отримання даних про температуру з пристрою Broadlink .... Час очікування
+Number of ini file to create : {}|;|Кількість ini-файла для створення: {}
+You need to select Import for that|;|Для цього потрібно вибрати Імпорт
+No ini files found|;|Не знайдено файлів ini
+Removing : {}|;|Вилучення:
+No json files found|;|Не знайдено файлів json
+No more device available ...|;|Більше пристроїв більше немає ...
+Send .. : {} {} {}|;|Відправити
+Bypass .. : {} {} {}|;|Байпас
+Send error or command for remote controller not set into ini file: {}|;|Помилка надсилання або команда для віддаленого контролера, не встановленого у файл ini: {}
+Command for remote not defined: {}|;|Команда для віддаленого не визначена: {}
+ini file read....{}|;|ini файл читається .... {}
+Custom Commands: {}|;|Спеціальні команди: {}
+No ini file : {}|;|Немає файлу ini: {}
+Custom Commands for Remote controller not managed|;|Спеціальні команди для віддаленого контролера не керуються
+Last character must be <,> into the remote controller file|;|Останній символ повинен бути &lt;,&gt; у файлі віддаленого контролера
+Invalid number in ini file, string or leading zero|;|Недійсне число у ini-файлі, рядку чи нулі
+Error getting sensor data from Broadlink device....Timeout|;|Помилка отримання даних датчика з пристрою Broadlink .... Час очікування
+Error getting sensor data raw from Broadlink device....Timeout|;|Помилка отримання даних датчиків із пристрою Broadlink .... Час очікування
+State of the plug : {}|;|Стан штекера: {}
+Error to retrieve plug status|;|Помилка отримання статусу підключення
+State of the light : {}|;|Стан світла: {}
+Error to retrieve light status|;|Помилка отримання статусу світла
+Power state for device MP1 : {} |;|Стан живлення для пристрою MP1: {}
+Error to check power state of MP1 device|;|Помилка перевірки стану живлення пристрою MP1
+Energy for device SP3S: {}|;|Енергія для пристрою SP3S: {}
+Error to get power energy from device SP3S|;|Помилка отримання енергії живлення від пристрою SP3S
+Lang file not exist or problem to read data from : {}|;|Файл Lang не існує або проблема з читанням даних із: {}
+lang file : {}|;|lang file: {}
+argument is missing|;|аргумент відсутній
+command to execute : {}|;|Виконати команду
+ERROR to start subprocess|;|ПОМИЛКА для запуску підпроцесу
+Request from domoticz to : {} with encoding : {}|;|Запит від domoticz до: {} з кодуванням: {}
+File {} uploaded.|;|Файл вивантажено
+Error to create file : {}|;|Помилка створення файлу: {}
+Error to find file name from: {} or not valid path: {}|;|Помилка пошуку імені файлу: {} або недійсний шлях: {}
+Error to find file name from : {}|;|Помилка пошуку імені файлу від: {}
+Code loaded : {}|;|Код завантажено: {}
+Not able to send command : Not connected|;|Неможливо надіслати команду: Не підключено
+Error on fpronto from Received Data: {}|;|Помилка на fpronto з отриманих даних: {}
+Error to update the config file : multi-code|;|Помилка оновлення конфігураційного файлу: мультикод
+Error to update the config file : repeat|;|Помилка оновлення конфігураційного файлу: повторити
+Error on Multi-code from Received Data: {}|;|Помилка багатокодового отримання отриманих даних: {}
+Error on json from Received Data: {}|;|Помилка json із отриманих даних: {}
+processing data : {}|;|ОБРОБЛЕННЯ ДАНИХ
+New version available|;|Доступна нова версія: <ph id="mtc_1" equiv-text="base64:JXM="/>
+we do not know what to do of received data|;|ми не знаємо, що робити з отриманими даними
+Error to read image file :{}|;|Помилка читання файлу зображення: {}
+Are you sure you want restart Plugin ?|;|Ви впевнені, що хочете перезапустити плагін?
+Are you sure you want update Plugin ?|;|Ви впевнені, що хочете оновити плагін?
+Are you sure you want backup Plugin data ?|;|Ви впевнені, що хочете створити резервні дані плагіна?
+File name is required|;|Ім&#39;я файлу обов&#39;язково
+Uploaded |;|Завантажено
+ bytes of |;|байт
+Work in progress|;|Незавершене виробництво
+% uploaded... please wait|;|% завантажено ... зачекайте
+Upload Failed|;|Завантаження не вдалось
+Upload Aborted|;|Завантажити скасовано
+Wait for few seconds before restarting|;|Зачекайте кілька секунд перед перезапуском
+Restart Failed|;|Помилка перезапуску
+Restart Aborted|;|Перезапуск аборту
+Restart|;|Restart
+Upload|;|Завантажити
+System information|;|Системна інформація
+Domoticz language is : {}|;|Мова домотиків: {}
+Edit|;|Редагувати
+Create|;|Створити
+Domoticz, number of plugin devices : {}|;|Domoticz, кількість плагін-пристроїв: {}
+Domoticz, Hardware IDX : {}|;|Domoticz, апаратне забезпечення IDX: {}
+HTTP Key : {}|;|HTTP-ключ: {}
+Plugin directory|;|Каталог плагінів
+Ini directory|;|Ini каталог
+Manage|;|Керувати
+Plugin Log|;|Журнал плагінів
+Verify version|;|Перевірте версію
+Update|;|Оновлення
+Backup|;|Бекап
+No permission to list directory|;|Немає дозволу на перелік каталогу
+Directory content for : {} |;|Вміст каталогу для: {}
+Go back|;|Повернутися
+Are you sure you want to update data ?|;|Ви впевнені, що хочете оновити дані?
+File not exist or problem to access : {}|;|Файл не існує або проблема з доступом: {}
+update|;|оновлення
+search|;|пошук
+replace|;|замінити
+undo|;|скасувати
+redo|;|повторити
+FullScreen|;|Повноекранний
+File not found|;|Файл не знайдено
+Are you sure you want to delete Ini file and all related data ?|;|Ви впевнені, що хочете видалити файл Ini та всі пов’язані дані?
+Are you sure ?|;|Ви впевнені?
+Error retrieve data from device : {}|;|Помилка отримання даних з пристрою: {}
+... Verify import result ...|;|... Підтвердити результат імпорту ...
+... Verify ini generation ...|;|... Перевірте генерацію ini ...
+Device information for Broadlink type : |;|Інформація про пристрій типу Broadlink:
+Scan Broadlink devices|;|Сканувати пристрої широкосмугового зв’язку
+Network scan|;|ÐÐ¾ÑÑÐº Ñ Ð¼ÐµÑÐµÐ¶Ñ:
+Show Broadlink usage and devices linked|;|Показати використання Broadlink та пов’язані пристрої
+Usage|;|Використання
+Create ini file for send more than one code RF / IR|;|Створіть ini-файл для надсилання більш ніж одного коду RF / IR
+Multi-Code|;|Мультикод
+Not able to retrieve data for Usage kWh -- verify device|;|Не вдається отримати дані для використання кВт * год. - перевірте пристрій
+Click to switch|;|Клацніть для переключення
+Air quality|;|Якість повітря
+Quiet|;|Тихо
+Noisy|;|Шумна
+Generate .ini files from e-Control database|;|Створення файлів .ini з бази даних e-Control
+Import .ini files from the _import_ directory|;|Імпортуйте файли .ini з каталогу _import_
+Import|;|Імпорт
+Edit ini file for remote controller|;|Редагувати INI-файл для віддаленого контролера
+Infra-red codes database|;|База даних інфрачервоних кодів
+IR code DB|;|ІЧ-код БД
+Create Broadlink code from Pronto HEX|;|Створіть код Broadlink від Pronto HEX
+Create from Pronto|;|Створити з Pronto
+Copy Past here 'Pronto HEX' code|;|Скопіюйте минулий сюди код &quot;Pronto HEX&quot;
+create|;|створити
+Next refresh in|;|Наступне оновлення в
+Ini file content|;|Вміст файлу Ini
+Edit ini file. Caution, no verification will be made|;|Редагувати ini-файл. Обережно, перевірка не проводиться
+Delete ini file and related Domoticz device|;|Видаліть файл ini та пов&#39;язаний з ним пристрій Domoticz
+Delete|;|Видалити
+Create Domoticz device linked to the ini file|;|Створіть пристрій Domoticz, пов’язаний з файлом ini
+Create device|;|Створіть пристрій
+show code|;|Показати код
+send code|;|Надіслати код
+Number of time you want that the code be repeated|;|Кількість разів, коли потрібно повторити код
+modify repetition|;|модифікувати повторення
+Code sent from unit :|;|Код, надісланий з одиниці:
+Number of repeat :|;|Кількість повторів:
+Background process running ... wait for few seconds|;|Фоновий процес працює ... зачекайте кілька секунд
+Remaining time before --|;|Залишився час до -
+seconds|;|секунд
+Multi-code ini file creation|;|Створення ini-файлів з декількома кодами
+Source available|;|Джерело доступне
+Drop ini file you want to include|;|Видаліть файл ini, який потрібно включити
+Include this sequence|;|Включіть цю послідовність
+Create ini|;|Створіть ini
+Submit ini file creation|;|Надіслати створення ini-файлу
+Timer|;|Таймер
+Add 1 second|;|1 секунду
+Connected to Broadlink device: {} {} {}|;|Підключення до Broadlink пристрою: {} {} {}
+Error to retrieve type from this file : {}|;|Помилка витягти тип з цього файлу: {}
+File : {} exist, we bypass|;|Файл: {} існує, ми обходимо
+Are you sure ? you need to restart Plugin after ...|;|Ти впевнений ? вам потрібно перезапустити плагін після ...
+Overwrite default device type|;|Тип пристрою перезапису за замовчуванням
+Select Device Type|;|Виберіть тип пристрою
+Update device type|;|Оновлення типу пристрою
+About|;|про
+Device 1 not exist|;|Пристрій 1 не існує

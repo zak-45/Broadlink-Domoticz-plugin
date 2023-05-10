@@ -1,0 +1,323 @@
+Error to load language file|;|Dil dosyası yüklenemedi
+we translate the text : {}|;|metni çeviriyoruz: {}
+error in translation, we keep original text|;|çeviri hatası, orijinal metni koruyoruz
+Request Domoticz to : {} used encoding is : {}|;|Domoticz&#39;den: {} kullanılan kodlama: {}
+Error sending command to Domoticz : {}|;|Domoticz&#39;e komut gönderilirken hata oluştu: {}
+Error sending data|;|Veri gönderilirken hata oluştu:
+Domoticz do not send OK message for: {} ??|;|Domoticz için OK mesajı göndermeyin: {} ??
+Error retrieve dict data from Domoticz : {}|;|Domoticz&#39;den dict verileri alınırken hata oluştu: {}
+...|;|...
+ ...  |;|...
+Not able to enter learning mode|;|Öğrenme moduna giremiyorum
+Learning...|;|Öğrenme
+No data received...|;|Alınan veri yok
+Code learned|;|Öğrenilen kod
+sweeping...; LED should be RED|;|Nefes kesici...; LED KIRMIZI olmalıdır
+check frequency... {}|;|sıklığı kontrol et ... {}
+frequency found! check LED, should be off|;|frekans bulundu! LED&#39;i kontrol edin, kapalı olmalıdır
+frequency not found... |;|frekans bulunamadı ...
+learning command|;|öğrenme komutu
+verify command...{} |;|komutu doğrula ... {}
+not able to learn command|;|komutu öğrenemiyorum
+Code stored in memory|;|Bellekte saklanan kod
+RF not true, sweep necessary|;|RF doğru değil, süpürme gerekli
+We download plugin file to: {}|;|Eklenti dosyasını şu adrese indiriyoruz: {}
+Error receive / save file from dropbox : {}|;|Dropbox&#39;tan dosya alınırken / kaydedilirken hata oluştu: {}
+Error to retrieve plugin version from : {}|;|{} Eklenti sürümü alınırken hata oluştu
+Connected to Broadlink device: {}|;|Broadlink cihazına bağlı: {}
+Error Connecting to Broadlink device....|;|Broadlink cihazına bağlanma hatası ...
+Backup file name : {}|;|Yedek Dosya Adı
+Error to backup file : {}|;|Dosya yedekleme hatası: {}
+Name : {} -- Unit : {} -- IDX : {} |;|İsim: {} - Birim: {} - IDX: {}
+Detected here : |;|Burada tespit edildi:
+Domoticz device created|;|Domoticz cihazı oluşturuldu
+ini file not found: {}|;|ini dosyası bulunamadı: {}
+bad code in ini file: {}|;|ini dosyasındaki bozuk kod: {}
+we execute this command : {}|;|şu komutu yürütüyoruz: {}
+Next|;|Sonraki
+Error to send code|;|Kod gönderme hatası
+We try to sleep : {} s|;|Uyumaya çalışıyoruz: {} s
+bad timer value : {}|;|hatalı zamanlayıcı değeri: {}
+we send code from : {}|;|kodu şu adresten gönderiyoruz: {}
+Not able to load command from {}|;|{} Kaynağından komut yüklenemiyor
+Nothing to send|;|Gönderilecek bir şey yok
+Code sent....|;|"Kod gönderildi",
+Warning : Code sent ....Probably timeout|;|Uyarı: Kod gönderildi .... Muhtemelen zaman aşımı
+Not able to find file {}|;|{} Dosyası bulunamadı
+Discover finished|;|Keşif bitti
+Error to retrieve Broadlink devices|;|Broadlink cihazları alınırken hata oluştu
+END scan|;|END taraması
+IR code learned|;|IR kodu öğrenildi
+Error to learn IR code|;|IR kodu öğrenme hatası
+Sweep ok|;|Süpür tamam
+Error in sweep|;|Süpürmede hata
+RF code learned|;|Öğrenilen RF kodu
+Error to learn RF code|;|RF kodu öğrenme hatası
+END learnrf|;|END Instagram Hesabındaki Resim ve Videoları learnrf
+Usage ok|;|Kullanım tamam
+Error in usage|;|Kullanım hatası
+END usage|;|END kullanımı
+Finished|;|Bitmiş
+END translation|;|END çevirisi
+We do backup before update|;|Güncellemeden önce yedekleme yapıyoruz
+New Plugin uploaded|;|Yeni Eklenti yüklendi
+Error receive / save files from dropbox : {}|;|Dropbox&#39;tan dosya alma / kaydetme hatası: {}
+Extracting all the files now...|;|Şimdi tüm dosyalar çıkartılıyor ...
+Not able to create backup file|;|Yedek dosya oluşturulamıyor
+If necessary, do 'sudo -H chmod +x *.py'|;|Gerekirse, &#39;sudo -H chmod + x * .py&#39; yapın
+End of plugin update|;|Eklenti sonu güncellemesi
+Backup OK|;|Yedekleme Tamam
+Backup error|;|Yedekleme Hatası
+End of plugin backup|;|Eklenti yedeklemesinin sonu
+END of Backup|;|Yedeklemenin SONU
+RemotePlugin OK|;|RemotePlugin Tamam
+we have downloaded plugin file for version test|;|sürüm testi için eklenti dosyasını indirdik
+plugin : new version available|;|eklenti: yeni sürüm mevcut
+RemotePlugin Error|;|RemotePlugin Hatası
+End of remote plugin version test|;|Uzaktan eklenti sürüm testinin sonu
+END of remotePlugin|;|RemotePlugin&#39;in END
+Multi-code OK|;|Çoklu kod TAMAM
+We have sent multi-code|;|Çok kod gönderdik
+Multi-code Error|;|Çoklu Kod Hatası
+End of multi-code send|;|Çoklu kod göndermenin sonu
+END of multi-code|;|END çoklu kod
+unknown step|;|bilinmeyen adım
+Not able to load debug module|;|Hata ayıklama modülü yüklenemiyor
+Language loaded for  : {} |;|Yüklenen dil: {}
+Language file is missing for : {}|;|{} İçin dil dosyası eksik
+Port already in use|;|Bağlantı noktası zaten kullanılıyor
+Listen on BROWebServer - Port: {}|;|BROWebServer&#39;da dinleyin - Port: {}
+Hardware ID: {} |;|donanım kimliği
+Status|;|Durum
+Learn|;|Öğren
+Test|;|Test
+Save|;|Kaydet
+Reset|;|Sıfırlayın
+IR Commands|;|IR Komutları
+Sweep|;|Tarama
+RF Commands|;|RF Komutları
+Temperature|;|Sıcaklık
+Light|;|Işık
+Humidity|;|Nem
+Air Quality|;|Hava kalitesi
+Noise|;|Gürültü
+plug|;|fiş
+Connecting to: {} : {}|;|Bağlanılıyor:
+Ini file for remote controller created: {}|;|Uzaktan kumanda için Ini dosyası oluşturuldu: {}
+Error to create ini file for remote controller : {}|;|Uzaktan kumanda için ini dosyası oluşturma hatası: {}
+Plugin Device count start on : {}|;|Eklenti Cihazı sayısı başlıyor: {}
+Admin html file created: {}|;|Yönetici html dosyası oluşturuldu: {}
+Error to create admin html file : {}|;|Yönetici html dosyası oluşturma hatası: {}
+Error to found www/templates for html file : {}|;|Html dosyası için www / templates bulunamadı hatası: {}
+Command line file created: {}|;|Oluşturulan komut satırı dosyası: {}
+Error to create device file : {}|;|Cihaz dosyası oluşturulurken hata oluştu: {}
+We cannot continue ...|;|Devam Edemez
+Learn IR command|;|IR komutunu öğren
+Nothing to save|;|Kaydedilecek bir şey yok.
+Ini created|;|Ini oluşturuldu
+Nothing to reset|;|Sıfırlanacak bir şey yok
+unknown level command|;|bilinmeyen seviye komutu
+Wait for sweep...|;|Süpürmeyi bekleyin ...
+Learn RF command|;|RF komutunu öğrenin
+Sweep first|;|Önce süpür
+Unit unknown|;|Birim bilinmiyor
+Error to put "ON" SP1/SP2/SP3|;|&quot;AÇIK&quot; SP1 / SP2 / SP3 hatası
+Error to put "on" light for SPx|;|SPx için &quot;açık&quot; ışığı yanma hatası
+Error to put "ON" MP1 for plug : {}|;|Fiş için &quot;AÇIK&quot; MP1 yerleştirme hatası: {}
+Unknown command|;|% 1: Bilinmeyen komut.
+Error to put Off SP1/SP2/SP3|;|SP1 / SP2 / SP3 kapatılırken hata oluştu
+Error to put off light for SPx|;|SPx için ışık söndürme hatası
+Error to put Off MP1 for plug : {}|;|MP1 fiş için kapatılma hatası: {}
+Unit error update|;|Hata güncellemesi
+undefined|;|Tanımsız
+A1 called|;|A1 aradı
+Get Data From Sensors|;|Sensörlerden Veri Alın
+SP3S called|;|SP3S çağrıldı
+MP1 called|;|MP1 çağrıldı
+SP1/SP2 called|;|SP1 / SP2 çağrıldı
+onMessage called for connection: {0}:{1}|;|onMessage bağlantı çağrıldı: {0}: {1}
+Broadlink response OK!|;|Broadlink yanıtı TAMAM!
+Request from : {}:{} to : {}|;|{}: {} Hedef: {}
+Plugin restarted !|;|Eklenti yeniden başlatıldı!
+Refresh|;|Yenile
+Backup finished.|;|Yedekleme tamamlandı.
+ERROR Unknown url from : {}:{} to : {}|;|HATA: {}: {} - {} arası bilinmeyen url
+Broadlink not know what to do!|;|Broadlink ne yapacağımı bilmiyor!
+ERROR Unknown key from : {}:{} to : {}|;|HATA: {}: {} - {} için bilinmeyen anahtar
+Broadlink bad key!|;|Broadlink bozuk anahtarı!
+Not implemented Request from : {}:{} to : {}|;|Uygulanmadı İstek: {}: {} -: {}
+Broadlink : not implemented !|;|Broadlink: uygulanmadı!
+Unknown verb in request: {}|;|İstekte bilinmeyen fiil: {}
+We bypass URL check|;|URL kontrolünü atlıyoruz
+We process this url: {}|;|Bu URL&#39;yi işliyoruz: {}
+data process OK|;|veri işlemi TAMAM
+Error to process data|;|Veri işleme hatası
+Nothing to do ...|;|Yapacak bir şey yok
+Connected successfully to {}:{}|;|Başarıyla bağlandı
+onDisconnect called for connection '{}'|;|onDisconnect &#39;{}&#39; bağlantısı için çağrıldı
+Server Connections: |;|Sunucu Bağlantıları:
+Device not modified by plugin|;|Cihaz eklenti tarafından değiştirilmedi
+Error to update the config file: customname|;|Yapılandırma dosyası güncellenirken hata oluştu: customname
+Generate "ON" Command for learned code stored on unit/ini : {}|;|Birim / ini&#39;de saklanan öğrenilen kod için &quot;ON&quot; komutu oluşturun: {}
+Not able to update device : {}|;|Cihaz güncellenemiyor: {}
+Error to update the config file : customname|;|Yapılandırma dosyası güncellenirken hata oluştu: customname
+File exist : {}|;|Dosya var: {}
+Not able to create : {}|;|Oluşturulamıyor: {}
+Not able to create device : {}|;|Cihaz oluşturulamıyor: {}
+Ini file / Device deleted : {}|;|Ini dosyası / Cihaz silindi: {}
+Error on delete_ini : {}|;|Delete_ini hatası: {}
+reset IR/RF|;|IR / RF&#39;yi sıfırla
+Reset command executed|;|Sıfırlama komutu yürütüldü
+Error to create the config file : {}|;|Yapılandırma dosyası oluşturulurken hata oluştu: {}
+ini file created...{}|;|ini dosyası oluşturuldu ... {}
+Connected to Broadlink device: {} {}|;|Broadlink cihazına bağlı: {} {}
+Error to connect to Broadlink device: {}|;|Broadlink cihazına bağlanma hatası: {}
+Error getting temperature data from Broadlink device....Timeout|;|Broadlink cihazından sıcaklık verileri alınırken hata oluştu ... Zaman aşımı
+Number of ini file to create : {}|;|Oluşturulacak ini dosyası sayısı: {}
+You need to select Import for that|;|Bunun için İçe Aktar&#39;ı seçmeniz gerekiyor
+No ini files found|;|Dosya bulunamadı
+Removing : {}|;|Kaldırılıyor
+No json files found|;|Dosya bulunamadı
+No more device available ...|;|Başka cihaz yok ...
+Send .. : {} {} {}|;|Gönder
+Bypass .. : {} {} {}|;|Baypas:
+Send error or command for remote controller not set into ini file: {}|;|İni dosyasına ayarlanmamış uzaktan kumanda için hata veya komut gönderme: {}
+Command for remote not defined: {}|;|Uzaktan kumanda komutu tanımlanmadı: {}
+ini file read....{}|;|ini dosyasını okuyun .... {}
+Custom Commands: {}|;|自定义命令…
+No ini file : {}|;|İni dosyası yok: {}
+Custom Commands for Remote controller not managed|;|Uzaktan kumanda için Özel Komutlar yönetilmez
+Last character must be <,> into the remote controller file|;|Son karakter uzaktan kumanda dosyasına &lt;,&gt; girmelidir
+Invalid number in ini file, string or leading zero|;|İni dosyasında, dizede veya baştaki sıfırda geçersiz sayı
+Error getting sensor data from Broadlink device....Timeout|;|Broadlink cihazından sensör verileri alınırken hata oluştu ... Zaman aşımı
+Error getting sensor data raw from Broadlink device....Timeout|;|Broadlink cihazından sensör verileri ham alınırken hata oluştu ... Zaman aşımı
+State of the plug : {}|;|Fişin durumu: {}
+Error to retrieve plug status|;|Fiş durumu alınırken hata oluştu
+State of the light : {}|;|Işığın durumu: {}
+Error to retrieve light status|;|Işık durumu alınırken hata oluştu
+Power state for device MP1 : {} |;|MP1 cihazı için güç durumu: {}
+Error to check power state of MP1 device|;|MP1 cihazının güç durumunu kontrol etme hatası
+Energy for device SP3S: {}|;|SP3S cihazı için enerji: {}
+Error to get power energy from device SP3S|;|SP3S cihazından güç enerjisi alma hatası
+Lang file not exist or problem to read data from : {}|;|Lang dosyası mevcut değil veya şu kaynaktan veri okuma sorunu: {}
+lang file : {}|;|lang dosyası: {}
+argument is missing|;|argüman eksik
+command to execute : {}|;|Çalıştırılacak komut
+ERROR to start subprocess|;|Alt işlemi başlatmak için HATA
+Request from domoticz to : {} with encoding : {}|;|Domoticz&#39;den: {} kodlama ile istek: {}
+File {} uploaded.|;|Sayfa yüklendi
+Error to create file : {}|;|Dosya oluşturma hatası: {}
+Error to find file name from: {} or not valid path: {}|;|{} Kaynağından dosya adı bulunamadı veya geçerli bir yol değil: {}
+Error to find file name from : {}|;|{} Kaynağındaki dosya adı bulunamadı
+Code loaded : {}|;|Kod yüklendi: {}
+Not able to send command : Not connected|;|Komut gönderilemiyor: Bağlı değil
+Error on fpronto from Received Data: {}|;|Alınan Verilerden fpronto hatası: {}
+Error to update the config file : multi-code|;|Yapılandırma dosyası güncellenirken hata: çoklu kod
+Error to update the config file : repeat|;|Yapılandırma dosyası güncellenirken hata: tekrar
+Error on Multi-code from Received Data: {}|;|Alınan Verilerden Çok Kodlu Hata: {}
+Error on json from Received Data: {}|;|Alınan Verilerden json hatası: {}
+processing data : {}|;|veri işleniyor…
+New version available|;|Yeni sürüm mevcut
+we do not know what to do of received data|;|alınan verilerin ne yapacağını bilmiyoruz
+Error to read image file :{}|;|Resim dosyası okunamadı: {}
+Are you sure you want restart Plugin ?|;|Eklentiyi yeniden başlatmak istediğinizden emin misiniz?
+Are you sure you want update Plugin ?|;|Eklentiyi güncellemek istediğinizden emin misiniz?
+Are you sure you want backup Plugin data ?|;|Eklenti verilerini yedeklemek istediğinizden emin misiniz?
+File name is required|;|Dosya adı gerekli
+Uploaded |;|Karşıya yüklendi
+ bytes of |;|bayt
+Work in progress|;|Devam eden işler
+% uploaded... please wait|;|% yüklendi ... lütfen bekleyin
+Upload Failed|;|Karşıya Yükleme Başarısız Oldu
+Upload Aborted|;|Dosya yüklemesi iptal edildi
+Wait for few seconds before restarting|;|Yeniden başlatmadan önce birkaç saniye bekleyin
+Restart Failed|;|Yeniden Başlatma Başarısız
+Restart Aborted|;|Yeniden Başlat Durduruldu
+Restart|;|Yeniden başlat
+Upload|;|Yükleme
+System information|;|Sistem bilgisi
+Domoticz language is : {}|;|Domoticz dili: {}
+Edit|;|Düzenle
+Create|;|Oluştur
+Domoticz, number of plugin devices : {}|;|Domoticz, eklenti cihazı sayısı: {}
+Domoticz, Hardware IDX : {}|;|Domoticz, Donanım IDX: {}
+HTTP Key : {}|;|HTTP Anahtarı: {}
+Plugin directory|;|Eklenti dizini
+Ini directory|;|Ini dizini
+Manage|;|Yönet
+Plugin Log|;|Eklenti Günlüğü
+Verify version|;|Sürümü doğrula
+Update|;|Güncelle
+Backup|;|Geri Yükle
+No permission to list directory|;|Dizini listeleme izni yok
+Directory content for : {} |;|İçin dizin içeriği: {}
+Go back|;|Geri git
+Are you sure you want to update data ?|;|Verileri güncellemek istediğinizden emin misiniz?
+File not exist or problem to access : {}|;|Dosya mevcut değil veya erişmek için sorun var: {}
+update|;|güncelle
+search|;|ara
+replace|;|değiştir
+undo|;|تراجع
+redo|;|Yinele
+FullScreen|;|Tam Ekran
+File not found|;|Dosya bulunamadı
+Are you sure you want to delete Ini file and all related data ?|;|Ini dosyasını ve ilgili tüm verileri silmek istediğinizden emin misiniz?
+Are you sure ?|;|Emin misiniz?
+Error retrieve data from device : {}|;|Cihazdan veri alınırken hata oluştu: {}
+... Verify import result ...|;|... İçe aktarma sonucunu doğrulayın ...
+... Verify ini generation ...|;|... ini neslini doğrula ...
+Device information for Broadlink type : |;|Broadlink türü için cihaz bilgileri:
+Scan Broadlink devices|;|Broadlink cihazlarını tara
+Network scan|;|AÄ taramasÄ±:
+Show Broadlink usage and devices linked|;|Broadlink kullanımını ve bağlı cihazları göster
+Usage|;|Kullanım
+Create ini file for send more than one code RF / IR|;|Birden fazla kod RF / IR göndermek için ini dosyası oluşturun
+Multi-Code|;|MULTI CODE
+Not able to retrieve data for Usage kWh -- verify device|;|Kullanım kWh için veri alınamıyor - cihazı doğrulayın
+Click to switch|;|Geçiş yapmak için tıklayın
+Air quality|;|Hava kalitesi
+Quiet|;|Sessiz
+Noisy|;|Gürültülü
+Generate .ini files from e-Control database|;|E-Control veritabanından .ini dosyaları oluşturma
+Import .ini files from the _import_ directory|;|.İni dosyalarını _import_ dizininden içe aktarın
+Import|;|İçeri Aktar
+Edit ini file for remote controller|;|Uzaktan kumanda için ini dosyasını düzenle
+Infra-red codes database|;|Kızılötesi kod veritabanı
+IR code DB|;|IR kodu DB
+Create Broadlink code from Pronto HEX|;|Pronto HEX&#39;ten Broadlink kodu oluşturma
+Create from Pronto|;|Pronto&#39;dan oluştur
+Copy Past here 'Pronto HEX' code|;|Buradan kopyalayın &#39;Pronto HEX&#39; kodu
+create|;|oluşturmak
+Next refresh in|;|Harita türü
+Ini file content|;|Ini dosya içeriği
+Edit ini file. Caution, no verification will be made|;|İni dosyasını düzenleyin. Dikkat, doğrulama yapılmayacak
+Delete ini file and related Domoticz device|;|İni dosyasını ve ilgili Domoticz cihazını silin
+Delete|;|Sil
+Create Domoticz device linked to the ini file|;|İni dosyasına bağlı Domoticz cihazı oluşturma
+Create device|;|Cihaz oluştur
+show code|;|Kodu Göster
+send code|;|Kodu Gönder
+Number of time you want that the code be repeated|;|Kodun tekrarlanmasını istediğiniz süre
+modify repetition|;|tekrarlamayı değiştir
+Code sent from unit :|;|Üniteden gönderilen kod:
+Number of repeat :|;|Tekrar sayısı:
+Background process running ... wait for few seconds|;|Arka plan işlemi çalışıyor ... birkaç saniye bekleyin
+Remaining time before --|;|Kalan süre -
+seconds|;|saniye
+Multi-code ini file creation|;|Çok kodlu ini dosyası oluşturma
+Source available|;|Kaynak mevcut
+Drop ini file you want to include|;|Eklemek istediğiniz ini dosyasını bırakın
+Include this sequence|;|Bu diziyi ekle
+Create ini|;|İni oluştur
+Submit ini file creation|;|Ini dosyası oluşturma
+Timer|;|Kronometre
+Add 1 second|;|1 Saniye
+Connected to Broadlink device: {} {} {}|;|Broadlink bağlantılı cihaz: {} {} {}
+Error to retrieve type from this file : {}|;|Bu dosyadan türü almak için Hata: {}
+File : {} exist, we bypass|;|Dosya: {} baypas, biz var
+Are you sure ? you need to restart Plugin after ...|;|Emin misiniz ? Peşinde Plugin yeniden başlatmanız gerekiyor ...
+Overwrite default device type|;|Üzerine Yaz varsayılan aygıt türü
+Select Device Type|;|Aygıt Seç Tipi
+Update device type|;|Güncelleme aygıt türü
+About|;|hakkında
+Device 1 not exist|;|Cihaz 1 değil mevcut

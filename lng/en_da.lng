@@ -1,0 +1,323 @@
+Error to load language file|;|Fejl ved indlæsning af sprogfil
+we translate the text : {}|;|vi oversætter teksten: {}
+error in translation, we keep original text|;|fejl i oversættelse, vi opbevarer originalteksten
+Request Domoticz to : {} used encoding is : {}|;|Anmod om Domoticz til: {} brugt kodning er: {}
+Error sending command to Domoticz : {}|;|Fejl ved afsendelse af kommando til Domoticz: {}
+Error sending data|;|Fejl ved afsendelse af data
+Domoticz do not send OK message for: {} ??|;|Domoticz sender ikke OK besked til: {} ??
+Error retrieve dict data from Domoticz : {}|;|Fejl ved hentning af dict-data fra Domoticz: {}
+...|;|...
+ ...  |;|...
+Not able to enter learning mode|;|Ikke i stand til at gå ind i indlæringstilstand
+Learning...|;|Lære
+No data received...|;|Ingen data modtaget...
+Code learned|;|Kode indlært
+sweeping...; LED should be RED|;|fejer ...; LED skal være RØD
+check frequency... {}|;|tjek frekvens ... {}
+frequency found! check LED, should be off|;|fundet frekvens! Kontroller LED, skal være slukket
+frequency not found... |;|frekvens ikke fundet ...
+learning command|;|læring kommando
+verify command...{} |;|verificere kommando ... {}
+not able to learn command|;|ikke i stand til at lære kommando
+Code stored in memory|;|Kode gemt i hukommelsen
+RF not true, sweep necessary|;|RF ikke sandt, feje nødvendigt
+We download plugin file to: {}|;|Vi downloader plugin-fil til: {}
+Error receive / save file from dropbox : {}|;|Fejl ved modtagelse / gem fil fra dropbox: {}
+Error to retrieve plugin version from : {}|;|Fejl ved hentning af plugin-version fra: {}
+Connected to Broadlink device: {}|;|Tilsluttet bredbåndsenhed: {}
+Error Connecting to Broadlink device....|;|Fejl ved forbindelse til Broadlink-enhed ....
+Backup file name : {}|;|Backup-Filnavn:
+Error to backup file : {}|;|Fejl ved sikkerhedskopiering af fil: {}
+Name : {} -- Unit : {} -- IDX : {} |;|Navn: {} - Enhed: {} - IDX: {}
+Detected here : |;|Registreret her:
+Domoticz device created|;|Domoticz-enhed oprettet
+ini file not found: {}|;|Filen blev ikke fundet
+bad code in ini file: {}|;|dårlig kode i ini-fil: {}
+we execute this command : {}|;|vi udfører denne kommando: {}
+Next|;|Næste
+Error to send code|;|Fejl ved afsendelse af kode
+We try to sleep : {} s|;|Vi forsøger at sove: {} s
+bad timer value : {}|;|dårlig timerværdi: {}
+we send code from : {}|;|vi sender kode fra: {}
+Not able to load command from {}|;|Kan ikke indlæse kommandoen fra {}
+Nothing to send|;|Intet at sende
+Code sent....|;|Kode sendt....
+Warning : Code sent ....Probably timeout|;|Advarsel: kode sendt .... Sandsynligvis timeout
+Not able to find file {}|;|Kan ikke finde filen {}
+Discover finished|;|Opdag færdig
+Error to retrieve Broadlink devices|;|Fejl ved hentning af Broadlink-enheder
+END scan|;|SLUT-scanning
+IR code learned|;|IR-kode lært
+Error to learn IR code|;|Fejl ved indlæring af IR-kode
+Sweep ok|;|Fej ok
+Error in sweep|;|Fejl ved fejning
+RF code learned|;|RF-kode lært
+Error to learn RF code|;|Fejl ved indlæring af RF-kode
+END learnrf|;|SLUT learningrf
+Usage ok|;|Brug ok
+Error in usage|;|Fejl ved brug
+END usage|;|Anvendelse
+Finished|;|Færdig
+END translation|;|Oversættelse
+We do backup before update|;|Vi laver backup før opdatering
+New Plugin uploaded|;|Ny plugin uploadet
+Error receive / save files from dropbox : {}|;|Fejl ved modtagelse / gemning af filer fra dropbox: {}
+Not able to create backup file|;|Kan ikke oprette sikkerhedskopifil
+If necessary, do 'sudo -H chmod +x *.py'|;|Gør om nødvendigt &#39;sudo -H chmod + x * .py&#39;
+End of plugin update|;|Slut på plugin-opdatering
+Backup OK|;|Sikkerhedskopiering
+Backup error|;|Comment
+End of plugin backup|;|Slutning af plugin-sikkerhedskopiering
+END of Backup|;|SLUT af sikkerhedskopi
+RemotePlugin OK|;|FjernPlugin OK
+we have downloaded plugin file for version test|;|vi har downloadet plugin-fil til versionstest
+plugin : new version available|;|plugin: ny version tilgængelig
+RemotePlugin Error|;|RemotePlugin-fejl
+End of remote plugin version test|;|Afslut test af ekstern plugin-version
+END of remotePlugin|;|SLUT af fjernPlugin
+Multi-code OK|;|Multikode OK
+We have sent multi-code|;|Vi har sendt multikode
+Multi-code Error|;|Multikodefejl
+End of multi-code send|;|Slutningen af sendingen med flere koder
+END of multi-code|;|SLUT af multikode
+unknown step|;|Ukendt
+Not able to load debug module|;|Ikke i stand til at indlæse fejlfindingsmodul
+Language loaded for  : {} |;|Sprog indlæst til: {}
+Language file is missing for : {}|;|Sprogfil mangler til: {}
+Port already in use|;|Havn, der allerede er i brug
+Listen on BROWebServer - Port: {}|;|Lyt på BROWebServer - Port: {}
+Hardware ID: {} |;|Hardware-id
+Status|;|Status
+Learn|;|Lær-selv
+Test|;|Test
+Save|;|Gem
+Reset|;|Nulstil
+IR Commands|;|Kommandoer
+Sweep|;|FejFilter Effect: Mosaic
+RF Commands|;|Kommandoer
+Temperature|;|Temperatur
+Light|;|Lyst
+Humidity|;|Fugtighed
+Air Quality|;|luftkvalitet
+Noise|;|Støj
+plug|;|stikprop
+Connecting to: {} : {}|;|Forbinder til:
+Ini file for remote controller created: {}|;|Ini-fil til fjernbetjening oprettet: {}
+Error to create ini file for remote controller : {}|;|Fejl ved oprettelse af ini-fil til fjernbetjening: {}
+Plugin Device count start on : {}|;|Plugin Device count starter på: {}
+Admin html file created: {}|;|Admin html-fil oprettet: {}
+Error to create admin html file : {}|;|Fejl ved oprettelse af admin html-fil: {}
+Error to found www/templates for html file : {}|;|Fejl ved fundet www / skabeloner til html-fil: {}
+Command line file created: {}|;|Kommandolinjefil oprettet: {}
+Error to create device file : {}|;|Fejl ved oprettelse af enhedsfil: {}
+We cannot continue ...|;|Vi kan ikke fortsætte ...
+Learn IR command|;|Lær IR-kommando
+Nothing to save|;|Intet at spare
+Ini created|;|Oprettet
+Nothing to reset|;|Intet at nulstille
+unknown level command|;|ukendt niveau kommando
+Wait for sweep...|;|Vent på sweep ...
+Learn RF command|;|Lær RF-kommando
+Sweep first|;|Fej først
+Unit unknown|;|Ukendt
+Error to put "ON" SP1/SP2/SP3|;|Fejl ved at sætte &quot;ON&quot; SP1 / SP2 / SP3
+Error to put "on" light for SPx|;|Fejl ved at sætte &quot;på&quot; lys for SPx
+Error to put "ON" MP1 for plug : {}|;|Fejl ved at sætte &quot;ON&quot; MP1 til plug: {}
+Unknown command|;|Ukendt kommando
+Error to put Off SP1/SP2/SP3|;|Fejl ved afbrydelse af SP1 / SP2 / SP3
+Error to put off light for SPx|;|Fejl ved slukning af lys for SPx
+Error to put Off MP1 for plug : {}|;|Fejl ved afbrydelse af MP1 til plug: {}
+Unit error update|;|Opdatering af enhedsfejl
+undefined|;|ikke angivet
+A1 called|;|A1 kaldet
+Get Data From Sensors|;|Hent data fra sensorer
+SP3S called|;|SP3S kaldes
+MP1 called|;|MP1 kaldes
+SP1/SP2 called|;|SP1 / SP2 kaldet
+onMessage called for connection: {0}:{1}|;|onMessage opfordrede til forbindelse: {0}: {1}
+Broadlink response OK!|;|Bredlink-svar OK!
+Request from : {}:{} to : {}|;|Anmodning fra: {}: {} til: {}
+Plugin restarted !|;|Plugin genstartet!
+Refresh|;|Genindlæs
+Backup finished.|;|Backup er færdig.
+ERROR Unknown url from : {}:{} to : {}|;|FEJL Ukendt url fra: {}: {} til: {}
+Broadlink not know what to do!|;|Broadlink ved ikke, hvad de skal gøre!
+ERROR Unknown key from : {}:{} to : {}|;|FEJL Ukendt nøgle fra: {}: {} til: {}
+Broadlink bad key!|;|Broadlink dårlig nøgle!
+Not implemented Request from : {}:{} to : {}|;|Ikke implementeret Anmodning fra: {}: {} til: {}
+Broadlink : not implemented !|;|Bredlink: ikke implementeret!
+Unknown verb in request: {}|;|Ukendt verb på anmodning: {}
+We bypass URL check|;|Vi omgår URL-kontrol
+We process this url: {}|;|Vi behandler denne url: {}
+data process OK|;|dataproces OK
+Error to process data|;|Fejl ved behandling af data
+Nothing to do ...|;|Ingenting at lave ...
+Connected successfully to {}:{}|;|Forbundet uden fejl
+onDisconnect called for connection '{}'|;|onDisconnect opfordrede til forbindelse &#39;{}&#39;
+Server Connections: |;|Serverforbindelser:
+Device not modified by plugin|;|Enhed ikke ændret af plugin
+Error to update the config file: customname|;|Fejl ved opdatering af konfigurationsfilen: brugernavn
+Generate "ON" Command for learned code stored on unit/ini : {}|;|Generer &quot;ON&quot; -kommando for indlært kode, der er gemt på enhed / ini: {}
+Not able to update device : {}|;|Kan ikke opdatere enhed: {}
+Error to update the config file : customname|;|Fejl ved opdatering af konfigurationsfilen: brugernavn
+File exist : {}|;|Fil findes: {}
+Not able to create : {}|;|Ikke i stand til at oprette: {}
+Not able to create device : {}|;|Ikke i stand til at oprette enhed: {}
+Ini file / Device deleted : {}|;|Ini-fil / enhed slettet: {}
+Error on delete_ini : {}|;|Fejl ved delete_ini: {}
+reset IR/RF|;|nulstille IR / RF
+Reset command executed|;|Nulstil kommando udført
+Error to create the config file : {}|;|Fejl ved oprettelse af konfigurationsfilen: {}
+ini file created...{}|;|ini-fil oprettet ... {}
+Connected to Broadlink device: {} {}|;|Tilsluttet bredbåndsenhed: {} {}
+Error to connect to Broadlink device: {}|;|Fejl ved forbindelse til Broadlink-enhed: {}
+Error getting temperature data from Broadlink device....Timeout|;|Fejl ved hentning af temperaturdata fra Broadlink-enhed .... Timeout
+Number of ini file to create : {}|;|Antal ini-filer, der skal oprettes: {}
+You need to select Import for that|;|Du skal vælge Import til det
+No ini files found|;|Der blev ikke fundet nogen filer
+Removing : {}|;|Fjerner…
+No json files found|;|Der blev ikke fundet nogen filer
+No more device available ...|;|Der er ikke flere enheder til rådighed ...
+Send .. : {} {} {}|;|Afsendt
+Bypass .. : {} {} {}|;|omføring
+Send error or command for remote controller not set into ini file: {}|;|Send fejl eller kommando til fjernbetjening ikke indstillet til ini-fil: {}
+Command for remote not defined: {}|;|Kommando til fjernbetjening ikke defineret: {}
+ini file read....{}|;|ini-fil læst .... {}
+Custom Commands: {}|;|Brugerdefineret kommandoer
+No ini file : {}|;|Ingen ini-fil: {}
+Custom Commands for Remote controller not managed|;|Tilpassede kommandoer til fjernbetjening administreres ikke
+Last character must be <,> into the remote controller file|;|Sidste tegn skal være &lt;,&gt; i fjernbetjeningsfilen
+Invalid number in ini file, string or leading zero|;|Ugyldigt nummer i ini-fil, streng eller førende nul
+Error getting sensor data from Broadlink device....Timeout|;|Fejl ved hentning af sensordata fra Broadlink-enhed .... Timeout
+Error getting sensor data raw from Broadlink device....Timeout|;|Fejl ved hentning af sensordata fra Broadlink-enhed .... Timeout
+State of the plug : {}|;|Tilslutningsstatus: {}
+Error to retrieve plug status|;|Fejl ved hentning af plug-status
+State of the light : {}|;|Lysets tilstand: {}
+Error to retrieve light status|;|Fejl ved hentning af lysstatus
+Power state for device MP1 : {} |;|Strømtilstand til enhed MP1: {}
+Error to check power state of MP1 device|;|Fejl ved kontrol af MP1-enhedens strømtilstand
+Energy for device SP3S: {}|;|Energi til enhed SP3S: {}
+Error to get power energy from device SP3S|;|Fejl ved at hente strøm fra enheden SP3S
+Lang file not exist or problem to read data from : {}|;|Lang fil findes ikke eller har problemer med at læse data fra: {}
+lang file : {}|;|lang fil: {}
+argument is missing|;|argument mangler
+command to execute : {}|;|Kommando at køre
+ERROR to start subprocess|;|FEJL for at starte underprocessen
+Request from domoticz to : {} with encoding : {}|;|Anmodning fra domoticz til: {} med kodning: {}
+File {} uploaded.|;|Fil uploadet
+Error to create file : {}|;|Fejl ved oprettelse af fil: {}
+Error to find file name from: {} or not valid path: {}|;|Fejl ved at finde filnavnet fra: {} eller ikke gyldig sti: {}
+Error to find file name from : {}|;|Fejl ved at finde filnavnet fra: {}
+Code loaded : {}|;|Indlæst kode: {}
+Not able to send command : Not connected|;|Kan ikke sende kommando: Ikke tilsluttet
+Error on fpronto from Received Data: {}|;|Fejl på fpronto fra modtagne data: {}
+Error to update the config file : multi-code|;|Fejl ved opdatering af konfigurationsfilen: multikode
+Error to update the config file : repeat|;|Fejl ved opdatering af konfigurationsfilen: gentag
+Error on Multi-code from Received Data: {}|;|Fejl ved multikode fra modtagne data: {}
+Error on json from Received Data: {}|;|Fejl ved json fra modtagne data: {}
+processing data : {}|;|behandler data: {}
+New version available|;|Ny version tilgængelig!
+we do not know what to do of received data|;|vi ved ikke, hvad vi skal gøre af modtagne data
+Error to read image file :{}|;|Fejl ved læsning af billedfil: {}
+Are you sure you want restart Plugin ?|;|Er du sikker på, at du vil genstarte plugin?
+Are you sure you want update Plugin ?|;|Er du sikker på, at du vil opdatere plugin?
+Are you sure you want backup Plugin data ?|;|Er du sikker på, at du vil have backup-plugin-data?
+File name is required|;|Navn er påkrævet.
+Uploaded |;|Uploadet
+ bytes of |;|byte af
+Work in progress|;|Igangværende arbejde
+% uploaded... please wait|;|% uploadet ... vent venligst
+Upload Failed|;|Filen kunne ikke uploades
+Upload Aborted|;|Upload afbragt
+Wait for few seconds before restarting|;|Vent et par sekunder, før du genstarter
+Restart Failed|;|Genstart mislykkedes
+Restart Aborted|;|Genstart afbrudt
+Restart|;|Genstart
+Upload|;|Upload
+System information|;|Systeminformation
+Domoticz language is : {}|;|Domoticz sprog er: {}
+Edit|;|Rediger
+Create|;|Opret
+Domoticz, number of plugin devices : {}|;|Domoticz, antal plugin-enheder: {}
+Domoticz, Hardware IDX : {}|;|Domoticz, hardware IDX: {}
+HTTP Key : {}|;|HTTP-nøgle: {}
+Plugin directory|;|Plugin-bibliotek
+Ini directory|;|Katalog
+Manage|;|Administrér
+Plugin Log|;|plugin
+Verify version|;|Bekræft version
+Update|;|Opdater
+Backup|;|Sikkerhedskopiering
+No permission to list directory|;|Ingen tilladelse til at liste katalog
+Directory content for : {} |;|Directoryindhold til: {}
+Go back|;|Tilbage
+Are you sure you want to update data ?|;|Er du sikker på, du vil opdatere
+File not exist or problem to access : {}|;|Filen findes ikke eller har et problem med adgang til: {}
+update|;|Opdatering
+search|;|søg
+replace|;|erstat
+undo|;|fortryde
+redo|;|annuller fortryd
+FullScreen|;|Fullscreen
+File not found|;|Filen blev ikke fundet
+Are you sure you want to delete Ini file and all related data ?|;|Er du sikker på, at du vil slette Ini-filen og alle relaterede data?
+Are you sure ?|;|Er du sikker?
+Error retrieve data from device : {}|;|Fejl ved hentning af data fra enheden: {}
+... Verify import result ...|;|... Bekræft importresultat ...
+... Verify ini generation ...|;|... Bekræft ini-generation ...
+Device information for Broadlink type : |;|Enhedsoplysninger til Broadlink-type:
+Scan Broadlink devices|;|Scan Broadlink-enheder
+Network scan|;|NetvÃ¦rksscanning:
+Show Broadlink usage and devices linked|;|Vis brug af bredbånd og tilknyttede enheder
+Usage|;|Anvendelse
+Create ini file for send more than one code RF / IR|;|Opret ini-fil til at sende mere end en kode RF / IR
+Multi-Code|;|Multi-kode
+Not able to retrieve data for Usage kWh -- verify device|;|Ikke i stand til at hente data til brug kWh - verificer enhed
+Click to switch|;|Klik for at skifte
+Air quality|;|luftkvalitet
+Quiet|;|Reagerer hurtigt og larmer ikke
+Noisy|;|Støj
+Generate .ini files from e-Control database|;|Generer .ini-filer fra e-Control-databasen
+Import .ini files from the _import_ directory|;|Importer .ini-filer fra mappen _import_
+Import|;|Importer
+Edit ini file for remote controller|;|Rediger ini-fil til fjernbetjening
+Infra-red codes database|;|Infrarød koder database
+IR code DB|;|IR-kode DB
+Create Broadlink code from Pronto HEX|;|Opret Broadlink-kode fra Pronto HEX
+Create from Pronto|;|Opret fra Pronto
+Copy Past here 'Pronto HEX' code|;|Kopier forbi her &#39;Pronto HEX&#39; -kode
+create|;|oprette
+Next refresh in|;|Næste opdatering
+Ini file content|;|VER
+Delete|;|Slet
+Create device|;|Opret enhed
+show code|;|Vis koden
+send code|;|send kode
+Number of time you want that the code be repeated|;|Antal gange, du vil have, at koden gentages
+modify repetition|;|ændre gentagelse
+Code sent from unit :|;|Kode sendt fra enhed:
+Number of repeat :|;|Antal gentagelser:
+Background process running ... wait for few seconds|;|Baggrundsproces kører ... vent et par sekunder
+Remaining time before --|;|Resterende tid før -
+seconds|;|sekunder
+Multi-code ini file creation|;|Oprettelse af ini-fil med flere koder
+Source available|;|Kilde tilgængelig
+Drop ini file you want to include|;|Drop ini-fil, du vil medtage
+Include this sequence|;|Medtag denne sekvens
+Create ini|;|Opret
+Submit ini file creation|;|Send ini-filoprettelse
+Timer|;|Timer
+Add 1 second|;|Sekund
+Connected to Broadlink device: {} {} {}|;|Forbundet til Broadlink enhed: {} {} {}
+Error to retrieve type from this file : {}|;|Fejl at hente type fra denne fil: {}
+Extracting all the files now...|;|Udtræk alle filer nu ...
+File : {} exist, we bypass|;|Fil: {} eksisterer, vi bypass
+Are you sure ? you need to restart Plugin after ...|;|Er du sikker ? du nødt til at genstarte Plugin efter ...
+Overwrite default device type|;|typen Overskriv standardenhed
+Select Device Type|;|Vælg Enhedstype
+Update device type|;|Opdater enhedstype
+About|;|Om
+Device 1 not exist|;|Enhed 1 ikke eksisterer
+Edit ini file. Caution, no verification will be made|;|Rediger ini fil. Forsigtig, vil ingen kontrol foretages
+Delete ini file and related Domoticz device|;|Slet ini fil og relaterede Domoticz enhed
+Create Domoticz device linked to the ini file|;|Opret Domoticz enhed knyttet til ini-filen

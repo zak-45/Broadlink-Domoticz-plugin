@@ -1,0 +1,323 @@
+Error to load language file|;|Hiba a nyelvfájl betöltésekor
+we translate the text : {}|;|lefordítottuk a szöveget: {}
+error in translation, we keep original text|;|hiba fordításban, megtartjuk az eredeti szöveget
+Request Domoticz to : {} used encoding is : {}|;|Kérjen Domoticzt a következőhöz: {} használt kódolás: {}
+Error sending command to Domoticz : {}|;|Hiba a parancs küldésekor a Domoticz felé: {}
+Error sending data|;|Hiba történt az adatok küldésekor
+Domoticz do not send OK message for: {} ??|;|A Domoticz nem küld OK üzenetet a következőhöz: {} ??
+Error retrieve dict data from Domoticz : {}|;|Hiba történt a diktált adatok lekérésekor a Domoticzból: {}
+...|;|...
+ ...  |;|...
+Not able to enter learning mode|;|Nem tud belépni a tanulási módba
+Learning...|;|Tanulás
+No data received...|;|Nem érkezett adat
+Code learned|;|Kód megtanult
+sweeping...; LED should be RED|;|elsöprő ...; A LED-nek Vörösnek kell lennie
+check frequency... {}|;|ellenőrzési gyakoriság ... {}
+frequency found! check LED, should be off|;|frekvencia található! jelölje be a LED-et, nem világít
+frequency not found... |;|frekvencia nem található ...
+learning command|;|tanulási parancs
+verify command...{} |;|ellenőrizze a parancsot ... {}
+not able to learn command|;|nem képes megtanulni a parancsot
+Code stored in memory|;|A memóriában tárolt kód
+RF not true, sweep necessary|;|RF nem igaz, söpörni kell
+We download plugin file to: {}|;|A plugin fájlt letöltjük a következő címre: {}
+Error receive / save file from dropbox : {}|;|Hiba történt a fájl fogadása / mentése a dropboxból: {}
+Error to retrieve plugin version from : {}|;|Hiba történt a plugin verziójának letöltésekor: {}
+Connected to Broadlink device: {}|;|Csatlakoztatva a Broadlink eszközhöz: {}
+Error Connecting to Broadlink device....|;|Hiba történt a csatlakozáshoz a Broadlink eszközhöz ...
+Backup file name : {}|;|Biztonsági-másolat fájl fájlneve
+Error to backup file : {}|;|Hiba a fájl biztonsági mentésekor: {}
+Name : {} -- Unit : {} -- IDX : {} |;|Név: {} - Egység: {} - IDX: {}
+Detected here : |;|Itt fedezték fel:
+Domoticz device created|;|A Domoticz eszköz létrehozva
+ini file not found: {}|;|Fájl nem található:
+bad code in ini file: {}|;|hibás kód az ini fájlban: {}
+we execute this command : {}|;|végrehajtjuk ezt a parancsot: {}
+Next|;|Tovább
+Error to send code|;|Hiba a kód küldésében
+We try to sleep : {} s|;|Megpróbálunk aludni: {} s
+bad timer value : {}|;|Időzítő értéke
+we send code from : {}|;|kódot küldünk: {}
+Not able to load command from {}|;|Nem sikerült betölteni a parancsot a (z) {} oldalról
+Nothing to send|;|Nincs mit elküldeni
+Code sent....|;|Kód elküldve.
+Warning : Code sent ....Probably timeout|;|Figyelem: Kód elküldve .... Valószínűleg időtúllépés
+Not able to find file {}|;|Nem található a fájl {}
+Discover finished|;|Fedezze kész
+Error to retrieve Broadlink devices|;|Hiba a Broadlink eszközök letöltésekor
+END scan|;|END beolvasás
+IR code learned|;|IR kód megtanult
+Error to learn IR code|;|Hiba történt az IR-kód megtanulásakor
+Sweep ok|;|Söprés
+Error in sweep|;|Hiba a sweepben
+RF code learned|;|RF kód megtanult
+Error to learn RF code|;|Hiba az RF kód megtanulásakor
+END learnrf|;|END learningrf
+Usage ok|;|Használat rendben
+Error in usage|;|Hiba a használatban
+END usage|;|Használat
+Finished|;|Kész
+END translation|;|FORDÍTÁS
+We do backup before update|;|Frissítés előtt készítünk biztonsági másolatot
+New Plugin uploaded|;|Új plugin feltöltve
+Error receive / save files from dropbox : {}|;|Hiba történt a fájlok fogadása / mentése a dropboxból: {}
+Extracting all the files now...|;|Az összes fájl kibontása most ...
+Not able to create backup file|;|Nem sikerült biztonsági másolatot létrehozni
+If necessary, do 'sudo -H chmod +x *.py'|;|Ha szükséges, hajtsa végre a „sudo -H chmod + x * .py” beállítást.
+End of plugin update|;|A plugin frissítésének vége
+Backup OK|;|Biztonsági mentés
+Backup error|;|Hiba a biztonsági másolatban
+End of plugin backup|;|A plugin biztonsági másolatának vége
+END of Backup|;|A biztonsági mentés vége
+RemotePlugin OK|;|RemotePlugin OK
+we have downloaded plugin file for version test|;|letöltöttük a plugin fájlt a verzióteszthez
+plugin : new version available|;|plugin: új verzió elérhető
+RemotePlugin Error|;|RemotePlugin hiba
+End of remote plugin version test|;|A távoli plugin verziótesztének vége
+END of remotePlugin|;|A remotePlugin vége
+Multi-code OK|;|Többkódú OK
+We have sent multi-code|;|Több kódot küldtünk
+Multi-code Error|;|Többkódú hiba
+End of multi-code send|;|Többkódú küldés vége
+END of multi-code|;|A multi-kód vége
+unknown step|;|Ismeretlen
+Not able to load debug module|;|Nem sikerült betölteni a hibakeresési modult
+Language loaded for  : {} |;|A következő nyelv betöltve: {}
+Language file is missing for : {}|;|Hiányzik a következő nyelvű fájl: {}
+Port already in use|;|A port már használatban van
+Listen on BROWebServer - Port: {}|;|Hallgassa meg a BROWebServer oldalon - Port: {}
+Hardware ID: {} |;|Hardverazonosító
+Status|;|Állapot
+Learn|;|Tanulás
+Test|;|Teszt
+Save|;|Mentés
+Reset|;|Visszaállítás
+IR Commands|;|Commands (Parancsok)
+Sweep|;|Söprés
+RF Commands|;|Commands (Parancsok)
+Temperature|;|Hőmérséklet
+Light|;|Világos
+Humidity|;|Páratartalom
+Air Quality|;|LEVEGŐMINŐSÉG
+Noise|;|Zaj
+plug|;|dugó
+Connecting to: {} : {}|;|Kapcsolódás a következőhöz:
+Ini file for remote controller created: {}|;|Ini fájl létrehozva a távirányítóhoz: {}
+Error to create ini file for remote controller : {}|;|Hiba az ini fájl létrehozásakor a távirányítóhoz: {}
+Plugin Device count start on : {}|;|A beépülő eszköz számának kezdete: {}
+Admin html file created: {}|;|Rendszergazda html fájl létrehozva: {}
+Error to create admin html file : {}|;|Hiba az admin html fájl létrehozásakor: {}
+Error to found www/templates for html file : {}|;|Hiba a html fájl www / sablonjainak megtalálásakor: {}
+Command line file created: {}|;|Parancssori fájl létrehozva: {}
+Error to create device file : {}|;|Hiba az eszközfájl létrehozásakor: {}
+We cannot continue ...|;|Nem lehet folytatni
+Learn IR command|;|Tanulja meg az IR parancsot
+Nothing to save|;|Nincs mit elmenteni.
+Ini created|;|Létrehozva
+Nothing to reset|;|Nincs semmi alaphelyzet
+unknown level command|;|ismeretlen szintű parancs
+Wait for sweep...|;|Várjon söpörni ...
+Learn RF command|;|Tanulja meg az RF parancsot
+Sweep first|;|Először söpörni
+Unit unknown|;|Ismeretlen
+Error to put "ON" SP1/SP2/SP3|;|Hiba történt az &quot;ON&quot; SP1 / SP2 / SP3 bekapcsolásakor
+Error to put "on" light for SPx|;|Hiba történt a &quot;bekapcsolt&quot; jelzőfény felvételekor az SPx számára
+Error to put "ON" MP1 for plug : {}|;|Hiba történt az „ON” MP1 csatlakoztatásakor: {}
+Unknown command|;|Ismeretlen parancs
+Error to put Off SP1/SP2/SP3|;|Hiba történt az SP1 / SP2 / SP3 kikapcsolásakor
+Error to put off light for SPx|;|Hiba az SPx fényének kikapcsolásakor
+Error to put Off MP1 for plug : {}|;|Hiba történt az MP1 kihúzásakor: {}
+Unit error update|;|Az egység hiba frissítése
+undefined|;|Nincs meghatározva
+A1 called|;|A1 hívta
+Get Data From Sensors|;|Szerezzen adatokat szenzoroktól
+SP3S called|;|Az SP3S felhívta
+MP1 called|;|MP1 hívott
+SP1/SP2 called|;|SP1 / SP2 hívott
+onMessage called for connection: {0}:{1}|;|Az onMessage felhívta a kapcsolatot: {0}: {1}
+Broadlink response OK!|;|Szélessávú válasz OK!
+Request from : {}:{} to : {}|;|Kérés: {}: {} -tól: {}
+Plugin restarted !|;|A plugin újraindult!
+Refresh|;|Frissítés
+Backup finished.|;|A biztonsági mentés kész.
+ERROR Unknown url from : {}:{} to : {}|;|HIBA Ismeretlen url: {}: {} -: {}
+Broadlink not know what to do!|;|A Broadlink nem tudja, mit kell tennie!
+ERROR Unknown key from : {}:{} to : {}|;|HIBA Ismeretlen kulcs: {}: {} -: {}
+Broadlink bad key!|;|Broadlink rossz kulcs!
+Not implemented Request from : {}:{} to : {}|;|Nincs végrehajtva Kérés: {}: {} -tól: {}
+Broadlink : not implemented !|;|Broadlink: nincs megvalósítva!
+Unknown verb in request: {}|;|Ismeretlen ige kérésben: {}
+We bypass URL check|;|Megkerüljük az URL-ellenőrzést
+We process this url: {}|;|Feldolgozzuk ezt az URL-t: {}
+data process OK|;|az adatfeldolgozás rendben
+Error to process data|;|Hiba az adatok feldolgozásakor
+Nothing to do ...|;|Semmi feladat
+Connected successfully to {}:{}|;|Sikeres csatlakozás.
+onDisconnect called for connection '{}'|;|onDisconnect hívta a (z) &#39;{}&#39; kapcsolatot
+Server Connections: |;|Szerverkapcsolatok:
+Device not modified by plugin|;|Az eszköz nem módosult a bővítmény által
+Error to update the config file: customname|;|Hiba a konfigurációs fájl frissítésekor: egyéni név
+Generate "ON" Command for learned code stored on unit/ini : {}|;|Generáljon &quot;BE&quot; parancsot a unit / ini-en tárolt tanult kódhoz: {}
+Not able to update device : {}|;|Nem lehet frissíteni az eszközt: {}
+Error to update the config file : customname|;|Hiba a konfigurációs fájl frissítésekor: egyéni név
+File exist : {}|;|A fájl létezik: {}
+Not able to create : {}|;|Nem tud létrehozni: {}
+Not able to create device : {}|;|Nem lehet eszköz létrehozni: {}
+Ini file / Device deleted : {}|;|Az ini fájl / eszköz törölve: {}
+Error on delete_ini : {}|;|Hiba a delete_ini fájlban: {}
+reset IR/RF|;|visszaállítani az IR / RF-t
+Reset command executed|;|Reset parancs végrehajtva
+Error to create the config file : {}|;|Hiba a konfigurációs fájl létrehozásakor: {}
+ini file created...{}|;|ini fájl létrehozva ... {}
+Connected to Broadlink device: {} {}|;|Csatlakoztatva a Broadlink eszközhöz: {} {}
+Error to connect to Broadlink device: {}|;|Hiba történt a Broadlink eszközhöz való kapcsolódáskor: {}
+Error getting temperature data from Broadlink device....Timeout|;|Hiba történt a hőmérséklet-adatok lekérésekor a Broadlink eszközről ... Időtúllépés
+Number of ini file to create : {}|;|A létrehozandó ini fájl száma: {}
+You need to select Import for that|;|Ehhez válassza az Importálás lehetőséget
+No ini files found|;|Fájlok nem találhatóak
+Removing : {}|;|Eltávolítás
+No json files found|;|Fájlok nem találhatóak
+No more device available ...|;|Nincs több eszköz elérhető ...
+Send .. : {} {} {}|;|Küldés
+Bypass .. : {} {} {}|;|Bypass
+Send error or command for remote controller not set into ini file: {}|;|Hiba vagy parancs küldése a távirányítóhoz, amely nincs beállítva ini fájlba: {}
+Command for remote not defined: {}|;|A távoli parancs nincs meghatározva: {}
+ini file read....{}|;|az ini fájl olvasva .... {}
+Custom Commands: {}|;|Egyéni parancsok: {}
+No ini file : {}|;|Nincs ini fájl: {}
+Custom Commands for Remote controller not managed|;|A távirányító egyedi parancsait nem sikerült kezelni
+Last character must be <,> into the remote controller file|;|Az utolsó karakternek &lt;,&gt; kell lennie a távirányító fájljában
+Invalid number in ini file, string or leading zero|;|Érvénytelen szám az ini fájlban, karakterláncban vagy a kezdő nullában
+Error getting sensor data from Broadlink device....Timeout|;|Hiba történt az érzékelő adatok beolvasásakor a Broadlink eszközről ... Időtúllépés
+Error getting sensor data raw from Broadlink device....Timeout|;|Hiba történt az érzékelőadatok nyers elérésekor a Broadlink eszközről ... Időtúllépés
+State of the plug : {}|;|A dugó állapota: {}
+Error to retrieve plug status|;|Hiba történt a csatlakozó állapotának lekérésekor
+State of the light : {}|;|Világítás állapota: {}
+Error to retrieve light status|;|Hiba történt a fény állapotának lekérésekor
+Power state for device MP1 : {} |;|Teljesítményállapot az MP1 eszköznél: {}
+Error to check power state of MP1 device|;|Hiba történt az MP1 eszköz teljesítményállapotának ellenőrzésekor
+Energy for device SP3S: {}|;|Energia az SP3S eszköz számára: {}
+Error to get power energy from device SP3S|;|Hiba történt az energiafelhasználáshoz az SP3S eszközről
+Lang file not exist or problem to read data from : {}|;|Lang fájl nem létezik, vagy nem sikerült az adatok olvasása: {}
+lang file : {}|;|lang fájl: {}
+argument is missing|;|érv hiányzik
+command to execute : {}|;|Végrehajtandó parancs
+ERROR to start subprocess|;|HIBA az alfolyamat elindításához
+Request from domoticz to : {} with encoding : {}|;|Kérés a domoticz-tól a következőhöz: {} kódolással: {}
+File {} uploaded.|;|A fájl feltöltése sikeres.
+Error to create file : {}|;|Hiba a fájl létrehozásakor: {}
+Error to find file name from: {} or not valid path: {}|;|Hiba történt a fájlnév megtalálásában: {} vagy érvénytelen útvonal: {}
+Error to find file name from : {}|;|Hiba a következő fájlnév megtalálásakor: {}
+Code loaded : {}|;|Betöltött kód: {}
+Not able to send command : Not connected|;|Nem lehet parancsot küldeni: Nincs csatlakoztatva
+Error on fpronto from Received Data: {}|;|Hiba a fprontón a fogadott adatok miatt: {}
+Error to update the config file : multi-code|;|Hiba a konfigurációs fájl frissítésekor: több kód
+Error to update the config file : repeat|;|Hiba a konfigurációs fájl frissítésekor: ismételje meg
+Error on Multi-code from Received Data: {}|;|Hiba a kapott kód több kódja esetén: {}
+Error on json from Received Data: {}|;|Hiba json a kapott adatoknál: {}
+processing data : {}|;|Adatok feldolgozás...
+New version available|;|Új verzió érkezett
+we do not know what to do of received data|;|nem tudjuk, mi a teendő a kapott adatokkal
+Error to read image file :{}|;|Hiba a képfájl olvasásakor: {}
+Are you sure you want restart Plugin ?|;|Biztosan újra akarja indítani a beépülő modult?
+Are you sure you want update Plugin ?|;|Biztosan frissíti a bővítményt?
+Are you sure you want backup Plugin data ?|;|Biztos benne, hogy biztonsági mentési plugin-adatokat szeretne?
+File name is required|;|A név szükséges
+Uploaded |;|Feltöltve
+ bytes of |;|bájt
+Work in progress|;|Befejezetlen termelés
+% uploaded... please wait|;|% feltöltve ... kérem várjon
+Upload Failed|;|Feltöltés sikertelen.
+Upload Aborted|;|Feltöltés megszakítva
+Wait for few seconds before restarting|;|Várjon néhány másodpercet az újraindítás előtt
+Restart Failed|;|Az újraindítás sikertelen
+Restart Aborted|;|Indítsa újra
+Restart|;|Újraindítás
+Upload|;|Feltölt
+System information|;|Rendszerinformáció
+Domoticz language is : {}|;|A Domoticz nyelve: {}
+Edit|;|Szerkesztés
+Create|;|Létrehozás
+Domoticz, number of plugin devices : {}|;|Domoticz, beépülő eszközök száma: {}
+Domoticz, Hardware IDX : {}|;|Domoticz, Hardver IDX: {}
+HTTP Key : {}|;|HTTP kulcs: {}
+Plugin directory|;|Bővítmények könyvtára:
+Ini directory|;|Könyvtár
+Manage|;|Kezelés
+Plugin Log|;|bővítmény
+Verify version|;|Verzió ellenőrzése
+Update|;|Frissítés
+Backup|;|Biztonsági mentés
+No permission to list directory|;|Nincs engedély a könyvtár felsorolására
+Directory content for : {} |;|A következő könyvtár tartalma: {}
+Go back|;|Menjen vissza
+Are you sure you want to update data ?|;|Biztosan frissíteni akarja az adatokat?
+File not exist or problem to access : {}|;|A fájl nem létezik, vagy hozzáférési probléma van: {}
+update|;|frissítés
+search|;|keresés
+replace|;|kicserél | lecserél
+undo|;|visszavon | érvénytelenít
+redo|;|újra
+FullScreen|;|Fullscreen
+File not found|;|Fájl nem található
+Are you sure you want to delete Ini file and all related data ?|;|Biztosan törli az Ini fájlt és az összes kapcsolódó adatot?
+Are you sure ?|;|Biztos benne?
+Error retrieve data from device : {}|;|Hiba történt az adatok letöltése az eszközről: {}
+... Verify import result ...|;|... az import eredmény ellenőrzése ...
+... Verify ini generation ...|;|... ellenőrizze az ini generációt ...
+Device information for Broadlink type : |;|Eszközinformáció a Broadlink típushoz:
+Scan Broadlink devices|;|Szélessávú eszközök szkennelése
+Network scan|;|KeresÃ©s a hÃ¡lÃ³zaton:
+Show Broadlink usage and devices linked|;|A széles sávú használat és az összekapcsolt eszközök megjelenítése
+Usage|;|Használat
+Create ini file for send more than one code RF / IR|;|Készítsen ini fájlt egy vagy több RF / IR kód küldéséhez
+Multi-Code|;|Multi-Code
+Not able to retrieve data for Usage kWh -- verify device|;|Nem sikerült beolvasni a használati kWh adatokat - ellenőrizze az eszközt
+Click to switch|;|Kattintson a váltáshoz
+Air quality|;|Levegőminőség
+Quiet|;|Csendes
+Noisy|;|Zajos
+Generate .ini files from e-Control database|;|Generáljon .ini fájlokat az e-Control adatbázisból
+Import .ini files from the _import_ directory|;|Importálja .ini fájlokat a _import_ könyvtárból
+Import|;|Importálás
+Edit ini file for remote controller|;|Szerkessze a távirányító ini fájlját
+Infra-red codes database|;|Infravörös kódok adatbázisa
+IR code DB|;|IR kód DB
+Create Broadlink code from Pronto HEX|;|Hozzon létre Broadlink kódot a Pronto HEX-ből
+Create from Pronto|;|Készítsen Pronto-ból
+Copy Past here 'Pronto HEX' code|;|Másolás a &#39;Pronto HEX&#39; kódra
+create|;|létrehoz
+Next refresh in|;|Következő frissítés
+Ini file content|;|Ini fájl tartalma
+Edit ini file. Caution, no verification will be made|;|Az ini fájl szerkesztése. Vigyázat, nem kerül sor ellenőrzésre
+Delete ini file and related Domoticz device|;|Törölje az ini fájlt és a kapcsolódó Domoticz eszközt
+Delete|;|Törlés
+Create Domoticz device linked to the ini file|;|Hozzon létre egy Domoticz eszközt, amely az ini fájlhoz kapcsolódik
+Create device|;|Hozzon létre eszközt
+show code|;|Kód megtekintése
+send code|;|Kód küldése
+Number of time you want that the code be repeated|;|Hány alkalommal kívánja megismételni a kódot
+modify repetition|;|módosítsa az ismétlést
+Code sent from unit :|;|Kód küldött az egységtől:
+Number of repeat :|;|Ismétlés száma:
+Background process running ... wait for few seconds|;|A háttérfolyamat fut ... várjon néhány másodpercet
+Remaining time before --|;|Hátralévő idő előtt -
+seconds|;|másodpercek
+Multi-code ini file creation|;|Többkódú ini fájl létrehozása
+Source available|;|Forrás elérhető
+Drop ini file you want to include|;|Dobja el a beilleszteni kívánt fájlt
+Include this sequence|;|Vegye bele ezt a sorozatot
+Create ini|;|Létrehozás
+Submit ini file creation|;|Küldje el az ini fájl létrehozását
+Timer|;|Időzítő
+Add 1 second|;|1 másodperc
+Connected to Broadlink device: {} {} {}|;|Csatlakozva Broadlink készülék: {} {} {}
+Error to retrieve type from this file : {}|;|Hiba letölteni típusát ezt a fájlt: {}
+File : {} exist, we bypass|;|Fájl: {} létezik, akkor bypass
+Are you sure ? you need to restart Plugin after ...|;|Biztos vagy ebben ? újra kell indítani Plugin után ...
+Overwrite default device type|;|Felülírása alapértelmezett eszköz típusát
+Select Device Type|;|Select Device Type
+Update device type|;|Frissítés eszköz típusa
+About|;|Ról ről
+Device 1 not exist|;|Készülék 1 nem létezik

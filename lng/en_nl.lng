@@ -1,0 +1,323 @@
+Error to load language file|;|Fout bij het laden van taalbestand
+we translate the text : {}|;|we vertalen de tekst: {}
+error in translation, we keep original text|;|vertaalfout, we behouden de originele tekst
+Request Domoticz to : {} used encoding is : {}|;|Verzoek Domoticz om: {} gebruikte codering is: {}
+Error sending command to Domoticz : {}|;|Fout bij verzenden van opdracht naar Domoticz: {}
+Error sending data|;|Fout bij het verzenden
+Domoticz do not send OK message for: {} ??|;|Domoticz verstuurt geen OK-bericht voor: {} ??
+Error retrieve dict data from Domoticz : {}|;|Fout bij ophalen van dict-gegevens van Domoticz: {}
+...|;|...
+ ...  |;|...
+Not able to enter learning mode|;|Kan de leermodus niet openen
+Learning...|;|Nog lerende
+No data received...|;|Geen gegevens ontvangen.
+Code learned|;|Code geleerd
+sweeping...; LED should be RED|;|vegen ...; LED moet ROOD zijn
+check frequency... {}|;|controleer frequentie ... {}
+frequency found! check LED, should be off|;|frequentie gevonden! controleer LED, moet uit zijn
+frequency not found... |;|frequentie niet gevonden ...
+learning command|;|leeropdracht
+verify command...{} |;|commando verifiëren ... {}
+not able to learn command|;|niet in staat om commando te leren
+Code stored in memory|;|Code opgeslagen in het geheugen
+RF not true, sweep necessary|;|RF niet waar, sweep noodzakelijk
+We download plugin file to: {}|;|We downloaden het plug-inbestand naar: {}
+Error receive / save file from dropbox : {}|;|Fout bij ontvangen / opslaan van bestand van dropbox: {}
+Error to retrieve plugin version from : {}|;|Fout bij ophalen van plug-inversie van: {}
+Connected to Broadlink device: {}|;|Verbonden met Broadlink-apparaat: {}
+Error Connecting to Broadlink device....|;|Fout bij verbinden met Broadlink-apparaat ...
+Backup file name : {}|;|Back-up bestandsnaam:
+Error to backup file : {}|;|Fout bij back-upbestand: {}
+Name : {} -- Unit : {} -- IDX : {} |;|Naam: {} - Unit: {} - IDX: {}
+Detected here : |;|Hier gedetecteerd:
+Domoticz device created|;|Domoticz-apparaat gemaakt
+ini file not found: {}|;|Bestand niet gevonden:
+bad code in ini file: {}|;|slechte code in ini-bestand: {}
+we execute this command : {}|;|we voeren deze opdracht uit: {}
+Next|;|Volgende
+Error to send code|;|Fout bij het verzenden van code
+We try to sleep : {} s|;|We proberen te slapen: {} s
+bad timer value : {}|;|slechte timerwaarde: {}
+we send code from : {}|;|we sturen code van: {}
+Not able to load command from {}|;|Kan opdracht van {} niet laden
+Nothing to send|;|Niets te verzenden
+Code sent....|;|Code verzonden....
+Warning : Code sent ....Probably timeout|;|Waarschuwing: code verzonden ... Waarschijnlijk een time-out
+Not able to find file {}|;|Kan bestand niet vinden {}
+Discover finished|;|Ontdek afgewerkt
+Error to retrieve Broadlink devices|;|Fout bij het ophalen van Broadlink-apparaten
+END scan|;|EINDE scan
+IR code learned|;|IR-code geleerd
+Error to learn IR code|;|Fout om IR-code te leren
+Sweep ok|;|opruimen
+Error in sweep|;|Fout in sweep
+RF code learned|;|RF-code geleerd
+Error to learn RF code|;|Fout om RF-code te leren
+END learnrf|;|EINDE learnrf
+Usage ok|;|Gebruik
+Error in usage|;|Fout in gebruik
+END usage|;|Gebruik
+Finished|;|Klaar
+END translation|;|Vertaling
+We do backup before update|;|We maken een back-up voor de update
+New Plugin uploaded|;|Nieuwe plug-in geüpload
+Error receive / save files from dropbox : {}|;|Fout bij ontvangen / opslaan van bestanden van dropbox: {}
+Not able to create backup file|;|Kan geen back-upbestand maken
+If necessary, do 'sudo -H chmod +x *.py'|;|Voer indien nodig &#39;sudo -H chmod + x * .py&#39; uit
+End of plugin update|;|Einde van update van plug-in
+Backup OK|;|Backup
+Backup error|;|Backup-fout
+End of plugin backup|;|Einde van back-up van plug-in
+END of Backup|;|EINDE van de back-up
+RemotePlugin OK|;|RemotePlugin OK
+we have downloaded plugin file for version test|;|we hebben het plug-inbestand gedownload voor de versietest
+plugin : new version available|;|plugin: nieuwe versie beschikbaar
+RemotePlugin Error|;|RemotePlugin-fout
+End of remote plugin version test|;|Einde van versie-plugin-test op afstand
+END of remotePlugin|;|EINDE van remotePlugin
+Multi-code OK|;|Meerdere codes OK
+We have sent multi-code|;|We hebben multi-code verzonden
+Multi-code Error|;|Fout met meerdere codes
+End of multi-code send|;|Einde van multi-code verzenden
+END of multi-code|;|EINDE van multi-code
+unknown step|;|Onbekend
+Not able to load debug module|;|Kan debug-module niet laden
+Language loaded for  : {} |;|Taal geladen voor: {}
+Language file is missing for : {}|;|Taalbestand ontbreekt voor: {}
+Port already in use|;|Poort al in gebruik
+Listen on BROWebServer - Port: {}|;|Luister op BROWebServer - Port: {}
+Hardware ID: {} |;|Hardware-ID
+Status|;|Status
+Learn|;|Leren
+Test|;|Test
+Save|;|Opslaan
+Reset|;|Resetten
+IR Commands|;|Opdrachten
+Sweep|;|Opruimen
+RF Commands|;|Opdrachten
+Temperature|;|Temperatuur
+Light|;|Licht
+Humidity|;|Luchtvochtigheid
+Air Quality|;|Luchtkwaliteit
+Noise|;|Geluid
+plug|;|plug
+Connecting to: {} : {}|;|Verbinden met:
+Ini file for remote controller created: {}|;|Ini-bestand voor afstandsbediening gemaakt: {}
+Error to create ini file for remote controller : {}|;|Fout bij het maken van ini-bestand voor afstandsbediening: {}
+Plugin Device count start on : {}|;|Het aantal plug-in-apparaten begint op: {}
+Admin html file created: {}|;|Admin html-bestand gemaakt: {}
+Error to create admin html file : {}|;|Fout bij het aanmaken van een admin html-bestand: {}
+Error to found www/templates for html file : {}|;|Fout bij het vinden van www / templates voor html-bestand: {}
+Command line file created: {}|;|Opdrachtregelbestand gemaakt: {}
+Error to create device file : {}|;|Fout bij het maken van apparaatbestand: {}
+We cannot continue ...|;|We kunnen niet doorgaan ...
+Learn IR command|;|IR-opdracht leren
+Nothing to save|;|Geen wijzigingen gevonden
+Ini created|;|Aangemaakt
+Nothing to reset|;|Niets te resetten
+unknown level command|;|onbekend niveau commando
+Wait for sweep...|;|Wacht op vegen ...
+Learn RF command|;|Leer RF-commando
+Sweep first|;|Eerst vegen
+Unit unknown|;|Onbekend
+Error to put "ON" SP1/SP2/SP3|;|Fout bij het &quot;AAN&quot; zetten van SP1 / SP2 / SP3
+Error to put "on" light for SPx|;|Fout bij het &quot;aan&quot; -licht voor SPx
+Error to put "ON" MP1 for plug : {}|;|Fout bij plaatsen van &quot;ON&quot; MP1 voor plug: {}
+Unknown command|;|Onbekende opdracht
+Error to put Off SP1/SP2/SP3|;|Fout bij het uitschakelen van SP1 / SP2 / SP3
+Error to put off light for SPx|;|Fout om licht uit te doen voor SPx
+Error to put Off MP1 for plug : {}|;|Fout bij het uitstellen van MP1 voor plug: {}
+Unit error update|;|Unit error update
+undefined|;|ongedefinieerd
+A1 called|;|A1 heeft gebeld
+Get Data From Sensors|;|Verkrijg gegevens van sensoren
+SP3S called|;|ze in
+MP1 called|;|ze in
+SP1/SP2 called|;|SP1 / SP2 gebeld
+onMessage called for connection: {0}:{1}|;|onMessage heeft om verbinding gevraagd: {0}: {1}
+Broadlink response OK!|;|Broadlink-reactie OK!
+Request from : {}:{} to : {}|;|Verzoek van: {}: {} aan: {}
+Plugin restarted !|;|Plug-in opnieuw gestart!
+Refresh|;|Ververs
+Backup finished.|;|Back-up voltooid
+ERROR Unknown url from : {}:{} to : {}|;|FOUT Onbekende URL van: {}: {} tot: {}
+Broadlink not know what to do!|;|Broadlink weet niet wat te doen!
+ERROR Unknown key from : {}:{} to : {}|;|FOUT Onbekende sleutel van: {}: {} tot: {}
+Broadlink bad key!|;|Broadlink slechte sleutel!
+Not implemented Request from : {}:{} to : {}|;|Niet geïmplementeerd Verzoek van: {}: {} aan: {}
+Broadlink : not implemented !|;|Broadlink: niet geïmplementeerd!
+Unknown verb in request: {}|;|Onbekend werkwoord in aanvraag: {}
+We bypass URL check|;|We omzeilen URL-controle
+We process this url: {}|;|We verwerken deze URL: {}
+data process OK|;|gegevensverwerking OK
+Error to process data|;|Fout bij het verwerken van gegevens
+Nothing to do ...|;|Niets om te doen
+Connected successfully to {}:{}|;|Succesvol verbonden.
+onDisconnect called for connection '{}'|;|onDisconnect verzocht om verbinding &#39;{}&#39;
+Server Connections: |;|Serververbindingen:
+Device not modified by plugin|;|Apparaat niet gewijzigd door plug-in
+Error to update the config file: customname|;|Fout bij het bijwerken van het configuratiebestand: aangepaste naam
+Generate "ON" Command for learned code stored on unit/ini : {}|;|Genereer &quot;ON&quot; -opdracht voor aangeleerde code die is opgeslagen op unit / ini: {}
+Not able to update device : {}|;|Kan apparaat niet updaten: {}
+Error to update the config file : customname|;|Fout bij het bijwerken van het configuratiebestand: aangepaste naam
+File exist : {}|;|Bestand bestaat : {}
+Not able to create : {}|;|Kan niet maken: {}
+Not able to create device : {}|;|Kan apparaat niet maken: {}
+Ini file / Device deleted : {}|;|Ini-bestand / apparaat verwijderd: {}
+Error on delete_ini : {}|;|Fout bij delete_ini: {}
+reset IR/RF|;|IR / RF opnieuw instellen
+Reset command executed|;|Reset-opdracht uitgevoerd
+Error to create the config file : {}|;|Fout bij het maken van het configuratiebestand: {}
+ini file created...{}|;|ini-bestand gemaakt ... {}
+Connected to Broadlink device: {} {}|;|Verbonden met Broadlink-apparaat: {} {}
+Error to connect to Broadlink device: {}|;|Fout om verbinding te maken met Broadlink-apparaat: {}
+Error getting temperature data from Broadlink device....Timeout|;|Fout bij ophalen van temperatuurgegevens van Broadlink-apparaat ... Time-out
+Number of ini file to create : {}|;|Aantal ini-bestanden om te maken: {}
+You need to select Import for that|;|Daarvoor moet je Import selecteren
+No ini files found|;|Geen bestanden gevonden.
+Removing : {}|;|Verwijderen:
+No json files found|;|Geen bestanden gevonden.
+No more device available ...|;|Geen apparaat meer beschikbaar ...
+Send .. : {} {} {}|;|Verzenden
+Bypass .. : {} {} {}|;|Bypass
+Send error or command for remote controller not set into ini file: {}|;|Verzendfout of opdracht voor afstandsbediening niet ingesteld in ini-bestand: {}
+Command for remote not defined: {}|;|Commando voor afstandsbediening niet gedefinieerd: {}
+ini file read....{}|;|ini-bestand gelezen ... {}
+Custom Commands: {}|;|Aangepaste opdrachten
+No ini file : {}|;|Geen ini-bestand: {}
+Custom Commands for Remote controller not managed|;|Aangepaste opdrachten voor afstandsbediening worden niet beheerd
+Last character must be <,> into the remote controller file|;|Het laatste teken moet &lt;,&gt; zijn in het bestand van de afstandsbediening
+Invalid number in ini file, string or leading zero|;|Ongeldig nummer in ini-bestand, string of voorloopnul
+Error getting sensor data from Broadlink device....Timeout|;|Fout bij ophalen van sensorgegevens van Broadlink-apparaat ... Time-out
+Error getting sensor data raw from Broadlink device....Timeout|;|Fout bij ophalen van sensorgegevens onbewerkt van Broadlink-apparaat ... Time-out
+State of the plug : {}|;|Staat van de plug: {}
+Error to retrieve plug status|;|Fout bij ophalen van plugstatus
+State of the light : {}|;|Staat van het licht: {}
+Error to retrieve light status|;|Fout bij ophalen van lichtstatus
+Power state for device MP1 : {} |;|Energiestatus voor apparaat MP1: {}
+Error to check power state of MP1 device|;|Fout om de stroomstatus van het MP1-apparaat te controleren
+Energy for device SP3S: {}|;|Energie voor apparaat SP3S: {}
+Error to get power energy from device SP3S|;|Fout bij het ophalen van energie uit apparaat SP3S
+Lang file not exist or problem to read data from : {}|;|Lang-bestand bestaat niet of probleem om gegevens van te lezen: {}
+lang file : {}|;|lang bestand: {}
+argument is missing|;|argument ontbreekt
+command to execute : {}|;|Uit te voeren opdracht
+ERROR to start subprocess|;|FOUT om het subproces te starten
+Request from domoticz to : {} with encoding : {}|;|Verzoek van domoticz aan: {} met codering: {}
+File {} uploaded.|;|Bestand geüpload.
+Error to create file : {}|;|Fout bij het maken van bestand: {}
+Error to find file name from: {} or not valid path: {}|;|Fout bij het vinden van bestandsnaam van: {} of een ongeldig pad: {}
+Error to find file name from : {}|;|Fout bij het vinden van bestandsnaam van: {}
+Code loaded : {}|;|Code geladen: {}
+Not able to send command : Not connected|;|Kan opdracht niet verzenden: niet verbonden
+Error on fpronto from Received Data: {}|;|Fout op fpronto van ontvangen gegevens: {}
+Error to update the config file : multi-code|;|Fout bij het bijwerken van het configuratiebestand: multi-code
+Error to update the config file : repeat|;|Fout om het configuratiebestand bij te werken: herhaal
+Error on Multi-code from Received Data: {}|;|Fout bij multi-code van ontvangen gegevens: {}
+Error on json from Received Data: {}|;|Fout op json van ontvangen gegevens: {}
+processing data : {}|;|gegevens worden verwerkt...
+New version available|;|Nieuwe versie beschikbaar
+we do not know what to do of received data|;|we weten niet wat we moeten doen met ontvangen gegevens
+Error to read image file :{}|;|Fout bij lezen van afbeeldingsbestand: {}
+Are you sure you want restart Plugin ?|;|Weet u zeker dat u de plug-in opnieuw wilt opstarten?
+Are you sure you want update Plugin ?|;|Weet je zeker dat je de plug-in wilt updaten?
+Are you sure you want backup Plugin data ?|;|Weet u zeker dat u een back-up wilt maken van plug-ingegevens?
+File name is required|;|Bestandsnaam is vereist.
+Uploaded |;|Geüpload
+ bytes of |;|bytes van
+Work in progress|;|Werk in uitvoering
+% uploaded... please wait|;|% geüpload ... een ogenblik geduld
+Upload Failed|;|uploaden mislukt
+Upload Aborted|;|Upload afgebroken
+Wait for few seconds before restarting|;|Wacht een paar seconden voordat u opnieuw opstart
+Restart Failed|;|Opnieuw opstarten is mislukt
+Restart Aborted|;|Herstart afgebroken
+Restart|;|Opnieuw starten
+Upload|;|Uploaden
+System information|;|Systeem informatie
+Domoticz language is : {}|;|Domoticz-taal is: {}
+Edit|;|Bewerken
+Create|;|Aanmaken
+Domoticz, number of plugin devices : {}|;|Domoticz, aantal plug-in-apparaten: {}
+Domoticz, Hardware IDX : {}|;|Domoticz, Hardware IDX: {}
+HTTP Key : {}|;|HTTP-sleutel: {}
+Plugin directory|;|Pluginmap:
+Ini directory|;|Directory
+Manage|;|Beheren
+Plugin Log|;|Plugin
+Verify version|;|Controleer de versie
+Update|;|Update
+Backup|;|Backup
+No permission to list directory|;|Geen toestemming om directory weer te geven
+Directory content for : {} |;|Directoryinhoud voor: {}
+Go back|;|Ga terug
+Are you sure you want to update data ?|;|Weet u zeker dat u wilt bijwerken?
+File not exist or problem to access : {}|;|Bestand bestaat niet of probleem om te openen: {}
+update|;|update
+search|;|Zoek
+replace|;|vervangen
+undo|;|terugdraaifase
+redo|;|Opnieuw
+FullScreen|;|Schermvullend
+File not found|;|Bestand niet gevonden
+Are you sure you want to delete Ini file and all related data ?|;|Weet u zeker dat u het Ini-bestand en alle gerelateerde gegevens wilt verwijderen?
+Are you sure ?|;|Weet je het zeker?
+Error retrieve data from device : {}|;|Fout bij ophalen van gegevens van apparaat: {}
+... Verify import result ...|;|... Controleer importresultaat ...
+... Verify ini generation ...|;|... Controleer ini generatie ...
+Device information for Broadlink type : |;|Apparaatinformatie voor Broadlink-type:
+Scan Broadlink devices|;|Scan Broadlink-apparaten
+Network scan|;|网络扫描
+Show Broadlink usage and devices linked|;|Broadlink-gebruik en gekoppelde apparaten weergeven
+Usage|;|Gebruik
+Create ini file for send more than one code RF / IR|;|Maak een ini-bestand voor het verzenden van meer dan één code RF / IR
+Multi-Code|;|Meerdere codes
+Not able to retrieve data for Usage kWh -- verify device|;|Kan geen gegevens ophalen voor gebruik kWh - verifieer apparaat
+Click to switch|;|Klik om te wisselen naar
+Air quality|;|Luchtkwaliteit
+Quiet|;|Rustig
+Noisy|;|Geluid
+Generate .ini files from e-Control database|;|Genereer .ini-bestanden uit de e-Control-database
+Import .ini files from the _import_ directory|;|Importeer .ini-bestanden uit de map _import_
+Import|;|Import
+Edit ini file for remote controller|;|Bewerk ini-bestand voor afstandsbediening
+Infra-red codes database|;|Infraroodcodes-database
+IR code DB|;|IR-code DB
+Create Broadlink code from Pronto HEX|;|Maak Broadlink-code van Pronto HEX
+Create from Pronto|;|Creëer van Pronto
+Copy Past here 'Pronto HEX' code|;|Kopieer hier de &#39;Pronto HEX&#39;-code
+create|;|maken
+Next refresh in|;|Vernieuw vervolgens in
+Ini file content|;|Bestandsinhoud
+Delete|;|Verwijderen
+Create device|;|Creëer apparaat
+show code|;|TOON CODE
+send code|;|Code verzenden
+Number of time you want that the code be repeated|;|Aantal keer dat de code moet worden herhaald
+modify repetition|;|herhaal wijzigen
+Code sent from unit :|;|Code verzonden vanaf eenheid:
+Number of repeat :|;|Aantal herhalingen:
+Background process running ... wait for few seconds|;|Achtergrondproces loopt ... wacht een paar seconden
+Remaining time before --|;|Resterende tijd voor -
+seconds|;|secondes
+Multi-code ini file creation|;|Ini-bestanden maken met meerdere codes
+Source available|;|Bron beschikbaar
+Drop ini file you want to include|;|Drop ini-bestand dat u wilt opnemen
+Include this sequence|;|Voeg deze reeks toe
+Create ini|;|Aanmaken
+Submit ini file creation|;|Dien ini-bestanden in
+Timer|;|Timer
+Add 1 second|;|1 seconde
+Connected to Broadlink device: {} {} {}|;|Verbonden met Broadlink inrichting: {} {} {}
+Error to retrieve type from this file : {}|;|Fout type te halen uit dit bestand: {}
+Extracting all the files now...|;|Het extraheren van alle bestanden die nu ...
+File : {} exist, we bypass|;|File: {} bestaan, we bypass
+Are you sure ? you need to restart Plugin after ...|;|Weet je het zeker ? je nodig hebt om Plugin herstarten na ...
+Overwrite default device type|;|Overschrijven standaardtype inrichting
+Select Device Type|;|Selecteer het type apparaat
+Update device type|;|Type Update apparaat
+About|;|Over
+Device 1 not exist|;|Inrichting 1 bestaat niet
+Edit ini file. Caution, no verification will be made|;|Bewerk ini file. Let op, worden er geen verificatie worden gemaakt
+Delete ini file and related Domoticz device|;|Delete ini file en aanverwante Domoticz apparaat
+Create Domoticz device linked to the ini file|;|Maak Domoticz apparaat gekoppeld aan het ini file
