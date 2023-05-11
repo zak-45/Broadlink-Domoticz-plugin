@@ -26,18 +26,18 @@ import time
 
 #
 # python version check
-# if < 3.5 error
+# if < 3.8 error
 try:
-    assert sys.version_info >= (3, 5)
+    assert sys.version_info >= (3, 8)
 except (ValueError, Exception):
-    print('your python version is not compatible, need >= 3.5')
+    print('your python version is not compatible, need >= 3.8')
     sys.exit()
 #
 cgitb.enable(format='text')
 #
 # Var value
 #
-setupurl = 'https://synnas.publicvm.com/s/Czn9r8G8QwrZ7ji/download'
+setupurl = 'https://codeload.github.com/zak-45/Broadlink-Domoticz-plugin/zip/refs/heads/main'
 modlist = ['setuptools', 'wheel', 'googletrans', 'translate', 'requests', 'requests_toolbelt', 'irgen']
 updname = 'BroadlinkSetup.zip'
 data = {}
@@ -206,12 +206,13 @@ for mod in modlist:
 # we download plugin files from DropBox (zip format)
 #
 print('_' * 40)
-print("# we download plugin files from DropBox (zip format)")
+print("# we download plugin files from GIT (zip format)")
 print('-' * 40)
 #
 #
 
 import requests
+import shutil
 
 state = "**"
 leng = 0
@@ -254,10 +255,20 @@ with ZipFile(updname, 'r') as izip:
 
     # extracting all the files
     print('Extracting all the files now...')
-    izip.extractall('../.')
+    izip.extractall('./')
 
 izip.close()
 
+#
+# move from Git to ./
+#
+
+source_folder = "Broadlink-Domoticz-plugin-main/"
+destination_folder = "./"
+
+
+shutil.copytree(source_folder,destination_folder,  dirs_exist_ok=True)
+shutil.rmtree(source_folder)
 #
 # Broadlink module not from pip
 #
