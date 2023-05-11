@@ -105,8 +105,8 @@ DEVICE = broadlink.rm(host=('', 80), mac=bytearray.fromhex(''), devtype=0x272a)
 ISCONNECTED = False
 LEARNEDCOMMAND = ''
 TIMEOUT = 30
-url = 'https://synnas.publicvm.com:4430/s/Czn9r8G8QwrZ7ji/download'
-getpluginurl = 'https://synnas.publicvm.com:4430/s/pNbw6pD7w33TTQX/download'
+url = 'https://codeload.github.com/zak-45/Broadlink-Domoticz-plugin/zip/refs/heads/main'
+getpluginurl = 'https://raw.githubusercontent.com/zak-45/Broadlink-Domoticz-plugin/main/plugin.py'
 
 
 #
