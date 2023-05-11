@@ -39,10 +39,13 @@
 #                   Modify sp3s device creation type
 #           1.6.3 : 08/01/2021
 #                   Work now in docker env: changed to 127.0.0.1 instead domoticz ip
+#           1.6.4 : 08/05/2023
+#                   Move source to GitHub
 #
 
+
 """
-<plugin key="Broadlink" name="Broadlink with Kodi Remote" author="zak45" version="1.6.3"
+<plugin key="Broadlink" name="Broadlink with Kodi Remote" author="zak45" version="1.6.4"
     wikilink="http://www.domoticz.com/wiki/plugins/Broadlink.html"
     externallink="https://github.com/mjg59/python-broadlink">
     <description>
