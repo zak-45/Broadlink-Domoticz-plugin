@@ -76,7 +76,7 @@ module ptvsd need to be installed.
 
 
 Lets try and play with it.
-Provide bugs/feedback here.
+Provide bugs/feedback here. https://www.domoticz.com/forum/viewtopic.php?t=33223
 
 Enjoy !!
 
