@@ -1,27 +1,23 @@
 # Domoticz Python Plugin with Command line interface for python-broadlink
 
-Hi, 
-complete new plugin.
-Old version (4.x) could not be upgraded, you need to create a new folder, and import your ini files if you want to use this one.
 
-
-[u]Info [/u]: do not use the official app if using broadlink library
+Info: do not use the official app if using broadlink library
 see [url]https://github.com/mjg59/python-broadlink/issues/377[/url]
 
-note: [b]pip[/b] need to be installed
+note: pip need to be installed
 (for linux users: sudo apt install python3-pip)
 
 
 To be able to see the Web Pages, Custom menu need to be activated: Domoticz / settings.
 
-Be sure that your [b]active[/b] python version is > 3.4 (Change python version system-wide)
+Be sure that your active python version is > 3.4 (Change python version system-wide)
 this mean: python --version ( or sudo python --version for linux users)
 should give output e.g. python 3.x.x and not python 2.x.x
 see this link [url]https://www.domoticz.com/wiki/Using_Python_plugins[/url]
 or this one : [url]https://linuxconfig.org/how-to-change-from-default-to-alternative-python-version-on-debian-linux[/url]
 
 
-[u]Features[/u]:
+Features:
 
 Multi-Language
 Multi-Devices (MP1 / A1 / SP1-2-3 / RM2-3 Pro & mini / RM4 Pro & mini
@@ -36,10 +32,10 @@ Send code with a simple URL
 and more .....
 
 
-[u]Installation [/u]:
+Installation :
 
 create Broadlink directory under your Domoticz/plugins folder.
-download setup.py from here : [url]https://raw.githubusercontent.com/zak-45/Broadlink-Domoticz-plugin/main/setup.py[/url]
+download setup.py from here : https://raw.githubusercontent.com/zak-45/Broadlink-Domoticz-plugin/main/setup.py
 and put it into Broadlink directory.
 
 Open a terminal session, go to Broadlink directory and execute this command : python setup.py (tested on Windows with admin right, maybe need sudo on linux e.g; : sudo python setup.py)
@@ -48,7 +44,7 @@ Provide response to questions.
 Restart Domoticz.
 Create a new hardware, type : Broadlink with Kodi Remote
 
-[u]Manual installation[/u]:
+Manual installation:
 download all files from provided link to the Broadlink directory.
 install these required modules:
 
@@ -61,22 +57,22 @@ and do not forget to put executable file under Broadlink/scr ( chmod +x )
 
 WebAdmin Page overview:
 
-[attachment=2]A1admin.PNG[/attachment]
-[attachment=1]rm2admin.PNG[/attachment]
-[attachment=0]sp3sadmin.PNG[/attachment]
+![image](https://github.com/zak-45/Broadlink-Domoticz-plugin/assets/121941293/77663c49-15e6-47dd-8144-795a846983cb)
+![image](https://github.com/zak-45/Broadlink-Domoticz-plugin/assets/121941293/6eb6f6bc-cbc6-4a41-98bd-0e252d3a45bf)
+![image](https://github.com/zak-45/Broadlink-Domoticz-plugin/assets/121941293/574fe0b9-a0ba-43a9-af40-f8ff4211b111)
 
 
-[u]For Devlopers[/u]:
+For Devlopers:
 this is the port necessary to use MS visual debugger
 
 --> main py : plugin.py
             Domoticz.Log('Waiting for MS Visual Studio remote debugger connection ....')
-            ptvsd.enable_attach(address=('0.0.0.0', [b]5678[/b]))
+            ptvsd.enable_attach(address=('0.0.0.0', 5678))
 
 --> subprocess : Dombroadlink.py
-            ptvsd.enable_attach(address=('0.0.0.0', [b]6789[/b]))
+            ptvsd.enable_attach(address=('0.0.0.0', 6789))
 
-module [b]ptvsd[/b] need to be installed.
+module ptvsd need to be installed.
 
 
 Lets try and play with it.
