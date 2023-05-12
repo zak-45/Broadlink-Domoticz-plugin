@@ -1,5 +1,99 @@
 # Domoticz Python Plugin with Command line interface for python-broadlink
 
+Hi, 
+complete new plugin.
+Old version (4.x) could not be upgraded, you need to create a new folder, and import your ini files if you want to use this one.
+
+
+[u]Info [/u]: do not use the official app if using broadlink library
+see [url]https://github.com/mjg59/python-broadlink/issues/377[/url]
+
+note: [b]pip[/b] need to be installed
+(for linux users: sudo apt install python3-pip)
+
+
+To be able to see the Web Pages, Custom menu need to be activated: Domoticz / settings.
+
+Be sure that your [b]active[/b] python version is > 3.4 (Change python version system-wide)
+this mean: python --version ( or sudo python --version for linux users)
+should give output e.g. python 3.x.x and not python 2.x.x
+see this link [url]https://www.domoticz.com/wiki/Using_Python_plugins[/url]
+or this one : [url]https://linuxconfig.org/how-to-change-from-default-to-alternative-python-version-on-debian-linux[/url]
+
+
+[u]Features[/u]:
+
+Multi-Language
+Multi-Devices (MP1 / A1 / SP1-2-3 / RM2-3 Pro & mini / RM4 Pro & mini
+Web Admin page
+RF is now managed
+Multi-code ini file creation by drag & drop
+Create Broadlink ini from Pronto Hex
+Create ini from e-Control
+Modify number of repetition (do and test with caution)
+Import feature
+Send code with a simple URL
+and more .....
+
+
+[u]Installation [/u]:
+
+create Broadlink directory under your Domoticz/plugins folder.
+download setup.py from here : [url]https://raw.githubusercontent.com/zak-45/Broadlink-Domoticz-plugin/main/setup.py[/url]
+and put it into Broadlink directory.
+
+Open a terminal session, go to Broadlink directory and execute this command : python setup.py (tested on Windows with admin right, maybe need sudo on linux e.g; : sudo python setup.py)
+
+Provide response to questions.
+Restart Domoticz.
+Create a new hardware, type : Broadlink with Kodi Remote
+
+[u]Manual installation[/u]:
+download all files from provided link to the Broadlink directory.
+install these required modules:
+
+['setuptools', 'wheel', 'googletrans', 'translate', 'requests', 'requests_toolbelt', 'irgen']
+
+for Broadlink module, install the provided version not the one from pip:
+   for win : python -m pip install python-broadlink-master/.
+   for other : sudo -H python -m pip install python-broadlink-master/.
+and do not forget to put executable file under Broadlink/scr ( chmod +x )
+
+WebAdmin Page overview:
+
+[attachment=2]A1admin.PNG[/attachment]
+[attachment=1]rm2admin.PNG[/attachment]
+[attachment=0]sp3sadmin.PNG[/attachment]
+
+
+[u]For Devlopers[/u]:
+this is the port necessary to use MS visual debugger
+
+--> main py : plugin.py
+            Domoticz.Log('Waiting for MS Visual Studio remote debugger connection ....')
+            ptvsd.enable_attach(address=('0.0.0.0', [b]5678[/b]))
+
+--> subprocess : Dombroadlink.py
+            ptvsd.enable_attach(address=('0.0.0.0', [b]6789[/b]))
+
+module [b]ptvsd[/b] need to be installed.
+
+
+Lets try and play with it.
+Provide bugs/feedback here.
+
+Enjoy !!
+
+test platform : Windows 10 
+Version: 2020.2 (build 12120)
+Build Hash: ecd90cd57
+Compile Date: 2020-06-04 20:50:42
+dzVents Version: 3.0.9
+Python Version: 3.7.5 (tags/v3.7.5:5c02a39a0b, Oct 14 2019, 23:09:19) [MSC v.1916 32 bit (Intel)]
+
+
+
+
 # Python control for Broadlink RM2, RM3 and RM4 series controllers
 
 A simple Python API for controlling IR/RF controllers from [Broadlink](http://www.ibroadlink.com/rm/). At present, the following devices are currently supported:
