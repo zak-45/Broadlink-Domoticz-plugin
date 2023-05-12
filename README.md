@@ -2,7 +2,7 @@
 
 
 Info: do not use the official app if using broadlink library
-see [url]https://github.com/mjg59/python-broadlink/issues/377[/url]
+see https://github.com/mjg59/python-broadlink/issues/377
 
 note: pip need to be installed
 (for linux users: sudo apt install python3-pip)
@@ -13,8 +13,8 @@ To be able to see the Web Pages, Custom menu need to be activated: Domoticz / se
 Be sure that your active python version is > 3.4 (Change python version system-wide)
 this mean: python --version ( or sudo python --version for linux users)
 should give output e.g. python 3.x.x and not python 2.x.x
-see this link [url]https://www.domoticz.com/wiki/Using_Python_plugins[/url]
-or this one : [url]https://linuxconfig.org/how-to-change-from-default-to-alternative-python-version-on-debian-linux[/url]
+see this link https://www.domoticz.com/wiki/Using_Python_plugins
+or this one : https://linuxconfig.org/how-to-change-from-default-to-alternative-python-version-on-debian-linux
 
 
 Features:
