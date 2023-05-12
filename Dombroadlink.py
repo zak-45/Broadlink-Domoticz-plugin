@@ -20,6 +20,10 @@
 #           1.6.3 : 08/01/2021
 #                   Work now in docker env: changed to 127.0.0.1 instead domoticz ip
 #
+#           1.6.4 : 12/05/2023
+#                   Github
+#
+#
 #
 
 import base64
@@ -1026,7 +1030,9 @@ if __name__ == '__main__':
 
                     # extracting all the files
                     print(_('Extracting all the files now...'))
-                    izip.extractall(path=folder + '../.')
+                    izip.extractall(path=folder + './')
+                    shutil.copytree(folder+'Broadlink-Domoticz-plugin-main',folder,  dirs_exist_ok=True)
+                    shutil.rmtree(folder+'Broadlink-Domoticz-plugin-main')
 
                 # copy back lng file saved previously
                 shutil.copy(lng_file_tmp, lng_file)
