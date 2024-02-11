@@ -8,7 +8,7 @@ note: pip need to be installed
 (for linux users: sudo apt install python3-pip)
 
 
-To be able to see the Web Pages, Custom menu need to be activated: Domoticz / settings.
+To be able to see the Web Pages, Custom menu need to be activated: Domoticz / settings / user.
 
 Be sure that your active python version is > 3.4 (Change python version system-wide)
 this mean: python --version ( or sudo python --version for linux users)
