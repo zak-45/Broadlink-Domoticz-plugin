@@ -3014,7 +3014,7 @@ def htmladmin(name, iframe):
             var script = document.createElement('script');
             script.type = "text/javascript";
             script.src = "''' + "http://" + Parameters["Address"] + ":" + Parameters["Port"] + \
-                 '''/js/jquery-3.4.1.min.js";
+                 '''/js/jquery-3.6.0.min.js";
             document.getElementsByTagName('head')[0].appendChild(script);
             }   
            if (typeof jQuery == 'undefined') {
@@ -3780,7 +3780,7 @@ def html_editor(fname):
             }
         </style>
         <script src="''' + "http://" + Parameters["Address"] + ":" + Parameters["Port"] + \
-               '''/js/jquery-3.4.1.min.js"></script>
+               '''/js/jquery-3.6.0.min.js"></script>
         <script src="''' + "http://" + Parameters["Address"] + ":" + Parameters["Port"] + \
                '''/js/jquery-ui.min.js"></script>
         <script src="''' + "http://" + Parameters["Address"] + ":" + Parameters["Port"] + \
@@ -4548,7 +4548,7 @@ def manage():
                '''/web/css/manage.css" rel = "stylesheet">
 
             <script src="''' + "http://" + Parameters["Address"] + ":" + Parameters["Port"] + \
-               '''/js/jquery-3.4.1.min.js"></script>
+               '''/js/jquery-3.6.0.min.js"></script>
             <script src="''' + "http://" + Parameters["Address"] + ":" + Parameters["Port"] + \
                '''/js/jquery-ui.min.js"></script>
 
@@ -5462,7 +5462,7 @@ def multi_code():
         <link href = "''' + "http://" + Parameters["Address"] + ":" + Parameters["Mode5"] + \
                '''/web/css/multi.css" rel = "stylesheet">
         <script src="''' + "http://" + Parameters["Address"] + ":" + Parameters["Port"] + \
-               '''/js/jquery-3.4.1.min.js"></script>
+               '''/js/jquery-3.6.0.min.js"></script>
         <script src="''' + "http://" + Parameters["Address"] + ":" + Parameters["Port"] + \
                '''/js/jquery-ui.min.js"></script>
         <script src="''' + "http://" + Parameters["Address"] + ":" + Parameters["Mode5"] + \

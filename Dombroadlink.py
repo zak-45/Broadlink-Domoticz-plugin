@@ -23,7 +23,8 @@
 #           1.6.4 : 12/05/2023
 #                   Github
 #
-#
+#           2.0.0 : 11/02/2024
+#                   new broadlink version
 #
 
 import base64
@@ -551,7 +552,7 @@ def learnrf():
 
 
 #
-# Download plugin file from Cloud Drive
+# Download plugin file from github
 #
 def remote_plugin():
     iupdname = folder + "tst-plugin"

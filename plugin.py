@@ -41,6 +41,8 @@
 #                   Work now in docker env: changed to 127.0.0.1 instead domoticz ip
 #           1.6.4 : 08/05/2023
 #                   Move source to GitHub
+#           2.0.0 : 11/02/2024
+#                   new broadlink version
 #
 
 
@@ -134,7 +136,7 @@ from requests_toolbelt import MultipartDecoder
 #
 clear = False
 autoresize = True
-brodevices = broadlink.get_devices()
+brodevices = broadlink.SUPPORTED_TYPES
 #
 ISCONNECTED = False
 NUMBERDEV = 9
@@ -210,7 +212,7 @@ def onStart():
             import debugpy
             Domoticz.Debugging(62)
             Domoticz.Log('Waiting for MS Visual Studio remote debugger connection ....')
-            debugpy.configure(python='C:\Program Files (x86)\Python38-32\python.exe')
+            debugpy.configure(python='C:\Program Files (x86)\Python310-32\python.exe')
             debugpy.listen(('0.0.0.0', 5678))
             debugpy.wait_for_client()
             debugpy.breakpoint()
@@ -3018,7 +3020,7 @@ def htmladmin(name, iframe):
             var script = document.createElement('script');
             script.type = "text/javascript";
             script.src = "''' + "http://" + Parameters["Address"] + ":" + Parameters["Port"] + \
-                 '''/js/jquery-3.4.1.min.js";
+                 '''/js/jquery-3.6.0.min.js";
             document.getElementsByTagName('head')[0].appendChild(script);
             }   
            if (typeof jQuery == 'undefined') {
@@ -3462,11 +3464,20 @@ def htmladmin(name, iframe):
                 <select id="devtype" name="devtype" required form="update_type">'''
 
     try:
-        for x in brodevices:
-            dev, group, manufacturer = brodevices[x]
-            dataadmin += '''
-                        <option value ="''' + str(x) + '''">''' + str(hex(x)) + " : " + group + " - " + \
-                         manufacturer + '''</option>'''
+        for devtype in brodevices:
+
+            for brodev in brodevices[devtype]:
+
+                broinfo = brodevices[devtype].get(brodev)
+
+                dev = brodev
+                group = broinfo[0]
+                manufacturer = broinfo[1]
+
+                dataadmin += '''
+
+                            <option value ="''' + str(dev) + '''">''' + str(hex(dev)) + " : " + group + " - " + \
+                             manufacturer + '''</option>'''
 
     except (ValueError, Exception):
         Domoticz.Error(traceback.format_exc())
@@ -3784,7 +3795,7 @@ def html_editor(fname):
             }
         </style>
         <script src="''' + "http://" + Parameters["Address"] + ":" + Parameters["Port"] + \
-               '''/js/jquery-3.4.1.min.js"></script>
+               '''/js/jquery-3.6.0.min.js"></script>
         <script src="''' + "http://" + Parameters["Address"] + ":" + Parameters["Port"] + \
                '''/js/jquery-ui.min.js"></script>
         <script src="''' + "http://" + Parameters["Address"] + ":" + Parameters["Port"] + \
@@ -4506,7 +4517,7 @@ def manage():
     url_send = 'http://' + Parameters['Address'] + ':' + Parameters['Mode5'] + '/sendCode?key=' + URLKEY
     url_cred = 'http://' + Parameters['Address'] + ':' + Parameters['Mode5'] + '/createDevice?key=' + URLKEY
     url_multi = 'http://' + Parameters['Address'] + ':' + Parameters['Mode5'] + '/multiCode?key=' + URLKEY
-    url_ircode = 'http://irdb.tk/find/'
+    url_ircode = 'http://www.remotecentral.com/cgi-bin/codes/'
     url_post = 'http://' + Parameters['Address'] + ':' + Parameters['Mode5'] + '/postupdDatas?key=' + URLKEY
     url_dome = 'http://' + Parameters['Address'] + ':' + Parameters['Port'] + '/#/Devices/' + str(domunit) + \
                '/LightEdit'
@@ -4552,7 +4563,7 @@ def manage():
                '''/web/css/manage.css" rel = "stylesheet">
 
             <script src="''' + "http://" + Parameters["Address"] + ":" + Parameters["Port"] + \
-               '''/js/jquery-3.4.1.min.js"></script>
+               '''/js/jquery-3.6.0.min.js"></script>
             <script src="''' + "http://" + Parameters["Address"] + ":" + Parameters["Port"] + \
                '''/js/jquery-ui.min.js"></script>
 
@@ -5466,7 +5477,7 @@ def multi_code():
         <link href = "''' + "http://" + Parameters["Address"] + ":" + Parameters["Mode5"] + \
                '''/web/css/multi.css" rel = "stylesheet">
         <script src="''' + "http://" + Parameters["Address"] + ":" + Parameters["Port"] + \
-               '''/js/jquery-3.4.1.min.js"></script>
+               '''/js/jquery-3.6.0.min.js"></script>
         <script src="''' + "http://" + Parameters["Address"] + ":" + Parameters["Port"] + \
                '''/js/jquery-ui.min.js"></script>
         <script src="''' + "http://" + Parameters["Address"] + ":" + Parameters["Mode5"] + \

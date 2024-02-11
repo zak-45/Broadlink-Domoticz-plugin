@@ -38,7 +38,9 @@ cgitb.enable(format='text')
 # Var value
 #
 setupurl = 'https://codeload.github.com/zak-45/Broadlink-Domoticz-plugin/zip/refs/heads/main'
-modlist = ['setuptools', 'wheel', 'googletrans', 'translate', 'requests', 'requests_toolbelt', 'irgen']
+modlist = ['cryptography==36.0.0', 'setuptools', 'wheel', 'googletrans', 'translate',
+           'requests', 'requests_toolbelt', 'irgen',
+           'broadlink==0.18.3']
 updname = 'BroadlinkSetup.zip'
 data = {}
 #
@@ -203,7 +205,7 @@ for mod in modlist:
         print(' ERROR to install : ' + mod)
         print(' could be normal if already exist, continue in anyway....')
 #
-# we download plugin files from DropBox (zip format)
+# we download plugin files from GIT (zip format)
 #
 print('_' * 40)
 print("# we download plugin files from GIT (zip format)")
@@ -258,37 +260,6 @@ with ZipFile(updname, 'r') as izip:
     izip.extractall('./')
 
 izip.close()
-
-#
-# move from Git to ./
-#
-
-source_folder = "Broadlink-Domoticz-plugin-main/"
-destination_folder = "./"
-
-
-shutil.copytree(source_folder,destination_folder,  dirs_exist_ok=True)
-shutil.rmtree(source_folder)
-#
-# Broadlink module not from pip
-#
-mod = 'python-broadlink-master/.'
-
-if Platform == 'Windows':
-    command = 'python -m pip install ' + mod
-
-else:
-
-    command = 'sudo -H python -m pip install ' + mod
-print('-*-')
-print(' We execute this command : ' + command)
-if mycmd(command):
-    print(' We have installed : ' + mod)
-
-else:
-
-    print(' ERROR to install : ' + mod)
-    print(' could be normal if already exist, continue in anyway....')
 
 #
 # We do necessary final modifications depend of Platform
