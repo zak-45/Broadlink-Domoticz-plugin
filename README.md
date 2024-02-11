@@ -8,7 +8,7 @@ note: pip need to be installed
 (for linux users: sudo apt install python3-pip)
 
 
-To be able to see the Web Pages, Custom menu need to be activated: Domoticz / settings.
+To be able to see the Web Pages, Custom menu need to be activated: Domoticz / settings / user.
 
 Be sure that your active python version is > 3.4 (Change python version system-wide)
 this mean: python --version ( or sudo python --version for linux users)
@@ -48,11 +48,8 @@ Manual installation:
 download all files from provided link to the Broadlink directory.
 install these required modules:
 
-['setuptools', 'wheel', 'googletrans', 'translate', 'requests', 'requests_toolbelt', 'irgen']
+['setuptools', 'wheel', 'googletrans', 'translate', 'requests', 'requests_toolbelt', 'irgen', 'broadlink==0.18.3', 'cryptography==30.0.0']
 
-for Broadlink module, install the provided version not the one from pip:
-   for win : python -m pip install python-broadlink-master/.
-   for other : sudo -H python -m pip install python-broadlink-master/.
 and do not forget to put executable file under Broadlink/scr ( chmod +x )
 
 WebAdmin Page overview:
