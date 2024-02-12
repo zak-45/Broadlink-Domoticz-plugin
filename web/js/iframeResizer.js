@@ -9,7 +9,7 @@
  */
 
 // eslint-disable-next-line sonarjs/cognitive-complexity, no-shadow-restricted-names
-;(function (undefined) {
+;(function(undefined) {
   if (typeof window === 'undefined') return // don't run for server side render
 
   var count = 0,
@@ -21,15 +21,15 @@
     msgIdLen = msgId.length,
     pagePosition = null,
     requestAnimationFrame = window.requestAnimationFrame,
-    resetRequiredMethods = Object.freeze({
+    resetRequiredMethods = {
       max: 1,
       scroll: 1,
       bodyScroll: 1,
       documentElementScroll: 1
-    }),
+    },
     settings = {},
     timer = null,
-    defaults = Object.freeze({
+    defaults = {
       autoResize: true,
       bodyBackground: null,
       bodyMargin: null,
@@ -46,7 +46,6 @@
       maxWidth: Infinity,
       minHeight: 0,
       minWidth: 0,
-      mouseEvents: true,
       resizeFrom: 'parent',
       scrolling: false,
       sizeHeight: true,
@@ -54,21 +53,19 @@
       warningTimeout: 5000,
       tolerance: 0,
       widthCalculationMethod: 'scroll',
-      onClose: function () {
+      onClose: function() {
         return true
       },
-      onClosed: function () {},
-      onInit: function () {},
-      onMessage: function () {
+      onClosed: function() {},
+      onInit: function() {},
+      onMessage: function() {
         warn('onMessage function not defined')
       },
-      onMouseEnter: function () {},
-      onMouseLeave: function () {},
-      onResized: function () {},
-      onScroll: function () {
+      onResized: function() {},
+      onScroll: function() {
         return true
       }
-    })
+    }
 
   function getMutationObserver() {
     return (
@@ -95,13 +92,13 @@
       requestAnimationFrame = window[vendors[x] + 'RequestAnimationFrame']
     }
 
-    if (requestAnimationFrame) {
+    if (!requestAnimationFrame) {
+      log('setup', 'RequestAnimationFrame not supported')
+    } else {
       // Firefox extension content-scripts have a globalThis object that is not the same as window.
       // Binding `requestAnimationFrame` to window allows the function to work and prevents errors
       // being thrown when run in that context, and should be a no-op in every other context.
-      requestAnimationFrame = requestAnimationFrame.bind(window)
-    } else {
-      log('setup', 'RequestAnimationFrame not supported')
+      requestAnimationFrame = requestAnimationFrame.bind(window);
     }
   }
 
@@ -109,10 +106,11 @@
     var retStr = 'Host page: ' + iframeId
 
     if (window.top !== window.self) {
-      retStr =
-        window.parentIFrame && window.parentIFrame.getId
-          ? window.parentIFrame.getId() + ': ' + iframeId
-          : 'Nested host page: ' + iframeId
+      if (window.parentIFrame && window.parentIFrame.getId) {
+        retStr = window.parentIFrame.getId() + ': ' + iframeId
+      } else {
+        retStr = 'Nested host page: ' + iframeId
+      }
     }
 
     return retStr
@@ -160,9 +158,9 @@
     }
 
     function processMsg() {
-      var data = msg.slice(msgIdLen).split(':')
-      var height = data[1] ? parseInt(data[1], 10) : 0
-      var iframe = settings[data[0]] && settings[data[0]].iframe
+      var data = msg.substr(msgIdLen).split(':')
+      var height = data[1] ? parseInt(data[1], 10) : 0;
+      var iframe = settings[data[0]] && settings[data[0]].iframe;
       var compStyle = getComputedStyle(iframe)
 
       return {
@@ -176,25 +174,19 @@
 
     function getPaddingEnds(compStyle) {
       if (compStyle.boxSizing !== 'border-box') {
-        return 0
+        return 0;
       }
       var top = compStyle.paddingTop ? parseInt(compStyle.paddingTop, 10) : 0
-      var bot = compStyle.paddingBottom
-        ? parseInt(compStyle.paddingBottom, 10)
-        : 0
+      var bot = compStyle.paddingBottom ? parseInt(compStyle.paddingBottom, 10) : 0
       return top + bot
     }
 
     function getBorderEnds(compStyle) {
       if (compStyle.boxSizing !== 'border-box') {
-        return 0
+        return 0;
       }
-      var top = compStyle.borderTopWidth
-        ? parseInt(compStyle.borderTopWidth, 10)
-        : 0
-      var bot = compStyle.borderBottomWidth
-        ? parseInt(compStyle.borderBottomWidth, 10)
-        : 0
+      var top = compStyle.borderTopWidth ? parseInt(compStyle.borderTopWidth, 10) : 0
+      var bot = compStyle.borderBottomWidth ? parseInt(compStyle.borderBottomWidth, 10) : 0
       return top + bot
     }
 
@@ -269,14 +261,14 @@
 
     function isMessageForUs() {
       return (
-        msgId === ('' + msg).slice(0, msgIdLen) &&
-        msg.slice(msgIdLen).split(':')[0] in settings
+        msgId === ('' + msg).substr(0, msgIdLen) &&
+        msg.substr(msgIdLen).split(':')[0] in settings
       ) // ''+Protects against non-string msg
     }
 
     function isMessageFromMetaParent() {
       // Test if this message is from a parent above us. This is an ugly test, however, updating
-      // the message format would break backwards compatibility.
+      // the message format would break backwards compatibity.
       var retCode = messageData.type in { true: 1, false: 1, undefined: 1 }
 
       if (retCode) {
@@ -287,7 +279,7 @@
     }
 
     function getMsgBody(offset) {
-      return msg.slice(msg.indexOf(':') + msgHeaderLen + offset)
+      return msg.substr(msg.indexOf(':') + msgHeaderLen + offset)
     }
 
     function forwardMsgFromIFrame(msgBody) {
@@ -299,12 +291,10 @@
           msgBody +
           '}'
       )
-
       on('onMessage', {
         iframe: messageData.iframe,
         message: JSON.parse(msgBody)
       })
-
       log(iframeId, '--')
     }
 
@@ -351,7 +341,7 @@
           }
         }
 
-        ;['scroll', 'resize'].forEach(function (evt) {
+        ;['scroll', 'resize'].forEach(function(evt) {
           log(id, type + evt + ' listener for sendPageInfo')
           func(window, evt, sendPageInfo)
         })
@@ -445,18 +435,18 @@
           ')'
       )
 
-      if (window.top === window.self) {
-        reposition()
-      } else {
+      if (window.top !== window.self) {
         scrollParent()
+      } else {
+        reposition()
       }
     }
 
     function scrollTo() {
-      if (false === on('onScroll', pagePosition)) {
-        unsetPagePosition()
-      } else {
+      if (false !== on('onScroll', pagePosition)) {
         setPagePosition(iframeId)
+      } else {
+        unsetPagePosition()
       }
     }
 
@@ -503,35 +493,11 @@
 
       if (target) {
         jumpToTarget()
-      } else if (window.top === window.self) {
-        log(iframeId, 'In page link #' + hash + ' not found')
-      } else {
+      } else if (window.top !== window.self) {
         jumpToParent()
-      }
-    }
-
-    function onMouse(event) {
-      var mousePos = {}
-
-      if (Number(messageData.width) === 0 && Number(messageData.height) === 0) {
-        var data = getMsgBody(9).split(':')
-        mousePos = {
-          x: data[1],
-          y: data[0]
-        }
       } else {
-        mousePos = {
-          x: messageData.width,
-          y: messageData.height
-        }
+        log(iframeId, 'In page link #' + hash + ' not found')
       }
-
-      on(event, {
-        iframe: messageData.iframe,
-        screenX: Number(mousePos.x),
-        screenY: Number(mousePos.y),
-        type: messageData.type
-      })
     }
 
     function on(funcName, val) {
@@ -542,86 +508,53 @@
       if (settings[iframeId] && settings[iframeId].firstRun) firstRun()
 
       switch (messageData.type) {
-        case 'close': {
+        case 'close':
           closeIFrame(messageData.iframe)
           break
-        }
 
-        case 'message': {
+        case 'message':
           forwardMsgFromIFrame(getMsgBody(6))
           break
-        }
 
-        case 'mouseenter': {
-          onMouse('onMouseEnter')
-          break
-        }
-
-        case 'mouseleave': {
-          onMouse('onMouseLeave')
-          break
-        }
-
-        case 'autoResize': {
+        case 'autoResize':
           settings[iframeId].autoResize = JSON.parse(getMsgBody(9))
           break
-        }
 
-        case 'scrollTo': {
+        case 'scrollTo':
           scrollRequestFromChild(false)
           break
-        }
 
-        case 'scrollToOffset': {
+        case 'scrollToOffset':
           scrollRequestFromChild(true)
           break
-        }
 
-        case 'pageInfo': {
+        case 'pageInfo':
           sendPageInfoToIframe(
             settings[iframeId] && settings[iframeId].iframe,
             iframeId
           )
           startPageInfoMonitor()
           break
-        }
 
-        case 'pageInfoStop': {
+        case 'pageInfoStop':
           stopPageInfoMonitor()
           break
-        }
 
-        case 'inPageLink': {
+        case 'inPageLink':
           findTarget(getMsgBody(9))
           break
-        }
 
-        case 'reset': {
+        case 'reset':
           resetIFrame(messageData)
           break
-        }
 
-        case 'init': {
+        case 'init':
           resizeIFrame()
           on('onInit', messageData.iframe)
           break
-        }
 
-        default: {
-          if (
-            Number(messageData.width) === 0 &&
-            Number(messageData.height) === 0
-          ) {
-            warn(
-              'Unsupported message received (' +
-                messageData.type +
-                '), this is likely due to the iframe containing a later ' +
-                'version of iframe-resizer than the parent page'
-            )
-          } else {
-            resizeIFrame()
-          }
-        }
+        default:
+          resizeIFrame()
       }
     }
 
@@ -735,13 +668,13 @@
     if (null === pagePosition) {
       pagePosition = {
         x:
-          window.pageXOffset === undefined
-            ? document.documentElement.scrollLeft
-            : window.pageXOffset,
+          window.pageXOffset !== undefined
+            ? window.pageXOffset
+            : document.documentElement.scrollLeft,
         y:
-          window.pageYOffset === undefined
-            ? document.documentElement.scrollTop
-            : window.pageYOffset
+          window.pageYOffset !== undefined
+            ? window.pageYOffset
+            : document.documentElement.scrollTop
       }
       log(
         iframeId,
@@ -831,12 +764,9 @@
 
   function syncResize(func, messageData, doNotSync) {
     /* istanbul ignore if */ // Not testable in PhantomJS
-    if (
-      doNotSync !== messageData.type &&
-      requestAnimationFrame &&
-      // including check for jasmine because had trouble getting spy to work in unit test using requestAnimationFrame
-      !window.jasmine
-    ) {
+    if (doNotSync !== messageData.type && requestAnimationFrame &&
+        // including check for jasmine because had trouble getting spy to work in unit test using requestAnimationFrame
+        !window.jasmine) {
       log(messageData.id, 'Requesting animation frame')
       requestAnimationFrame(func)
     } else {
@@ -943,25 +873,22 @@
       ':' +
       settings[iframeId].resizeFrom +
       ':' +
-      settings[iframeId].widthCalculationMethod +
-      ':' +
-      settings[iframeId].mouseEvents
+      settings[iframeId].widthCalculationMethod
     )
-  }
-
-  function isNumber(value) {
-    return typeof value === 'number'
   }
 
   function setupIFrame(iframe, options) {
     function setLimits() {
       function addStyle(style) {
-        var styleValue = settings[iframeId][style]
-        if (Infinity !== styleValue && 0 !== styleValue) {
-          iframe.style[style] = isNumber(styleValue)
-            ? styleValue + 'px'
-            : styleValue
-          log(iframeId, 'Set ' + style + ' = ' + iframe.style[style])
+        if (
+          Infinity !== settings[iframeId][style] &&
+          0 !== settings[iframeId][style]
+        ) {
+          iframe.style[style] = settings[iframeId][style] + 'px'
+          log(
+            iframeId,
+            'Set ' + style + ' = ' + settings[iframeId][style] + 'px'
+          )
         }
       }
 
@@ -997,10 +924,6 @@
     }
 
     function ensureHasId(iframeId) {
-      if (typeof iframeId !== 'string') {
-        throw new TypeError('Invaild id for iFrame. Expected String')
-      }
-
       if ('' === iframeId) {
         // eslint-disable-next-line no-multi-assign
         iframe.id = iframeId = newId()
@@ -1029,25 +952,21 @@
           ? 'hidden'
           : 'auto'
       switch (settings[iframeId] && settings[iframeId].scrolling) {
-        case 'omit': {
+        case 'omit':
           break
-        }
 
-        case true: {
+        case true:
           iframe.scrolling = 'yes'
           break
-        }
 
-        case false: {
+        case false:
           iframe.scrolling = 'no'
           break
-        }
 
-        default: {
+        default:
           iframe.scrolling = settings[iframeId]
             ? settings[iframeId].scrolling
             : 'no'
-        }
       }
     }
 
@@ -1097,7 +1016,7 @@
             settings[iframeId].iframe
           ),
 
-          moveToAnchor: function (anchor) {
+          moveToAnchor: function(anchor) {
             trigger(
               'Move to anchor',
               'moveToAnchor:' + anchor,
@@ -1106,7 +1025,7 @@
             )
           },
 
-          sendMessage: function (message) {
+          sendMessage: function(message) {
             message = JSON.stringify(message)
             trigger(
               'Send Message',
@@ -1133,10 +1052,10 @@
           return
         }
 
-        var destroyObserver = new MutationObserver(function (mutations) {
-          mutations.forEach(function (mutation) {
+        var destroyObserver = new MutationObserver(function(mutations) {
+          mutations.forEach(function(mutation) {
             var removedNodes = Array.prototype.slice.call(mutation.removedNodes) // Transform NodeList into an Array
-            removedNodes.forEach(function (removedNode) {
+            removedNodes.forEach(function(removedNode) {
               if (removedNode === iframe) {
                 closeIFrame(iframe)
               }
@@ -1178,10 +1097,7 @@
     }
 
     function getTargetOrigin(remoteHost) {
-      return '' === remoteHost ||
-        null !== remoteHost.match(/^(about:blank|javascript:|file:\/\/)/)
-        ? '*'
-        : remoteHost
+      return '' === remoteHost || null !== remoteHost.match(/^(about:blank|javascript:|file:\/\/)/) ? '*' : remoteHost
     }
 
     function depricate(key) {
@@ -1205,12 +1121,16 @@
 
     function processOptions(options) {
       options = options || {}
-
-      settings[iframeId] = Object.create(null) // Protect against prototype attacks
-      settings[iframeId].iframe = iframe
-      settings[iframeId].firstRun = true
-      settings[iframeId].remoteHost =
-        iframe.src && iframe.src.split('/').slice(0, 3).join('/')
+      settings[iframeId] = {
+        firstRun: true,
+        iframe: iframe,
+        remoteHost:
+          iframe.src &&
+          iframe.src
+            .split('/')
+            .slice(0, 3)
+            .join('/')
+      }
 
       checkOptions(options)
       Object.keys(options).forEach(depricate, options)
@@ -1230,21 +1150,21 @@
 
     var iframeId = ensureHasId(iframe.id)
 
-    if (beenHere()) {
-      warn(iframeId, 'Ignored iFrame, already setup.')
-    } else {
+    if (!beenHere()) {
       processOptions(options)
       setScrolling()
       setLimits()
       setupBodyMarginValues()
       init(createOutgoingMsg(iframeId))
       setupIFrameObject()
+    } else {
+      warn(iframeId, 'Ignored iFrame, already setup.')
     }
   }
 
   function debouce(fn, time) {
     if (null === timer) {
-      timer = setTimeout(function () {
+      timer = setTimeout(function() {
         timer = null
         fn()
       }, time)
@@ -1254,7 +1174,7 @@
   var frameTimer = {}
   function debounceFrameEvents(fn, time, frameId) {
     if (!frameTimer[frameId]) {
-      frameTimer[frameId] = setTimeout(function () {
+      frameTimer[frameId] = setTimeout(function() {
         frameTimer[frameId] = null
         fn()
       }, time)
@@ -1292,7 +1212,7 @@
         }
       }
 
-      Object.keys(settings).forEach(function (key) {
+      Object.keys(settings).forEach(function(key) {
         checkIFrame(key)
       })
     }
@@ -1339,11 +1259,11 @@
   /* istanbul ignore next */
   function tabVisible() {
     function resize() {
-      sendTriggerMsg('Tab Visible', 'resize')
+      sendTriggerMsg('Tab Visable', 'resize')
     }
 
     if ('hidden' !== document.visibilityState) {
-      log('document', 'Trigger event: Visibility change')
+      log('document', 'Trigger event: Visiblity change')
       debouce(resize, 16)
     }
   }
@@ -1358,7 +1278,7 @@
       )
     }
 
-    Object.keys(settings).forEach(function (iframeId) {
+    Object.keys(settings).forEach(function(iframeId) {
       if (isIFrameResizeEnabled(iframeId)) {
         trigger(eventName, event, settings[iframeId].iframe, iframeId)
       }
@@ -1368,7 +1288,7 @@
   function setupEventListeners() {
     addEventListener(window, 'message', iFrameListener)
 
-    addEventListener(window, 'resize', function () {
+    addEventListener(window, 'resize', function() {
       resizeIFrames('resize')
     })
 
@@ -1416,22 +1336,19 @@
 
       switch (typeof target) {
         case 'undefined':
-        case 'string': {
+        case 'string':
           Array.prototype.forEach.call(
             document.querySelectorAll(target || 'iframe'),
             init.bind(undefined, options)
           )
           break
-        }
 
-        case 'object': {
+        case 'object':
           init(options, target)
           break
-        }
 
-        default: {
+        default:
           throw new TypeError('Unexpected data type (' + typeof target + ')')
-        }
       }
 
       return iFrames
@@ -1447,12 +1364,14 @@
           setupIFrame(element, options)
         }
 
-        return this.filter('iframe').each(init).end()
+        return this.filter('iframe')
+          .each(init)
+          .end()
       }
     }
   }
 
-  if (window.jQuery !== undefined) {
+  if (window.jQuery) {
     createJQueryPublicMethod(window.jQuery)
   }
 
