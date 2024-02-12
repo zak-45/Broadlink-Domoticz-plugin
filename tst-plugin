@@ -5329,7 +5329,7 @@ def manage():
                             enctype="application/x-www-form-urlencoded" 
                             onsubmit="return confirm(\'''' + msgconfirm + '''\');">
                         <label style="background-color:whitesmoke">''' + _("Number of repeat :") + '''</label>
-                        <input type="number" min="0" max="99" size="2" id="updrepeat''' + unitn + '''" 
+                        <input type="number" min="0" max="99" size="4" id="updrepeat''' + unitn + '''"
                                 name="updrepeat" required value="''' + str(repeat) + '''">
                         <input type="hidden" id="updfile''' + unitn + '''" name="inifile" value="''' + mpath + '''">
                         <input class="myButton" type="submit" value="''' + _('update') + '''" style="cursor: pointer;">
