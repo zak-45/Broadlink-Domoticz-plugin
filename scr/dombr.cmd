@@ -1,1 +1,1 @@
-start cmd /c py -u %1 %2 %3 %4 %5 %6 %7 %8 %9
+start cmd /c python -u %1 %2 %3 %4 %5 %6 %7 %8 %9
