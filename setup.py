@@ -73,7 +73,8 @@ def is_open(ip, port):
 def exe_domoticz(params):
     try:
         params = urllib.parse.urlencode(params)
-        html = urllib.request.urlopen('http://' + str(Domoticz) + ':' + str(Port) + '/json?type=command&' + params, timeout=20)
+        html = urllib.request.urlopen('http://' + str(Domoticz) + ':' + str(Port) +
+                                      '/json.htm?type=command&' + params, timeout=20)
         response = html.read()
         encoding = html.info().get_content_charset('utf-8')
         idata = json.loads(response.decode(encoding))
