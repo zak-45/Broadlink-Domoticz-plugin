@@ -1630,7 +1630,7 @@ def gen_command(iunit):
 def adjust_value(iunit):
     global ADJUSTVALUE
 
-    params = {'type': 'devices', 'rid': Devices[iunit].ID}
+    params = {'param': 'getdevices', 'rid': Devices[iunit].ID}
 
     if exe_domoticz(params):
         if DOMDATA['status'] == 'OK':
@@ -2450,7 +2450,7 @@ def exe_domoticz(params):
     try:
         params = urllib.parse.urlencode(params)
         ihtml = urllib.request.urlopen(
-            'http://' + '127.0.0.1' + ':' + str(Parameters['Port']) + '/json.htm?' + params, timeout=2)
+            'http://' + '127.0.0.1' + ':' + str(Parameters['Port']) + '/json.htm?type=command&' + params, timeout=2)
         response = ihtml.read()
         encoding = ihtml.info().get_content_charset('utf-8')
         DOMDATA = json.loads(response.decode(encoding))
@@ -3678,7 +3678,7 @@ def list_directory(mypath, button):
 # Display Domoticz log data related to the plugin
 #
 def domo_log():
-    params = {'type': 'command', 'param': 'getlog', 'loglevel': '268435455'}
+    params = {'param': 'getlog', 'loglevel': '268435455'}
     txt = ''
 
     if exe_domoticz(params):

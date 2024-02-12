@@ -248,7 +248,8 @@ def exe_domoticz(params):
     data = {}
     try:
         params = urllib.parse.urlencode(params, doseq=True)
-        html_url = urllib.request.urlopen('http://' + '127.0.0.1' + ':' + domport + '/json.htm?' + params, timeout=10)
+        html_url = urllib.request.urlopen('http://' + '127.0.0.1' + ':' + domport +
+                                          '/json.htm?type=command&' + params, timeout=10)
         response = html_url.read()
         encoding = html_url.info().get_content_charset('utf-8')
         data = json.loads(response.decode(encoding))
@@ -314,7 +315,7 @@ def sendend(istep, istatus):
 def dev_domoticz():
     global devices
 
-    params = {'type': 'devices', 'filter': 'all', 'used': 'true', 'order': 'Name'}
+    params = {'param': 'getdevices', 'filter': 'all', 'used': 'true', 'order': 'Name'}
     if exe_domoticz(params):
         if data['status'] == 'OK':
             result = data['result']
