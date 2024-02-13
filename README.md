@@ -48,7 +48,7 @@ Manual installation:
 download all files from provided link to the Broadlink directory.
 install these required modules:
 
-['setuptools', 'wheel', 'googletrans', 'translate', 'requests', 'requests_toolbelt', 'irgen', 'broadlink==0.18.3', 'cryptography==30.0.0']
+[ 'cryptography==40.0.0', 'broadlink==0.18.3', 'setuptools', 'wheel', 'googletrans', 'translate', 'requests', 'requests_toolbelt', 'irgen']
 
 and do not forget to put executable file under Broadlink/scr ( chmod +x )
 
