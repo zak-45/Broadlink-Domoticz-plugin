@@ -516,7 +516,9 @@ def learnrf():
     if not ISCONNECTED:
         broadlink_connect()
 
-    if DEVICE.find_rf_packet():
+    DEVICE.find_rf_packet()
+
+    if DEVICE.check_frequency():
 
         i = 0
         while i < 10:
