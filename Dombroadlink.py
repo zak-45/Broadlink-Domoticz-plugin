@@ -26,6 +26,9 @@
 #           2.0.0 : 11/02/2024
 #                   new broadlink version
 #
+#           2.1.0 : 13/02/2024
+#                   bug fixes
+#
 
 import base64
 import codecs

@@ -9,6 +9,8 @@
 #           Author:     zak45, 2020
 #           1.0.0:  initial release
 #           1.0.1:  added irgen module
+#           2.1.0 : 13/02/2024
+#                    bug fixes
 #
 
 import socket

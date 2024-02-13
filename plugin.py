@@ -43,11 +43,13 @@
 #                   Move source to GitHub
 #           2.0.0 : 11/02/2024
 #                   new broadlink version
+#           2.1.0 : 13/02/2024
+#                   bug fixes
 #
 
 
 """
-<plugin key="Broadlink" name="Broadlink with Kodi Remote" author="zak45" version="2.0.0"
+<plugin key="Broadlink" name="Broadlink with Kodi Remote" author="zak45" version="2.1.0"
     wikilink="http://www.domoticz.com/wiki/plugins/Broadlink.html"
     externallink="https://github.com/mjg59/python-broadlink">
     <description>
