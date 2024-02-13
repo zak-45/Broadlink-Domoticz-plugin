@@ -47,7 +47,7 @@
 
 
 """
-<plugin key="Broadlink" name="Broadlink with Kodi Remote" author="zak45" version="2.0.0"
+<plugin key="Broadlink" name="Broadlink with Kodi Remote" author="zak45" version="2.1.0"
     wikilink="http://www.domoticz.com/wiki/plugins/Broadlink.html"
     externallink="https://github.com/mjg59/python-broadlink">
     <description>
