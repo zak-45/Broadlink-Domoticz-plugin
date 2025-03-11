@@ -52,6 +52,10 @@ install these required modules:
 
 and do not forget to put executable file under Broadlink/scr ( chmod +x )
 
+you need also to authorize acces for your local network:
+![image](https://github.com/user-attachments/assets/714a84d4-c512-4dbe-b339-7b11d8f843e0)
+
+
 WebAdmin Page overview:
 
 ![image](https://github.com/zak-45/Broadlink-Domoticz-plugin/assets/121941293/77663c49-15e6-47dd-8144-795a846983cb)
