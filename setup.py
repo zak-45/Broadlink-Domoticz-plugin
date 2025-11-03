@@ -258,12 +258,26 @@ with ZipFile(updname, 'r') as izip:
     # printing all the contents of the zip file
     izip.printdir()
 
-    # extracting all the files
     print('Extracting all the files now...')
-    izip.extractall('./')
+    # GitHub zips have a top-level directory like 'Broadlink-Domoticz-plugin-main/'
+    # We want to extract the contents of that directory into the current folder.
+    root_folder = izip.namelist()[0]
+    for member in izip.infolist():
+        # Skip the root folder itself
+        if member.filename == root_folder:
+            continue
 
-izip.close()
+        # Build target path
+        if member.filename.startswith(root_folder):
+            target_path = member.filename[len(root_folder):]
+        else:
+            target_path = member.filename
 
+        if target_path:
+            # Extract file to target path
+            izip.extract(member, './')
+            shutil.move(member.filename, target_path)
+    shutil.rmtree(root_folder)
 #
 # We do necessary final modifications depend of Platform
 #
@@ -271,7 +285,7 @@ print('_' * 40)
 print('# We do necessary modifications depend of Platform')
 print('-' * 40)
 #
-#
+# We are now in the extracted folder, so we need to adjust paths for chmod
 if Platform == 'Linux':
     command = 'sudo chmod +x *.py '
     if mycmd(command):
